@@ -178,3 +178,36 @@ console.log(newGames); // ['Minecraft', 'FC26']
 // splice poate adauga sau elimina elemente la o pozitie specifica
 newGames.splice(1, 0, 'Elden Ring');
 console.log(newGames); // ['Minecraft', 'Elden Ring', 'FC26']
+// 1.7. Promises and Callbacks.
+// Callbacks sunt functii care sunt trecute ca argumente altor functii si sunt apelate dupa ce o anumita operatie este finalizata
+function loadData(callback) {
+    setTimeout(function () {
+        var rezultate = ["item1", "item2", "item3"];
+        callback(rezultate);
+    }, 1000);
+}
+loadData(function (data) {
+    console.log("Date primite:", data);
+});
+// Promises sunt obiecte care reprezinta o operatie asincrona care poate fi finalizata cu succes sau cu eroare
+/*
+function promisiuneSimpla(): Promise<string> {
+    return new Promise((resolve, reject) => {
+        const succes = true;
+
+        if (succes) {
+            resolve("Operația a reușit!");
+        } else {
+            reject("Operația a eșuat!");
+        }
+    });
+}
+promisiuneSimpla()
+    .then((rezultat) => {
+        console.log(rezultat);
+    })
+    .catch((eroare) => {
+        console.error(eroare);
+    });
+*/
+// Primesc urmatoarea eroare: 'Promise' only refers to a type, but is being used as a value here. Do you need to change your target library? Try changing the 'lib' compiler option to es2015 or later.
