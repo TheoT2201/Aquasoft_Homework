@@ -1,4 +1,15 @@
 // 1.1. ES6 Methods - examples and explanations
+var __assign = (this && this.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
 var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
     if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
         if (ar || !(i in from)) {
@@ -90,3 +101,36 @@ console.log(arr2); // [1, 2, 3, 4, 5]
 // putem combina 2 arrays sau obiecte
 var mergedArr = __spreadArray(__spreadArray([], arr1, true), arr2, true);
 console.log(mergedArr); // [1, 2, 3, 1, 2, 3, 4, 5]
+// 1.5. Objects – how to iterate over an object and how to create a deep copy.
+var person1 = {
+    name: 'Theo',
+    age: 23,
+    address: { city: 'Constanta' }
+};
+var person2 = {
+    name: 'Theo',
+    age: 23,
+    address: { city: 'Constanta' }
+};
+// pentru a itera peste proprietatile unui obiect, putem folosi for...in loop
+for (var key in person1) {
+    if (person1.hasOwnProperty(key)) {
+        console.log(key, person1[key]);
+    }
+}
+// putem itera peste un array de keys
+Object.keys(person1).forEach(function (key) {
+    console.log(key, person1[key]);
+});
+// shallow copy este o copie superficiala a unui obiect, adica doar referinta la obiectul original este copiata, nu si valorile acestuia
+var shallowCopy = __assign({}, person1);
+shallowCopy.address.city = 'Bucuresti';
+console.log(person1.address.city); // 
+console.log(shallowCopy.address.city); //
+// deep copy este o copie profunda a unui obiect, adica valorile acestuia sunt copiate, nu doar referinta
+//exista o biblioteca numita lodash ce are o functie numita cloneDeep
+// folosind structuredClone putem face o copie profunda a unui obiect, dar aceasta metoda are limitari, cum ar fi faptul ca nu poate copia functii sau simboluri
+var copy = structuredClone(person2);
+copy.address.city = 'Bucuresti';
+console.log(person2.address.city); // 
+console.log(copy.address.city); // 

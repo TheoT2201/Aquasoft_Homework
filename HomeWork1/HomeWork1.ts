@@ -139,3 +139,50 @@ console.log(arr2); // [1, 2, 3, 4, 5]
 const mergedArr = [...arr1, ...arr2];
 console.log(mergedArr); // [1, 2, 3, 1, 2, 3, 4, 5]
 
+
+
+
+// 1.5. Objects – how to iterate over an object and how to create a deep copy.
+
+const person1 = {
+    name: 'Theo',
+    age: 23,
+    address: { city: 'Constanta'}
+};
+
+const person2 = {
+    name: 'Theo',
+    age: 23,
+    address: { city: 'Constanta'}
+};
+
+// pentru a itera peste proprietatile unui obiect, putem folosi for...in loop
+for (const key in person1) {
+    if (person1.hasOwnProperty(key)) {
+        console.log(key, person1[key as keyof typeof person1]);
+    }
+}
+
+// putem itera peste un array de keys
+Object.keys(person1).forEach(key => {
+    console.log(key, person1[key as keyof typeof person1]);
+});
+
+
+// shallow copy este o copie superficiala a unui obiect, adica doar referinta la obiectul original este copiata, nu si valorile acestuia
+const shallowCopy = { ...person1 };
+shallowCopy.address.city = 'Bucuresti';
+console.log(person1.address.city); // Bucuresti
+console.log(shallowCopy.address.city); // Bucuresti
+// ambele obiecte refera aceeasi adresa in memorie deci modificarile aduse adresei in shallowCopy afecteaza si person1
+
+// deep copy este o copie profunda a unui obiect, adica valorile acestuia sunt copiate, nu doar referinta
+
+// exista o biblioteca numita lodash ce are o functie numita cloneDeep
+
+// folosind structuredClone putem face o copie profunda a unui obiect, dar aceasta metoda are limitari, cum ar fi faptul ca nu poate copia functii sau simboluri
+const copy = structuredClone(person2);
+copy.address.city = 'Bucuresti';
+console.log(person2.address.city); // Constanta
+console.log(copy.address.city); // Bucuresti
+// person2 si copy sunt obiecte diferite in memorie, deci modificarile aduse adresei in copy nu afecteaza person2
