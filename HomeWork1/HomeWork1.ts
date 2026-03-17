@@ -298,3 +298,17 @@ promisiuneSimpla()
 
 
 
+// 1.8. Async / Await.
+
+
+// Async / Await este o sintaxa care face codul asincron sa arate si sa se comporte ca un cod sincron, folosindu-se de Promises la baza
+/*
+mongoose.connect(mongoURI)
+  .then(async () => {
+    console.log('Conectat la MongoDB');
+
+    await Track.syncIndexes();
+    console.log('Track indexes synced');
+  })
+  .catch(err => console.error('Eroare conectare MongoDB:', err));
+*/
