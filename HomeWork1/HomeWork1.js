@@ -125,12 +125,56 @@ Object.keys(person1).forEach(function (key) {
 // shallow copy este o copie superficiala a unui obiect, adica doar referinta la obiectul original este copiata, nu si valorile acestuia
 var shallowCopy = __assign({}, person1);
 shallowCopy.address.city = 'Bucuresti';
-console.log(person1.address.city); // 
-console.log(shallowCopy.address.city); //
+console.log(person1.address.city); // Bucuresti
+console.log(shallowCopy.address.city); // Bucuresti
+// ambele obiecte refera aceeasi adresa in memorie deci modificarile aduse adresei in shallowCopy afecteaza si person1
 // deep copy este o copie profunda a unui obiect, adica valorile acestuia sunt copiate, nu doar referinta
-//exista o biblioteca numita lodash ce are o functie numita cloneDeep
+// exista o biblioteca numita lodash ce are o functie numita cloneDeep
+// putem folosi JSON.parse si JSON.stringify pentru a face deep copy dar aceasta nu poate copia functii sau simboluri
+var deepCopy = JSON.parse(JSON.stringify(person2));
+deepCopy.address.city = 'Bucuresti';
+console.log(person2.address.city); // Constanta
+console.log(deepCopy.address.city); // Bucuresti
+// person2 si deepCopy sunt obiecte diferite in memorie, deci modificarile aduse adresei in deepCopy nu afecteaza person2
 // folosind structuredClone putem face o copie profunda a unui obiect, dar aceasta metoda are limitari, cum ar fi faptul ca nu poate copia functii sau simboluri
 var copy = structuredClone(person2);
 copy.address.city = 'Bucuresti';
-console.log(person2.address.city); // 
-console.log(copy.address.city); // 
+console.log(person2.address.city); // Constanta
+console.log(copy.address.city); // Bucuresti
+// la fel, au adrese diferite in memorie, deci modificarile aduse lui copy nu afecteaza person2
+// 1.6. Arrays – accessor, iteration, and mutator methods (what they are and how to use them).
+var games = ['CS2', 'LoL', 'Valorant'];
+// accessor methods sunt metode care returneaza informatii despre array sau creaza un noi array-uri fara sa il modfiice pe cel original
+// lungimea array-ului
+console.log(games.length); // 3
+// cautam index-ul unui element specific
+console.log(games.indexOf('CS2')); // 0
+// o parte din array
+console.log(games.slice(1, 3)); // ['LoL', 'Valorant']
+var newGames = ['Minecraft', 'FC26'];
+// concatenarea a doua array-uri
+console.log(games.concat(newGames)); // ['CS2', 'LoL', 'Valorant', 'Minecraft', 'FC26']
+// unirea elementelor unui array intr-un string
+console.log(games.join(', ')); // 'CS2, LoL, Valorant'
+// iteration methods returneaza array-uri noi sau valori bazate pe elementele unui array
+// forEach itereaza fiecare element si execut o functie pentru fiecare element
+games.forEach(function (game) { return console.log(game); }); // CS2 \n LoL \n Valorant
+// map returneaza un nou array cu rezultatele unei functii pe fiecare element
+var upperCaseGames = games.map(function (game) { return game.toUpperCase(); });
+console.log(upperCaseGames); // ['CS2', 'LOL', 'VALORANT']
+// mutator methods modifica array-ul original
+// push adauga un element la sfarsit
+newGames.push('Elden Ring');
+console.log(newGames); // ['Minecraft', 'FC26', 'Elden Ring']
+// pop elimina ultimul element
+newGames.pop();
+console.log(newGames); // ['Minecraft', 'FC26']
+// shift elimina primul element
+newGames.shift();
+console.log(newGames); // ['FC26']
+// unshift adauga un element la inceput
+newGames.unshift('Minecraft');
+console.log(newGames); // ['Minecraft', 'FC26']
+// splice poate adauga sau elimina elemente la o pozitie specifica
+newGames.splice(1, 0, 'Elden Ring');
+console.log(newGames); // ['Minecraft', 'Elden Ring', 'FC26']
