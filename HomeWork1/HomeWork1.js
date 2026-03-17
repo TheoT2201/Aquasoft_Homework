@@ -1,4 +1,13 @@
 // 1.1. ES6 Methods - examples and explanations
+var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
+    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
+        if (ar || !(i in from)) {
+            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
+            ar[i] = from[i];
+        }
+    }
+    return to.concat(ar || Array.prototype.slice.call(from));
+};
 // let este un block-scope variable, adica este vizibil doar in blocul in care a fost declarat,
 // fata de var care este vizibil global sau in functia in care a fost declarat. In exemplul de mai jos, avem doua variabile n,
 // una declarata in afara blocului si alta declarata in interiorul blocului.
@@ -20,16 +29,16 @@ var produs2 = function (x, y) { return x * y; };
 // Prin destructuring putem extrage valorile dintr-un array sau dintr-un obiect si le putem atribui unor variabile.
 var arr = [1, 2, 3];
 var first = arr[0], second = arr[1];
-console.log(first, second); // 1, 2
+console.log(first, second); // 1 2
 var obj = { name: 'Theo', age: 23 };
 var nume = obj.name, age = obj.age; // primeam o eroare daca incercam sa folosesc 'name'
-console.log(nume, age); // 'Theo', 23
+console.log(nume, age); // Theo 23
 // for...of loop este o sintaxa mai simpla de a itera prin elementele unui array sau ale unui obiect iterabil.
 var masini = ['BMW', 'Audi', 'Mercedes'];
 for (var _i = 0, masini_1 = masini; _i < masini_1.length; _i++) {
     var masina = masini_1[_i];
     console.log(masina);
-} // BMW, Audi, Mercedes
+} // BMW \n Audi \n Mercedes
 // 1.2. Difference between var, let, and const.
 // var este variabila care are scope global sau de functie, depinde unde a fost declarata. Aceasta poate fi redeclarata si reasignata
 var x = 10;
@@ -46,3 +55,38 @@ var hello = 'Hello';
 // hello = 'Hi'; // eroare, reasignare
 // const hello: string = 'Hi'; // eroare, redeclarare
 // 1.3. TypeScriptTypes and Interfaces – what they are, when to use them, and examples.
+// TypeScript types sunt modurile in care poti seta tipurile de date pentru variabile, functii, obiecte etc.
+// Exista tipurile primitive cum ar fi number, string si boolean
+var numar = 42;
+var text = 'AquaSoft';
+var esteAdevarat = true;
+var nr = 42; // TypeScript isi poate da singur seama de tipul de date, nu trebuie specificat in acest caz
+// arrays sunt tipuri de date care pot contine mai multe valori de acelasi tip
+var fructe = ['mar', 'banana', 'portocala'];
+// any este un tip care poate fi orice, fara un tip specificat
+var ceva = 5;
+ceva = 'Acum este un string';
+ceva = true;
+var ceva2; // in cazul acesta, TypeScript va considera ca este de tip any ptr ca nu a fost initializat cu o valoare
+// functions pot avea tipuri pentru parametri si pentru valoarea returnata
+function adunare(a, b) {
+    return a + b;
+}
+// acest exemplu arata ca functiile pot fi de tip void, adica nu returneaza nimic
+function functie_void() {
+    // ...
+}
+// object este un tip care poate contine mai multe proprietati cu tipuri diferite
+var coordonate = { x: 10, y: 20 };
+// union types sunt tipuri care pot fi unul dintre mai multe tipuri specificate
+var id = 123;
+id = 'abc';
+// 1.4. Spreadoperator – explanation and usage examples.
+// spread operator este un operator care extinde elementele unui array sau ale unui obiect intr-un alt array sau obiect
+// cu spread operator putem copia elementele unui array sau ale unui obiect intr-un alt array sau obiect, fara a modifica originalul
+var arr1 = [1, 2, 3];
+var arr2 = __spreadArray(__spreadArray([], arr1, true), [4, 5], false);
+console.log(arr2); // [1, 2, 3, 4, 5]
+// putem combina 2 arrays sau obiecte
+var mergedArr = __spreadArray(__spreadArray([], arr1, true), arr2, true);
+console.log(mergedArr); // [1, 2, 3, 1, 2, 3, 4, 5]

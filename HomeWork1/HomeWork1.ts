@@ -125,3 +125,17 @@ interface Animal {
 
 
 
+// 1.4. Spreadoperator – explanation and usage examples.
+
+
+// spread operator este un operator care extinde elementele unui array sau ale unui obiect intr-un alt array sau obiect
+
+// cu spread operator putem copia elementele unui array sau ale unui obiect intr-un alt array sau obiect, fara a modifica originalul
+const arr1 = [1, 2, 3];
+const arr2 = [...arr1, 4, 5];
+console.log(arr2); // [1, 2, 3, 4, 5]
+
+// putem combina 2 arrays sau obiecte
+const mergedArr = [...arr1, ...arr2];
+console.log(mergedArr); // [1, 2, 3, 1, 2, 3, 4, 5]
+
