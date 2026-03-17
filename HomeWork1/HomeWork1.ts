@@ -1,5 +1,6 @@
 // 1.1. ES6 Methods - examples and explanations
 
+
 // let este un block-scope variable, adica este vizibil doar in blocul in care a fost declarat,
 // fata de var care este vizibil global sau in functia in care a fost declarat. In exemplul de mai jos, avem doua variabile n,
 // una declarata in afara blocului si alta declarata in interiorul blocului.
@@ -43,6 +44,7 @@ for (const masina of masini) { console.log(masina); } // BMW \n Audi \n Mercedes
 
 // 1.2. Difference between var, let, and const.
 
+
 // var este variabila care are scope global sau de functie, depinde unde a fost declarata. Aceasta poate fi redeclarata si reasignata
 var x: number = 10;
 var x: number = 20; // redeclarare
@@ -66,3 +68,60 @@ const hello: string = 'Hello';
 
 
 // 1.3. TypeScriptTypes and Interfaces – what they are, when to use them, and examples.
+
+
+// TypeScript types sunt modurile in care poti seta tipurile de date pentru variabile, functii, obiecte etc.
+
+// Exista tipurile primitive cum ar fi number, string si boolean
+let numar: number = 42;
+let text: string = 'AquaSoft';
+let esteAdevarat: boolean = true;
+let nr = 42; // TypeScript isi poate da singur seama de tipul de date, nu trebuie specificat in acest caz
+
+// arrays sunt tipuri de date care pot contine mai multe valori de acelasi tip
+let fructe: string[] = ['mar', 'banana', 'portocala'];
+
+// any este un tip care poate fi orice, fara un tip specificat
+let ceva: any = 5;
+ceva = 'Acum este un string';
+ceva = true;
+
+let ceva2; // in cazul acesta, TypeScript va considera ca este de tip any ptr ca nu a fost initializat cu o valoare
+
+// functions pot avea tipuri pentru parametri si pentru valoarea returnata
+function adunare(a: number, b: number): number {
+    return a + b;
+}
+
+// acest exemplu arata ca functiile pot fi de tip void, adica nu returneaza nimic
+function functie_void(): void {
+  // ...
+}
+
+// object este un tip care poate contine mai multe proprietati cu tipuri diferite
+let coordonate: { x: number; y: number } = { x: 10, y: 20 };
+
+// union types sunt tipuri care pot fi unul dintre mai multe tipuri specificate
+let id: number | string = 123;
+id = 'abc';
+
+// Type aliases sunt moduri de a da un nume unui tip complex sau unui union type
+type Point = { x: number; y: number };
+type ID = number | string;
+
+
+// interfaces sunt moduri de a defini structura unui obiect sau a unei clase.
+// Seamana cu type aliases, dar sunt mai flexibile si pot fi extinse
+interface Animal {
+    name: string;
+}
+interface Dog extends Animal {
+    breed: string;
+}
+interface Animal {
+    sound: string; // putem adauga proprietati noi la interfata existenta
+}
+
+
+
+
