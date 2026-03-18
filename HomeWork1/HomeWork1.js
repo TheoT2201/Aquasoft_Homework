@@ -190,6 +190,7 @@ loadData(function (data) {
     console.log("Date primite:", data);
 });
 // Promises sunt obiecte care reprezinta o operatie asincrona care poate fi finalizata cu succes sau cu eroare
+//.then este metoda care este apelata atunci cand promise reuseste cu succes, iar .catch atunci cand promise da o eroare
 var promise = new Promise(function (resolve, reject) {
     setTimeout(function () {
         resolve('Done!');
@@ -209,4 +210,18 @@ mongoose.connect(mongoURI)
     console.log('Track indexes synced');
   })
   .catch(err => console.error('Eroare conectare MongoDB:', err));
-*/ 
+*/
+// In exemplul acesta, dupa ce m-am conectat la mongodb, am folosit await ca sa astept Track.syncIndexes() sa se finalizeze inainte sa trec mai departe
+// 1.9. Closures.
+// Closure este o functie care retine variabilele din functia parinte, chiar si dupa ce functia parinte s-a terminat
+function outer() {
+    var count = 0;
+    return function inner() {
+        count++;
+        console.log(count);
+    };
+}
+var counter = outer();
+counter(); // 1
+counter(); // 2
+counter(); // 3

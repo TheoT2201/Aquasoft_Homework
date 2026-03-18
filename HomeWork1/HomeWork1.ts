@@ -301,3 +301,25 @@ mongoose.connect(mongoURI)
   .catch(err => console.error('Eroare conectare MongoDB:', err));
 */
 // In exemplul acesta, dupa ce m-am conectat la mongodb, am folosit await ca sa astept Track.syncIndexes() sa se finalizeze inainte sa trec mai departe
+
+
+
+
+// 1.9. Closures.
+
+
+// Closure este o functie care retine variabilele din functia parinte, chiar si dupa ce functia parinte s-a terminat
+function outer() {
+    let count = 0;
+
+    return function inner() {
+        count++;
+        console.log(count);
+    };
+}
+
+const counter = outer();
+
+counter(); // 1
+counter(); // 2
+counter(); // 3
