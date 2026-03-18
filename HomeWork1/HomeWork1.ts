@@ -272,30 +272,18 @@ loadData((data) => {
     console.log("Date primite:", data);
 });
 
+
 // Promises sunt obiecte care reprezinta o operatie asincrona care poate fi finalizata cu succes sau cu eroare
-/*
-function promisiuneSimpla(): Promise<string> {
-    return new Promise((resolve, reject) => {
-        const succes = true;
+//.then este metoda care este apelata atunci cand promise reuseste cu succes, iar .catch atunci cand promise da o eroare
+const promise = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve('Done!');
+  }, 1000);
+});
 
-        if (succes) {
-            resolve("Operația a reușit!");
-        } else {
-            reject("Operația a eșuat!");
-        }
-    });
-}
-promisiuneSimpla()
-    .then((rezultat) => {
-        console.log(rezultat);
-    })
-    .catch((eroare) => {
-        console.error(eroare);
-    });
-*/
-// Primesc urmatoarea eroare: 'Promise' only refers to a type, but is being used as a value here. Do you need to change your target library? Try changing the 'lib' compiler option to es2015 or later.
-
-
+promise.then(result => {
+  console.log(result);
+});
 
 
 // 1.8. Async / Await.
@@ -312,3 +300,4 @@ mongoose.connect(mongoURI)
   })
   .catch(err => console.error('Eroare conectare MongoDB:', err));
 */
+// In exemplul acesta, dupa ce m-am conectat la mongodb, am folosit await ca sa astept Track.syncIndexes() sa se finalizeze inainte sa trec mai departe

@@ -190,24 +190,23 @@ loadData(function (data) {
     console.log("Date primite:", data);
 });
 // Promises sunt obiecte care reprezinta o operatie asincrona care poate fi finalizata cu succes sau cu eroare
+var promise = new Promise(function (resolve, reject) {
+    setTimeout(function () {
+        resolve('Done!');
+    }, 1000);
+});
+promise.then(function (result) {
+    console.log(result);
+});
+// 1.8. Async / Await.
+// Async / Await este o sintaxa care face codul asincron sa arate si sa se comporte ca un cod sincron, folosindu-se de Promises la baza
 /*
-function promisiuneSimpla(): Promise<string> {
-    return new Promise((resolve, reject) => {
-        const succes = true;
+mongoose.connect(mongoURI)
+  .then(async () => {
+    console.log('Conectat la MongoDB');
 
-        if (succes) {
-            resolve("Operația a reușit!");
-        } else {
-            reject("Operația a eșuat!");
-        }
-    });
-}
-promisiuneSimpla()
-    .then((rezultat) => {
-        console.log(rezultat);
-    })
-    .catch((eroare) => {
-        console.error(eroare);
-    });
-*/
-// Primesc urmatoarea eroare: 'Promise' only refers to a type, but is being used as a value here. Do you need to change your target library? Try changing the 'lib' compiler option to es2015 or later.
+    await Track.syncIndexes();
+    console.log('Track indexes synced');
+  })
+  .catch(err => console.error('Eroare conectare MongoDB:', err));
+*/ 
