@@ -323,3 +323,42 @@ const counter = outer();
 counter(); // 1
 counter(); // 2
 counter(); // 3
+
+
+
+
+// 1.10. React Hooks: useState and useRef.
+//-Write a small functional React component example demonstrating useState and useRef
+
+
+// useState este un hook care ne permite sa salvam valori si sa le actualizam in componenta noastra React
+// useRef este un hook care ne permite sa salvam o referinta la un element DOM sau o valoare care nu updateaza componeneta atunci cand se schimba
+/*
+import React, { useState, useRef } from 'react';
+export default function Counter() {
+    const [count, setCount] = useState(0);
+    const inputRef = useRef<HTMLInputElement>(null);
+
+    const increase = () => {
+        setCount(count + 1);
+    };
+
+    const focusInput = () => {
+        inputRef.current?.focus();
+    };
+
+    return (
+        <div>
+            <h2>Count: {count}</h2>
+
+            <button onClick={increase}>Increase</button>
+
+            <br />
+            <br />
+
+            <input ref={inputRef} type="text" placeholder="Focus me!" />
+            <button onClick={focusInput}>Focus Input</button>
+        </div>
+    );
+}
+*/
