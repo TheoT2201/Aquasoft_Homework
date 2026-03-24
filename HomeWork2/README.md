@@ -1,0 +1,3 @@
+REST API permite comunicarea intre client si server prin metode HTTP precum GET, POST, PUT si DELETE. Clientul trimite request la endpoint-urile serverului, iar serverul raspunde cu fisiere JSON, XML, HTML sau imagini. 
+
+NestJS este un Node.js framework pentru aplicatii construite eficient si scalabile. Este construit in TypeScript si foloseste Express.js la baza. Cu NestJS putem construi REST API-uri.
