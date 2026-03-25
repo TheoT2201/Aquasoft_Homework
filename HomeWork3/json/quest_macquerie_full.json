@@ -1,0 +1,478 @@
+[{
+  "id": "12051078",
+  "type": "HOTEL",
+  "category": "hotel",
+  "subcategories": [
+    "Specialty Lodging"
+  ],
+  "name": "Quest Macquarie Park",
+  "locationString": "Macquarie Park, Ryde, Greater Sydney, New South Wales",
+  "description": "Quest Macquarie Park provides serviced apartment accommodation located just 12km north-west of Sydney’s CBD. Located in the heart of Macquarie Park, the Metro Station is within a few minutes walk. Quest Macquarie Park is near Macquarie University, Macquarie University Hospital and Macquarie Shopping Centre with easy access to Ryde, Chatswood, Epping and Lane Cove via Epping Road, Hills M2 Motorway, M4 and the M7. Quest Macquarie Park's serviced apartments include studios, and one and two bedroom apartments. Our serviced apartments are the perfect alternative to a hotel room with full kitchens and laundry facilities. The one and two bedroom apartments are ideal for families, colleagues or larger groups looking for a home away from home experience.",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/2c/04/17/39/quest-macquarie-park.jpg",
+  "photoCount": 84,
+  "rankingPosition": 1,
+  "rating": 4.3,
+  "rawRanking": 4.302319049835205,
+  "phone": "+61 2 8879 4600",
+  "address": "71 Epping Rd, Macquarie Park, Ryde, New South Wales 2113 Australia",
+  "addressObj": {
+    "street1": "71 Epping Rd",
+    "street2": null,
+    "city": "Macquarie Park",
+    "state": "New South Wales",
+    "country": "Australia",
+    "postalcode": "2113"
+  },
+  "localName": "Quest Macquarie Park",
+  "localAddress": "71 Epping Rd, 2113",
+  "localLangCode": "en-AU",
+  "email": "questmacquariepark@questapartments.com.au",
+  "latitude": -33.78806,
+  "longitude": 151.12749,
+  "webUrl": "https://www.tripadvisor.com/Hotel_Review-g7383212-d12051078-Reviews-Quest_Macquarie_Park-Macquarie_Park_Ryde_Greater_Sydney_New_South_Wales.html",
+  "website": "https://www.questapartments.com.au/properties/nsw/macquarie-park/quest-macquarie-park?utm_source=GoogleMyBusiness&utm_medium=organic&utm_campaign=macquariepark",
+  "rankingString": "#1 of 5 Specialty lodging in Macquarie Park",
+  "rankingDenominator": "5",
+  "rankingSource": "API",
+  "neighborhoodLocations": [],
+  "nearestMetroStations": [
+    {
+      "name": "Macquarie Park",
+      "localName": "Macquarie Park",
+      "address": "LOT 1 Waterloo Rd, Macquarie Park, Ryde, New South Wales 2113, Australia",
+      "localAddress": "LOT 1 Waterloo Rd, 2113",
+      "lines": [
+        {
+          "id": "sydney-sydney-trains-t1",
+          "lineName": "T1",
+          "lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
+          "systemName": "Sydney Trains",
+          "systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
+          "type": "Suburban Rail"
+        }
+      ],
+      "latitude": -33.784969329833984,
+      "longitude": 151.12843322753906,
+      "distance": 0.2205409393267213
+    },
+    {
+      "name": "North Ryde",
+      "localName": "North Ryde",
+      "address": "27-37 Delhi Rd, North Ryde, Ryde, New South Wales 2113, Australia",
+      "localAddress": "27-37 Delhi Rd, 2113",
+      "lines": [
+        {
+          "id": "sydney-sydney-trains-t1",
+          "lineName": "T1",
+          "lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
+          "systemName": "Sydney Trains",
+          "systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
+          "type": "Suburban Rail"
+        }
+      ],
+      "latitude": -33.7945556640625,
+      "longitude": 151.13790893554688,
+      "distance": 0.748894175430616
+    },
+    {
+      "name": "Macquarie University",
+      "localName": "Macquarie University",
+      "address": "LOT 124 Herring Rd, Macquarie Park, Ryde, New South Wales 2113, Australia",
+      "localAddress": "LOT 124 Herring Rd, 2113",
+      "lines": [
+        {
+          "id": "sydney-sydney-trains-t1",
+          "lineName": "T1",
+          "lineSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
+          "systemName": "Sydney Trains",
+          "systemSymbol": "https://static.tacdn.com/img/api/metro_stations/metro_placeholder.png",
+          "type": "Suburban Rail"
+        }
+      ],
+      "latitude": -33.77750778198242,
+      "longitude": 151.1185760498047,
+      "distance": 0.8917056172266349
+    }
+  ],
+  "ancestorLocations": [
+    {
+      "id": "7383212",
+      "name": "Macquarie Park",
+      "abbreviation": null,
+      "subcategory": "City"
+    },
+    {
+      "id": "552117",
+      "name": "Ryde",
+      "abbreviation": null,
+      "subcategory": "Municipality"
+    },
+    {
+      "id": "1665100",
+      "name": "Greater Sydney",
+      "abbreviation": null,
+      "subcategory": "District"
+    },
+    {
+      "id": "255058",
+      "name": "New South Wales",
+      "abbreviation": null,
+      "subcategory": "State"
+    },
+    {
+      "id": "255055",
+      "name": "Australia",
+      "abbreviation": null,
+      "subcategory": "Country"
+    }
+  ],
+  "ratingHistogram": {
+    "count1": 30,
+    "count2": 23,
+    "count3": 47,
+    "count4": 153,
+    "count5": 392
+  },
+  "numberOfReviews": 645,
+  "hotelClass": "4.0",
+  "hotelClassAttribution": "This property is classified according to Giata.",
+  "amenities": [
+    "Internet",
+    "Wheelchair access",
+    "Kitchenette",
+    "Wifi",
+    "Free Wifi",
+    "Fitness center",
+    "Air conditioning",
+    "Microwave",
+    "Refrigerator in room",
+    "Non-smoking hotel",
+    "Safe",
+    "Flatscreen TV",
+    "Breakfast Buffet",
+    "Parking",
+    "English",
+    "Iron",
+    "Free Internet",
+    "Free parking",
+    "Pets Allowed",
+    "Meeting rooms",
+    "Non-smoking rooms",
+    "Business center",
+    "Laundry Service",
+    "Self-Serve Laundry",
+    "24-Hour Check-in",
+    "Express Check-in / Check-out"
+  ],
+  "priceLevel": "$$",
+  "priceRange": "$113 - $233",
+  "roomTips": [
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Please check on the details before finalising",
+      "rating": "3",
+      "reviewId": "897810299",
+      "id": "897810299",
+      "createdTime": "2023-06-25T05:18:50-04:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Book Meriton if your budget is for Quest.",
+      "rating": "1",
+      "reviewId": "882554693",
+      "id": "882554693",
+      "createdTime": "2023-03-17T15:17:24-04:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Carry your own bottled water, laundry liquid/detergent and paper towels. Use the kitchen and laundry to save on eating out etc.",
+      "rating": "4",
+      "reviewId": "874214056",
+      "id": "874214056",
+      "createdTime": "2023-01-06T19:55:24-05:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Don’t come",
+      "rating": "3",
+      "reviewId": "862599979",
+      "id": "862599979",
+      "createdTime": "2022-09-30T05:47:35-04:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Bring your own air fresheners if you don’t like the smell of Chinese takeaway",
+      "rating": "4",
+      "reviewId": "842249327",
+      "id": "842249327",
+      "createdTime": "2022-06-10T04:46:42-04:00"
+    }
+  ],
+  "checkInDate": "2026-03-26",
+  "checkOutDate": "2026-03-27",
+  "numberOfRooms": 111,
+  "categoryReviewScores": [
+    {
+      "categoryName": "Location",
+      "score": 4.4341636,
+      "roundedScore": 4.4
+    },
+    {
+      "categoryName": "Rooms",
+      "score": 4.5302243,
+      "roundedScore": 4.5
+    },
+    {
+      "categoryName": "Value",
+      "score": 4.3929205,
+      "roundedScore": 4.4
+    },
+    {
+      "categoryName": "Cleanliness",
+      "score": 4.5446734,
+      "roundedScore": 4.5
+    },
+    {
+      "categoryName": "Service",
+      "score": 4.4616723,
+      "roundedScore": 4.5
+    },
+    {
+      "categoryName": "Sleep Quality",
+      "score": 4.3460145,
+      "roundedScore": 4.3
+    }
+  ],
+  "aiReviewsSummary": null,
+  "whatsAppRedirectUrl": null,
+  "travelerChoiceAward": null,
+  "offers": [
+    {
+      "pricePerNight": 125,
+      "tax": 12,
+      "priceText": "$126",
+      "taxesAndFeesText": null,
+      "totalStayPriceText": null,
+      "priceBeforeSale": null,
+      "provider": "BookingCom",
+      "vendor": "Booking.com",
+      "canPayInInstallments": false
+    },
+    {
+      "pricePerNight": 126,
+      "tax": 12,
+      "priceText": "$127",
+      "taxesAndFeesText": null,
+      "totalStayPriceText": null,
+      "priceBeforeSale": null,
+      "provider": "Expedia",
+      "vendor": "Expedia.com",
+      "canPayInInstallments": false
+    },
+    {
+      "pricePerNight": 104,
+      "tax": 0,
+      "priceText": "$105",
+      "taxesAndFeesText": null,
+      "totalStayPriceText": null,
+      "priceBeforeSale": null,
+      "provider": "Agoda",
+      "vendor": "Agoda.com",
+      "canPayInInstallments": false
+    },
+    {
+      "pricePerNight": 126,
+      "tax": 12,
+      "priceText": "$127",
+      "taxesAndFeesText": null,
+      "totalStayPriceText": null,
+      "priceBeforeSale": null,
+      "provider": "HotelsCom2",
+      "vendor": "Hotels.com",
+      "canPayInInstallments": false
+    },
+    {
+      "pricePerNight": 138,
+      "tax": 0,
+      "priceText": "$139",
+      "taxesAndFeesText": null,
+      "totalStayPriceText": null,
+      "priceBeforeSale": null,
+      "provider": "Priceline",
+      "vendor": "Priceline",
+      "canPayInInstallments": false
+    },
+    {
+      "pricePerNight": 113,
+      "tax": 11,
+      "priceText": "$113",
+      "taxesAndFeesText": null,
+      "totalStayPriceText": null,
+      "priceBeforeSale": null,
+      "provider": "CtripTA",
+      "vendor": "Trip.com",
+      "canPayInInstallments": false
+    },
+    {
+      "pricePerNight": 111,
+      "tax": 11,
+      "priceText": "$112",
+      "taxesAndFeesText": null,
+      "totalStayPriceText": null,
+      "priceBeforeSale": null,
+      "provider": "Splitty",
+      "vendor": "Algotels",
+      "canPayInInstallments": false
+    },
+    {
+      "pricePerNight": 125,
+      "tax": 12,
+      "priceText": "$125",
+      "taxesAndFeesText": null,
+      "totalStayPriceText": null,
+      "priceBeforeSale": null,
+      "provider": "ZenHotels",
+      "vendor": "ZenHotels.com",
+      "canPayInInstallments": false
+    },
+    {
+      "pricePerNight": 111,
+      "tax": 11,
+      "priceText": "$112",
+      "taxesAndFeesText": null,
+      "totalStayPriceText": null,
+      "priceBeforeSale": null,
+      "provider": "Vio",
+      "vendor": "Vio.com",
+      "canPayInInstallments": false
+    }
+  ],
+  "reviewTags": [
+    {
+      "text": "macquarie park",
+      "reviews": 90
+    },
+    {
+      "text": "room was clean",
+      "reviews": 20
+    },
+    {
+      "text": "business trip",
+      "reviews": 20
+    },
+    {
+      "text": "great stay",
+      "reviews": 17
+    },
+    {
+      "text": "free parking",
+      "reviews": 12
+    },
+    {
+      "text": "easy parking",
+      "reviews": 7
+    },
+    {
+      "text": "after hours",
+      "reviews": 6
+    },
+    {
+      "text": "road noise",
+      "reviews": 6
+    },
+    {
+      "text": "place to stay",
+      "reviews": 13
+    },
+    {
+      "text": "two bedroom apartment",
+      "reviews": 6
+    },
+    {
+      "text": "public transport",
+      "reviews": 13
+    },
+    {
+      "text": "convenient location",
+      "reviews": 13
+    },
+    {
+      "text": "main road",
+      "reviews": 5
+    },
+    {
+      "text": "checking out",
+      "reviews": 5
+    },
+    {
+      "text": "lane cove",
+      "reviews": 9
+    },
+    {
+      "text": "short stay",
+      "reviews": 7
+    },
+    {
+      "text": "good size",
+      "reviews": 9
+    },
+    {
+      "text": "home away from home",
+      "reviews": 7
+    },
+    {
+      "text": "staff were very helpful",
+      "reviews": 5
+    },
+    {
+      "text": "room service",
+      "reviews": 9
+    },
+    {
+      "text": "car park",
+      "reviews": 7
+    },
+    {
+      "text": "shopping centre",
+      "reviews": 7
+    },
+    {
+      "text": "quest",
+      "reviews": 140
+    },
+    {
+      "text": "facilities",
+      "reviews": 47
+    },
+    {
+      "text": "accommodation",
+      "reviews": 38
+    },
+    {
+      "text": "sydney",
+      "reviews": 43
+    },
+    {
+      "text": "epping",
+      "reviews": 9
+    },
+    {
+      "text": "kitchenette",
+      "reviews": 14
+    },
+    {
+      "text": "pillows",
+      "reviews": 16
+    },
+    {
+      "text": "cleanliness",
+      "reviews": 15
+    }
+  ],
+  "isNearbyResult": false
+}]

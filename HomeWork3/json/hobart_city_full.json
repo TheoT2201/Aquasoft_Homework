@@ -1,0 +1,275 @@
+[{
+  "id": "20860981",
+  "type": "HOTEL",
+  "category": "hotel",
+  "subcategories": [
+    "Bed and Breakfast"
+  ],
+  "name": "Hobart City Apartments",
+  "locationString": "Hobart, Greater Hobart, Tasmania",
+  "description": "Contemporary, smart and central. Hobart City Apartments welcomes travellers to experience premium studios and self-contained apartments in the vibrant centre of Hobart City. Our prime location is ideal for holidaymakers and business guests seeking high-quality accommodation with easy access to the best that Hobart has to offer.",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/2b/fe/74/b2/exterior.jpg",
+  "photoCount": 39,
+  "rankingPosition": 5,
+  "rating": 4.6,
+  "rawRanking": 3.514655351638794,
+  "phone": "+61 3 6240 5585",
+  "address": "80 Elizabeth St, Hobart, Tasmania 7000 Australia",
+  "addressObj": {
+    "street1": "80 Elizabeth St",
+    "street2": null,
+    "city": "Hobart",
+    "state": "Tasmania",
+    "country": "Australia",
+    "postalcode": "7000"
+  },
+  "localName": "Hobart City Apartments",
+  "localAddress": "80 Elizabeth St, 7000",
+  "localLangCode": "en-AU",
+  "email": "res@hobartcityapartmenthotel.com",
+  "latitude": -42.88123,
+  "longitude": 147.32619,
+  "webUrl": "https://www.tripadvisor.com/Hotel_Review-g255097-d20860981-Reviews-Hobart_City_Apartments-Hobart_Greater_Hobart_Tasmania.html",
+  "website": "https://www.hobartcityapartmenthotel.com",
+  "rankingString": "#5 of 40 B&Bs / Inns in Hobart",
+  "rankingDenominator": "40",
+  "rankingSource": "API",
+  "neighborhoodLocations": [],
+  "nearestMetroStations": [],
+  "ancestorLocations": [
+    {
+      "id": "255097",
+      "name": "Hobart",
+      "abbreviation": null,
+      "subcategory": "City"
+    },
+    {
+      "id": "2667623",
+      "name": "Greater Hobart",
+      "abbreviation": null,
+      "subcategory": "District"
+    },
+    {
+      "id": "255096",
+      "name": "Tasmania",
+      "abbreviation": null,
+      "subcategory": "State"
+    },
+    {
+      "id": "255055",
+      "name": "Australia",
+      "abbreviation": null,
+      "subcategory": "Country"
+    }
+  ],
+  "ratingHistogram": {
+    "count1": 0,
+    "count2": 1,
+    "count3": 0,
+    "count4": 11,
+    "count5": 26
+  },
+  "numberOfReviews": 38,
+  "hotelClass": "4.0",
+  "hotelClassAttribution": "This property is classified according to Giata.",
+  "amenities": [
+    "Kitchenette",
+    "Free Wifi",
+    "Air conditioning",
+    "Refrigerator in room",
+    "Complimentary Tea",
+    "Complimentary Instant Coffee",
+    "Secured Parking",
+    "Suites",
+    "Wheelchair access",
+    "Meeting rooms",
+    "Non-smoking rooms",
+    "Laundry Service",
+    "Family Rooms",
+    "Microwave",
+    "Non-smoking hotel",
+    "Safe",
+    "Flatscreen TV",
+    "Facilities for Disabled Guests",
+    "Housekeeping",
+    "Baggage Storage",
+    "Blackout Curtains",
+    "Cable / Satellite TV",
+    "Chinese",
+    "Clothes Rack",
+    "Coffee / Tea Maker",
+    "Dishwasher",
+    "Electric Kettle",
+    "English",
+    "First Aid Kit",
+    "Complimentary Toiletries",
+    "Hair Dryer",
+    "Iron",
+    "Kitchenware",
+    "Private Bathrooms",
+    "Radio",
+    "Stovetop",
+    "Telephone",
+    "Walk-in Shower",
+    "Wardrobe / Closet"
+  ],
+  "priceLevel": "$$$",
+  "priceRange": "$134 - $435",
+  "roomTips": [
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Underground parking is limited, so best to request at time of booking",
+      "rating": "5",
+      "reviewId": "998631396",
+      "id": "998631396",
+      "createdTime": "2025-03-17T23:53:14-04:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Book an early slot in the day for for Mona, as you could easily stay all day - and do eat there!",
+      "rating": "5",
+      "reviewId": "989411761",
+      "id": "989411761",
+      "createdTime": "2025-01-15T15:14:49-05:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Free wifi and Parking is a small $20 per day. ",
+      "rating": "5",
+      "reviewId": "970921738",
+      "id": "970921738",
+      "createdTime": "2024-09-22T15:11:28-04:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Penthouse is great for larger groups. Also book direct! The team group is together and we got a great price.",
+      "rating": "5",
+      "reviewId": "951555217",
+      "id": "951555217",
+      "createdTime": "2024-05-19T21:27:45-04:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Book the parking at the apartment,$ 20 a day.\nRoom for a pony great option for breakfast",
+      "rating": "5",
+      "reviewId": "888296667",
+      "id": "888296667",
+      "createdTime": "2023-04-29T21:04:24-04:00"
+    }
+  ],
+  "checkInDate": "2026-03-26",
+  "checkOutDate": "2026-03-27",
+  "numberOfRooms": 72,
+  "categoryReviewScores": [
+    {
+      "categoryName": "Location",
+      "score": 4.7,
+      "roundedScore": 4.7
+    },
+    {
+      "categoryName": "Rooms",
+      "score": 4.857143,
+      "roundedScore": 4.9
+    },
+    {
+      "categoryName": "Value",
+      "score": 4.6363635,
+      "roundedScore": 4.6
+    },
+    {
+      "categoryName": "Cleanliness",
+      "score": 4.8,
+      "roundedScore": 4.8
+    },
+    {
+      "categoryName": "Service",
+      "score": 4.4375,
+      "roundedScore": 4.4
+    },
+    {
+      "categoryName": "Sleep Quality",
+      "score": 4.6,
+      "roundedScore": 4.6
+    }
+  ],
+  "aiReviewsSummary": null,
+  "whatsAppRedirectUrl": null,
+  "travelerChoiceAward": null,
+  "offers": [],
+  "reviewTags": [
+    {
+      "text": "great central location",
+      "reviews": 3
+    },
+    {
+      "text": "fresh air",
+      "reviews": 3
+    },
+    {
+      "text": "good size",
+      "reviews": 3
+    },
+    {
+      "text": "minute walk",
+      "reviews": 3
+    },
+    {
+      "text": "stayed here",
+      "reviews": 3
+    },
+    {
+      "text": "one bedroom apartment",
+      "reviews": 2
+    },
+    {
+      "text": "comfortable bed",
+      "reviews": 2
+    },
+    {
+      "text": "constitution dock",
+      "reviews": 2
+    },
+    {
+      "text": "walking distance",
+      "reviews": 2
+    },
+    {
+      "text": "couch",
+      "reviews": 3
+    },
+    {
+      "text": "kitchenette",
+      "reviews": 6
+    },
+    {
+      "text": "tv",
+      "reviews": 4
+    },
+    {
+      "text": "towels",
+      "reviews": 3
+    },
+    {
+      "text": "parking",
+      "reviews": 7
+    },
+    {
+      "text": "reception",
+      "reviews": 5
+    },
+    {
+      "text": "cupboard",
+      "reviews": 2
+    },
+    {
+      "text": "accommodation",
+      "reviews": 3
+    }
+  ],
+  "isNearbyResult": false
+}]

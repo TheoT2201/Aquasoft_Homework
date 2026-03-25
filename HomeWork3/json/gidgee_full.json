@@ -1,0 +1,320 @@
+[{
+  "id": "1500379",
+  "type": "HOTEL",
+  "category": "hotel",
+  "subcategories": [
+    "Bed and Breakfast"
+  ],
+  "name": "Gidgee Inn Motel",
+  "locationString": "Cloncurry, Queensland",
+  "description": "A touch of 4 star outback luxury! Cloncurry's premier destination for accommodation, dining and functions. 40 spacious rooms including Executive, Queen and Twin with ceiling fan and air-conditioning. Cool down at the end of a hot day in our crystal clear salt water pool. Relax, enjoy your meal and take in the atmosphere in our open plan jarrah timber and rammed earth inn. We strive to make every visit a unique and enjoyable experience. Whether it be a business or social event, we offer a range of room, equipment and catering options to suit your requirements. We are committed to making your event a success.",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/2c/29/22/f4/exterior-entrance.jpg",
+  "photoCount": 89,
+  "rankingPosition": 1,
+  "rating": 4.1,
+  "rawRanking": 3.555800437927246,
+  "phone": "+61 7 4742 1599",
+  "address": "Flinders Highway, Cloncurry, Queensland 4824 Australia",
+  "addressObj": {
+    "street1": "Flinders Highway",
+    "street2": null,
+    "city": "Cloncurry",
+    "state": "Queensland",
+    "country": "Australia",
+    "postalcode": "4824"
+  },
+  "localName": "Gidgee Inn Motel",
+  "localAddress": "Flinders Highway, 4824",
+  "localLangCode": "en-AU",
+  "email": "reservations@gidgeeinn.com.au",
+  "latitude": -20.70702,
+  "longitude": 140.5163,
+  "webUrl": "https://www.tripadvisor.com/Hotel_Review-g499646-d1500379-Reviews-Gidgee_Inn_Motel-Cloncurry_Queensland.html",
+  "website": "https://southerncrossmotelgroup.com.au/motels/qld/cloncurry-accommodation/gidgee-inn-motel/",
+  "rankingString": "#1 of 4 B&Bs / Inns in Cloncurry",
+  "rankingDenominator": "4",
+  "rankingSource": "API",
+  "neighborhoodLocations": [],
+  "nearestMetroStations": [],
+  "ancestorLocations": [
+    {
+      "id": "499646",
+      "name": "Cloncurry",
+      "abbreviation": null,
+      "subcategory": "City"
+    },
+    {
+      "id": "255067",
+      "name": "Queensland",
+      "abbreviation": null,
+      "subcategory": "State"
+    },
+    {
+      "id": "255055",
+      "name": "Australia",
+      "abbreviation": null,
+      "subcategory": "Country"
+    }
+  ],
+  "ratingHistogram": {
+    "count1": 9,
+    "count2": 6,
+    "count3": 16,
+    "count4": 81,
+    "count5": 81
+  },
+  "numberOfReviews": 193,
+  "hotelClass": "4.0",
+  "hotelClassAttribution": "This property is classified according to Giata.",
+  "amenities": [
+    "Pool",
+    "Internet",
+    "Free Internet",
+    "Free parking",
+    "Wheelchair access",
+    "Restaurant",
+    "Bar/Lounge",
+    "Free Wifi",
+    "Meeting rooms",
+    "Non-smoking rooms",
+    "Air conditioning",
+    "Accessible rooms",
+    "Refrigerator in room",
+    "Non-smoking hotel",
+    "Flatscreen TV",
+    "Outdoor pool",
+    "Bath / Shower",
+    "English",
+    "Fence Around Pool",
+    "Iron",
+    "Kids Activities",
+    "Room service",
+    "Laundry Service",
+    "Desk",
+    "Complimentary Toiletries",
+    "Hair Dryer",
+    "Seating Area",
+    "Wake Up Service / Alarm Clock"
+  ],
+  "priceLevel": "$$",
+  "priceRange": "$112 - $166",
+  "roomTips": [
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "If you want a packed lunch, order it the night before.",
+      "rating": "4",
+      "reviewId": "966982265",
+      "id": "966982265",
+      "createdTime": "2024-08-27T00:56:56-04:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "A little bit out from the centre of town, but nothing use of a vehicle can’t handle.",
+      "rating": "4",
+      "reviewId": "925468876",
+      "id": "925468876",
+      "createdTime": "2023-11-11T00:51:08-05:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Check the fridge to make sure used water bottles and milk is not left in there.  ",
+      "rating": "1",
+      "reviewId": "893009574",
+      "id": "893009574",
+      "createdTime": "2023-06-01T16:44:27-04:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "A great stopover before heading up to the Northern Territory",
+      "rating": "5",
+      "reviewId": "853756470",
+      "id": "853756470",
+      "createdTime": "2022-08-12T16:28:29-04:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "There are no bad rooms here",
+      "rating": "4",
+      "reviewId": "846265898",
+      "id": "846265898",
+      "createdTime": "2022-07-04T23:45:37-04:00"
+    }
+  ],
+  "checkInDate": "2026-03-26",
+  "checkOutDate": "2026-03-27",
+  "numberOfRooms": 40,
+  "categoryReviewScores": [
+    {
+      "categoryName": "Location",
+      "score": 4.2539682,
+      "roundedScore": 4.3
+    },
+    {
+      "categoryName": "Rooms",
+      "score": 4.328125,
+      "roundedScore": 4.3
+    },
+    {
+      "categoryName": "Value",
+      "score": 3.676923,
+      "roundedScore": 3.7
+    },
+    {
+      "categoryName": "Cleanliness",
+      "score": 4.3142858,
+      "roundedScore": 4.3
+    },
+    {
+      "categoryName": "Service",
+      "score": 4.1858406,
+      "roundedScore": 4.2
+    },
+    {
+      "categoryName": "Sleep Quality",
+      "score": 4.12069,
+      "roundedScore": 4.1
+    }
+  ],
+  "aiReviewsSummary": null,
+  "whatsAppRedirectUrl": null,
+  "travelerChoiceAward": null,
+  "offers": [
+    {
+      "pricePerNight": 111,
+      "tax": 11,
+      "priceText": "$111",
+      "taxesAndFeesText": null,
+      "totalStayPriceText": null,
+      "priceBeforeSale": null,
+      "provider": "BookingCom",
+      "vendor": "Booking.com",
+      "canPayInInstallments": false
+    },
+    {
+      "pricePerNight": 105,
+      "tax": 11,
+      "priceText": "$105",
+      "taxesAndFeesText": null,
+      "totalStayPriceText": null,
+      "priceBeforeSale": null,
+      "provider": "Expedia",
+      "vendor": "Expedia.com",
+      "canPayInInstallments": false
+    },
+    {
+      "pricePerNight": 107,
+      "tax": 10,
+      "priceText": "$107",
+      "taxesAndFeesText": null,
+      "totalStayPriceText": null,
+      "priceBeforeSale": null,
+      "provider": "Vio",
+      "vendor": "Vio.com",
+      "canPayInInstallments": false
+    }
+  ],
+  "reviewTags": [
+    {
+      "text": "rammed earth",
+      "reviews": 16
+    },
+    {
+      "text": "rooms are clean",
+      "reviews": 6
+    },
+    {
+      "text": "restaurant attached",
+      "reviews": 3
+    },
+    {
+      "text": "bar and grill",
+      "reviews": 2
+    },
+    {
+      "text": "continental breakfast",
+      "reviews": 2
+    },
+    {
+      "text": "sized room",
+      "reviews": 2
+    },
+    {
+      "text": "mt isa",
+      "reviews": 5
+    },
+    {
+      "text": "an oasis",
+      "reviews": 4
+    },
+    {
+      "text": "the main road",
+      "reviews": 4
+    },
+    {
+      "text": "great place to stay",
+      "reviews": 3
+    },
+    {
+      "text": "outback queensland",
+      "reviews": 3
+    },
+    {
+      "text": "definitely stay here again",
+      "reviews": 3
+    },
+    {
+      "text": "after a long day",
+      "reviews": 3
+    },
+    {
+      "text": "the air conditioning",
+      "reviews": 2
+    },
+    {
+      "text": "the managers",
+      "reviews": 3
+    },
+    {
+      "text": "motel",
+      "reviews": 69
+    },
+    {
+      "text": "town",
+      "reviews": 14
+    },
+    {
+      "text": "meal",
+      "reviews": 13
+    },
+    {
+      "text": "comfort",
+      "reviews": 6
+    },
+    {
+      "text": "west",
+      "reviews": 5
+    },
+    {
+      "text": "pricing",
+      "reviews": 3
+    },
+    {
+      "text": "country",
+      "reviews": 4
+    },
+    {
+      "text": "dryer",
+      "reviews": 2
+    },
+    {
+      "text": "laundry",
+      "reviews": 3
+    }
+  ],
+  "isNearbyResult": false
+}]

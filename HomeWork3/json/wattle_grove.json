@@ -1,0 +1,876 @@
+[{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g2486879-d1063944-Reviews-Wattle_Grove_Motel-Wattle_Grove_Greater_Perth_Western_Australia.html",
+  "id": 1031229663,
+  "createdDate": "2025-09-20",
+  "publishedDate": "2025-09-20",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2025-09-30",
+    "tripType": "SOLO"
+  },
+  "locationId": 1063944,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 1,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g2486879-d1063944-r1031229663-Wattle_Grove_Motel-Wattle_Grove_Greater_Perth_Western_Australia.html",
+  "title": "Excellent stay",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Had a room for 20 nights and would not have stayed if there was anything lacking.  Room spotless, cleaned every day with fresh (good quality) towels, very comfortable bed with good quality bedding, very hot water with enough pressure to clean a car, good and constant WiFi.  Grounds constantly being cleaned.  Ate at the bar & grill and the food was good quality and a lot of it!  The pool looked crystal clear (not the right time of year) and the children’s play area clean.  Would definately stay next family trip and recommend family to do so.  Oh and very professional reception staff.",
+  "username": "waterloo1812",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g2486879-d1063944-r1031229663-Wattle_Grove_Motel-Wattle_Grove_Greater_Perth_Western_Australia.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1063944,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Wattle Grove Motel"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 10,
+      "helpfulVote": null
+    },
+    "id": "80064BA2379F2402CA71AA678CC5575E",
+    "userId": "80064BA2379F2402CA71AA678CC5575E",
+    "displayName": "Debra E",
+    "username": "waterloo1812",
+    "hometown": {
+      "locationId": 186338,
+      "fallbackString": "186338",
+      "location": {
+        "locationId": 186338,
+        "name": "London",
+        "additionalNames": {
+          "long": "London, United Kingdom"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/waterloo1812"
+    },
+    "avatar": {
+      "id": 452391352,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f1/b8/default-avatar-2020-22.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g2486879-d1063944-Reviews-Wattle_Grove_Motel-Wattle_Grove_Greater_Perth_Western_Australia.html",
+  "id": 974942792,
+  "createdDate": "2024-10-22",
+  "publishedDate": "2024-10-22",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2024-10-31",
+    "tripType": "BUSINESS"
+  },
+  "locationId": 1063944,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g2486879-d1063944-r974942792-Wattle_Grove_Motel-Wattle_Grove_Greater_Perth_Western_Australia.html",
+  "title": "Experience",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "\"As always, this is a wonderful place to stay. A huge shout-out to Lana for always keeping a smile on my face and being such a great person to chat with. I’ll definitely be back; it’s always a pleasure to be welcomed by such fantastic staff.\" :) 😀",
+  "username": "196teeganm",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g2486879-d1063944-r974942792-Wattle_Grove_Motel-Wattle_Grove_Greater_Perth_Western_Australia.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1063944,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Wattle Grove Motel"
+  },
+  "additionalRatings": [
+    {
+      "rating": 5,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Rooms"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Location"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Cleanliness"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Service"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Sleep Quality"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 1,
+      "helpfulVote": null
+    },
+    "id": "C7A12EC982926B0CFCCE484BB0EBC98F",
+    "userId": "C7A12EC982926B0CFCCE484BB0EBC98F",
+    "displayName": "Teegan M",
+    "username": "196teeganm",
+    "hometown": {
+      "locationId": null,
+      "fallbackString": null,
+      "location": null
+    },
+    "route": {
+      "url": "/Profile/196teeganm"
+    },
+    "avatar": {
+      "id": 452388955,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e8/5b/default-avatar-2020-61.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g2486879-d1063944-Reviews-Wattle_Grove_Motel-Wattle_Grove_Greater_Perth_Western_Australia.html",
+  "id": 951537313,
+  "createdDate": "2024-05-19",
+  "publishedDate": "2024-05-19",
+  "provider": null,
+  "rating": 4,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2024-04-30",
+    "tripType": "COUPLES"
+  },
+  "locationId": 1063944,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g2486879-d1063944-r951537313-Wattle_Grove_Motel-Wattle_Grove_Greater_Perth_Western_Australia.html",
+  "title": "A pleasant surprise .",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Comfortable, clean and friendly. Excellent off road parking. Located near major roads and the airport but set back and quiet. Access is possible by the service road and the Caltex  service station. The attached restaurant is modest but tasty fare and sufficient in quantity.",
+  "username": "MelbourneVoyager",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g2486879-d1063944-r951537313-Wattle_Grove_Motel-Wattle_Grove_Greater_Perth_Western_Australia.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1063944,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Wattle Grove Motel"
+  },
+  "additionalRatings": [
+    {
+      "rating": 3,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 4,
+      "ratingLabel": "Rooms"
+    },
+    {
+      "rating": 4,
+      "ratingLabel": "Location"
+    },
+    {
+      "rating": 4,
+      "ratingLabel": "Cleanliness"
+    },
+    {
+      "rating": 4,
+      "ratingLabel": "Service"
+    },
+    {
+      "rating": 3,
+      "ratingLabel": "Sleep Quality"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 51,
+      "helpfulVote": null
+    },
+    "id": "FB13A015AEFC1FBFE8C3D4428336870D",
+    "userId": "FB13A015AEFC1FBFE8C3D4428336870D",
+    "displayName": "MelbourneVoyager",
+    "username": "MelbourneVoyager",
+    "hometown": {
+      "locationId": 255100,
+      "fallbackString": "255100",
+      "location": {
+        "locationId": 255100,
+        "name": "Melbourne",
+        "additionalNames": {
+          "long": "Melbourne, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/MelbourneVoyager"
+    },
+    "avatar": {
+      "id": 452391715,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f3/23/default-avatar-2020-28.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g2486879-d1063944-Reviews-Wattle_Grove_Motel-Wattle_Grove_Greater_Perth_Western_Australia.html",
+  "id": 928306787,
+  "createdDate": "2023-12-03",
+  "publishedDate": "2023-12-03",
+  "provider": null,
+  "rating": 1,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2023-10-31",
+    "tripType": "COUPLES"
+  },
+  "locationId": 1063944,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 3,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g2486879-d1063944-r928306787-Wattle_Grove_Motel-Wattle_Grove_Greater_Perth_Western_Australia.html",
+  "title": "Wheelchair accessibility",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "I had a booking for their wheelchair accessible room for months. Five days before we left for our trip, the motel rang to cancel the booking because, and I quote, 'a guest has extended their stay'. Trying to find another wheelchair accessible motel room in Perth at short notice was almost impossible (not very inclusive, Perth!). Seems a booking means nothing to this motel.",
+  "username": "992trevorr",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g2486879-d1063944-r928306787-Wattle_Grove_Motel-Wattle_Grove_Greater_Perth_Western_Australia.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1063944,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Wattle Grove Motel"
+  },
+  "additionalRatings": [
+    {
+      "rating": 1,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 1,
+      "ratingLabel": "Location"
+    },
+    {
+      "rating": 1,
+      "ratingLabel": "Service"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 270,
+      "helpfulVote": null
+    },
+    "id": "1A0911965E7CDCA8AC84D4A6024DB68D",
+    "userId": "1A0911965E7CDCA8AC84D4A6024DB68D",
+    "displayName": "Trevor R",
+    "username": "992trevorr",
+    "hometown": {
+      "locationId": 255057,
+      "fallbackString": "255057",
+      "location": {
+        "locationId": 255057,
+        "name": "Canberra",
+        "additionalNames": {
+          "long": "Canberra, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/992trevorr"
+    },
+    "avatar": {
+      "id": 74416417,
+      "photoSizes": [
+        {
+          "width": 4320,
+          "height": 3240,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/6f/81/21/trevor-r.jpg?w=4320&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g2486879-d1063944-Reviews-Wattle_Grove_Motel-Wattle_Grove_Greater_Perth_Western_Australia.html",
+  "id": 916628179,
+  "createdDate": "2023-09-15",
+  "publishedDate": "2023-09-14",
+  "provider": null,
+  "rating": 1,
+  "publishPlatform": "MOBILE",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2023-09-30",
+    "tripType": "COUPLES"
+  },
+  "locationId": 1063944,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 1,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g2486879-d1063944-r916628179-Wattle_Grove_Motel-Wattle_Grove_Greater_Perth_Western_Australia.html",
+  "title": "BE WARNED! YOUR BOOKING WILL BE CANCELLED ON YOU!",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Absolutely appalling service and professionalism at The Wattle Grove!! Our families have patronaged this motel for 20 years. But never again!! I had booked on the phone a few weeks ago and paid in full!! Great I thought and a confirmation was sent to my email. We are a retired couple and had just travelled from Geraldton,  not a long way for some but at our age it is!! We arrived mid afternoon to check in. We were told that we didn't have a room available.  Then they told us it was for night before!! That was an out and out lie. I had proof from the email we had the correct day!! Absolutely disgusting by this motel. Be warned everyone!! ",
+  "username": "Tania  W",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g2486879-d1063944-r916628179-Wattle_Grove_Motel-Wattle_Grove_Greater_Perth_Western_Australia.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1063944,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Wattle Grove Motel"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 1,
+      "helpfulVote": null
+    },
+    "id": "FB3AA1939722DC13F41368A669E31FB9",
+    "userId": "FB3AA1939722DC13F41368A669E31FB9",
+    "displayName": "Tania  W",
+    "username": "taniaw556",
+    "hometown": {
+      "locationId": null,
+      "fallbackString": null,
+      "location": null
+    },
+    "route": {
+      "url": "/Profile/taniaw556"
+    },
+    "avatar": {
+      "id": 452390144,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ed/00/default-avatar-2020-4.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g2486879-d1063944-Reviews-Wattle_Grove_Motel-Wattle_Grove_Greater_Perth_Western_Australia.html",
+  "id": 878748328,
+  "createdDate": "2023-02-15",
+  "publishedDate": "2023-02-14",
+  "provider": null,
+  "rating": 1,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": {
+    "id": 878978235,
+    "translationType": null,
+    "publishedDate": "2023-02-16",
+    "language": "en",
+    "text": "Hi there Aussieretired1, \n\nThank you for your comments and for your email response to your cancellation request.\n\nAs per our terms and conditions, we require to sight your current photo ID and credit card on arrival.  Our office hours are listed on all sites and you were arriving outside of office hours hence our need for further information.\n\nPer our terms and conditions on our confirmation, in order for us to leave you a key, we require to identify you so we have comfort that the card being suggested for use is genuine and that you're the cardholder.  \n\nYou didn't allow us to sight your card, you only gave us some numbers and unfortunately, this was insufficient.  You did not furnish us with your photo ID despite your comments above.\n\nWith online platforms, it is very easy, without safeguards in place for someone to perform credit card fraud and I'd have thought that you'd be be provided with a sense of comfort that we wouldn't simply accept 16 digits from your card without ensuring you, as the cardholder had given us the proper authority to charge and it is our firm belief that our procedure is one that protects you, the cardholder and the property, the merchant.\n\nI sincerely hope you enjoy your stay in town no matter where you land and that the magnificent Perth weather turns it on for you.",
+    "username": "Karen B",
+    "connectionToSubject": "General Manager",
+    "userProfile": {
+      "avatar": {
+        "photoSizes": [
+          {
+            "width": 1200,
+            "height": 1200,
+            "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f0/9f/default-avatar-2020-16.jpg?w=1200&h=-1&s=1"
+          }
+        ]
+      }
+    }
+  },
+  "tripInfo": {
+    "stayDate": "2023-01-31",
+    "tripType": "COUPLES"
+  },
+  "locationId": 1063944,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 2,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g2486879-d1063944-r878748328-Wattle_Grove_Motel-Wattle_Grove_Greater_Perth_Western_Australia.html",
+  "title": "Appalling service.",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "I’ve just had the most ridiculous experience with the management of this motel, I felt others need to be aware.\n\nAfter booking a room online for a night next month I received the usual confirmation, then I received another email advising me that I was required to send them a photograph of my credit card and drivers licence.  This is despite my credit card payment having already been processed.\n\nI phoned and said I was uncomfortable providing those details due to the high risk of identity fraud, I was advised it was the law (it is not).  I finally offered to provide my drivers licence number and the last digits of my credit card, apparently this was not sufficient.\n\nI was arriving after hours and had not stayed here before, my booking was cancelled.  In all the hundreds of places I’ve stayed all over Australia I’ve never been subjected to this stupid level of protocol.\n\nA thoroughly unpleasant experience.\n\n",
+  "username": "Aussieretired1",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g2486879-d1063944-r878748328-Wattle_Grove_Motel-Wattle_Grove_Greater_Perth_Western_Australia.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1063944,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Wattle Grove Motel"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 47,
+      "helpfulVote": null
+    },
+    "id": "C51561736372A7D56D30DF60EA87FCDE",
+    "userId": "C51561736372A7D56D30DF60EA87FCDE",
+    "displayName": "Martin",
+    "username": "Aussieretired1",
+    "hometown": {
+      "locationId": null,
+      "fallbackString": null,
+      "location": null
+    },
+    "route": {
+      "url": "/Profile/Aussieretired1"
+    },
+    "avatar": {
+      "id": 452389795,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/eb/a3/default-avatar-2020-38.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g2486879-d1063944-Reviews-Wattle_Grove_Motel-Wattle_Grove_Greater_Perth_Western_Australia.html",
+  "id": 865718146,
+  "createdDate": "2022-10-24",
+  "publishedDate": "2022-10-23",
+  "provider": null,
+  "rating": 3,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2022-10-31",
+    "tripType": "NONE"
+  },
+  "locationId": 1063944,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g2486879-d1063944-r865718146-Wattle_Grove_Motel-Wattle_Grove_Greater_Perth_Western_Australia.html",
+  "title": "Good and Bad",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "So first walk in, room was spacious and very happy with the room. However, first morning I woke up to the banging noise which I figured out that it was trades taking shower in the early morning and pipes are banging.  Was annoying but thought it is old building. On that night, I try to take shower and there were no water pressure and no hot water to the room. Called reception and she said (GM said) that because others are taking shower so just need to be patient. Waited hour or two but no not water. I think I waited another hour and there were hot water but no water pressure. \nIf Hotel/Motel",
+  "username": "NaoKura",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g2486879-d1063944-r865718146-Wattle_Grove_Motel-Wattle_Grove_Greater_Perth_Western_Australia.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1063944,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Wattle Grove Motel"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 16,
+      "helpfulVote": null
+    },
+    "id": "8BF7D378F8741782B5C1B486CF2DB21A",
+    "userId": "8BF7D378F8741782B5C1B486CF2DB21A",
+    "displayName": "NaoKura",
+    "username": "NaoKura",
+    "hometown": {
+      "locationId": 261672,
+      "fallbackString": "261672",
+      "location": {
+        "locationId": 261672,
+        "name": "Busselton",
+        "additionalNames": {
+          "long": "Busselton, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/NaoKura"
+    },
+    "avatar": {
+      "id": 452391234,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f1/42/default-avatar-2020-20.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g2486879-d1063944-Reviews-Wattle_Grove_Motel-Wattle_Grove_Greater_Perth_Western_Australia.html",
+  "id": 770518729,
+  "createdDate": "2020-09-15",
+  "publishedDate": "2020-09-15",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2020-09-30",
+    "tripType": "NONE"
+  },
+  "locationId": 1063944,
+  "mcid": 10568,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 1,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g2486879-d1063944-r770518729-Wattle_Grove_Motel-Wattle_Grove_Greater_Perth_Western_Australia.html",
+  "title": "urgent trip /overnight stay.",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "A very warm welcome at office at almost closing time, following a very tense trip from Albany.We were very impressed with the rooms and the comfortable beds. Will certainly be going back. There was very little traffic noise, plenty of parking and an excellent restaurant with very pleasant staff. TOP MARKS.",
+  "username": "JulianP122",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g2486879-d1063944-r770518729-Wattle_Grove_Motel-Wattle_Grove_Greater_Perth_Western_Australia.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1063944,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Wattle Grove Motel"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 23,
+      "helpfulVote": null
+    },
+    "id": "D9A9D71540B4C820DAA43B8094C33969",
+    "userId": "D9A9D71540B4C820DAA43B8094C33969",
+    "displayName": "Julian P",
+    "username": "JulianP122",
+    "hometown": {
+      "locationId": 11950858,
+      "fallbackString": "11950858",
+      "location": {
+        "locationId": 11950858,
+        "name": "Vasse",
+        "additionalNames": {
+          "long": "Vasse, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/JulianP122"
+    },
+    "avatar": {
+      "id": 452387345,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e2/11/default-avatar-2020-41.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g2486879-d1063944-Reviews-Wattle_Grove_Motel-Wattle_Grove_Greater_Perth_Western_Australia.html",
+  "id": 751760701,
+  "createdDate": "2020-03-24",
+  "publishedDate": "2020-03-24",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2020-03-31",
+    "tripType": "NONE"
+  },
+  "locationId": 1063944,
+  "mcid": 12082,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g2486879-d1063944-r751760701-Wattle_Grove_Motel-Wattle_Grove_Greater_Perth_Western_Australia.html",
+  "title": "Self-quarantine heaven",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "I returned to Australia on day 1 of the new laws and I am SO happy that I chose the Wattle Grove Motel for my 14 days of self-isolation.  The reason for choosing this motel was that, on their website, the rooms looked big and there is a kitchenette - a must for self-isolators.  Also, I advised the motel prior to arrival of the reason for my visit and they were warm, welcoming and very helpful towards me.\nThen I arrived - and the staff were kind, sympathetic, professional and positive towards me.  I was VERY surprised to discover that they had robust procedures in place for my visit including self-quarantine signage on my door (as a courtesy to other guests), a fact sheet regarding the virus and a specific motel fact sheet on exactly how they would deal with my presence at the motel.  They were thorough and reassuring while being strict and professional, and even checked in with me each day to check on my mental health.   I can't speak more highly of this motel.\nIn addition, they offer continental breakfast and nightly dinner specials (at VERY reasonable prices).\nI will forever be indebted to the Wattle Grove Motel for their hospitality during this difficult time and well after this crisis is over I will remain a loyal customer.",
+  "username": "drewanthony",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g2486879-d1063944-r751760701-Wattle_Grove_Motel-Wattle_Grove_Greater_Perth_Western_Australia.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1063944,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Wattle Grove Motel"
+  },
+  "additionalRatings": [
+    {
+      "rating": 5,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Rooms"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Service"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 21,
+      "helpfulVote": null
+    },
+    "id": "79FE71B098C068A7FFD6C6707B0B2349",
+    "userId": "79FE71B098C068A7FFD6C6707B0B2349",
+    "displayName": "drewanthony",
+    "username": "drewanthony",
+    "hometown": {
+      "locationId": 255103,
+      "fallbackString": "255103",
+      "location": {
+        "locationId": 255103,
+        "name": "Perth",
+        "additionalNames": {
+          "long": "Perth, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/drewanthony"
+    },
+    "avatar": {
+      "id": 456404920,
+      "photoSizes": [
+        {
+          "width": 857,
+          "height": 857,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/34/2f/b8/drewanthony.jpg?w=857&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g2486879-d1063944-Reviews-Wattle_Grove_Motel-Wattle_Grove_Greater_Perth_Western_Australia.html",
+  "id": 735841746,
+  "createdDate": "2019-12-31",
+  "publishedDate": "2019-12-31",
+  "provider": null,
+  "rating": 4,
+  "publishPlatform": "MOBILE",
+  "translationType": null,
+  "ownerResponse": {
+    "id": 739021357,
+    "translationType": null,
+    "publishedDate": "2020-01-13",
+    "language": "en",
+    "text": "Hi there pudz90\n\nHappy New Year!\n\nThank you for taking the time out to complete a review of our Motel and our Grove Bar and Grill.\n\nCleanliness, comfortable beds for a good night's sleep and good food makes everyone happy and we're glad we got it right for you.\n\nWe look forward to seeing you and your family again at the Wattle Grove Motel.\n\nKaren Bendik",
+    "username": "Karen B",
+    "connectionToSubject": "General Manager",
+    "userProfile": {
+      "avatar": {
+        "photoSizes": [
+          {
+            "width": 1200,
+            "height": 1200,
+            "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f0/9f/default-avatar-2020-16.jpg?w=1200&h=-1&s=1"
+          }
+        ]
+      }
+    }
+  },
+  "tripInfo": {
+    "stayDate": "2019-12-31",
+    "tripType": "FAMILY"
+  },
+  "locationId": 1063944,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g2486879-d1063944-r735841746-Wattle_Grove_Motel-Wattle_Grove_Greater_Perth_Western_Australia.html",
+  "title": "Nice and Quiet",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Stayed here with our two young children and the room was lovely and clean and the beds are so comfortable. Fully air conditioned with free wifi and also has Foxtel, which was a nice touch. Nice and quiet area, with an awesome wee park and a swimming pool. We ordered room service pizza and it was just delicious. Definitely reccomended for families. ",
+  "username": "pudz90",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g2486879-d1063944-r735841746-Wattle_Grove_Motel-Wattle_Grove_Greater_Perth_Western_Australia.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1063944,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Wattle Grove Motel"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 8,
+      "helpfulVote": null
+    },
+    "id": "E85053BAF709950AD5A75A8FA972FE86",
+    "userId": "E85053BAF709950AD5A75A8FA972FE86",
+    "displayName": "Pudz90",
+    "username": "pudz90",
+    "hometown": {
+      "locationId": 255101,
+      "fallbackString": "255101",
+      "location": {
+        "locationId": 255101,
+        "name": "Western Australia",
+        "additionalNames": {
+          "long": "Western Australia, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/pudz90"
+    },
+    "avatar": {
+      "id": 424454823,
+      "photoSizes": [
+        {
+          "width": 3024,
+          "height": 3024,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/4c/aa/a7/pudz90.jpg?w=3024&h=-1&s=1"
+        }
+      ]
+    }
+  }
+}]

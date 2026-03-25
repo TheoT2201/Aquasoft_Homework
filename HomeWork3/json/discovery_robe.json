@@ -1,0 +1,995 @@
+[{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g495037-d1483551-Reviews-Discovery_Parks_Robe-Robe_South_Australia.html",
+  "id": 1052394620,
+  "createdDate": "2026-03-08",
+  "publishedDate": "2026-03-08",
+  "provider": null,
+  "rating": 2,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2026-02-28",
+    "tripType": "COUPLES"
+  },
+  "locationId": 1483551,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g495037-d1483551-r1052394620-Discovery_Parks_Robe-Robe_South_Australia.html",
+  "title": "Rundown Discovery Park!",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Very rundown park that needs serious money spent on it. \nWe stayed in a caravan site that had power failures. This was a known issue as several staff members told us but nothing is being done to rectify this issue. Just told turn off all unnecessary power to conserve electricity! Not good enough when we were paying to stay otherwise we would have chosen to free camp somewhere else. \nNo sullage also which I found incredible in a park within a township and certainly not environmental. \nPool area was run down and not at all inviting. The water was cold even though it is advertised as being heated. Not enough toilet and shower cubicles for the amount of guests. Overall we would not recommend this park and would think seriously of staying in a discovery park again.",
+  "username": "diannefmelbourne",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g495037-d1483551-r1052394620-Discovery_Parks_Robe-Robe_South_Australia.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1483551,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Discovery Parks - Robe"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 214,
+      "helpfulVote": null
+    },
+    "id": "A5DA5E54D8591D10D8B44DCE27ED1F2E",
+    "userId": "A5DA5E54D8591D10D8B44DCE27ED1F2E",
+    "displayName": "diannefmelbourne",
+    "username": "diannefmelbourne",
+    "hometown": {
+      "locationId": 255100,
+      "fallbackString": "255100",
+      "location": {
+        "locationId": 255100,
+        "name": "Melbourne",
+        "additionalNames": {
+          "long": "Melbourne, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/diannefmelbourne"
+    },
+    "avatar": {
+      "id": 268197440,
+      "photoSizes": [
+        {
+          "width": 769,
+          "height": 769,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/fc/5e/40/diannefmelbourne.jpg?w=769&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g495037-d1483551-Reviews-Discovery_Parks_Robe-Robe_South_Australia.html",
+  "id": 992571459,
+  "createdDate": "2025-02-08",
+  "publishedDate": "2025-02-07",
+  "provider": null,
+  "rating": 4,
+  "publishPlatform": "MOBILE",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2025-02-28",
+    "tripType": "FRIENDS"
+  },
+  "locationId": 1483551,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 1,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g495037-d1483551-r992571459-Discovery_Parks_Robe-Robe_South_Australia.html",
+  "title": "3 and a half stars!",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "We were a group of 6 adults staying in three deluxe waterfront cabins.  The cabins themselves were lovely - well-appointed, clean and spacious - with large balconies fronting the road and parking area.  Be aware that “waterfront” does not mean “water view”, unless you scramble onto the roof.  That disappointment was added to by the lack of beach access at the northern end of the park where we were (there’s a low-ish brick wall in front of the cabins, but my vaulting days are well and truly over), meaning that we had to use the main entrance to visit the beach.  We all had trouble with the WiFi - intermittent at best.  We liked the park’s location, about 2 and a half kilometres from town and very quiet.  Highly recommend the Robe Coastal Trail, which starts just south of the park and will be a 12-kilometre loop when finished.",
+  "username": "Ouzo10",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g495037-d1483551-r992571459-Discovery_Parks_Robe-Robe_South_Australia.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1483551,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Discovery Parks - Robe"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 521,
+      "helpfulVote": null
+    },
+    "id": "DEBD1508EBDF0BD53728E435197BC72A",
+    "userId": "DEBD1508EBDF0BD53728E435197BC72A",
+    "displayName": "Ouzo10",
+    "username": "Ouzo10",
+    "hometown": {
+      "locationId": 255093,
+      "fallbackString": "255093",
+      "location": {
+        "locationId": 255093,
+        "name": "Adelaide",
+        "additionalNames": {
+          "long": "Adelaide, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/Ouzo10"
+    },
+    "avatar": {
+      "id": 119691661,
+      "photoSizes": [
+        {
+          "width": 765,
+          "height": 765,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/22/59/8d/ouzo10.jpg?w=765&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g495037-d1483551-Reviews-Discovery_Parks_Robe-Robe_South_Australia.html",
+  "id": 981463382,
+  "createdDate": "2024-11-22",
+  "publishedDate": "2024-11-22",
+  "provider": null,
+  "rating": 1,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2024-11-30",
+    "tripType": "FAMILY"
+  },
+  "locationId": 1483551,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g495037-d1483551-r981463382-Discovery_Parks_Robe-Robe_South_Australia.html",
+  "title": "Disgusted my grandchildren’s Christmas ruined",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Absolutely disgraceful we booked this caravan park in February for a holiday this Christmas period.  We received a call today 22/11/24 to advise that our vans were too big for their sites and our bookings would be cancelled.  I read a review on Facebook about some other people that booked in April and were advised in September that their bookings were cancelled due to their vans being too big as well.  Hopefully they were able to book elsewhere, we have no hope.  I tried phoning their head office left a message and no return call.  Merry Christmas discovery parks.",
+  "username": "hotmagpie69",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g495037-d1483551-r981463382-Discovery_Parks_Robe-Robe_South_Australia.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1483551,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Discovery Parks - Robe"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 2,
+      "helpfulVote": null
+    },
+    "id": "13D19D694EFE7B03CCF73E7F1759B230",
+    "userId": "13D19D694EFE7B03CCF73E7F1759B230",
+    "displayName": "hotmagpie69",
+    "username": "hotmagpie69",
+    "hometown": {
+      "locationId": 255100,
+      "fallbackString": "255100",
+      "location": {
+        "locationId": 255100,
+        "name": "Melbourne",
+        "additionalNames": {
+          "long": "Melbourne, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/hotmagpie69"
+    },
+    "avatar": null
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g495037-d1483551-Reviews-Discovery_Parks_Robe-Robe_South_Australia.html",
+  "id": 954608396,
+  "createdDate": "2024-06-11",
+  "publishedDate": "2024-06-10",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "MOBILE",
+  "translationType": null,
+  "ownerResponse": {
+    "id": 955859393,
+    "translationType": null,
+    "publishedDate": "2024-06-19",
+    "language": "en",
+    "text": "G’day Pioneer230101, thanks for staying with us at Discovery Parks - Robe and taking 5 to leave your feedback. We're so glad you loved your stay with us! We can't wait to welcome you back again soon. Kind Regards, the Discovery Parks - Robe team.",
+    "username": "Robe M",
+    "connectionToSubject": "Guest Services / Front Office",
+    "userProfile": {
+      "avatar": {
+        "photoSizes": [
+          {
+            "width": 1200,
+            "height": 1200,
+            "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/eb/a3/default-avatar-2020-38.jpg?w=1200&h=-1&s=1"
+          }
+        ]
+      }
+    }
+  },
+  "tripInfo": {
+    "stayDate": "2024-06-30",
+    "tripType": "FAMILY"
+  },
+  "locationId": 1483551,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [
+    {
+      "id": 747155522,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 2048,
+          "height": 1536,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/88/b0/42/caption.jpg?w=2048&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 747155525,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 1536,
+          "height": 2048,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/88/b0/45/caption.jpg?w=1536&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 747155527,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 1536,
+          "height": 2048,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/88/b0/47/caption.jpg?w=1536&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 747155044,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 2048,
+          "height": 1536,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/88/ae/64/some-random-shots-of.jpg?w=2048&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 747155047,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 1536,
+          "height": 2048,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/88/ae/67/some-random-shots-of.jpg?w=1536&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 747155046,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 1536,
+          "height": 2048,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/88/ae/66/some-random-shots-of.jpg?w=1536&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 747155048,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 2048,
+          "height": 1536,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/88/ae/68/some-random-shots-of.jpg?w=2048&h=-1&s=1"
+        }
+      ]
+    }
+  ],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g495037-d1483551-r954608396-Discovery_Parks_Robe-Robe_South_Australia.html",
+  "title": "Amazing place to stay",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "We very rarely stay at parks as our kids are feral and we like privacy for that reason haha\n\nBut this place has completely changed our view, staff were amazing and so friendly, they put on so much fun stuff for the kids too, pancakes on the weekends, they hide a lobster in the park for the kids to find, cfs put on a big fire on the Saturday night, quiz for the adults to win wine, \n\nIt was going to be a dad and kids weekend, my wife and eldest daughter decided to tag along; went in to pay the extra on arrival and the manager said don’t worry about it, then we decided to stay an extra night and they charged it out at half price, \n\nOn top of the park robe is a lovely town with lovely people and so so much to do, we did a heap of fishing, 4wding, exploring near by towns, pub meals, we will definitely be returning soon Thankyou so much Robe discovery park",
+  "username": "Pioneer230101",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g495037-d1483551-r954608396-Discovery_Parks_Robe-Robe_South_Australia.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1483551,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Discovery Parks - Robe"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 23,
+      "helpfulVote": null
+    },
+    "id": "31C06004ABB422666AFFD3582CB6961E",
+    "userId": "31C06004ABB422666AFFD3582CB6961E",
+    "displayName": "brad hillam",
+    "username": "Pioneer230101",
+    "hometown": {
+      "locationId": null,
+      "fallbackString": null,
+      "location": null
+    },
+    "route": {
+      "url": "/Profile/Pioneer230101"
+    },
+    "avatar": {
+      "id": 452389741,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/eb/6d/default-avatar-2020-19.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g495037-d1483551-Reviews-Discovery_Parks_Robe-Robe_South_Australia.html",
+  "id": 946483427,
+  "createdDate": "2024-04-12",
+  "publishedDate": "2024-04-12",
+  "provider": null,
+  "rating": 4,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": {
+    "id": 948040154,
+    "translationType": null,
+    "publishedDate": "2024-04-23",
+    "language": "en",
+    "text": "G'day Glenis Z, thanks for staying with us at Discovery Parks - Robe and taking the time to leave your kind words. We're thrilled to read you loved your time with us and especially enjoyed our awesome cabin. It's great to have everything you need in one spot when holidaying. We are sorry there were dogs off lead during your stay, please let us know next time so we can address this at the time, the Park Rules are Dogs are to be on leads at all times. We hope to welcome you back to our park soon. Kind Regards, the Discovery Parks - Robe team.",
+    "username": "Robe M",
+    "connectionToSubject": "Guest Services / Front Office",
+    "userProfile": {
+      "avatar": {
+        "photoSizes": [
+          {
+            "width": 1200,
+            "height": 1200,
+            "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/eb/a3/default-avatar-2020-38.jpg?w=1200&h=-1&s=1"
+          }
+        ]
+      }
+    }
+  },
+  "tripInfo": {
+    "stayDate": "2024-04-30",
+    "tripType": "COUPLES"
+  },
+  "locationId": 1483551,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g495037-d1483551-r946483427-Discovery_Parks_Robe-Robe_South_Australia.html",
+  "title": "Good, basic comfort.",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "A good, clean basic cabin. Comfy beds and everything we needed. Close to the beach and a great walking track into town.\nHowever, I am not a fan of dogs in caravan parks and there were plenty. Not so bad if they are kept on a lead, but in this park they roamed  (and left their droppings) freely.",
+  "username": "Ballacat",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g495037-d1483551-r946483427-Discovery_Parks_Robe-Robe_South_Australia.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1483551,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Discovery Parks - Robe"
+  },
+  "additionalRatings": [
+    {
+      "rating": 4,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 4,
+      "ratingLabel": "Rooms"
+    },
+    {
+      "rating": 4,
+      "ratingLabel": "Location"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Cleanliness"
+    },
+    {
+      "rating": 4,
+      "ratingLabel": "Service"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Sleep Quality"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 24,
+      "helpfulVote": null
+    },
+    "id": "F0B462508A0595131C0D53647E44A0E5",
+    "userId": "F0B462508A0595131C0D53647E44A0E5",
+    "displayName": "Glenis Z",
+    "username": "Ballacat",
+    "hometown": {
+      "locationId": null,
+      "fallbackString": null,
+      "location": null
+    },
+    "route": {
+      "url": "/Profile/Ballacat"
+    },
+    "avatar": null
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g495037-d1483551-Reviews-Discovery_Parks_Robe-Robe_South_Australia.html",
+  "id": 937935787,
+  "createdDate": "2024-02-13",
+  "publishedDate": "2024-02-12",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "MOBILE",
+  "translationType": null,
+  "ownerResponse": {
+    "id": 938962838,
+    "translationType": null,
+    "publishedDate": "2024-02-19",
+    "language": "en",
+    "text": "G’day Kim,  thanks for staying with us at Discovery parks – Robe and taking 5 to provide your kind words about our park and staff.\nWe’re ecstatic your stay with us was 5 stars! We look forward to seeing you again soon. Kind Regards, the Discovery Parks – Robe team.",
+    "username": "Michaela K",
+    "connectionToSubject": "Owner",
+    "userProfile": {
+      "avatar": {
+        "photoSizes": [
+          {
+            "width": 1200,
+            "height": 1200,
+            "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e3/1f/default-avatar-2020-46.jpg?w=1200&h=-1&s=1"
+          }
+        ]
+      }
+    }
+  },
+  "tripInfo": {
+    "stayDate": "2024-02-29",
+    "tripType": "FRIENDS"
+  },
+  "locationId": 1483551,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g495037-d1483551-r937935787-Discovery_Parks_Robe-Robe_South_Australia.html",
+  "title": "Happy Holidays",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "The staff were very friendly and accommodating \nThe park is really well kept and the amenities spotless\nWe will definitely return to your park\nWe love the location and ease of access\nThe pool was lovely and have I mentioned how fabulous the staff were",
+  "username": "U2240KGkimj",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g495037-d1483551-r937935787-Discovery_Parks_Robe-Robe_South_Australia.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1483551,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Discovery Parks - Robe"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 21,
+      "helpfulVote": null
+    },
+    "id": "83744AAE9732DB78FC7D0B4B0E258188",
+    "userId": "83744AAE9732DB78FC7D0B4B0E258188",
+    "displayName": "Kim J",
+    "username": "U2240KGkimj",
+    "hometown": {
+      "locationId": 255093,
+      "fallbackString": "255093",
+      "location": {
+        "locationId": 255093,
+        "name": "Adelaide",
+        "additionalNames": {
+          "long": "Adelaide, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/U2240KGkimj"
+    },
+    "avatar": {
+      "id": 452391174,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f1/06/default-avatar-2020-18.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g495037-d1483551-Reviews-Discovery_Parks_Robe-Robe_South_Australia.html",
+  "id": 911605038,
+  "createdDate": "2023-08-20",
+  "publishedDate": "2023-08-19",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2023-08-31",
+    "tripType": "FAMILY"
+  },
+  "locationId": 1483551,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g495037-d1483551-r911605038-Discovery_Parks_Robe-Robe_South_Australia.html",
+  "title": "A most comfortable place to stay.",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "We stayed in a most comfortable delux cabin. It had all been clean and prepared for us. There was everything you needed in the kiichen for cookung any meals, plus plenty of cutlery . The cleanbathroom was fitted with many clean towels plus heating and fans. The beds were very comfortable. There was more than enough cupboard space for our clothes. Heating was just right for this colder month,  Highly recommended",
+  "username": "_robpet1249",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g495037-d1483551-r911605038-Discovery_Parks_Robe-Robe_South_Australia.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1483551,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Discovery Parks - Robe"
+  },
+  "additionalRatings": [
+    {
+      "rating": 5,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 4,
+      "ratingLabel": "Location"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Service"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 50,
+      "helpfulVote": null
+    },
+    "id": "281EBB27DE7D36A8FA87FDFD711286BF",
+    "userId": "281EBB27DE7D36A8FA87FDFD711286BF",
+    "displayName": "_robpet1249",
+    "username": "_robpet1249",
+    "hometown": {
+      "locationId": 255093,
+      "fallbackString": "255093",
+      "location": {
+        "locationId": 255093,
+        "name": "Adelaide",
+        "additionalNames": {
+          "long": "Adelaide, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/_robpet1249"
+    },
+    "avatar": {
+      "id": 452389949,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ec/3d/default-avatar-2020-1.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g495037-d1483551-Reviews-Discovery_Parks_Robe-Robe_South_Australia.html",
+  "id": 893119854,
+  "createdDate": "2023-06-02",
+  "publishedDate": "2023-06-02",
+  "provider": null,
+  "rating": 1,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": {
+    "id": 893793365,
+    "translationType": null,
+    "publishedDate": "2023-06-06",
+    "language": "en",
+    "text": "Hi Vanessa, \nWe are sorry to read that your cancellation didn't proceed smoothly at what must be a very stressful time.  Please know we’ve spoken with our manager (who was away at the time) about your comments, and has since been in touch. Thank you for taking the time to provide your feedback. Kind Regards, the Discovery Parks - Robe team.",
+    "username": "Robe M",
+    "connectionToSubject": "Guest Services / Front Office",
+    "userProfile": {
+      "avatar": {
+        "photoSizes": [
+          {
+            "width": 1200,
+            "height": 1200,
+            "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/eb/a3/default-avatar-2020-38.jpg?w=1200&h=-1&s=1"
+          }
+        ]
+      }
+    }
+  },
+  "tripInfo": {
+    "stayDate": "2023-04-30",
+    "tripType": "FAMILY"
+  },
+  "locationId": 1483551,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 1,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g495037-d1483551-r893119854-Discovery_Parks_Robe-Robe_South_Australia.html",
+  "title": "Terrible wouldn't recommend ",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Terrible Service, my daughter was hospitalised and I had a medical certificate and they refused to refund , also didn't accept my offical medical certificate. Rubbish service ! Manager doesn't even respond to emails . No compassion ",
+  "username": "U1542MEvanessan",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g495037-d1483551-r893119854-Discovery_Parks_Robe-Robe_South_Australia.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1483551,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Discovery Parks - Robe"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 1,
+      "helpfulVote": null
+    },
+    "id": "D1ACED5EDE322532AE27F03A75CC5DC6",
+    "userId": "D1ACED5EDE322532AE27F03A75CC5DC6",
+    "displayName": "Vanessa N",
+    "username": "U1542MEvanessan",
+    "hometown": {
+      "locationId": null,
+      "fallbackString": null,
+      "location": null
+    },
+    "route": {
+      "url": "/Profile/U1542MEvanessan"
+    },
+    "avatar": {
+      "id": 452387495,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e2/a7/default-avatar-2020-44.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g495037-d1483551-Reviews-Discovery_Parks_Robe-Robe_South_Australia.html",
+  "id": 889488928,
+  "createdDate": "2023-05-08",
+  "publishedDate": "2023-05-08",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "MOBILE",
+  "translationType": null,
+  "ownerResponse": {
+    "id": 890376743,
+    "translationType": null,
+    "publishedDate": "2023-05-14",
+    "language": "en",
+    "text": "G’day, thanks for staying with us at Discovery Parks - Robe and taking 5 to provide your kind words. We’re ecstatic your stay with us was 5-Stars! We hope to see you stay again. Kind Regards, the Discovery Parks - Robe team.",
+    "username": "Robe M",
+    "connectionToSubject": "Guest Services / Front Office",
+    "userProfile": {
+      "avatar": {
+        "photoSizes": [
+          {
+            "width": 1200,
+            "height": 1200,
+            "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/eb/a3/default-avatar-2020-38.jpg?w=1200&h=-1&s=1"
+          }
+        ]
+      }
+    }
+  },
+  "tripInfo": {
+    "stayDate": "2023-05-31",
+    "tripType": "COUPLES"
+  },
+  "locationId": 1483551,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g495037-d1483551-r889488928-Discovery_Parks_Robe-Robe_South_Australia.html",
+  "title": "Lovely Park",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Excellent park with spacious sites. Good facilities that are very well maintained. Very helpful staff who assisted to get van on site. Perhaps school groups could be encouraged to use games room for lessons so other patrons can access camp kitchen given the terrible weather.",
+  "username": "Y8558DGbrianp",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g495037-d1483551-r889488928-Discovery_Parks_Robe-Robe_South_Australia.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1483551,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Discovery Parks - Robe"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 39,
+      "helpfulVote": null
+    },
+    "id": "F4278CBA143C3CD48D7F150785FB3D71",
+    "userId": "F4278CBA143C3CD48D7F150785FB3D71",
+    "displayName": "Roving Retirees",
+    "username": "Y8558DGbrianp",
+    "hometown": {
+      "locationId": null,
+      "fallbackString": null,
+      "location": null
+    },
+    "route": {
+      "url": "/Profile/Y8558DGbrianp"
+    },
+    "avatar": {
+      "id": 452389949,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ec/3d/default-avatar-2020-1.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g495037-d1483551-Reviews-Discovery_Parks_Robe-Robe_South_Australia.html",
+  "id": 880237848,
+  "createdDate": "2023-02-26",
+  "publishedDate": "2023-02-26",
+  "provider": null,
+  "rating": 4,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": {
+    "id": 880645312,
+    "translationType": null,
+    "publishedDate": "2023-03-01",
+    "language": "en",
+    "text": "G'day Paul, thanks for taking the time to provide your feedback. We're happy to know you liked your time with us at Discovery Parks - Robe but are sorry you found our site to be a little tight. If you need any assistance in future, please be sure to chat with one of our friendly staff members so we can give you a hand. We're glad this didn't deter your stay and hope we can welcome you back again soon! Kind Regards, the Discovery Parks - Robe team.",
+    "username": "Robe M",
+    "connectionToSubject": "Guest Services / Front Office",
+    "userProfile": {
+      "avatar": {
+        "photoSizes": [
+          {
+            "width": 1200,
+            "height": 1200,
+            "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/eb/a3/default-avatar-2020-38.jpg?w=1200&h=-1&s=1"
+          }
+        ]
+      }
+    }
+  },
+  "tripInfo": {
+    "stayDate": "2023-01-31",
+    "tripType": "COUPLES"
+  },
+  "locationId": 1483551,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g495037-d1483551-r880237848-Discovery_Parks_Robe-Robe_South_Australia.html",
+  "title": "Location, location,location",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Well this has a proviso to it. The park is in a fantastic location right on the beach and with great views. It is very tidy and the amenities are excellent and clean ( could have better pressure with the hot water) . The people are very friendly and helpful and are unobtrusive except for the hissing truck when it backs! \nThe proviso? Well we found many of the sites small and with people having to park their car in front of their van reversing your van in was hard. You may need help.  Many parks are like this and they are a hangover from the days when people towed a 10 ft van with an FB Holden. The van next to us took up the whole length of the site bar for about half a meter at the back. Still being aware of the site limitations you can decide but I would recommend this park.",
+  "username": "PaulP299",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g495037-d1483551-r880237848-Discovery_Parks_Robe-Robe_South_Australia.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1483551,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Discovery Parks - Robe"
+  },
+  "additionalRatings": [
+    {
+      "rating": 5,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Location"
+    },
+    {
+      "rating": 4,
+      "ratingLabel": "Service"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 231,
+      "helpfulVote": null
+    },
+    "id": "E24B46A12EC308D388A610CF0F6F997B",
+    "userId": "E24B46A12EC308D388A610CF0F6F997B",
+    "displayName": "Paul P",
+    "username": "PaulP299",
+    "hometown": {
+      "locationId": 255100,
+      "fallbackString": "255100",
+      "location": {
+        "locationId": 255100,
+        "name": "Melbourne",
+        "additionalNames": {
+          "long": "Melbourne, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/PaulP299"
+    },
+    "avatar": {
+      "id": 362242778,
+      "photoSizes": [
+        {
+          "width": 600,
+          "height": 600,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/97/62/da/paul-p.jpg?w=600&h=-1&s=1"
+        }
+      ]
+    }
+  }
+}]

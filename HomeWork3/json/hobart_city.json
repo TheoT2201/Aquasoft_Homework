@@ -1,0 +1,887 @@
+[{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g255097-d20860981-Reviews-Hobart_City_Apartments-Hobart_Greater_Hobart_Tasmania.html",
+  "id": 998631396,
+  "createdDate": "2025-03-18",
+  "publishedDate": "2025-03-17",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "MOBILE",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2025-03-31",
+    "tripType": "COUPLES"
+  },
+  "locationId": 20860981,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 1,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g255097-d20860981-r998631396-Hobart_City_Apartments-Hobart_Greater_Hobart_Tasmania.html",
+  "title": "Highly recommend",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Fabulous location, spotlessly clean, modern fixtures, quiet, free secure parking, very helpful staff. A great Japanese restaurant on ground level- amazing food, but service pretty sloppy. Also a Malaysian restaurant on site which we didn’t try",
+  "username": "Getaway41995731105",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g255097-d20860981-r998631396-Hobart_City_Apartments-Hobart_Greater_Hobart_Tasmania.html",
+  "attribution": null,
+  "location": {
+    "locationId": 20860981,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Hobart City Apartments"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 65,
+      "helpfulVote": null
+    },
+    "id": "0212AAF4E74206AB9814E84496A1A096",
+    "userId": "0212AAF4E74206AB9814E84496A1A096",
+    "displayName": "topaz",
+    "username": "Getaway41995731105",
+    "hometown": {
+      "locationId": 255055,
+      "fallbackString": "255055",
+      "location": {
+        "locationId": 255055,
+        "name": "Australia",
+        "additionalNames": {
+          "long": "Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/Getaway41995731105"
+    },
+    "avatar": {
+      "id": 452387615,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e3/1f/default-avatar-2020-46.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g255097-d20860981-Reviews-Hobart_City_Apartments-Hobart_Greater_Hobart_Tasmania.html",
+  "id": 989411761,
+  "createdDate": "2025-01-15",
+  "publishedDate": "2025-01-15",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2025-01-31",
+    "tripType": "COUPLES"
+  },
+  "locationId": 20860981,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 1,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g255097-d20860981-r989411761-Hobart_City_Apartments-Hobart_Greater_Hobart_Tasmania.html",
+  "title": "Outstanding service",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "The room was spotless, the reception on arrival was very friendly. The service from Receptionist(s) to General Manager was outstanding - particularly personal. We could not recommend Hobart City Apartments any more highly. The location is very convenient, and Hobart Uber is a fast efficient way to get around.",
+  "username": "H6820RDdavids",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g255097-d20860981-r989411761-Hobart_City_Apartments-Hobart_Greater_Hobart_Tasmania.html",
+  "attribution": null,
+  "location": {
+    "locationId": 20860981,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Hobart City Apartments"
+  },
+  "additionalRatings": [
+    {
+      "rating": 5,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Rooms"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Location"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Cleanliness"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Service"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Sleep Quality"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 1,
+      "helpfulVote": null
+    },
+    "id": "1DBB98B2B42615CEA169EB9843ED77FE",
+    "userId": "1DBB98B2B42615CEA169EB9843ED77FE",
+    "displayName": "David S",
+    "username": "H6820RDdavids",
+    "hometown": {
+      "locationId": null,
+      "fallbackString": null,
+      "location": null
+    },
+    "route": {
+      "url": "/Profile/H6820RDdavids"
+    },
+    "avatar": {
+      "id": 452388669,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e7/3d/default-avatar-2020-55.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g255097-d20860981-Reviews-Hobart_City_Apartments-Hobart_Greater_Hobart_Tasmania.html",
+  "id": 970921738,
+  "createdDate": "2024-09-22",
+  "publishedDate": "2024-09-22",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2024-08-31",
+    "tripType": "FAMILY"
+  },
+  "locationId": 20860981,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 1,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g255097-d20860981-r970921738-Hobart_City_Apartments-Hobart_Greater_Hobart_Tasmania.html",
+  "title": "Safe ,affordable, clean, Motel to start a family Journey. Central to most places in Hobart.",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "This apartment was exactly what myself and my family needed. \nWe have 3 Teens and it was space enough to just relax and chill. \nWe loved the location central to major shops including Myer, a great Mall to miander through and just look there are a variety of cafes and shopping exsperiances to do. \n\nWe have a big Ute so parking was ok just a little tighter but managed well.\nThe reception was amazing and the rooms were 100% clean and fresh. \nBeds were very comfortable and pillows amazing. \nThere was laundry area I could use which helped heaps it was card access only \"if you want to wash\".\nThis apartment serviced our needs for amenities like microwave toaster and bar fridge.  \nWe brought our own breakfast items and some snacks so it can keep some cost down if you like , but there were many cafes and places that could accommodate if you required. \nWe walked to the Salamanca market only 10 mins down the road and felt very safe. \nWe will definitely be booking again when we venture this way. \nWe are from Victoria near Cobram so it was a wonderful holiday for our family.  Hope this review helps others.",
+  "username": "kategW9248IY",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g255097-d20860981-r970921738-Hobart_City_Apartments-Hobart_Greater_Hobart_Tasmania.html",
+  "attribution": null,
+  "location": {
+    "locationId": 20860981,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Hobart City Apartments"
+  },
+  "additionalRatings": [
+    {
+      "rating": 5,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Rooms"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Location"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Cleanliness"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Service"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Sleep Quality"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 3,
+      "helpfulVote": null
+    },
+    "id": "3D55B13DFF8CF6FF3E871128CAF757E5",
+    "userId": "3D55B13DFF8CF6FF3E871128CAF757E5",
+    "displayName": "Kate G",
+    "username": "kategW9248IY",
+    "hometown": {
+      "locationId": null,
+      "fallbackString": null,
+      "location": null
+    },
+    "route": {
+      "url": "/Profile/kategW9248IY"
+    },
+    "avatar": {
+      "id": 452391715,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f3/23/default-avatar-2020-28.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g255097-d20860981-Reviews-Hobart_City_Apartments-Hobart_Greater_Hobart_Tasmania.html",
+  "id": 951555217,
+  "createdDate": "2024-05-20",
+  "publishedDate": "2024-05-19",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "MOBILE",
+  "translationType": null,
+  "ownerResponse": {
+    "id": 952499172,
+    "translationType": null,
+    "publishedDate": "2024-05-26",
+    "language": "en",
+    "text": "Dear Amy,\n\nThank you so much for kindly sharing your experience with us. Ping was absolutely delighted to receive such wonderful feedback from you. We can't wait to have the pleasure of welcoming you back again soon.\n\nWarm regards,\nHobart City Apartments Management Team",
+    "username": "Front Office T",
+    "connectionToSubject": "Guest Services / Front Office",
+    "userProfile": {
+      "avatar": {
+        "photoSizes": [
+          {
+            "width": 1200,
+            "height": 1200,
+            "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/eb/a3/default-avatar-2020-38.jpg?w=1200&h=-1&s=1"
+          }
+        ]
+      }
+    }
+  },
+  "tripInfo": {
+    "stayDate": "2024-05-31",
+    "tripType": "FRIENDS"
+  },
+  "locationId": 20860981,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g255097-d20860981-r951555217-Hobart_City_Apartments-Hobart_Greater_Hobart_Tasmania.html",
+  "title": "Perfect place for a weekend stay",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Everything about our stay at Hobart City Apartments was fantastic. The delightful Ping assisted initially with booking multiple rooms for our group stay.\nWe were welcomed warmly and the staff were great to deal with. \nWe stayed in the 3 bedroom penthouse and it was brilliant! High ceilings, comfy beds, all amenities as advertised.\nThe location was great - quick walk to supermarkets and restaurants, 10min downhill stroll to the harbour.\nWould absolutely stay here again",
+  "username": "Amyb1449",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g255097-d20860981-r951555217-Hobart_City_Apartments-Hobart_Greater_Hobart_Tasmania.html",
+  "attribution": null,
+  "location": {
+    "locationId": 20860981,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Hobart City Apartments"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 21,
+      "helpfulVote": null
+    },
+    "id": "D53935ED9FCFB10437DCA4EC15E1CE3B",
+    "userId": "D53935ED9FCFB10437DCA4EC15E1CE3B",
+    "displayName": "Amy B",
+    "username": "Amyb1449",
+    "hometown": {
+      "locationId": 255350,
+      "fallbackString": "255350",
+      "location": {
+        "locationId": 255350,
+        "name": "Geelong",
+        "additionalNames": {
+          "long": "Geelong, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/Amyb1449"
+    },
+    "avatar": {
+      "id": 452386394,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g255097-d20860981-Reviews-Hobart_City_Apartments-Hobart_Greater_Hobart_Tasmania.html",
+  "id": 913775670,
+  "createdDate": "2023-08-29",
+  "publishedDate": "2023-08-29",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2023-08-31",
+    "tripType": "SOLO"
+  },
+  "locationId": 20860981,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g255097-d20860981-r913775670-Hobart_City_Apartments-Hobart_Greater_Hobart_Tasmania.html",
+  "title": "Excellent value, spacious studio apartment centrally located in Hobart.",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Excellent value, spacious studio apartment centrally located in Hobart.  Only a couple of blocks to the waterfront and Salamanca markets. Surrounded by restaurants, cafes and a supermarket around the corner.  Very friendly staff.",
+  "username": "FelicityS910",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g255097-d20860981-r913775670-Hobart_City_Apartments-Hobart_Greater_Hobart_Tasmania.html",
+  "attribution": null,
+  "location": {
+    "locationId": 20860981,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Hobart City Apartments"
+  },
+  "additionalRatings": [
+    {
+      "rating": 5,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Location"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Service"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 8,
+      "helpfulVote": null
+    },
+    "id": "1578AAE2871B1C03E786734B3633022A",
+    "userId": "1578AAE2871B1C03E786734B3633022A",
+    "displayName": "Felicity S",
+    "username": "FelicityS910",
+    "hometown": {
+      "locationId": 255100,
+      "fallbackString": "255100",
+      "location": {
+        "locationId": 255100,
+        "name": "Melbourne",
+        "additionalNames": {
+          "long": "Melbourne, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/FelicityS910"
+    },
+    "avatar": {
+      "id": 19820710,
+      "photoSizes": [
+        {
+          "width": 205,
+          "height": 205,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-f/01/2e/70/a6/avatar077.jpg?w=205&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g255097-d20860981-Reviews-Hobart_City_Apartments-Hobart_Greater_Hobart_Tasmania.html",
+  "id": 891964834,
+  "createdDate": "2023-05-25",
+  "publishedDate": "2023-05-25",
+  "provider": null,
+  "rating": 4,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2023-03-31",
+    "tripType": "COUPLES"
+  },
+  "locationId": 20860981,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g255097-d20860981-r891964834-Hobart_City_Apartments-Hobart_Greater_Hobart_Tasmania.html",
+  "title": "Great locations",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Walking distance to harbour & restaurants. Good size of room tidy & clean, they cleaned our room on the weekend too. Friendly & helpful  staffs. Will go back and stay here again and recommend to others.",
+  "username": "msgt97",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g255097-d20860981-r891964834-Hobart_City_Apartments-Hobart_Greater_Hobart_Tasmania.html",
+  "attribution": null,
+  "location": {
+    "locationId": 20860981,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Hobart City Apartments"
+  },
+  "additionalRatings": [
+    {
+      "rating": 5,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Location"
+    },
+    {
+      "rating": 4,
+      "ratingLabel": "Service"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 134,
+      "helpfulVote": null
+    },
+    "id": "03C7490EAA019F9E74DB11F3C74B84EA",
+    "userId": "03C7490EAA019F9E74DB11F3C74B84EA",
+    "displayName": "msgt97",
+    "username": "msgt97",
+    "hometown": {
+      "locationId": 255060,
+      "fallbackString": "255060",
+      "location": {
+        "locationId": 255060,
+        "name": "Sydney",
+        "additionalNames": {
+          "long": "Sydney, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/msgt97"
+    },
+    "avatar": {
+      "id": 715475094,
+      "photoSizes": [
+        {
+          "width": 690,
+          "height": 690,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/a5/48/96/caption.jpg?w=690&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g255097-d20860981-Reviews-Hobart_City_Apartments-Hobart_Greater_Hobart_Tasmania.html",
+  "id": 888296667,
+  "createdDate": "2023-04-30",
+  "publishedDate": "2023-04-29",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "MOBILE",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2023-04-30",
+    "tripType": "COUPLES"
+  },
+  "locationId": 20860981,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g255097-d20860981-r888296667-Hobart_City_Apartments-Hobart_Greater_Hobart_Tasmania.html",
+  "title": "Hello Tasmania",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Great apartments, in the centre of Hobart cbd. Walking distance to the waters edge, approx 8 minutes. Apartment is well appointed and clean. We will be back to this accommodation.\nIf you have a car make sure you book the parking at $20 a day, this is well worth it as parking on the street is difficult at this location.\nMany dinning options around the apartment and down at the waters edge.",
+  "username": "fsgaspo",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g255097-d20860981-r888296667-Hobart_City_Apartments-Hobart_Greater_Hobart_Tasmania.html",
+  "attribution": null,
+  "location": {
+    "locationId": 20860981,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Hobart City Apartments"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 182,
+      "helpfulVote": null
+    },
+    "id": "F75C0EA32FCFD81E7B0D8EB338E2375C",
+    "userId": "F75C0EA32FCFD81E7B0D8EB338E2375C",
+    "displayName": "fsgaspo",
+    "username": "fsgaspo",
+    "hometown": {
+      "locationId": 255060,
+      "fallbackString": "255060",
+      "location": {
+        "locationId": 255060,
+        "name": "Sydney",
+        "additionalNames": {
+          "long": "Sydney, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/fsgaspo"
+    },
+    "avatar": {
+      "id": 426573465,
+      "photoSizes": [
+        {
+          "width": 960,
+          "height": 960,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/6c/fe/99/fsgaspo.jpg?w=960&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g255097-d20860981-Reviews-Hobart_City_Apartments-Hobart_Greater_Hobart_Tasmania.html",
+  "id": 878603958,
+  "createdDate": "2023-02-13",
+  "publishedDate": "2023-02-13",
+  "provider": null,
+  "rating": 2,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2023-02-28",
+    "tripType": "COUPLES"
+  },
+  "locationId": 20860981,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g255097-d20860981-r878603958-Hobart_City_Apartments-Hobart_Greater_Hobart_Tasmania.html",
+  "title": "Very disappointed",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "The only good things about this place was the free washing machine for guests. \nIt was centrally located however that’s where it stops. Our room smelt musty, the shower leaked, room was not serviced. We stayed for 8 nights and I had to request a sheet change. \nThe cleaners didn’t clean the toilet or shower the whole time we were there. \nThe dust that was on the floor when we arrived was just pushed around. \nThe saucepans in the cupboard were filthy with dried on food from previous guests. Our windows were dirty with a dried on bird poo down the middle of it. \nVery disappointing snd not cheap $2800 for 8 night’s accommodation. \nWe wouldn’t stay here ever again and would not recommend. ",
+  "username": "leesak2018",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g255097-d20860981-r878603958-Hobart_City_Apartments-Hobart_Greater_Hobart_Tasmania.html",
+  "attribution": null,
+  "location": {
+    "locationId": 20860981,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Hobart City Apartments"
+  },
+  "additionalRatings": [
+    {
+      "rating": 2,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 4,
+      "ratingLabel": "Location"
+    },
+    {
+      "rating": 2,
+      "ratingLabel": "Service"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 2,
+      "helpfulVote": null
+    },
+    "id": "EA022D36E636D29B2E72A258022BC61B",
+    "userId": "EA022D36E636D29B2E72A258022BC61B",
+    "displayName": "leesa k",
+    "username": "leesak2018",
+    "hometown": {
+      "locationId": null,
+      "fallbackString": null,
+      "location": null
+    },
+    "route": {
+      "url": "/Profile/leesak2018"
+    },
+    "avatar": {
+      "id": 452361217,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/7c/01/default-avatar-2020-5.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g255097-d20860981-Reviews-Hobart_City_Apartments-Hobart_Greater_Hobart_Tasmania.html",
+  "id": 874819917,
+  "createdDate": "2023-01-12",
+  "publishedDate": "2023-01-11",
+  "provider": null,
+  "rating": 4,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2023-01-31",
+    "tripType": "FRIENDS"
+  },
+  "locationId": 20860981,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g255097-d20860981-r874819917-Hobart_City_Apartments-Hobart_Greater_Hobart_Tasmania.html",
+  "title": "Great Value for Money & Well Situated",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Hobart City Apartments is located right in the downtown shopping district of the city.  You don't stay there for the view, but you are in the thick of things and still only a 12 minute walk to the harbor for endless choices of restaurants, bars, cafes, etc.  With notice and availability, they offer underground parking for $20.00 a night.  Otherwise, there is night street parking and a couple of lots close by.\n\nThough this review focusses specifically on the 2 bedroom, 2 bathroom penthouse apartment where we spent 6 nights, 3 of us first spent 1 night in two large single rooms, while awaiting availability of the Penthouse apartment.  Each large room included a king bed, with end tables and lamps, a wall mounted TV, and a seating area, plus a good sized bathroom with large walk in shower.  These 1 bedroom units include a small kitchen with a mini fridge, and stove top, microwave and dishwasher.\n\nSuffice to say that both the single units and the Penthouse we stayed in, are beautifully and relatively recently decorated, and very comfortable.\n\nThe Penthouse apartments are large and feel quite new, like the single units.  Similarly they  are well appointed, and nicely decorated, with lots of light.  \n\nThe upstairs consists of one bedroom, with a king bed, end tables, table lamps and a wall mounted TV, plus an ensuite bathroom.  The bedroom space is tight which of course, can't be helped, and so there's minimal drawer storage though enough if you plan it out well. There's a wide, deep ledge in front of the window, so one of us used that to lay out clothes, and toiletries, while the other used the shelves in the closet and though we needed more hangers, there was enough hanging space for 2 of us.\n\nThe suites are relatively new so having what felt like new bathrooms was a bonus.  The upstairs bathroom has no counter space but under counter storage, a large shower and it's well designed.  There is no door at the top of the stairs into that bedroom/bathroom, so if privacy is an issue, be prepared.\n\nThe main floor houses a small kitchen, with a microwave, full fridge and stove, flat cooktop, plus dishwasher and just enough plates, cups, glasses and utensils to get by.  Don't plan on cooking a big meal though.  It's best for breakfast, and serving up take-away.\n\nThe adjacent living space had a large, 'pleather' (ie: looks like but isn't leather) couch and matching chair and the flat screen TV is mounted on the wall beneath a media unit, and across from the couch so it's a pleasant place to sit.   Behind the occasional chair, is a small dining table, seating 6, then a sliding door, and screen out to a large but unfurnished patio.    It would be nice to offer up 4 outdoor chairs and a couple of small side tables to enjoy a cocktail.\n\nThe 2nd bedroom on the main floor, is larger than the upstairs, and houses a Queen size bed, end tables, with lights, and a closet.   There is no TV in that room; something else they should add.\n\nThe 2nd, large bathroom is across from the apartment entry.  It's a beautiful bathroom, with one of those lux toilets that offer washes, drying, disco lighting, and a warm toilet seat!  LOL!  The shower, like the one in the upstairs bathroom was roomy and this bathroom included counter space as well as under cabinet storage.\n\nAll in all, a lovely, comfortable, well decorated unit - the only issues that may be of concern is the lack of privacy on the upper level bedroom/bath area (as an interior decorator/designer, I have a solution should they be interested!, and the 2nd bedroom without a TV, and access to a main bathroom by walking through the living space.  The latter, didn't bother this 3-person group; so this is just fyi.\n\nHobart City Apartments is a great value for the money, well located, comfortable, clean and attractive.   We'd stay there again!\n",
+  "username": "Bearswife",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g255097-d20860981-r874819917-Hobart_City_Apartments-Hobart_Greater_Hobart_Tasmania.html",
+  "attribution": null,
+  "location": {
+    "locationId": 20860981,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Hobart City Apartments"
+  },
+  "additionalRatings": [
+    {
+      "rating": 5,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 4,
+      "ratingLabel": "Location"
+    },
+    {
+      "rating": 4,
+      "ratingLabel": "Service"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 119,
+      "helpfulVote": null
+    },
+    "id": "3DA167D83C5052964B6F1B654BF43DC7",
+    "userId": "3DA167D83C5052964B6F1B654BF43DC7",
+    "displayName": "Jackie W",
+    "username": "Bearswife",
+    "hometown": {
+      "locationId": 255100,
+      "fallbackString": "255100",
+      "location": {
+        "locationId": 255100,
+        "name": "Melbourne",
+        "additionalNames": {
+          "long": "Melbourne, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/Bearswife"
+    },
+    "avatar": null
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g255097-d20860981-Reviews-Hobart_City_Apartments-Hobart_Greater_Hobart_Tasmania.html",
+  "id": 873462910,
+  "createdDate": "2022-12-31",
+  "publishedDate": "2022-12-31",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2022-12-31",
+    "tripType": "NONE"
+  },
+  "locationId": 20860981,
+  "mcid": 10568,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g255097-d20860981-r873462910-Hobart_City_Apartments-Hobart_Greater_Hobart_Tasmania.html",
+  "title": "Great value, perfect location",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "About as close as you can get to the centre of Hobart, with everything in easy walking distance. Very good value given the location. Big room with fridge that was great for a family of 3. Friendly staff at reception.",
+  "username": "Don J",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g255097-d20860981-r873462910-Hobart_City_Apartments-Hobart_Greater_Hobart_Tasmania.html",
+  "attribution": null,
+  "location": {
+    "locationId": 20860981,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Hobart City Apartments"
+  },
+  "additionalRatings": [
+    {
+      "rating": 5,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Service"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Sleep Quality"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 22,
+      "helpfulVote": null
+    },
+    "id": "89409A09E0D6127F22C1794DEE275B95",
+    "userId": "89409A09E0D6127F22C1794DEE275B95",
+    "displayName": "donjohnstone",
+    "username": "donjohnstone",
+    "hometown": {
+      "locationId": 255060,
+      "fallbackString": "255060",
+      "location": {
+        "locationId": 255060,
+        "name": "Sydney",
+        "additionalNames": {
+          "long": "Sydney, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/donjohnstone"
+    },
+    "avatar": {
+      "id": 452387345,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e2/11/default-avatar-2020-41.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+}]

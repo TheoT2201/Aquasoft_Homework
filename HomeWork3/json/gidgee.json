@@ -1,0 +1,844 @@
+[{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g499646-d1500379-Reviews-Gidgee_Inn_Motel-Cloncurry_Queensland.html",
+  "id": 1032005085,
+  "createdDate": "2025-09-25",
+  "publishedDate": "2025-09-24",
+  "provider": null,
+  "rating": 4,
+  "publishPlatform": "MOBILE",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2025-09-30",
+    "tripType": "BUSINESS"
+  },
+  "locationId": 1500379,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g499646-d1500379-r1032005085-Gidgee_Inn_Motel-Cloncurry_Queensland.html",
+  "title": "Nicest accom’s in the Curry",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "The bathroom alone is bigger than a donga.\nI see the restaurant has changed a bit, used to be very expensive, now seems there’s fewer options but much more reasonable prices for meals. Heaps of (undercover) parking that’ll fit a mine site compliant LV ie. ROPs and lights/beacon plus the overflow for trailers etc.\nLads said the pool needs a clean and a chlorine bomb. Traffic noise was a lot louder than I expected but room was nice and dark and WiFi worked (though I couldn’t find password details anywhere in my room).\nGetting pedantic here but access to the powerpoints in the microwave recess was annoying. 3 bottles of water in the fridge, heaps of milks, instant coffee, sugars, biscuits etc were very welcome",
+  "username": "chrisbB9612TG",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g499646-d1500379-r1032005085-Gidgee_Inn_Motel-Cloncurry_Queensland.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1500379,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Gidgee Inn Motel"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 40,
+      "helpfulVote": null
+    },
+    "id": "AD285379C6080F19E7F69823EFD6546E",
+    "userId": "AD285379C6080F19E7F69823EFD6546E",
+    "displayName": "botters",
+    "username": "chrisbB9612TG",
+    "hometown": {
+      "locationId": 255103,
+      "fallbackString": "255103",
+      "location": {
+        "locationId": 255103,
+        "name": "Perth",
+        "additionalNames": {
+          "long": "Perth, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/chrisbB9612TG"
+    },
+    "avatar": {
+      "id": 452360110,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/77/ae/default-avatar-2020-2.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g499646-d1500379-Reviews-Gidgee_Inn_Motel-Cloncurry_Queensland.html",
+  "id": 1029521987,
+  "createdDate": "2025-09-09",
+  "publishedDate": "2025-09-09",
+  "provider": null,
+  "rating": 1,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2025-09-30",
+    "tripType": "BUSINESS"
+  },
+  "locationId": 1500379,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g499646-d1500379-r1029521987-Gidgee_Inn_Motel-Cloncurry_Queensland.html",
+  "title": "Cashless means customer less for me",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "I arrived at the venue, ordered a drink and was advised after trying to pay with cash that is was a Cashless venue, so I walked out after paying for the drink I ordered.",
+  "username": "J490SRjeffe",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g499646-d1500379-r1029521987-Gidgee_Inn_Motel-Cloncurry_Queensland.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1500379,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Gidgee Inn Motel"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 1,
+      "helpfulVote": null
+    },
+    "id": "8A7D5AFB2D760F214C49A81F291CF215",
+    "userId": "8A7D5AFB2D760F214C49A81F291CF215",
+    "displayName": "Jeff E",
+    "username": "J490SRjeffe",
+    "hometown": {
+      "locationId": null,
+      "fallbackString": null,
+      "location": null
+    },
+    "route": {
+      "url": "/Profile/J490SRjeffe"
+    },
+    "avatar": {
+      "id": 452389307,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e9/bb/default-avatar-2020-65.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g499646-d1500379-Reviews-Gidgee_Inn_Motel-Cloncurry_Queensland.html",
+  "id": 1026320460,
+  "createdDate": "2025-08-23",
+  "publishedDate": "2025-08-23",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "MOBILE",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2025-08-31",
+    "tripType": "BUSINESS"
+  },
+  "locationId": 1500379,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [
+    {
+      "id": 820362536,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 2048,
+          "height": 1536,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/e5/bd/28/caption.jpg?w=2048&h=-1&s=1"
+        }
+      ]
+    }
+  ],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g499646-d1500379-r1026320460-Gidgee_Inn_Motel-Cloncurry_Queensland.html",
+  "title": "Great visit. Highly recommend.",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Great rooms, awesome atmosphere and really helpful managers. \n\nWe booked 5 rooms as we were attending a conference in town. It was a great stay and all of our guests loved the clay walls.\n\nFood in the restaurant was great quality. Steaks were amazing and other meals equally delicious.",
+  "username": "655diannen",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g499646-d1500379-r1026320460-Gidgee_Inn_Motel-Cloncurry_Queensland.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1500379,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Gidgee Inn Motel"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 77,
+      "helpfulVote": null
+    },
+    "id": "1C24618F4D2F903697AC3218220A3120",
+    "userId": "1C24618F4D2F903697AC3218220A3120",
+    "displayName": "Tapped Out Travellers",
+    "username": "655diannen",
+    "hometown": {
+      "locationId": 255073,
+      "fallbackString": "255073",
+      "location": {
+        "locationId": 255073,
+        "name": "Townsville",
+        "additionalNames": {
+          "long": "Townsville, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/655diannen"
+    },
+    "avatar": {
+      "id": 693868742,
+      "photoSizes": [
+        {
+          "width": 2048,
+          "height": 2046,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/5b/98/c6/caption.jpg?w=2048&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g499646-d1500379-Reviews-Gidgee_Inn_Motel-Cloncurry_Queensland.html",
+  "id": 1020657359,
+  "createdDate": "2025-07-24",
+  "publishedDate": "2025-07-24",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "MOBILE",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2025-07-31",
+    "tripType": "COUPLES"
+  },
+  "locationId": 1500379,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g499646-d1500379-r1020657359-Gidgee_Inn_Motel-Cloncurry_Queensland.html",
+  "title": "High standard motel in a small outback town.",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Everything about this motel was excellent. The room was spacious, modern and well equipped. We are dinner at the restaurant and it was fantastic. Would definitely recommend this motel for people travelling through or for staying a few days. One of the best we have seen on our travels.",
+  "username": "geofft65",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g499646-d1500379-r1020657359-Gidgee_Inn_Motel-Cloncurry_Queensland.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1500379,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Gidgee Inn Motel"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 27,
+      "helpfulVote": null
+    },
+    "id": "EE2930C2594AC2780D72D47C3AC510F9",
+    "userId": "EE2930C2594AC2780D72D47C3AC510F9",
+    "displayName": "geofft65",
+    "username": "geofft65",
+    "hometown": {
+      "locationId": null,
+      "fallbackString": null,
+      "location": null
+    },
+    "route": {
+      "url": "/Profile/geofft65"
+    },
+    "avatar": {
+      "id": 141728144,
+      "photoSizes": [
+        {
+          "width": 769,
+          "height": 769,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/72/99/90/geofft65.jpg?w=769&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g499646-d1500379-Reviews-Gidgee_Inn_Motel-Cloncurry_Queensland.html",
+  "id": 966982265,
+  "createdDate": "2024-08-27",
+  "publishedDate": "2024-08-27",
+  "provider": null,
+  "rating": 4,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2024-08-31",
+    "tripType": "BUSINESS"
+  },
+  "locationId": 1500379,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g499646-d1500379-r966982265-Gidgee_Inn_Motel-Cloncurry_Queensland.html",
+  "title": "Good motel in Cloncurry",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Huge room which included a work desk plus a small table for 2. Large bathroom with plenty of bench space - something sadly lacking in many top price motels/hotels. only complaint was that 1 bedside lamp was missing a bulb, and the bedside lamps are terrible for reading in bed (badly placed and too dim). Great a/c plus a fan.",
+  "username": "Jan804",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g499646-d1500379-r966982265-Gidgee_Inn_Motel-Cloncurry_Queensland.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1500379,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Gidgee Inn Motel"
+  },
+  "additionalRatings": [
+    {
+      "rating": 3,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Rooms"
+    },
+    {
+      "rating": 3,
+      "ratingLabel": "Location"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Cleanliness"
+    },
+    {
+      "rating": 4,
+      "ratingLabel": "Service"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Sleep Quality"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 60,
+      "helpfulVote": null
+    },
+    "id": "0E3A34092EAB20E965DD8D8DA54F98DC",
+    "userId": "0E3A34092EAB20E965DD8D8DA54F98DC",
+    "displayName": "Jan804",
+    "username": "Jan804",
+    "hometown": {
+      "locationId": null,
+      "fallbackString": "Brisbane Airport",
+      "location": null
+    },
+    "route": {
+      "url": "/Profile/Jan804"
+    },
+    "avatar": {
+      "id": 452388586,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e6/ea/default-avatar-2020-54.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g499646-d1500379-Reviews-Gidgee_Inn_Motel-Cloncurry_Queensland.html",
+  "id": 952232392,
+  "createdDate": "2024-05-25",
+  "publishedDate": "2024-05-24",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2024-05-31",
+    "tripType": "COUPLES"
+  },
+  "locationId": 1500379,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g499646-d1500379-r952232392-Gidgee_Inn_Motel-Cloncurry_Queensland.html",
+  "title": "Great Motel",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "We loved this motel.  The managers were very welcoming, and the room was really comfortable.  It was a pleasure to pull into after a long day on the road.  The food in the restaurant was excellent, and altogether, a most enjoyable stay in the outback",
+  "username": "lizzy122015",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g499646-d1500379-r952232392-Gidgee_Inn_Motel-Cloncurry_Queensland.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1500379,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Gidgee Inn Motel"
+  },
+  "additionalRatings": [
+    {
+      "rating": 4,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Rooms"
+    },
+    {
+      "rating": 4,
+      "ratingLabel": "Location"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Cleanliness"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Service"
+    },
+    {
+      "rating": 4,
+      "ratingLabel": "Sleep Quality"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 204,
+      "helpfulVote": null
+    },
+    "id": "507DCFF7515174B43AEF15B38B39CB1A",
+    "userId": "507DCFF7515174B43AEF15B38B39CB1A",
+    "displayName": "lizzy122015",
+    "username": "lizzy122015",
+    "hometown": {
+      "locationId": 255100,
+      "fallbackString": "255100",
+      "location": {
+        "locationId": 255100,
+        "name": "Melbourne",
+        "additionalNames": {
+          "long": "Melbourne, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/lizzy122015"
+    },
+    "avatar": {
+      "id": 452391968,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g499646-d1500379-Reviews-Gidgee_Inn_Motel-Cloncurry_Queensland.html",
+  "id": 925468876,
+  "createdDate": "2023-11-11",
+  "publishedDate": "2023-11-11",
+  "provider": null,
+  "rating": 4,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2023-11-30",
+    "tripType": "SOLO"
+  },
+  "locationId": 1500379,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g499646-d1500379-r925468876-Gidgee_Inn_Motel-Cloncurry_Queensland.html",
+  "title": "Passing through",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "I overnighted here so that I had access to wifi for an online meeting. The bathroom is spacious, the bedroom decor a little dated. The rooms are solid concrete or rammed earth. Meals are available, although this time I didn’t partake. A little expensive, but comfortable.",
+  "username": "328gregm",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g499646-d1500379-r925468876-Gidgee_Inn_Motel-Cloncurry_Queensland.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1500379,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Gidgee Inn Motel"
+  },
+  "additionalRatings": [
+    {
+      "rating": 3,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 4,
+      "ratingLabel": "Location"
+    },
+    {
+      "rating": 4,
+      "ratingLabel": "Service"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 86,
+      "helpfulVote": null
+    },
+    "id": "3FD1ECDF271D707F8714513DEE2E6244",
+    "userId": "3FD1ECDF271D707F8714513DEE2E6244",
+    "displayName": "Greg M",
+    "username": "328gregm",
+    "hometown": {
+      "locationId": 256206,
+      "fallbackString": "256206",
+      "location": {
+        "locationId": 256206,
+        "name": "Tennant Creek",
+        "additionalNames": {
+          "long": "Tennant Creek, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/328gregm"
+    },
+    "avatar": {
+      "id": 452391289,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f1/79/default-avatar-2020-21.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g499646-d1500379-Reviews-Gidgee_Inn_Motel-Cloncurry_Queensland.html",
+  "id": 910416860,
+  "createdDate": "2023-08-14",
+  "publishedDate": "2023-08-14",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "MOBILE",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2023-08-31",
+    "tripType": "SOLO"
+  },
+  "locationId": 1500379,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 1,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g499646-d1500379-r910416860-Gidgee_Inn_Motel-Cloncurry_Queensland.html",
+  "title": "Excellent motel",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "A fantastic motel. Very comfortable rooms with excellent water pressure.\nThe meals were great. Being a vegetarian in cattle country I was delighted to find that the chef was able to cook me the most delicious meal. I was impressed as the meal was far better than ones in the city.",
+  "username": "Christine O",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g499646-d1500379-r910416860-Gidgee_Inn_Motel-Cloncurry_Queensland.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1500379,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Gidgee Inn Motel"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 19,
+      "helpfulVote": null
+    },
+    "id": "C1C4B7FDF04D3CC53E325EA3EE83319F",
+    "userId": "C1C4B7FDF04D3CC53E325EA3EE83319F",
+    "displayName": "Christine O",
+    "username": "278christineo",
+    "hometown": {
+      "locationId": 1390129,
+      "fallbackString": "1390129",
+      "location": {
+        "locationId": 1390129,
+        "name": "Helensvale",
+        "additionalNames": {
+          "long": "Helensvale, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/278christineo"
+    },
+    "avatar": {
+      "id": 452390619,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ee/db/default-avatar-2020-10.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g499646-d1500379-Reviews-Gidgee_Inn_Motel-Cloncurry_Queensland.html",
+  "id": 893009574,
+  "createdDate": "2023-06-01",
+  "publishedDate": "2023-06-01",
+  "provider": null,
+  "rating": 1,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2023-06-30",
+    "tripType": "BUSINESS"
+  },
+  "locationId": 1500379,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g499646-d1500379-r893009574-Gidgee_Inn_Motel-Cloncurry_Queensland.html",
+  "title": "Used to be a joy to stay ",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Have been coming here for years.  Have slowly watch the place go down hill with the new owners.  Rooms are dirty.  The milk and water had been used by previous guest.  The lawn in the pool area has not been mowed for a while.  This place used to be fantastic until Southern Cross Motel Group took over.  Hate to think how the hotels standards are in the other hotels in the other towns.  ",
+  "username": "K624DPbelindas",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g499646-d1500379-r893009574-Gidgee_Inn_Motel-Cloncurry_Queensland.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1500379,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Gidgee Inn Motel"
+  },
+  "additionalRatings": [
+    {
+      "rating": 1,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 1,
+      "ratingLabel": "Location"
+    },
+    {
+      "rating": 1,
+      "ratingLabel": "Service"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 1,
+      "helpfulVote": null
+    },
+    "id": "22ACF5C7692F311DC04970AB6FCE8EB4",
+    "userId": "22ACF5C7692F311DC04970AB6FCE8EB4",
+    "displayName": "Belinda S",
+    "username": "K624DPbelindas",
+    "hometown": {
+      "locationId": null,
+      "fallbackString": null,
+      "location": null
+    },
+    "route": {
+      "url": "/Profile/K624DPbelindas"
+    },
+    "avatar": {
+      "id": 452391968,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/20/default-avatar-2020-31.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g499646-d1500379-Reviews-Gidgee_Inn_Motel-Cloncurry_Queensland.html",
+  "id": 891064151,
+  "createdDate": "2023-05-19",
+  "publishedDate": "2023-05-19",
+  "provider": null,
+  "rating": 3,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2023-03-31",
+    "tripType": "COUPLES"
+  },
+  "locationId": 1500379,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g499646-d1500379-r891064151-Gidgee_Inn_Motel-Cloncurry_Queensland.html",
+  "title": "Tired but okay",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Understanding that new management had been appointed and all hospitality staff were new , the property is well set out , a small walk into town, however our room was very dusty and cleaning was not up to scratch, we missed out on fresh towels two days in a row, and were unable to get towels as reception was closed each time we discovered.\nOur group ended up buying fruit for our continental breakfast, evening meals were not appetizing.",
+  "username": "TeresaD2294",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g499646-d1500379-r891064151-Gidgee_Inn_Motel-Cloncurry_Queensland.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1500379,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Gidgee Inn Motel"
+  },
+  "additionalRatings": [
+    {
+      "rating": 2,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 4,
+      "ratingLabel": "Location"
+    },
+    {
+      "rating": 2,
+      "ratingLabel": "Service"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 1,
+      "helpfulVote": null
+    },
+    "id": "F1DC298C67185254046A332124B0A13F",
+    "userId": "F1DC298C67185254046A332124B0A13F",
+    "displayName": "Teresa D",
+    "username": "TeresaD2294",
+    "hometown": {
+      "locationId": null,
+      "fallbackString": null,
+      "location": null
+    },
+    "route": {
+      "url": "/Profile/TeresaD2294"
+    },
+    "avatar": null
+  }
+}]

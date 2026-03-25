@@ -1,0 +1,155 @@
+[{
+  "id": "19609416",
+  "type": "HOTEL",
+  "category": "hotel",
+  "subcategories": [
+    "Specialty Lodging"
+  ],
+  "name": "Honeysuckle Executive Apartments",
+  "locationString": "Newcastle, Greater Newcastle, New South Wales",
+  "description": null,
+  "image": "https://media-cdn.tripadvisor.com/media/photo-w/1c/63/b5/bc/photo5jpg.jpg",
+  "photoCount": 26,
+  "rankingPosition": 36,
+  "rating": 1.9,
+  "rawRanking": 2.182074546813965,
+  "phone": "+61 2 4941 6669",
+  "address": "Settlement La Honeysuckle Drive, Newcastle, New South Wales 2300 Australia",
+  "addressObj": {
+    "street1": "Settlement La",
+    "street2": "Honeysuckle Drive",
+    "city": "Newcastle",
+    "state": "New South Wales",
+    "country": "Australia",
+    "postalcode": "2300"
+  },
+  "localName": "Honeysuckle Executive Apartments",
+  "localAddress": "Settlement La, Honeysuckle Drive, 2300",
+  "localLangCode": "en-AU",
+  "email": "res@jev.com.au",
+  "latitude": -32.92642,
+  "longitude": 151.76999,
+  "webUrl": "https://www.tripadvisor.com/Hotel_Review-g255325-d19609416-Reviews-Honeysuckle_Executive_Apartments-Newcastle_Greater_Newcastle_New_South_Wales.html",
+  "website": "https://www.honeysuckleapartments.com.au/",
+  "rankingString": "#36 of 53 Specialty lodging in Newcastle",
+  "rankingDenominator": "53",
+  "rankingSource": "API",
+  "neighborhoodLocations": [],
+  "nearestMetroStations": [],
+  "ancestorLocations": [
+    {
+      "id": "255325",
+      "name": "Newcastle",
+      "abbreviation": null,
+      "subcategory": "City"
+    },
+    {
+      "id": "2717917",
+      "name": "Greater Newcastle",
+      "abbreviation": null,
+      "subcategory": "District"
+    },
+    {
+      "id": "255058",
+      "name": "New South Wales",
+      "abbreviation": null,
+      "subcategory": "State"
+    },
+    {
+      "id": "255055",
+      "name": "Australia",
+      "abbreviation": null,
+      "subcategory": "Country"
+    }
+  ],
+  "ratingHistogram": {
+    "count1": 15,
+    "count2": 3,
+    "count3": 2,
+    "count4": 2,
+    "count5": 2
+  },
+  "numberOfReviews": 24,
+  "hotelClass": "4.0",
+  "hotelClassAttribution": "This property is classified according to Giata.",
+  "amenities": [],
+  "priceLevel": "$$",
+  "priceRange": "$100 - $217",
+  "roomTips": [
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Avoid staying at this apartment. The manger is not helpful.",
+      "rating": "1",
+      "reviewId": "945783849",
+      "id": "945783849",
+      "createdTime": "2024-04-07T21:36:51-04:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Avoid at all costs!",
+      "rating": "1",
+      "reviewId": "833461846",
+      "id": "833461846",
+      "createdTime": "2022-04-04T20:40:35-04:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Don’t trust them and what they say to you.",
+      "rating": "1",
+      "reviewId": "831320525",
+      "id": "831320525",
+      "createdTime": "2022-03-15T23:41:50-04:00"
+    }
+  ],
+  "checkInDate": "2026-03-26",
+  "checkOutDate": "2026-03-27",
+  "numberOfRooms": null,
+  "categoryReviewScores": [
+    {
+      "categoryName": "Location",
+      "score": 4,
+      "roundedScore": 4
+    },
+    {
+      "categoryName": "Rooms",
+      "score": 4,
+      "roundedScore": 4
+    },
+    {
+      "categoryName": "Value",
+      "score": 2.3333333,
+      "roundedScore": 2.3
+    },
+    {
+      "categoryName": "Cleanliness",
+      "score": 3.5,
+      "roundedScore": 3.5
+    },
+    {
+      "categoryName": "Service",
+      "score": 2.2,
+      "roundedScore": 2.2
+    }
+  ],
+  "aiReviewsSummary": null,
+  "whatsAppRedirectUrl": null,
+  "travelerChoiceAward": null,
+  "offers": [
+    {
+      "pricePerNight": 204,
+      "tax": 0,
+      "priceText": "$205",
+      "taxesAndFeesText": null,
+      "totalStayPriceText": null,
+      "priceBeforeSale": null,
+      "provider": "Siteminder",
+      "vendor": "Official Site",
+      "canPayInInstallments": false
+    }
+  ],
+  "reviewTags": [],
+  "isNearbyResult": false
+}]

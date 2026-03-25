@@ -1,0 +1,212 @@
+[{
+  "id": "1063944",
+  "type": "HOTEL",
+  "category": "hotel",
+  "subcategories": [
+    "Hotel"
+  ],
+  "name": "Wattle Grove Motel",
+  "locationString": "Wattle Grove, Greater Perth, Western Australia",
+  "description": "The Wattle Grove Motel is conveniently located on Welshpool Road East - nestled between the Roe and Tonkin Highway. We are very close to the airport and offer 3 and a half star accommodation. All rooms are situated on the ground floor with parking directly outside your door. If you have additional vehicles, we have a large car park that can house your trailer or large 4WD. All rooms have Foxtel, reverse cycle air conditioning, kitchenette with microwave. The Grove Grill is our fully licensed restaurant and offers dinner 7 nights per week from 530pm and we also provide room service if you'd prefer to eat in. Rooms are serviced daily and we are situated on 5 acres amongst tall trees and extensive gardens.",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/2c/04/48/2a/property.jpg",
+  "photoCount": 52,
+  "rankingPosition": 1,
+  "rating": 3.9,
+  "rawRanking": 3.2369918823242188,
+  "phone": "+61 8 9359 1119",
+  "address": "610 Welshpool Rd E, Wattle Grove, Western Australia 6107 Australia",
+  "addressObj": {
+    "street1": "610 Welshpool Rd E",
+    "street2": "",
+    "city": "Wattle Grove",
+    "state": "Western Australia",
+    "country": "Australia",
+    "postalcode": "6107"
+  },
+  "localName": "Wattle Grove Motel",
+  "localAddress": "610 Welshpool Rd E, 6107",
+  "localLangCode": "en-AU",
+  "email": "info@wattlegrovemotel.com.au",
+  "latitude": -32.00474,
+  "longitude": 115.98951,
+  "webUrl": "https://www.tripadvisor.com/Hotel_Review-g2486879-d1063944-Reviews-Wattle_Grove_Motel-Wattle_Grove_Greater_Perth_Western_Australia.html",
+  "website": "http://www.wattlegrovemotel.com.au/",
+  "rankingString": "#1 of 1 hotel in Wattle Grove",
+  "rankingDenominator": "1",
+  "rankingSource": "API",
+  "neighborhoodLocations": [],
+  "nearestMetroStations": [],
+  "ancestorLocations": [
+    {
+      "id": "2486879",
+      "name": "Wattle Grove",
+      "abbreviation": null,
+      "subcategory": "City"
+    },
+    {
+      "id": "2650698",
+      "name": "Greater Perth",
+      "abbreviation": null,
+      "subcategory": "Department"
+    },
+    {
+      "id": "255101",
+      "name": "Western Australia",
+      "abbreviation": null,
+      "subcategory": "State"
+    },
+    {
+      "id": "255055",
+      "name": "Australia",
+      "abbreviation": null,
+      "subcategory": "Country"
+    }
+  ],
+  "ratingHistogram": {
+    "count1": 7,
+    "count2": 2,
+    "count3": 12,
+    "count4": 50,
+    "count5": 27
+  },
+  "numberOfReviews": 98,
+  "hotelClass": "4.0",
+  "hotelClassAttribution": "This property is classified according to Giata.",
+  "amenities": [
+    "Room service",
+    "Free parking",
+    "Restaurant",
+    "Internet",
+    "Wheelchair access",
+    "Bar/Lounge",
+    "Non-smoking rooms",
+    "Air conditioning",
+    "Self-Serve Laundry",
+    "Accessible rooms",
+    "Refrigerator in room",
+    "Flatscreen TV",
+    "Bath / Shower",
+    "Pool",
+    "Kitchenette",
+    "Wifi",
+    "Public Wifi",
+    "Dry Cleaning",
+    "Meeting rooms",
+    "Business center",
+    "Laundry Service",
+    "Concierge",
+    "Family Rooms",
+    "Microwave",
+    "Non-smoking hotel",
+    "Safe",
+    "Outdoor pool",
+    "Parking",
+    "Housekeeping",
+    "Baggage Storage",
+    "Coffee / Tea Maker",
+    "Complimentary Tea",
+    "English",
+    "Complimentary Instant Coffee",
+    "Special Diet Menus",
+    "Taxi Service"
+  ],
+  "priceLevel": "$$",
+  "priceRange": "$120 - $135",
+  "roomTips": [
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Don't consider a booking means anything. I will say, however, management did contact me to apologize.",
+      "rating": "1",
+      "reviewId": "928306787",
+      "id": "928306787",
+      "createdTime": "2023-12-03T13:36:15-05:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Rooms down the back would be quieter",
+      "rating": "4",
+      "reviewId": "623354645",
+      "id": "623354645",
+      "createdTime": "2018-10-08T16:56:09-04:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Rooms to the rear of the motel are quieter because they are further away from the road.",
+      "rating": "4",
+      "reviewId": "602048021",
+      "id": "602048021",
+      "createdTime": "2018-08-02T03:42:28-04:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "All ground floor so very easy and parking is in front of the room",
+      "rating": "5",
+      "reviewId": "583540007",
+      "id": "583540007",
+      "createdTime": "2018-05-29T00:12:35-04:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Close to reception",
+      "rating": "1",
+      "reviewId": "546786976",
+      "id": "546786976",
+      "createdTime": "2017-12-12T02:26:10-05:00"
+    }
+  ],
+  "checkInDate": "2026-03-26",
+  "checkOutDate": "2026-03-27",
+  "numberOfRooms": 60,
+  "categoryReviewScores": [
+    {
+      "categoryName": "Location",
+      "score": 3.9166666999999995,
+      "roundedScore": 3.9
+    },
+    {
+      "categoryName": "Rooms",
+      "score": 4.25,
+      "roundedScore": 4.3
+    },
+    {
+      "categoryName": "Value",
+      "score": 4.0454545,
+      "roundedScore": 4
+    },
+    {
+      "categoryName": "Cleanliness",
+      "score": 4.428571,
+      "roundedScore": 4.4
+    },
+    {
+      "categoryName": "Service",
+      "score": 4.016129000000001,
+      "roundedScore": 4
+    },
+    {
+      "categoryName": "Sleep Quality",
+      "score": 4.2941175000000005,
+      "roundedScore": 4.3
+    }
+  ],
+  "aiReviewsSummary": null,
+  "whatsAppRedirectUrl": null,
+  "travelerChoiceAward": null,
+  "offers": [],
+  "reviewTags": [
+    {
+      "text": "stayed here",
+      "reviews": 20
+    },
+    {
+      "text": "room was spacious",
+      "reviews": 2
+    }
+  ],
+  "isNearbyResult": false
+}]

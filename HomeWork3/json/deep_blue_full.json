@@ -1,0 +1,365 @@
+[{
+  "id": "1529307",
+  "type": "HOTEL",
+  "category": "hotel",
+  "subcategories": [
+    "Hotel"
+  ],
+  "name": "Deep Blue Hotel & Hot Springs",
+  "locationString": "Warrnambool, Victoria",
+  "description": "The Deep Blue Hotel & Hot Springs is your destination to Relax, Rejuvenate & Replenish. With over 80 well-appointed guest rooms—each with its own private balcony—and impressive Penthouse Apartments offering stunning ocean views, the hotel is designed to fulfil your holiday dreams. Unwind in the Hot Springs Sanctuary, where geothermal rock pools, sensory caves, and waterfalls invite you to soak in naturally therapeutic geothermal waters rich in restorative minerals. Treat yourself to a relaxing massage or indulge in organic facials and body treatments at the Day Spa. Experience the benefits of Halotherapy in our Salt Room. Start your day with a delicious buffet breakfast and wind down in the evening with our chef's signature degustation menu. Perfectly located on the scenic Warrnambool foreshore, the hotel is surrounded by coastal walking and cycling trails and is just steps from some of the best beaches along the Great Ocean Road, including Warrnambool’s main swimming beach.",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-s/32/6b/6f/bc/studio-room.jpg",
+  "photoCount": 582,
+  "rankingPosition": 9,
+  "rating": 3.9,
+  "rawRanking": 3.745307445526123,
+  "phone": "+61 3 5559 2000",
+  "address": "Worm Bay Road, Warrnambool, Victoria 3280 Australia",
+  "addressObj": {
+    "street1": "Worm Bay Road",
+    "street2": "",
+    "city": "Warrnambool",
+    "state": "Victoria",
+    "country": "Australia",
+    "postalcode": "3280"
+  },
+  "localName": "Deep Blue Hotel & Hot Springs",
+  "localAddress": "Worm Bay Road, 3280",
+  "localLangCode": "en-AU",
+  "email": "reservations@thedeepblue.com.au",
+  "latitude": -38.39731,
+  "longitude": 142.4746,
+  "webUrl": "https://www.tripadvisor.com/Hotel_Review-g255363-d1529307-Reviews-Deep_Blue_Hotel_Hot_Springs-Warrnambool_Victoria.html",
+  "website": "http://thedeepblue.com.au/",
+  "rankingString": "#9 of 27 hotels in Warrnambool",
+  "rankingDenominator": "27",
+  "rankingSource": "API",
+  "neighborhoodLocations": [],
+  "nearestMetroStations": [],
+  "ancestorLocations": [
+    {
+      "id": "255363",
+      "name": "Warrnambool",
+      "abbreviation": null,
+      "subcategory": "City"
+    },
+    {
+      "id": "255098",
+      "name": "Victoria",
+      "abbreviation": null,
+      "subcategory": "State"
+    },
+    {
+      "id": "255055",
+      "name": "Australia",
+      "abbreviation": null,
+      "subcategory": "Country"
+    }
+  ],
+  "ratingHistogram": {
+    "count1": 66,
+    "count2": 80,
+    "count3": 200,
+    "count4": 423,
+    "count5": 401
+  },
+  "numberOfReviews": 1170,
+  "hotelClass": "4.0",
+  "hotelClassAttribution": "This property is classified according to Giata.",
+  "amenities": [
+    "Indoor pool",
+    "Pool",
+    "Free parking",
+    "Room service",
+    "Restaurant",
+    "Wheelchair access",
+    "Bar/Lounge",
+    "Internet",
+    "Beachfront",
+    "Suites",
+    "Free Internet",
+    "Spa",
+    "Wifi",
+    "Free Wifi",
+    "Hot Tub",
+    "Non-smoking rooms",
+    "Laundry Service",
+    "Air conditioning",
+    "Self-Serve Laundry",
+    "Accessible rooms",
+    "Refrigerator in room",
+    "Minibar",
+    "Non-smoking hotel",
+    "Flatscreen TV",
+    "Breakfast Buffet",
+    "Private Balcony",
+    "Breakfast Available",
+    "Parking",
+    "Facilities for Disabled Guests",
+    "Housekeeping",
+    "English",
+    "Fitness / Spa Locker Rooms",
+    "Complimentary Instant Coffee",
+    "Massage",
+    "Newspaper",
+    "Pool / Beach Towels",
+    "Dry Cleaning",
+    "Sauna",
+    "Baggage Storage",
+    "Body Wrap",
+    "Clothes Dryer",
+    "Coffee Shop",
+    "Couples Massage",
+    "Desk",
+    "Facial Treatments",
+    "Foot Massage",
+    "24-Hour Front Desk",
+    "Full Body Massage",
+    "Hand Massage",
+    "Happy Hour",
+    "Head Massage",
+    "Highchairs Available",
+    "Hot Spring Bath",
+    "Iron",
+    "Light Therapy",
+    "Neck Massage",
+    "Open-air Bath",
+    "Plunge Pool",
+    "Private Bathrooms",
+    "Snack Bar",
+    "Telephone",
+    "Wardrobe / Closet",
+    "Beach Access"
+  ],
+  "priceLevel": "$$",
+  "priceRange": "$121 - $357",
+  "roomTips": [
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Hot springs is a must.",
+      "rating": "5",
+      "reviewId": "1052698225",
+      "id": "1052698225",
+      "createdTime": "2026-03-11T09:15:52-04:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Give it a miss",
+      "rating": "1",
+      "reviewId": "1051384320",
+      "id": "1051384320",
+      "createdTime": "2026-02-27T23:54:24-05:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Stay somewhere else.",
+      "rating": "1",
+      "reviewId": "1040798176",
+      "id": "1040798176",
+      "createdTime": "2025-11-29T14:27:50-05:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Don’t go.",
+      "rating": "1",
+      "reviewId": "1032478617",
+      "id": "1032478617",
+      "createdTime": "2025-09-28T03:14:45-04:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Parking is hard to get of your staying. The car park seems to clear out later in the night.",
+      "rating": "5",
+      "reviewId": "1030290612",
+      "id": "1030290612",
+      "createdTime": "2025-09-14T00:17:32-04:00"
+    }
+  ],
+  "checkInDate": "2026-03-26",
+  "checkOutDate": "2026-03-27",
+  "numberOfRooms": 81,
+  "categoryReviewScores": [
+    {
+      "categoryName": "Location",
+      "score": 4.1199145,
+      "roundedScore": 4.1
+    },
+    {
+      "categoryName": "Rooms",
+      "score": 4.0189123,
+      "roundedScore": 4
+    },
+    {
+      "categoryName": "Value",
+      "score": 3.621924,
+      "roundedScore": 3.6
+    },
+    {
+      "categoryName": "Cleanliness",
+      "score": 4.292793,
+      "roundedScore": 4.3
+    },
+    {
+      "categoryName": "Service",
+      "score": 3.9613094,
+      "roundedScore": 4
+    },
+    {
+      "categoryName": "Sleep Quality",
+      "score": 3.997416,
+      "roundedScore": 4
+    }
+  ],
+  "aiReviewsSummary": null,
+  "whatsAppRedirectUrl": null,
+  "travelerChoiceAward": null,
+  "offers": [
+    {
+      "pricePerNight": 296,
+      "tax": 0,
+      "priceText": "$296",
+      "taxesAndFeesText": null,
+      "totalStayPriceText": null,
+      "priceBeforeSale": null,
+      "provider": "BookingCom",
+      "vendor": "Booking.com",
+      "canPayInInstallments": false
+    },
+    {
+      "pricePerNight": 264,
+      "tax": 25,
+      "priceText": "$264",
+      "taxesAndFeesText": null,
+      "totalStayPriceText": null,
+      "priceBeforeSale": null,
+      "provider": "Priceline",
+      "vendor": "Priceline",
+      "canPayInInstallments": false
+    },
+    {
+      "pricePerNight": 232,
+      "tax": 23,
+      "priceText": "$232",
+      "taxesAndFeesText": null,
+      "totalStayPriceText": null,
+      "priceBeforeSale": "$296",
+      "provider": "Agoda",
+      "vendor": "Agoda.com",
+      "canPayInInstallments": false
+    },
+    {
+      "pricePerNight": 263,
+      "tax": 28,
+      "priceText": "$263",
+      "taxesAndFeesText": null,
+      "totalStayPriceText": null,
+      "priceBeforeSale": null,
+      "provider": "Expedia",
+      "vendor": "Expedia.com",
+      "canPayInInstallments": false
+    },
+    {
+      "pricePerNight": 272,
+      "tax": 28,
+      "priceText": "$272",
+      "taxesAndFeesText": null,
+      "totalStayPriceText": null,
+      "priceBeforeSale": null,
+      "provider": "HotelsCom2",
+      "vendor": "Hotels.com",
+      "canPayInInstallments": false
+    },
+    {
+      "pricePerNight": 240,
+      "tax": 24,
+      "priceText": "$240",
+      "taxesAndFeesText": null,
+      "totalStayPriceText": null,
+      "priceBeforeSale": null,
+      "provider": "Splitty",
+      "vendor": "Algotels",
+      "canPayInInstallments": false
+    },
+    {
+      "pricePerNight": 268,
+      "tax": 27,
+      "priceText": "$269",
+      "taxesAndFeesText": null,
+      "totalStayPriceText": null,
+      "priceBeforeSale": null,
+      "provider": "ZenHotels",
+      "vendor": "ZenHotels.com",
+      "canPayInInstallments": false
+    },
+    {
+      "pricePerNight": 242,
+      "tax": 24,
+      "priceText": "$243",
+      "taxesAndFeesText": null,
+      "totalStayPriceText": null,
+      "priceBeforeSale": null,
+      "provider": "Vio",
+      "vendor": "Vio.com",
+      "canPayInInstallments": false
+    },
+    {
+      "pricePerNight": 252,
+      "tax": 25,
+      "priceText": "$253",
+      "taxesAndFeesText": null,
+      "totalStayPriceText": null,
+      "priceBeforeSale": null,
+      "provider": "StayForLong",
+      "vendor": "StayForLong",
+      "canPayInInstallments": false
+    }
+  ],
+  "reviewTags": [
+    {
+      "text": "geothermal pool",
+      "reviews": 34
+    },
+    {
+      "text": "ocean view",
+      "reviews": 52
+    },
+    {
+      "text": "bedroom penthouse",
+      "reviews": 11
+    },
+    {
+      "text": "the great ocean road",
+      "reviews": 65
+    },
+    {
+      "text": "comfortable room",
+      "reviews": 17
+    },
+    {
+      "text": "stayed for one night",
+      "reviews": 16
+    },
+    {
+      "text": "road trip",
+      "reviews": 11
+    },
+    {
+      "text": "balcony",
+      "reviews": 121
+    },
+    {
+      "text": "spa",
+      "reviews": 173
+    },
+    {
+      "text": "melbourne",
+      "reviews": 48
+    }
+  ],
+  "isNearbyResult": false
+}]

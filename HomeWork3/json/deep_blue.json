@@ -1,0 +1,1260 @@
+[{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g255363-d1529307-Reviews-Deep_Blue_Hotel_Hot_Springs-Warrnambool_Victoria.html",
+  "id": 1052698225,
+  "createdDate": "2026-03-11",
+  "publishedDate": "2026-03-11",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": {
+    "id": 1053479693,
+    "translationType": null,
+    "publishedDate": "2026-03-18",
+    "language": "en",
+    "text": "Hi Linda, Thank you so much for your thoughtful review. We’re delighted to hear you enjoyed your stay with us, from our coastal location and spacious rooms to the welcoming atmosphere created by our team. It’s especially wonderful to know the service left such a positive impression; we’ll be sure to share your kind words with everyone.\n\nWe’re also thrilled you had the chance to experience the hot springs and dine with us at the restaurant. Your compliments for the menu and our chef will mean a great deal to the team, thank you for taking the time to recognise their work.\n\nWe truly appreciate your support and hope to welcome you back for another relaxing stay by the coast soon.",
+    "username": "ManagerDeepBlue",
+    "connectionToSubject": "Marketing",
+    "userProfile": {
+      "avatar": {
+        "photoSizes": [
+          {
+            "width": 667,
+            "height": 667,
+            "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/7a/60/f1/managerdeepblue.jpg?w=667&h=-1&s=1"
+          }
+        ]
+      }
+    }
+  },
+  "tripInfo": {
+    "stayDate": "2026-02-28",
+    "tripType": "FAMILY"
+  },
+  "locationId": 1529307,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g255363-d1529307-r1052698225-Deep_Blue_Hotel_Hot_Springs-Warrnambool_Victoria.html",
+  "title": "Wonderful hotel",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "We found the hotel was in a perfect location, walking distance to the beach .The staff at the hotel where exceptionally friendly, very helpful and always smiling, nothing was to much trouble,a great atmosphere to be in.Cant forget the hot springs either,brilliant. The rooms were very spacious,good value for money. The menu in the  restaurant was spectacular and we had a few meals there and we couldn't fault any of it.Well done to the chef as its not a thing I often say but credit where credit is due.",
+  "username": "712LindaD712",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g255363-d1529307-r1052698225-Deep_Blue_Hotel_Hot_Springs-Warrnambool_Victoria.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1529307,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Deep Blue Hotel & Hot Springs"
+  },
+  "additionalRatings": [
+    {
+      "rating": 5,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Rooms"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Location"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Cleanliness"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Service"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Sleep Quality"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 12,
+      "helpfulVote": null
+    },
+    "id": "46F44A98EC201BE47E45FDC012DA1431",
+    "userId": "46F44A98EC201BE47E45FDC012DA1431",
+    "displayName": "Linda D",
+    "username": "712LindaD712",
+    "hometown": {
+      "locationId": 186258,
+      "fallbackString": "186258",
+      "location": {
+        "locationId": 186258,
+        "name": "Plymouth",
+        "additionalNames": {
+          "long": "Plymouth, United Kingdom"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/712LindaD712"
+    },
+    "avatar": {
+      "id": 452386314,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/0a/default-avatar-2020-35.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g255363-d1529307-Reviews-Deep_Blue_Hotel_Hot_Springs-Warrnambool_Victoria.html",
+  "id": 1051384320,
+  "createdDate": "2026-02-28",
+  "publishedDate": "2026-02-27",
+  "provider": null,
+  "rating": 1,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": {
+    "id": 1052512874,
+    "translationType": null,
+    "publishedDate": "2026-03-09",
+    "language": "en",
+    "text": "Thank you for taking the time to share your feedback. We’re very sorry to hear that your stay did not meet expectations. This is certainly not the experience we aim to provide our guests.\n\nWe appreciate you acknowledging our reception team, and we will also share your comments regarding the room design, facilities and service with our team so they can be reviewed. Guest feedback is important in helping us identify areas where we can improve.\n\nWe’re sorry that your experience left you feeling this way and appreciate you bringing it to our attention.",
+    "username": "ManagerDeepBlue",
+    "connectionToSubject": "Marketing",
+    "userProfile": {
+      "avatar": {
+        "photoSizes": [
+          {
+            "width": 667,
+            "height": 667,
+            "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/7a/60/f1/managerdeepblue.jpg?w=667&h=-1&s=1"
+          }
+        ]
+      }
+    }
+  },
+  "tripInfo": {
+    "stayDate": "2026-02-28",
+    "tripType": "COUPLES"
+  },
+  "locationId": 1529307,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g255363-d1529307-r1051384320-Deep_Blue_Hotel_Hot_Springs-Warrnambool_Victoria.html",
+  "title": "Great location, awful hotel",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Terrible hotel. We paid a lot of money ($600+) for an extremely sub-standard tiny room. An “ocean view” if you stood on the balcony. The bathroom was so badly designed that the whole room flooded when you used it. Staff were condescending and rude, except for reception staff who were great.\n\nTerrible hotel overcharging because of a wonderful location. Stay at the Quest.",
+  "username": "DiP247",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g255363-d1529307-r1051384320-Deep_Blue_Hotel_Hot_Springs-Warrnambool_Victoria.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1529307,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Deep Blue Hotel & Hot Springs"
+  },
+  "additionalRatings": [
+    {
+      "rating": 1,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 1,
+      "ratingLabel": "Rooms"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Location"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Cleanliness"
+    },
+    {
+      "rating": 1,
+      "ratingLabel": "Service"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 1,
+      "helpfulVote": null
+    },
+    "id": "E8C342EBEA2F109664C15B62522BA0D8",
+    "userId": "E8C342EBEA2F109664C15B62522BA0D8",
+    "displayName": "Di P",
+    "username": "DiP247",
+    "hometown": {
+      "locationId": null,
+      "fallbackString": null,
+      "location": null
+    },
+    "route": {
+      "url": "/Profile/DiP247"
+    },
+    "avatar": {
+      "id": 452387929,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e4/59/default-avatar-2020-49.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g255363-d1529307-Reviews-Deep_Blue_Hotel_Hot_Springs-Warrnambool_Victoria.html",
+  "id": 1045456798,
+  "createdDate": "2026-01-09",
+  "publishedDate": "2026-01-08",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "MOBILE",
+  "translationType": null,
+  "ownerResponse": {
+    "id": 1045782733,
+    "translationType": null,
+    "publishedDate": "2026-01-11",
+    "language": "en",
+    "text": "Thanks for your review, Lisa. We're pleased you enjoyed the adult only twilight sessions. Apologies about the few people who were disruptive to your experience but good on you for saying something so you could still enjoy it :) Thanks for recommending the locker to others, and arriving early to get prepared before your session. School holidays is typically a time that attracts more people with kids, so if you're after a quieter time, the evening sessions are great during school holidays. Great tip! The locker area is unisex, but we have dedicated private cubicles for showers and toilets. Thanks again for visiting, we're so pleased you stumbled across us a few weeks ago!",
+    "username": "ManagerDeepBlue",
+    "connectionToSubject": "Marketing",
+    "userProfile": {
+      "avatar": {
+        "photoSizes": [
+          {
+            "width": 667,
+            "height": 667,
+            "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/7a/60/f1/managerdeepblue.jpg?w=667&h=-1&s=1"
+          }
+        ]
+      }
+    }
+  },
+  "tripInfo": {
+    "stayDate": "2026-01-31",
+    "tripType": "COUPLES"
+  },
+  "locationId": 1529307,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [
+    {
+      "id": 841663933,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 1536,
+          "height": 2048,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/2a/c5/bd/caption.jpg?w=1536&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 841663934,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 1536,
+          "height": 2048,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/2a/c5/be/caption.jpg?w=1536&h=-1&s=1"
+        }
+      ]
+    }
+  ],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g255363-d1529307-r1045456798-Deep_Blue_Hotel_Hot_Springs-Warrnambool_Victoria.html",
+  "title": "Go to the evening session if you don’t want to sit with kids",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Only discovered that these hot springs even existed a few weeks ago!  I was researching Warrnambool for a one night stopover and was excited to book.  Even better when I saw that evening sessions are kid free.  I’ve worked in school, and have kids, but omg they would be bored here.  And naughty I’m guessing.  Most people left their phones in lockers which was excellent.  One tourist couple sat in the cave with phones out loud playing videos, so I had to Karen them.  There was a couple others whom felt that the entire world had to be third party to their conversation, but otherwise excellent.  So many pools and areas to rotate around to with varying temperatures etc.  no need for a robe or shoes in between.  Lovely calm ambiance.  I’d recommend hiring a locker for $8.00.  Arrive 15 mins beforehand to get sorted.  We were over it before the two hour session was up.  If you go during the day, especially school holidays, they allow kids over 5, so I can’t imagine how you’d ever relax.  There’s showers to rinse and change but it’s all unisex except for toilet and change cubicles.",
+  "username": "LisaEstella71",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g255363-d1529307-r1045456798-Deep_Blue_Hotel_Hot_Springs-Warrnambool_Victoria.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1529307,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Deep Blue Hotel & Hot Springs"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 1253,
+      "helpfulVote": null
+    },
+    "id": "8BACCB735DD9C839B8A916582EDFC2E1",
+    "userId": "8BACCB735DD9C839B8A916582EDFC2E1",
+    "displayName": "LisaEstella",
+    "username": "LisaEstella",
+    "hometown": {
+      "locationId": 255093,
+      "fallbackString": "255093",
+      "location": {
+        "locationId": 255093,
+        "name": "Adelaide",
+        "additionalNames": {
+          "long": "Adelaide, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/LisaEstella"
+    },
+    "avatar": {
+      "id": 55978141,
+      "photoSizes": [
+        {
+          "width": 1936,
+          "height": 2592,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/56/28/9d/lisaestella71.jpg?w=1936&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g255363-d1529307-Reviews-Deep_Blue_Hotel_Hot_Springs-Warrnambool_Victoria.html",
+  "id": 1040798176,
+  "createdDate": "2025-11-29",
+  "publishedDate": "2025-11-29",
+  "provider": null,
+  "rating": 1,
+  "publishPlatform": "MOBILE",
+  "translationType": null,
+  "ownerResponse": {
+    "id": 1042183055,
+    "translationType": null,
+    "publishedDate": "2025-12-11",
+    "language": "en",
+    "text": "Thank you for taking the time to share your feedback. We’re very sorry to hear that your recent stay did not meet your expectations, and we genuinely appreciate you bringing these concerns to our attention.\n\nWe understand how disappointing it must have been to arrive after a long drive and not feel comfortable in the room provided. This is far from the experience we aim to deliver. Please be assured that your comments regarding the room condition, furnishings, and overall presentation have been forwarded to our management and maintenance teams for review, as we are continually working to improve and update our facilities.\n\nWe also apologise that the alternative room offered did not feel like an upgrade in value. We strive to ensure that our room categories are accurately represented and appropriately priced, and we will be reviewing this internally to ensure clarity and consistency moving forward.\n\nRegarding our wellness facilities, we regret that they did not align with your expectations. Hotel guests do receive perks, including discounted access to our indoor Bath House. However, due to the popularity of the outdoor Hot Springs Sanctuary, entry is ticketed unless included within a package. We understand this may have been disappointing, and we will continue striving to make these details as clear as possible. In terms of parking, we offer limited complimentary spaces near the Hot Springs and across from the skate park, as well as optional paid undercover parking for a small fee.\n\nYour experience is not reflective of the standard we aim to uphold, and we are genuinely sorry for the frustration caused. Your feedback is invaluable and will be used to guide improvements across the property.\n\nIf you would be open to it, we would welcome the opportunity to speak with you directly and regain your trust. Please feel free to contact our management team at your convenience.\n\nThank you again for sharing your thoughts, and we wish you all the best in your future travels.",
+    "username": "ManagerDeepBlue",
+    "connectionToSubject": "Marketing",
+    "userProfile": {
+      "avatar": {
+        "photoSizes": [
+          {
+            "width": 667,
+            "height": 667,
+            "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/7a/60/f1/managerdeepblue.jpg?w=667&h=-1&s=1"
+          }
+        ]
+      }
+    }
+  },
+  "tripInfo": {
+    "stayDate": "2025-11-30",
+    "tripType": "COUPLES"
+  },
+  "locationId": 1529307,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [
+    {
+      "id": 836682809,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 1536,
+          "height": 2048,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/de/c4/39/caption.jpg?w=1536&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 836682810,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 1536,
+          "height": 2048,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/de/c4/3a/caption.jpg?w=1536&h=-1&s=1"
+        }
+      ]
+    }
+  ],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g255363-d1529307-r1040798176-Deep_Blue_Hotel_Hot_Springs-Warrnambool_Victoria.html",
+  "title": "Utterly Dsappointed",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "After a three-hour drive from Melbourne, we were hoping for a relaxing stay… instead, Deep Blue Hotel delivered one of the most disappointing hotel experiences we’ve had in years.\n\nWe checked into Room 209, only to open the door and find an incredibly small, dated room that looked like it hadn’t been touched since the 1970s. The furnishings were damaged, the layout was cramped, and the overall feel was far below what you’d expect for the price. We turned around and left the room immediately.\n\nHoping to salvage the stay, we asked for an upgrade and were willing to pay whatever it took just to not sleep in that room. We were quoted a $40 charge for a King Suite upgrade on Level 4 (Room 413) — but when we walked in, it was the exact same outdated room, just two floors higher, now with a “view” directly into the hotel in front. No improvement. No sense of value.\n\nFor a hotel called “Deep Blue,” don’t be misled — there is nothing remotely ‘blue’ or scenic about the experience. The pool is cold, and there is no spa or sauna available unless you pay exorbitant prices to access the separate Hot Springs area. For a supposed wellness-style hotel, this is incredibly misleading.\n\nOverall, the hotel feels overpriced, dated, tired, and in desperate need of a full refurbishment. We left feeling frustrated, disappointed, and honestly stunned that this is marketed as a premium stay. Guest parking is limited- good luck finding a car park due to the Hot Springs guests. \n\nWould not recommend.",
+  "username": "Deege1975",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g255363-d1529307-r1040798176-Deep_Blue_Hotel_Hot_Springs-Warrnambool_Victoria.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1529307,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Deep Blue Hotel & Hot Springs"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 85,
+      "helpfulVote": null
+    },
+    "id": "AD71E3C6197C7FBB056825207E563B89",
+    "userId": "AD71E3C6197C7FBB056825207E563B89",
+    "displayName": "Deege1975",
+    "username": "Deege1975",
+    "hometown": {
+      "locationId": null,
+      "fallbackString": null,
+      "location": null
+    },
+    "route": {
+      "url": "/Profile/Deege1975"
+    },
+    "avatar": {
+      "id": 139983758,
+      "photoSizes": [
+        {
+          "width": 949,
+          "height": 949,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/57/fb/8e/deege1975.jpg?w=949&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g255363-d1529307-Reviews-Deep_Blue_Hotel_Hot_Springs-Warrnambool_Victoria.html",
+  "id": 1033006253,
+  "createdDate": "2025-10-01",
+  "publishedDate": "2025-10-01",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "MOBILE",
+  "translationType": null,
+  "ownerResponse": {
+    "id": 1033579210,
+    "translationType": null,
+    "publishedDate": "2025-10-05",
+    "language": "en",
+    "text": "Thanks for taking the time to leave a review! We're pleased to hear you had an enjoyable experience at the Hot Springs, especially the Aroma Therapy pool. It truly does leave you feeling relaxed and rejuvenated. We hope to welcome you back again sometime. ",
+    "username": "ManagerDeepBlue",
+    "connectionToSubject": "Marketing",
+    "userProfile": {
+      "avatar": {
+        "photoSizes": [
+          {
+            "width": 667,
+            "height": 667,
+            "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/7a/60/f1/managerdeepblue.jpg?w=667&h=-1&s=1"
+          }
+        ]
+      }
+    }
+  },
+  "tripInfo": {
+    "stayDate": "2025-10-31",
+    "tripType": "COUPLES"
+  },
+  "locationId": 1529307,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g255363-d1529307-r1033006253-Deep_Blue_Hotel_Hot_Springs-Warrnambool_Victoria.html",
+  "title": "Therapeutic",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "The hot springs pools were very relaxing and therapeutic. We enjoyed the aromatherapy and wellness of the experience.",
+  "username": "BMadventures",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g255363-d1529307-r1033006253-Deep_Blue_Hotel_Hot_Springs-Warrnambool_Victoria.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1529307,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Deep Blue Hotel & Hot Springs"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 38,
+      "helpfulVote": null
+    },
+    "id": "77A54FF58AA78BDC6B06ED4916B57032",
+    "userId": "77A54FF58AA78BDC6B06ED4916B57032",
+    "displayName": "BMadventures",
+    "username": "BMadventures",
+    "hometown": {
+      "locationId": 504339,
+      "fallbackString": "504339",
+      "location": {
+        "locationId": 504339,
+        "name": "Werribee",
+        "additionalNames": {
+          "long": "Werribee, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/BMadventures"
+    },
+    "avatar": {
+      "id": 452390984,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f0/48/default-avatar-2020-15.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g255363-d1529307-Reviews-Deep_Blue_Hotel_Hot_Springs-Warrnambool_Victoria.html",
+  "id": 1032478617,
+  "createdDate": "2025-09-28",
+  "publishedDate": "2025-09-28",
+  "provider": null,
+  "rating": 1,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": {
+    "id": 1037116536,
+    "translationType": null,
+    "publishedDate": "2025-10-30",
+    "language": "en",
+    "text": "Thank you for taking the time to share your feedback about your recent stay. We’re sorry to hear that it didn’t meet your expectations.\n\nWe do offer free on-street parking, and for added convenience, level one undercover parking is available for $10 per day. This small fee helps us maintain the facility for all our guests.\n\nWe also appreciate your comments regarding the room and will endeavour to work to improve this aspect of the guest experience. We’re truly sorry that you felt let down this time, and we would love the opportunity to make it right. We hope you might consider giving us another chance to provide the stay you deserve.",
+    "username": "ManagerDeepBlue",
+    "connectionToSubject": "Marketing",
+    "userProfile": {
+      "avatar": {
+        "photoSizes": [
+          {
+            "width": 667,
+            "height": 667,
+            "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/7a/60/f1/managerdeepblue.jpg?w=667&h=-1&s=1"
+          }
+        ]
+      }
+    }
+  },
+  "tripInfo": {
+    "stayDate": "2025-09-30",
+    "tripType": "FAMILY"
+  },
+  "locationId": 1529307,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g255363-d1529307-r1032478617-Deep_Blue_Hotel_Hot_Springs-Warrnambool_Victoria.html",
+  "title": "Terrible. Stay at the Quest.",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Terrible. \n1. Parking (costs $10) as they don’t have enough. \n2. Room - smell was awful each time you entered.\n3. Couch - was basically broken on the legs and wobbled \n4. Cheap furniture and fittings (this was supposed to be one of the penthouse suites). Didn’t resemble some of the advertised photographs.\n3. Window of one bedroom and one sitting area were facing the general walking corridor where people could see in if the blinds weren’t shut. Just odd!\n4. A note that states if you don’t leave used dishes washed and put back away you will be charged. Surely the dishwasher is enough. \n5. Stained carpets:\n6. Cheap mattress and just a double bed in main bedroom. Oh and nowhere to put luggage off the floor.\n7. Outside street noise with cars burning up and down at night and easy to hear.\n8. View of the skate park. Hmmmm.\n9. Toilet has never seen a bleach in its life. Grubby shower and skirting boards.\nNeed I go on? \n\nDo yourself a favour save money and the hassle and stay at the family room in the QUEST.",
+  "username": "mwF9831NE",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g255363-d1529307-r1032478617-Deep_Blue_Hotel_Hot_Springs-Warrnambool_Victoria.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1529307,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Deep Blue Hotel & Hot Springs"
+  },
+  "additionalRatings": [
+    {
+      "rating": 1,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 1,
+      "ratingLabel": "Rooms"
+    },
+    {
+      "rating": 1,
+      "ratingLabel": "Location"
+    },
+    {
+      "rating": 1,
+      "ratingLabel": "Cleanliness"
+    },
+    {
+      "rating": 1,
+      "ratingLabel": "Service"
+    },
+    {
+      "rating": 1,
+      "ratingLabel": "Sleep Quality"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 1,
+      "helpfulVote": null
+    },
+    "id": "C0FC1C40DEB26B91925F4D6414D9F5C5",
+    "userId": "C0FC1C40DEB26B91925F4D6414D9F5C5",
+    "displayName": "M W",
+    "username": "mwF9831NE",
+    "hometown": {
+      "locationId": null,
+      "fallbackString": null,
+      "location": null
+    },
+    "route": {
+      "url": "/Profile/mwF9831NE"
+    },
+    "avatar": {
+      "id": 452391234,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f1/42/default-avatar-2020-20.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g255363-d1529307-Reviews-Deep_Blue_Hotel_Hot_Springs-Warrnambool_Victoria.html",
+  "id": 1030290612,
+  "createdDate": "2025-09-14",
+  "publishedDate": "2025-09-14",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "MOBILE",
+  "translationType": null,
+  "ownerResponse": {
+    "id": 1030421460,
+    "translationType": null,
+    "publishedDate": "2025-09-14",
+    "language": "en",
+    "text": "Thank you for the amazing review! We're so glad you enjoyed your stay in the penthouse and made the most of those stunning views. It's fantastic to hear the hot springs were a highlight, even better that your little one loved them too! We truly appreciate you spreading the word, and we can't wait to welcome you back again soon.",
+    "username": "ManagerDeepBlue",
+    "connectionToSubject": "Marketing",
+    "userProfile": {
+      "avatar": {
+        "photoSizes": [
+          {
+            "width": 667,
+            "height": 667,
+            "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/7a/60/f1/managerdeepblue.jpg?w=667&h=-1&s=1"
+          }
+        ]
+      }
+    }
+  },
+  "tripInfo": {
+    "stayDate": "2025-07-31",
+    "tripType": "FAMILY"
+  },
+  "locationId": 1529307,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [
+    {
+      "id": 823820911,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 1536,
+          "height": 2048,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/1a/82/6f/caption.jpg?w=1536&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 823820912,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 1536,
+          "height": 2048,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/1a/82/70/caption.jpg?w=1536&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 823820913,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 1536,
+          "height": 2048,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/1a/82/71/caption.jpg?w=1536&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 823820914,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 1536,
+          "height": 2048,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/1a/82/72/caption.jpg?w=1536&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 823820915,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 1536,
+          "height": 2048,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/1a/82/73/caption.jpg?w=1536&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 823820916,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 1536,
+          "height": 2048,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/1a/82/74/caption.jpg?w=1536&h=-1&s=1"
+        }
+      ]
+    }
+  ],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g255363-d1529307-r1030290612-Deep_Blue_Hotel_Hot_Springs-Warrnambool_Victoria.html",
+  "title": "We will be back 100%",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "This place is amazing. We stayed in the pent house on the top floor rooms were spacious with a great view. The hot springs were my highlight I could have spent hours in them even my 5 year old loved it. We will 100% be back and I tell all my friends it’s a must do.",
+  "username": "Island_dreaming_86",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g255363-d1529307-r1030290612-Deep_Blue_Hotel_Hot_Springs-Warrnambool_Victoria.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1529307,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Deep Blue Hotel & Hot Springs"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 402,
+      "helpfulVote": null
+    },
+    "id": "BBC1E61DFEB163CD2BE23F9C3AA5F3C7",
+    "userId": "BBC1E61DFEB163CD2BE23F9C3AA5F3C7",
+    "displayName": "Island_dreaming_86",
+    "username": "Island_dreaming_86",
+    "hometown": {
+      "locationId": 255093,
+      "fallbackString": "255093",
+      "location": {
+        "locationId": 255093,
+        "name": "Adelaide",
+        "additionalNames": {
+          "long": "Adelaide, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/Island_dreaming_86"
+    },
+    "avatar": {
+      "id": 106575593,
+      "photoSizes": [
+        {
+          "width": 769,
+          "height": 769,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/5a/36/e9/nata862.jpg?w=769&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g255363-d1529307-Reviews-Deep_Blue_Hotel_Hot_Springs-Warrnambool_Victoria.html",
+  "id": 1025196855,
+  "createdDate": "2025-08-18",
+  "publishedDate": "2025-08-18",
+  "provider": null,
+  "rating": 3,
+  "publishPlatform": "MOBILE",
+  "translationType": "MACHINE_SOURCE",
+  "ownerResponse": {
+    "id": 1026502192,
+    "translationType": null,
+    "publishedDate": "2025-08-24",
+    "language": "en",
+    "text": "Thank you for sharing your feedback. We're glad to hear you found the executive room spacious and comfortable, and that you enjoyed the large bed.\n\nWe appreciate your honest comments about the sea view. While many of our guests enjoy our views, we understand it may not have fully met your expectations, and we value your perspective.\n\nRegarding the discounts, some of our packages do include access to the Hot Springs, but not all. 🙂 Next time, feel free to reach out to us directly, we’ll be happy to help you choose a package that best suits your preferences.\n\nWe hope to have the opportunity to welcome you back for a more memorable stay in the future.",
+    "username": "ManagerDeepBlue",
+    "connectionToSubject": "Marketing",
+    "userProfile": {
+      "avatar": {
+        "photoSizes": [
+          {
+            "width": 667,
+            "height": 667,
+            "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/7a/60/f1/managerdeepblue.jpg?w=667&h=-1&s=1"
+          }
+        ]
+      }
+    }
+  },
+  "tripInfo": {
+    "stayDate": "2025-08-31",
+    "tripType": "COUPLES"
+  },
+  "locationId": 1529307,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g255363-d1529307-r1025196855-Deep_Blue_Hotel_Hot_Springs-Warrnambool_Victoria.html",
+  "title": "Correcto",
+  "language": "es",
+  "originalLanguage": "es",
+  "roomTip": null,
+  "text": "Estancia normal… nada especial. Cogimos una habitación ejecutiva con vistas al mar y se ve rl mar, pero tampoco es la mejor vista del mundo ya que lo ves “lejillos” y con coches y edificios debajo… la habitación lo esperado: amplia, cómoda y con cama muy grande. Con el alojamiento te dan alguna rebaja en algunos tratamientos pero no en el principal (las piscinas exteriores). Es una opción correcta ta pero que no destaca.",
+  "username": "crispybilbao",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g255363-d1529307-r1025196855-Deep_Blue_Hotel_Hot_Springs-Warrnambool_Victoria.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1529307,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Deep Blue Hotel & Hot Springs"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 5527,
+      "helpfulVote": null
+    },
+    "id": "44FF963C87A0F5F3A4DDAEF678514B61",
+    "userId": "44FF963C87A0F5F3A4DDAEF678514B61",
+    "displayName": "crispybilbao",
+    "username": "crispybilbao",
+    "hometown": {
+      "locationId": 667203,
+      "fallbackString": "667203",
+      "location": {
+        "locationId": 667203,
+        "name": "Barakaldo",
+        "additionalNames": {
+          "long": "Barakaldo, Spain"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/crispybilbao"
+    },
+    "avatar": {
+      "id": 364527721,
+      "photoSizes": [
+        {
+          "width": 450,
+          "height": 450,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/ba/40/69/caption.jpg?w=450&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g255363-d1529307-Reviews-Deep_Blue_Hotel_Hot_Springs-Warrnambool_Victoria.html",
+  "id": 1022301851,
+  "createdDate": "2025-08-02",
+  "publishedDate": "2025-08-02",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": {
+    "id": 1022665917,
+    "translationType": null,
+    "publishedDate": "2025-08-04",
+    "language": "en",
+    "text": "Dear Petra and Bernadine,\n\nThank you so much for your heartfelt review, we’re truly honoured that you chose to celebrate such a special milestone with us!\n\nIt’s wonderful to hear that from check-in to check-out, your stay was everything you hoped for and more. We’re thrilled that you loved your High Sea View room, the indoor pool, spa bath, and our accessible hot springs. Creating a comfortable and inclusive experience for all our guests is something we care deeply about, so your kind words mean a lot.\n\nWe’re especially pleased that Donna and Jodi helped make your visit extra memorable, we’ll be sure to pass along your lovely feedback to them. And of course, we’re so glad you enjoyed your meals at Tides Café & Bar and our daily buffet breakfast!\n\nThank you again for your warm message. It was a pleasure to host you and Bernadine for her 21st birthday, and we hope to welcome you both back again soon.",
+    "username": "ManagerDeepBlue",
+    "connectionToSubject": "Marketing",
+    "userProfile": {
+      "avatar": {
+        "photoSizes": [
+          {
+            "width": 667,
+            "height": 667,
+            "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/7a/60/f1/managerdeepblue.jpg?w=667&h=-1&s=1"
+          }
+        ]
+      }
+    }
+  },
+  "tripInfo": {
+    "stayDate": "2025-08-31",
+    "tripType": "FAMILY"
+  },
+  "locationId": 1529307,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g255363-d1529307-r1022301851-Deep_Blue_Hotel_Hot_Springs-Warrnambool_Victoria.html",
+  "title": "SIMPLY THE BEST",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "The Deep Blue Hotel and Hot Springs were awesome. From the moment we checked in by the lovely Donna, till we checked out, it was so good. Our room : HIGH SEA VIEW modern room with balcony, had everything we needed. The indoor swimming pool is so beautiful and it was great in it. The hot spa bath, the Hot Springs, all these mentioned were accessible for people with disabilities, people with bad leg and back pain and Senior Citizens. Easy steps into the water with rails. We loved & enjoyed our time here. The restaurant on the property, the Tides Cafe & Bar, had super delicious foods. One of the ladies who work there, JODI, is the most amazing person and very helpful and friendly. They made my daughter's 21st birthday so beautiful. Plus they have a buffet breakfast!!!! every morning. \nA BIG THANK YOU TO THE DEEP HOTEL & HOT SPRINGS.\nFROM PETRA & BERNADINE SEATON",
+  "username": "petrasE4374OX",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g255363-d1529307-r1022301851-Deep_Blue_Hotel_Hot_Springs-Warrnambool_Victoria.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1529307,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Deep Blue Hotel & Hot Springs"
+  },
+  "additionalRatings": [
+    {
+      "rating": 5,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Rooms"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Location"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Cleanliness"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Service"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Sleep Quality"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 2,
+      "helpfulVote": null
+    },
+    "id": "8293778E44C8F68596853CD93AE548CA",
+    "userId": "8293778E44C8F68596853CD93AE548CA",
+    "displayName": "Petra S",
+    "username": "petrasE4374OX",
+    "hometown": {
+      "locationId": 255363,
+      "fallbackString": "255363",
+      "location": {
+        "locationId": 255363,
+        "name": "Warrnambool",
+        "additionalNames": {
+          "long": "Warrnambool, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/petrasE4374OX"
+    },
+    "avatar": {
+      "id": 452389359,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e9/ef/default-avatar-2020-66.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g255363-d1529307-Reviews-Deep_Blue_Hotel_Hot_Springs-Warrnambool_Victoria.html",
+  "id": 1021401792,
+  "createdDate": "2025-07-28",
+  "publishedDate": "2025-07-28",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "MOBILE",
+  "translationType": null,
+  "ownerResponse": {
+    "id": 1021975095,
+    "translationType": null,
+    "publishedDate": "2025-07-31",
+    "language": "en",
+    "text": "Thank you for your review! We are so pleased to hear you had a great experience and got to enjoy the outdoor sanctuary at twilight whilst here! We hope to welcome you back again one day. ",
+    "username": "ManagerDeepBlue",
+    "connectionToSubject": "Marketing",
+    "userProfile": {
+      "avatar": {
+        "photoSizes": [
+          {
+            "width": 667,
+            "height": 667,
+            "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/7a/60/f1/managerdeepblue.jpg?w=667&h=-1&s=1"
+          }
+        ]
+      }
+    }
+  },
+  "tripInfo": {
+    "stayDate": "2025-07-31",
+    "tripType": "COUPLES"
+  },
+  "locationId": 1529307,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [
+    {
+      "id": 815716373,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 2048,
+          "height": 1536,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/9e/d8/15/caption.jpg?w=2048&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 815716374,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1600,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/9e/d8/16/caption.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 815716375,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 1600,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/9e/d8/17/caption.jpg?w=1600&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 815716376,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 1600,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/9e/d8/18/caption.jpg?w=1600&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 815716377,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1600,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/9e/d8/19/caption.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 815716378,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 1600,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/9e/d8/1a/caption.jpg?w=1600&h=-1&s=1"
+        }
+      ]
+    }
+  ],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g255363-d1529307-r1021401792-Deep_Blue_Hotel_Hot_Springs-Warrnambool_Victoria.html",
+  "title": "Stop off along Great Ocean Road",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Relaxing hotel and spa.  We did the evening / twilight spa sanctuary with mineral geothermic pools which was amazing on a clear night!",
+  "username": "cpmdoc",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g255363-d1529307-r1021401792-Deep_Blue_Hotel_Hot_Springs-Warrnambool_Victoria.html",
+  "attribution": null,
+  "location": {
+    "locationId": 1529307,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Deep Blue Hotel & Hot Springs"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 108,
+      "helpfulVote": null
+    },
+    "id": "F9F7BC0D6B54E05728AF8A18911DE0B6",
+    "userId": "F9F7BC0D6B54E05728AF8A18911DE0B6",
+    "displayName": "cpmdoc",
+    "username": "cpmdoc",
+    "hometown": {
+      "locationId": 528760,
+      "fallbackString": "528760",
+      "location": {
+        "locationId": 528760,
+        "name": "Mirfield",
+        "additionalNames": {
+          "long": "Mirfield, United Kingdom"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/cpmdoc"
+    },
+    "avatar": {
+      "id": 696445317,
+      "photoSizes": [
+        {
+          "width": 960,
+          "height": 960,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/82/e9/85/cpmdoc.jpg?w=960&h=-1&s=1"
+        }
+      ]
+    }
+  }
+}]

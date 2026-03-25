@@ -1,0 +1,305 @@
+[{
+  "id": "1773988",
+  "type": "HOTEL",
+  "category": "hotel",
+  "subcategories": [
+    "Specialty Lodging"
+  ],
+  "name": "Discovery Parks - Cradle Mountain",
+  "locationString": "Cradle Mountain-Lake St. Clair National Park, Tasmania",
+  "description": "You need to see it to believe it - Cradle Mountain is one of the most beautiful places on earth. Discovery Parks – Cradle Mountain is set on the edge of world-heritage listed Cradle Mountain Lake St. Clair National Park, so a true wilderness experience is on the doorstep of your cabin or caravan. The famous Overland Track starts here, covering 161,000 hectares. There are guided and non-guided walks for all fitness levels, canoe tours, horseback trail rides and helicopter flights. Meet resident Tasmanian Devils. Sheffield, Burnie, Latrobe and Deloraine are about an hour away - and with another Discovery Park in nearby Devonport, Tassie is touring holiday heaven.",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-w/2c/28/2c/41/general.jpg",
+  "photoCount": 564,
+  "rankingPosition": 3,
+  "rating": 3.9,
+  "rawRanking": 3.956292152404785,
+  "phone": "+61 3 6492 1395",
+  "address": "3832 Cradle Mountain Rd, Cradle Mountain-Lake St. Clair National Park, Tasmania 7310 Australia",
+  "addressObj": {
+    "street1": "3832 Cradle Mountain Rd",
+    "street2": "",
+    "city": null,
+    "state": "Tasmania",
+    "country": "Australia",
+    "postalcode": "7310"
+  },
+  "localName": "Discovery Parks - Cradle Mountain",
+  "localAddress": "3832 Cradle Mountain Rd, 7310",
+  "localLangCode": "en-AU",
+  "email": "cradle@discoveryparks.com.au",
+  "latitude": -41.580166,
+  "longitude": 145.93784,
+  "webUrl": "https://www.tripadvisor.com/Hotel_Review-g504288-d1773988-Reviews-Discovery_Parks_Cradle_Mountain-Cradle_Mountain_Lake_St_Clair_National_Park_Tasmania.html",
+  "website": "http://www.discoveryholidayparks.com.au/tas/cradle_mountain/cradle_mountain/info#content",
+  "rankingString": "#3 of 6 Specialty lodging in Cradle Mountain-Lake St. Clair National Park",
+  "rankingDenominator": "6",
+  "rankingSource": "API",
+  "neighborhoodLocations": [],
+  "nearestMetroStations": [],
+  "ancestorLocations": [
+    {
+      "id": "504288",
+      "name": "Cradle Mountain-Lake St. Clair National Park",
+      "abbreviation": null,
+      "subcategory": "National Park"
+    },
+    {
+      "id": "255096",
+      "name": "Tasmania",
+      "abbreviation": null,
+      "subcategory": "State"
+    },
+    {
+      "id": "255055",
+      "name": "Australia",
+      "abbreviation": null,
+      "subcategory": "Country"
+    }
+  ],
+  "ratingHistogram": {
+    "count1": 28,
+    "count2": 48,
+    "count3": 122,
+    "count4": 280,
+    "count5": 253
+  },
+  "numberOfReviews": 731,
+  "hotelClass": "3.0",
+  "hotelClassAttribution": "This property is classified according to Giata.",
+  "amenities": [
+    "Free parking",
+    "Kitchenette",
+    "Non-smoking rooms",
+    "Family Rooms",
+    "Self-Serve Laundry",
+    "Microwave",
+    "Refrigerator in room",
+    "Non-smoking hotel",
+    "Flatscreen TV",
+    "Parking",
+    "Baggage Storage",
+    "BBQ Facilities",
+    "Convenience Store",
+    "English",
+    "Gift Shop",
+    "Hiking",
+    "Kitchenware",
+    "Picnic Area",
+    "Shared Kitchen",
+    "Shops",
+    "Snack Bar",
+    "Express Check-in / Check-out",
+    "Vending Machine"
+  ],
+  "priceLevel": "$$$",
+  "priceRange": "$114 - $371",
+  "roomTips": [
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Make sure you buy as much food as you can on the way. Deloraine Woolies is convenient.",
+      "rating": "5",
+      "reviewId": "1047982367",
+      "id": "1047982367",
+      "createdTime": "2026-01-30T16:41:36-05:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Be prepared for changing weather as we had sunshine one day and snow overnight !!",
+      "rating": "4",
+      "reviewId": "1045202814",
+      "id": "1045202814",
+      "createdTime": "2026-01-06T14:31:40-05:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "If you want maximum privacy for the 2-bedroom cabin, request for King Billy Court 4 unit. ",
+      "rating": "5",
+      "reviewId": "1034516764",
+      "id": "1034516764",
+      "createdTime": "2025-10-12T07:29:51-04:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Parking is plentiful. Need to park and walk a little way to cabins. Walk way is easy and smooth. No problems wheeling cases.",
+      "rating": "5",
+      "reviewId": "1023235870",
+      "id": "1023235870",
+      "createdTime": "2025-08-08T03:35:07-04:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "If you don't have a car don't get a spa room. Tray and get a room closer to the office",
+      "rating": "4",
+      "reviewId": "1022127406",
+      "id": "1022127406",
+      "createdTime": "2025-08-01T16:42:11-04:00"
+    }
+  ],
+  "checkInDate": "2026-03-26",
+  "checkOutDate": "2026-03-27",
+  "numberOfRooms": 35,
+  "categoryReviewScores": [
+    {
+      "categoryName": "Location",
+      "score": 4.662698300000001,
+      "roundedScore": 4.7
+    },
+    {
+      "categoryName": "Rooms",
+      "score": 3.6181817,
+      "roundedScore": 3.6
+    },
+    {
+      "categoryName": "Value",
+      "score": 3.655303,
+      "roundedScore": 3.7
+    },
+    {
+      "categoryName": "Cleanliness",
+      "score": 3.935849,
+      "roundedScore": 3.9
+    },
+    {
+      "categoryName": "Service",
+      "score": 3.9448621000000004,
+      "roundedScore": 3.9
+    },
+    {
+      "categoryName": "Sleep Quality",
+      "score": 3.9095478,
+      "roundedScore": 3.9
+    }
+  ],
+  "aiReviewsSummary": null,
+  "whatsAppRedirectUrl": null,
+  "travelerChoiceAward": null,
+  "offers": [],
+  "reviewTags": [
+    {
+      "text": "camp kitchen",
+      "reviews": 67
+    },
+    {
+      "text": "standard cabin",
+      "reviews": 30
+    },
+    {
+      "text": "powered site",
+      "reviews": 38
+    },
+    {
+      "text": "shuttle bus",
+      "reviews": 57
+    },
+    {
+      "text": "cradle mountain",
+      "reviews": 257
+    },
+    {
+      "text": "bunk beds",
+      "reviews": 28
+    },
+    {
+      "text": "caravan park",
+      "reviews": 33
+    },
+    {
+      "text": "well stocked shop",
+      "reviews": 12
+    },
+    {
+      "text": "drinking water",
+      "reviews": 19
+    },
+    {
+      "text": "pizza oven",
+      "reviews": 7
+    },
+    {
+      "text": "communal kitchen",
+      "reviews": 10
+    },
+    {
+      "text": "toilet block",
+      "reviews": 7
+    },
+    {
+      "text": "great facilities",
+      "reviews": 10
+    },
+    {
+      "text": "living area",
+      "reviews": 15
+    },
+    {
+      "text": "self contained cabin",
+      "reviews": 7
+    },
+    {
+      "text": "two bedroom cabin",
+      "reviews": 7
+    },
+    {
+      "text": "open fire",
+      "reviews": 12
+    },
+    {
+      "text": "amenities",
+      "reviews": 72
+    },
+    {
+      "text": "heater",
+      "reviews": 76
+    },
+    {
+      "text": "reception",
+      "reviews": 97
+    },
+    {
+      "text": "vents",
+      "reviews": 25
+    },
+    {
+      "text": "accommodation",
+      "reviews": 78
+    },
+    {
+      "text": "dorm",
+      "reviews": 10
+    },
+    {
+      "text": "tasmania",
+      "reviews": 48
+    },
+    {
+      "text": "laundry",
+      "reviews": 23
+    },
+    {
+      "text": "microwave",
+      "reviews": 26
+    },
+    {
+      "text": "bush",
+      "reviews": 39
+    },
+    {
+      "text": "backpackers",
+      "reviews": 16
+    },
+    {
+      "text": "walks",
+      "reviews": 50
+    },
+    {
+      "text": "possums",
+      "reviews": 31
+    }
+  ],
+  "isNearbyResult": false
+}]

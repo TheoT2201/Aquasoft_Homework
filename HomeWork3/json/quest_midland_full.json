@@ -1,0 +1,318 @@
+[{
+  "id": "13377218",
+  "type": "HOTEL",
+  "category": "hotel",
+  "subcategories": [
+    "Bed and Breakfast"
+  ],
+  "name": "Quest Midland",
+  "locationString": "Midland, Swan Valley, Greater Perth, Western Australia",
+  "description": "Quest Midland offers convenient accommodation situated perfectly between many of Perth’s northeast attractions. Travel up the hill and escape to the Swan Valley to indulge in award-winning wines, chocolate & cheese. Multiple restaurants and cafes are conveniently located on our doorstep. What’s more, Midland is only 15 minutes from Perth Airport and 30 minutes from the CBD. Quest Midland offers a variety of comfortable and modern serviced apartments to make your stay a true ‘home away from home offering full kitchen and laundry facilities, Quest Apartments has something for everyone. Maintain your wellness goals while staying with us by accessing our well-equipped gym, which offers a seamless blend of ease and convenience for your fitness needs. If you need a little guidance from a local, don't hesitate to chat with one of our friendly staff – we’re here to make your stay one to remember! Limited onsite secure car parking * subject to availability * charges apply.",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/2c/0d/44/36/quest-midland.jpg",
+  "photoCount": 58,
+  "rankingPosition": 1,
+  "rating": 4.6,
+  "rawRanking": 4.568566799163818,
+  "phone": "+61 8 6148 3900",
+  "address": "3 The Crescent, Midland, Swan Valley, Western Australia 6056 Australia",
+  "addressObj": {
+    "street1": "3 The Crescent",
+    "street2": null,
+    "city": "Midland",
+    "state": "Western Australia",
+    "country": "Australia",
+    "postalcode": "6056"
+  },
+  "localName": "Quest Midland",
+  "localAddress": "3 The Crescent, 6056",
+  "localLangCode": "en-AU",
+  "email": "questmidland@questapartments.com.au",
+  "latitude": -31.88905,
+  "longitude": 116.00391,
+  "webUrl": "https://www.tripadvisor.com/Hotel_Review-g580527-d13377218-Reviews-Quest_Midland-Midland_Swan_Valley_Greater_Perth_Western_Australia.html",
+  "website": "http://www.questmidland.com.au",
+  "rankingString": "#1 of 2 B&Bs / Inns in Midland",
+  "rankingDenominator": "2",
+  "rankingSource": "API",
+  "neighborhoodLocations": [],
+  "nearestMetroStations": [],
+  "ancestorLocations": [
+    {
+      "id": "580527",
+      "name": "Midland",
+      "abbreviation": null,
+      "subcategory": "City"
+    },
+    {
+      "id": "2308161",
+      "name": "Swan Valley",
+      "abbreviation": null,
+      "subcategory": "Municipality"
+    },
+    {
+      "id": "2650698",
+      "name": "Greater Perth",
+      "abbreviation": null,
+      "subcategory": "Department"
+    },
+    {
+      "id": "255101",
+      "name": "Western Australia",
+      "abbreviation": null,
+      "subcategory": "State"
+    },
+    {
+      "id": "255055",
+      "name": "Australia",
+      "abbreviation": null,
+      "subcategory": "Country"
+    }
+  ],
+  "ratingHistogram": {
+    "count1": 10,
+    "count2": 8,
+    "count3": 13,
+    "count4": 68,
+    "count5": 288
+  },
+  "numberOfReviews": 387,
+  "hotelClass": "4.0",
+  "hotelClassAttribution": "This property is classified according to Giata.",
+  "amenities": [
+    "Internet",
+    "Wheelchair access",
+    "Wifi",
+    "Free Wifi",
+    "Air conditioning",
+    "Pool",
+    "Suites",
+    "Free Internet",
+    "Kitchenette",
+    "Meeting rooms",
+    "Non-smoking rooms",
+    "Business center",
+    "Fitness center",
+    "Laundry Service",
+    "Self-Serve Laundry",
+    "Accessible rooms",
+    "Microwave",
+    "Refrigerator in room",
+    "Non-smoking hotel",
+    "Bath / Shower",
+    "Express Check-in / Check-out",
+    "Coffee / Tea Maker",
+    "Desk",
+    "Dishwasher",
+    "English",
+    "Highchairs Available",
+    "Iron",
+    "Paid Public Parking Nearby",
+    "Sofa",
+    "Street Parking",
+    "Telephone",
+    "Vending Machine",
+    "Washing Machine"
+  ],
+  "priceLevel": "$$",
+  "priceRange": "$139 - $239",
+  "roomTips": [
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Avoid 1st floor apartments \nNo parking",
+      "rating": "2",
+      "reviewId": "825729930",
+      "id": "825729930",
+      "createdTime": "2022-01-23T21:03:01-05:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "I'd avoid the lowest floors",
+      "rating": "5",
+      "reviewId": "789104921",
+      "id": "789104921",
+      "createdTime": "2021-05-18T03:02:39-04:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Top Floors I think must have the best views",
+      "rating": "5",
+      "reviewId": "661942431",
+      "id": "661942431",
+      "createdTime": "2019-03-28T18:00:51-04:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Aircon is tied to balcony door so make sure its closed or it wil shut off for energy efficiency.",
+      "rating": "4",
+      "reviewId": "620917131",
+      "id": "620917131",
+      "createdTime": "2018-10-01T00:15:37-04:00"
+    }
+  ],
+  "checkInDate": "2026-03-26",
+  "checkOutDate": "2026-03-27",
+  "numberOfRooms": 102,
+  "categoryReviewScores": [
+    {
+      "categoryName": "Location",
+      "score": 4.550898,
+      "roundedScore": 4.6
+    },
+    {
+      "categoryName": "Rooms",
+      "score": 4.716292,
+      "roundedScore": 4.7
+    },
+    {
+      "categoryName": "Value",
+      "score": 4.4088235,
+      "roundedScore": 4.4
+    },
+    {
+      "categoryName": "Cleanliness",
+      "score": 4.729805,
+      "roundedScore": 4.7
+    },
+    {
+      "categoryName": "Service",
+      "score": 4.6053414,
+      "roundedScore": 4.6
+    },
+    {
+      "categoryName": "Sleep Quality",
+      "score": 4.598784,
+      "roundedScore": 4.6
+    }
+  ],
+  "aiReviewsSummary": null,
+  "whatsAppRedirectUrl": null,
+  "travelerChoiceAward": null,
+  "offers": [],
+  "reviewTags": [
+    {
+      "text": "great location",
+      "reviews": 17
+    },
+    {
+      "text": "business trip",
+      "reviews": 9
+    },
+    {
+      "text": "great place to stay",
+      "reviews": 10
+    },
+    {
+      "text": "room was clean",
+      "reviews": 10
+    },
+    {
+      "text": "close to shops",
+      "reviews": 4
+    },
+    {
+      "text": "shopping mall",
+      "reviews": 5
+    },
+    {
+      "text": "walking distance",
+      "reviews": 7
+    },
+    {
+      "text": "swan valley",
+      "reviews": 17
+    },
+    {
+      "text": "secure parking",
+      "reviews": 12
+    },
+    {
+      "text": "great facilities",
+      "reviews": 5
+    },
+    {
+      "text": "stay there again",
+      "reviews": 6
+    },
+    {
+      "text": "air conditioner",
+      "reviews": 4
+    },
+    {
+      "text": "one bedroom apartment",
+      "reviews": 3
+    },
+    {
+      "text": "railway station",
+      "reviews": 3
+    },
+    {
+      "text": "close to the airport",
+      "reviews": 4
+    },
+    {
+      "text": "home away from home",
+      "reviews": 3
+    },
+    {
+      "text": "pleasant stay",
+      "reviews": 3
+    },
+    {
+      "text": "long stay",
+      "reviews": 3
+    },
+    {
+      "text": "enjoyed our stay",
+      "reviews": 4
+    },
+    {
+      "text": "easy access",
+      "reviews": 3
+    },
+    {
+      "text": "short drive",
+      "reviews": 3
+    },
+    {
+      "text": "perth",
+      "reviews": 24
+    },
+    {
+      "text": "amenities",
+      "reviews": 17
+    },
+    {
+      "text": "hospital",
+      "reviews": 9
+    },
+    {
+      "text": "gate",
+      "reviews": 8
+    },
+    {
+      "text": "onsite",
+      "reviews": 4
+    },
+    {
+      "text": "pets",
+      "reviews": 3
+    },
+    {
+      "text": "ritual",
+      "reviews": 3
+    },
+    {
+      "text": "cleanliness",
+      "reviews": 5
+    },
+    {
+      "text": "dishwasher",
+      "reviews": 4
+    }
+  ],
+  "isNearbyResult": false
+}]

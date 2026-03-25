@@ -1,0 +1,1312 @@
+[{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g580527-d13377218-Reviews-Quest_Midland-Midland_Swan_Valley_Greater_Perth_Western_Australia.html",
+  "id": 1052727498,
+  "createdDate": "2026-03-11",
+  "publishedDate": "2026-03-11",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": {
+    "id": 1052835737,
+    "translationType": null,
+    "publishedDate": "2026-03-12",
+    "language": "en",
+    "text": "Hi X130IHadmin, \n\nThank you for your lovely review and for giving us a 5/5.\n\nOur team will really appreciate your kind words – providing warm and welcoming service is something we take great pride in, so it’s wonderful to know it made a positive impression during your stay. We hope to have the pleasure of welcoming you back again soon.\n\nWarm regards, \nChhimi, Quest Midland",
+    "username": "FOM M",
+    "connectionToSubject": "Guest Services / Front Office",
+    "userProfile": {
+      "avatar": null
+    }
+  },
+  "tripInfo": {
+    "stayDate": "2026-03-31",
+    "tripType": "BUSINESS"
+  },
+  "locationId": 13377218,
+  "mcid": 24104,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g580527-d13377218-r1052727498-Quest_Midland-Midland_Swan_Valley_Greater_Perth_Western_Australia.html",
+  "title": "Great Venue & Close to Home",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Close to our home with everything we needed to continue to run our business while we could not use our home during the day for a week",
+  "username": "X130IHadmin",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g580527-d13377218-r1052727498-Quest_Midland-Midland_Swan_Valley_Greater_Perth_Western_Australia.html",
+  "attribution": "",
+  "location": {
+    "locationId": 13377218,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Quest Midland"
+  },
+  "additionalRatings": [
+    {
+      "rating": 5,
+      "ratingLabel": "Rooms"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Cleanliness"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 1,
+      "helpfulVote": null
+    },
+    "id": "15C7792FF2CF44D976DE606703A355D1",
+    "userId": "15C7792FF2CF44D976DE606703A355D1",
+    "displayName": "X130IHadmin",
+    "username": "X130IHadmin",
+    "hometown": {
+      "locationId": 15300409,
+      "fallbackString": "15300409",
+      "location": {
+        "locationId": 15300409,
+        "name": "Greenmount",
+        "additionalNames": {
+          "long": "Greenmount, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/X130IHadmin"
+    },
+    "avatar": {
+      "id": 452392144,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/d0/default-avatar-2020-33.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g580527-d13377218-Reviews-Quest_Midland-Midland_Swan_Valley_Greater_Perth_Western_Australia.html",
+  "id": 1051244605,
+  "createdDate": "2026-02-27",
+  "publishedDate": "2026-02-26",
+  "provider": null,
+  "rating": 3,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": {
+    "id": 1051735300,
+    "translationType": null,
+    "publishedDate": "2026-03-02",
+    "language": "en",
+    "text": "Hi Kat,\n\nThank you for taking the time to share your feedback. We are very sorry to hear about the disruption you experienced during your stay.\n\nThe power interruptions you described are certainly not the experience we want for our guests. While external outages are unfortunately outside of our control, we understand how frustrating this would have been - particularly with the impact on water, food storage and overall comfort. Please accept our sincere apologies for the inconvenience caused.\n\nWe are also concerned to read your comments regarding the Wi-Fi strength, TV performance and housekeeping service. Your feedback has been shared with our team so we can investigate the connectivity and ensure our televisions are functioning as expected. In addition, we have reminded our housekeeping team of the importance of consistently emptying bins and replenishing dishwasher powder and laundry liquid as part of each scheduled service.\n\nWe really appreciate you bringing these matters to our attention, as it allows us to review and improve. Should you choose to stay with us again, please don’t hesitate to contact reception during your stay so we can address any concerns promptly.\n\nWarm regards,\nLisa, Quest Midland",
+    "username": "Quest Midland",
+    "connectionToSubject": "Owner",
+    "userProfile": {
+      "avatar": null
+    }
+  },
+  "tripInfo": {
+    "stayDate": "2026-02-28",
+    "tripType": "NONE"
+  },
+  "locationId": 13377218,
+  "mcid": 24104,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g580527-d13377218-r1051244605-Quest_Midland-Midland_Swan_Valley_Greater_Perth_Western_Australia.html",
+  "title": "Not the best time",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Power went out multiple times which made us have to stay inside, stuck without water and food. Wifi signal was weak, TV’s weren’t great, room cleaning service wasn’t the best, they didn’t empty the bins every time nor did they give us cleaning supplies every time like the dishwasher powder / clothes washing liquid",
+  "username": "KatStokes1",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g580527-d13377218-r1051244605-Quest_Midland-Midland_Swan_Valley_Greater_Perth_Western_Australia.html",
+  "attribution": "",
+  "location": {
+    "locationId": 13377218,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Quest Midland"
+  },
+  "additionalRatings": [
+    {
+      "rating": 3,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 4,
+      "ratingLabel": "Rooms"
+    },
+    {
+      "rating": 2,
+      "ratingLabel": "Location"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Cleanliness"
+    },
+    {
+      "rating": 3,
+      "ratingLabel": "Service"
+    },
+    {
+      "rating": 4,
+      "ratingLabel": "Sleep Quality"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 1,
+      "helpfulVote": null
+    },
+    "id": "66A2DC70CCF7EEE971D6212DEB0A1D38",
+    "userId": "66A2DC70CCF7EEE971D6212DEB0A1D38",
+    "displayName": "KatStokes1",
+    "username": "KatStokes1",
+    "hometown": {
+      "locationId": 255103,
+      "fallbackString": "255103",
+      "location": {
+        "locationId": 255103,
+        "name": "Perth",
+        "additionalNames": {
+          "long": "Perth, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/KatStokes1"
+    },
+    "avatar": {
+      "id": 452390416,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ee/10/default-avatar-2020-8.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g580527-d13377218-Reviews-Quest_Midland-Midland_Swan_Valley_Greater_Perth_Western_Australia.html",
+  "id": 1050733441,
+  "createdDate": "2026-02-22",
+  "publishedDate": "2026-02-22",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": {
+    "id": 1050875323,
+    "translationType": null,
+    "publishedDate": "2026-02-23",
+    "language": "en",
+    "text": "Hi Justin James,\n\nThank you for your lovely review and for choosing to stay with us.\n\nWe’re really pleased to hear you enjoyed the apartment and found our location convenient, with easy access to the transport hub, Midland Gate Shopping Centre, and the many cafés and restaurants nearby. It’s something many of our guests appreciate, whether travelling for business or leisure.\n\nWe hope to welcome you back again soon for another comfortable stay.\n\nWarm regards,\nLisa, Quest Midland",
+    "username": "Quest Midland",
+    "connectionToSubject": "Owner",
+    "userProfile": {
+      "avatar": null
+    }
+  },
+  "tripInfo": {
+    "stayDate": "2026-02-28",
+    "tripType": "SOLO"
+  },
+  "locationId": 13377218,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [
+    {
+      "id": 847569193,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 3000,
+          "height": 4000,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/84/e1/29/caption.jpg?w=3000&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 847569194,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 3000,
+          "height": 4000,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/84/e1/2a/caption.jpg?w=3000&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 847569195,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 3000,
+          "height": 4000,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/84/e1/2b/caption.jpg?w=3000&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 847569196,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 3000,
+          "height": 4000,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/84/e1/2c/caption.jpg?w=3000&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 847569197,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 3000,
+          "height": 4000,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/84/e1/2d/caption.jpg?w=3000&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 847569198,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 3000,
+          "height": 4000,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/84/e1/2e/caption.jpg?w=3000&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 847569199,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 3000,
+          "height": 4000,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/84/e1/2f/caption.jpg?w=3000&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 847569200,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 3000,
+          "height": 4000,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/84/e1/30/caption.jpg?w=3000&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 847569201,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 3000,
+          "height": 4000,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/84/e1/31/caption.jpg?w=3000&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 847569202,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 3000,
+          "height": 4000,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/84/e1/32/caption.jpg?w=3000&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 847569203,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 3000,
+          "height": 4000,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/84/e1/33/caption.jpg?w=3000&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 847569204,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 3000,
+          "height": 4000,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/84/e1/34/caption.jpg?w=3000&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 847569205,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 3000,
+          "height": 4000,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/84/e1/35/caption.jpg?w=3000&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 847569206,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 3000,
+          "height": 4000,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/84/e1/36/caption.jpg?w=3000&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 847569207,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 3000,
+          "height": 4000,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/84/e1/37/caption.jpg?w=3000&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 847569208,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 3000,
+          "height": 4000,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/84/e1/38/caption.jpg?w=3000&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 847569209,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 3000,
+          "height": 4000,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/84/e1/39/caption.jpg?w=3000&h=-1&s=1"
+        }
+      ]
+    }
+  ],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g580527-d13377218-r1050733441-Quest_Midland-Midland_Swan_Valley_Greater_Perth_Western_Australia.html",
+  "title": "Quest midland western australia",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Nice apartment hotel, location is near transport hub and shops. Lots of cofes and resturants near by.",
+  "username": "JustinJames14uk",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g580527-d13377218-r1050733441-Quest_Midland-Midland_Swan_Valley_Greater_Perth_Western_Australia.html",
+  "attribution": null,
+  "location": {
+    "locationId": 13377218,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Quest Midland"
+  },
+  "additionalRatings": [
+    {
+      "rating": 5,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Rooms"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Location"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Cleanliness"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Service"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Sleep Quality"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 22,
+      "helpfulVote": null
+    },
+    "id": "296A209A97CB3834804F35A7817F3AF2",
+    "userId": "296A209A97CB3834804F35A7817F3AF2",
+    "displayName": "JustinJames14uk",
+    "username": "JustinJames14uk",
+    "hometown": {
+      "locationId": 503772,
+      "fallbackString": "503772",
+      "location": {
+        "locationId": 503772,
+        "name": "Braintree",
+        "additionalNames": {
+          "long": "Braintree, United Kingdom"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/JustinJames14uk"
+    },
+    "avatar": {
+      "id": 479207166,
+      "photoSizes": [
+        {
+          "width": 450,
+          "height": 450,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/90/1e/fe/avatar.jpg?w=450&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g580527-d13377218-Reviews-Quest_Midland-Midland_Swan_Valley_Greater_Perth_Western_Australia.html",
+  "id": 1050587637,
+  "createdDate": "2026-02-21",
+  "publishedDate": "2026-02-21",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": {
+    "id": 1050732849,
+    "translationType": null,
+    "publishedDate": "2026-02-22",
+    "language": "en",
+    "text": "Hi Chipo,\n\nThank you so much for your thoughtful review and for giving us the opportunity to welcome you back to Quest Midland.\n\nWe’re really pleased to hear that your recent stay was such a positive one and that our team made you feel warmly welcomed, with a smooth and easy check-in experience. It means a lot to know that this visit helped change your perspective, and we’re grateful that you chose to stay with us again.\n\nWe look forward to welcoming you back again soon!\n\nWarm regards,\nLisa, Quest Midland",
+    "username": "Quest Midland",
+    "connectionToSubject": "Owner",
+    "userProfile": {
+      "avatar": null
+    }
+  },
+  "tripInfo": {
+    "stayDate": "2026-02-28",
+    "tripType": "NONE"
+  },
+  "locationId": 13377218,
+  "mcid": 24104,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g580527-d13377218-r1050587637-Quest_Midland-Midland_Swan_Valley_Greater_Perth_Western_Australia.html",
+  "title": "Excellent service",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "I had a wonderful stay at Quest Midland. The staff were warm and friendly, and the check-in process was quick and easy.\nThis visit was such a big improvement from my previous experience in 2025. My stay this time truly changed my perspective, and I’m very grateful for the positive experience.\nA special thank you to Lisa for making the booking process so smooth and stress-free.\n",
+  "username": "Chipo M",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g580527-d13377218-r1050587637-Quest_Midland-Midland_Swan_Valley_Greater_Perth_Western_Australia.html",
+  "attribution": "",
+  "location": {
+    "locationId": 13377218,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Quest Midland"
+  },
+  "additionalRatings": [
+    {
+      "rating": 5,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Rooms"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Location"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Cleanliness"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Service"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Sleep Quality"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 3,
+      "helpfulVote": null
+    },
+    "id": "BCE9371EEF65A1F7D77C01470EF69776",
+    "userId": "BCE9371EEF65A1F7D77C01470EF69776",
+    "displayName": "Chipo M",
+    "username": "chipom424",
+    "hometown": {
+      "locationId": null,
+      "fallbackString": null,
+      "location": null
+    },
+    "route": {
+      "url": "/Profile/chipom424"
+    },
+    "avatar": {
+      "id": 452392461,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f6/0d/default-avatar-2020-34.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g580527-d13377218-Reviews-Quest_Midland-Midland_Swan_Valley_Greater_Perth_Western_Australia.html",
+  "id": 1050310622,
+  "createdDate": "2026-02-19",
+  "publishedDate": "2026-02-19",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": {
+    "id": 1050732735,
+    "translationType": null,
+    "publishedDate": "2026-02-22",
+    "language": "en",
+    "text": "Thank you so much for your lovely review and for choosing to stay with us at Quest Midland.\n\nIt’s wonderful to hear that our team were helpful, friendly and a pleasure to deal with throughout your stay. Providing courteous and attentive service is something we’re really proud of, and your kind words will mean a lot to the team.\n\nWe really appreciate your support and look forward to welcoming you back again soon.\n\nWarm regards,\nLisa, Quest Midland",
+    "username": "Quest Midland",
+    "connectionToSubject": "Owner",
+    "userProfile": {
+      "avatar": null
+    }
+  },
+  "tripInfo": {
+    "stayDate": "2026-02-28",
+    "tripType": "BUSINESS"
+  },
+  "locationId": 13377218,
+  "mcid": 24104,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g580527-d13377218-r1050310622-Quest_Midland-Midland_Swan_Valley_Greater_Perth_Western_Australia.html",
+  "title": "Brilliant Experience",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Stayed at the Quest Midland for two nights and the staff were helpful, friendly and a pleasure to deal with. Any questions asked were responded to in a very courteous manner",
+  "username": "O4148NRjohnp",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g580527-d13377218-r1050310622-Quest_Midland-Midland_Swan_Valley_Greater_Perth_Western_Australia.html",
+  "attribution": "",
+  "location": {
+    "locationId": 13377218,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Quest Midland"
+  },
+  "additionalRatings": [
+    {
+      "rating": 5,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Rooms"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Location"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Cleanliness"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Service"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Sleep Quality"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 6,
+      "helpfulVote": null
+    },
+    "id": "8607C2925367A85057BE776821D8AD60",
+    "userId": "8607C2925367A85057BE776821D8AD60",
+    "displayName": "O4148NRjohnp",
+    "username": "O4148NRjohnp",
+    "hometown": {
+      "locationId": 255068,
+      "fallbackString": "255068",
+      "location": {
+        "locationId": 255068,
+        "name": "Brisbane",
+        "additionalNames": {
+          "long": "Brisbane, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/O4148NRjohnp"
+    },
+    "avatar": {
+      "id": 452387885,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e4/2d/default-avatar-2020-48.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g580527-d13377218-Reviews-Quest_Midland-Midland_Swan_Valley_Greater_Perth_Western_Australia.html",
+  "id": 1049359853,
+  "createdDate": "2026-02-11",
+  "publishedDate": "2026-02-11",
+  "provider": null,
+  "rating": 1,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": {
+    "id": 1049471505,
+    "translationType": null,
+    "publishedDate": "2026-02-12",
+    "language": "en",
+    "text": "Hi Matt,\n\nThank you for sharing your feedback.\n\nWe’re really sorry for the confusion around the booking dates and the inconvenience this caused on arrival. We understand how stressful it is to arrive and not have your accommodation ready as expected, and we appreciate how frustrating that must have felt.\n\nAs mentioned in our private correspondence, we’ve since reviewed what occurred with the booking details and purchase order so we can prevent this from happening again in future. Clear communication is really important to us, and we’re always looking at ways to improve our processes for both guests and travel bookers.\n\nThank you for taking the time to speak with us directly, and we hope we have the opportunity to welcome you back for a much smoother stay next time.\n\nWarm regards,\nLisa, Quest Midland",
+    "username": "Quest Midland",
+    "connectionToSubject": "Owner",
+    "userProfile": {
+      "avatar": null
+    }
+  },
+  "tripInfo": {
+    "stayDate": "2026-02-28",
+    "tripType": "BUSINESS"
+  },
+  "locationId": 13377218,
+  "mcid": 24104,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g580527-d13377218-r1049359853-Quest_Midland-Midland_Swan_Valley_Greater_Perth_Western_Australia.html",
+  "title": "Bad booking",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Booked room for 10th. Of Feb, PO from company was sent for that date. Arrived to find room had been booked for night of the 9th. No where to stay",
+  "username": "mattboyle86",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g580527-d13377218-r1049359853-Quest_Midland-Midland_Swan_Valley_Greater_Perth_Western_Australia.html",
+  "attribution": "",
+  "location": {
+    "locationId": 13377218,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Quest Midland"
+  },
+  "additionalRatings": [
+    {
+      "rating": 1,
+      "ratingLabel": "Rooms"
+    },
+    {
+      "rating": 1,
+      "ratingLabel": "Cleanliness"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 1,
+      "helpfulVote": null
+    },
+    "id": "F43F56F0BE1400FC04E789157A3A4C60",
+    "userId": "F43F56F0BE1400FC04E789157A3A4C60",
+    "displayName": "mattboyle86",
+    "username": "mattboyle86",
+    "hometown": {
+      "locationId": null,
+      "fallbackString": null,
+      "location": null
+    },
+    "route": {
+      "url": "/Profile/mattboyle86"
+    },
+    "avatar": {
+      "id": 452389492,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ea/74/default-avatar-2020-68.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g580527-d13377218-Reviews-Quest_Midland-Midland_Swan_Valley_Greater_Perth_Western_Australia.html",
+  "id": 1049290124,
+  "createdDate": "2026-02-11",
+  "publishedDate": "2026-02-11",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": {
+    "id": 1049471563,
+    "translationType": null,
+    "publishedDate": "2026-02-12",
+    "language": "en",
+    "text": "Thank you so much for your lovely 5/5 review!\n\nWe’re so pleased to hear you were impressed from the moment you arrived and that you enjoyed the spacious layout, full living area, kitchen facilities and accessible design. It’s great to know the apartment had everything you needed to feel comfortable during your stay.\n\nWe also really appreciate your comments about the value for money - providing generous space and practical amenities at a great rate is something we work hard to deliver for every guest.\n\nWe hope to welcome you back to Quest Midland again soon.\n\nWarm regards,\nLisa, Quest Midland",
+    "username": "Quest Midland",
+    "connectionToSubject": "Owner",
+    "userProfile": {
+      "avatar": null
+    }
+  },
+  "tripInfo": {
+    "stayDate": "2026-02-28",
+    "tripType": "NONE"
+  },
+  "locationId": 13377218,
+  "mcid": 24104,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g580527-d13377218-r1049290124-Quest_Midland-Midland_Swan_Valley_Greater_Perth_Western_Australia.html",
+  "title": "A beautiful room",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "I was so impressed when I arrived.  A huge bed, full living area and kitchen facility and fully accessible.  And such good value for money.",
+  "username": "mrstammac",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g580527-d13377218-r1049290124-Quest_Midland-Midland_Swan_Valley_Greater_Perth_Western_Australia.html",
+  "attribution": "",
+  "location": {
+    "locationId": 13377218,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Quest Midland"
+  },
+  "additionalRatings": [
+    {
+      "rating": 5,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Rooms"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Location"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Cleanliness"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Service"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Sleep Quality"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 1,
+      "helpfulVote": null
+    },
+    "id": "FD76E8AAF0AE6D9BB380741541805FCF",
+    "userId": "FD76E8AAF0AE6D9BB380741541805FCF",
+    "displayName": "mrstammac",
+    "username": "mrstammac",
+    "hometown": {
+      "locationId": null,
+      "fallbackString": null,
+      "location": null
+    },
+    "route": {
+      "url": "/Profile/mrstammac"
+    },
+    "avatar": {
+      "id": 452389359,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e9/ef/default-avatar-2020-66.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g580527-d13377218-Reviews-Quest_Midland-Midland_Swan_Valley_Greater_Perth_Western_Australia.html",
+  "id": 1049031493,
+  "createdDate": "2026-02-08",
+  "publishedDate": "2026-02-08",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": {
+    "id": 1049144151,
+    "translationType": null,
+    "publishedDate": "2026-02-09",
+    "language": "en",
+    "text": "Hi Bally,\n\nThank you so much for your lovely review and kind words.\n\nWe’re really pleased to hear you enjoyed your stay and found our service, facilities, cleanliness and room comfort to be above average. Creating a welcoming, comfortable space where our guests can rest well and feel looked after is exactly what we aim for, so your feedback means a lot to our team.\n\nOur team will be especially happy to know you found them friendly and helpful - we’re very proud of the care they show every day.\n\nThank you again for choosing to stay with us. We hope to welcome you back to Quest Midland on your next visit.\n\nWarm regards,\nLisa, Quest Midland",
+    "username": "Quest Midland",
+    "connectionToSubject": "Owner",
+    "userProfile": {
+      "avatar": null
+    }
+  },
+  "tripInfo": {
+    "stayDate": "2026-01-31",
+    "tripType": "NONE"
+  },
+  "locationId": 13377218,
+  "mcid": 24104,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g580527-d13377218-r1049031493-Quest_Midland-Midland_Swan_Valley_Greater_Perth_Western_Australia.html",
+  "title": "Quest Midland",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Very Good service and facilities. And kind and friendly staffs and business owners. Services, cleanliness, value, sleep quality, room size are above average. Thank you.",
+  "username": "bally2026",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g580527-d13377218-r1049031493-Quest_Midland-Midland_Swan_Valley_Greater_Perth_Western_Australia.html",
+  "attribution": "",
+  "location": {
+    "locationId": 13377218,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Quest Midland"
+  },
+  "additionalRatings": [
+    {
+      "rating": 4,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 4,
+      "ratingLabel": "Rooms"
+    },
+    {
+      "rating": 3,
+      "ratingLabel": "Location"
+    },
+    {
+      "rating": 4,
+      "ratingLabel": "Cleanliness"
+    },
+    {
+      "rating": 4,
+      "ratingLabel": "Service"
+    },
+    {
+      "rating": 4,
+      "ratingLabel": "Sleep Quality"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 1,
+      "helpfulVote": null
+    },
+    "id": "166BF399583B25703563AED13BF68003",
+    "userId": "166BF399583B25703563AED13BF68003",
+    "displayName": "bally2026",
+    "username": "bally2026",
+    "hometown": {
+      "locationId": 255103,
+      "fallbackString": "255103",
+      "location": {
+        "locationId": 255103,
+        "name": "Perth",
+        "additionalNames": {
+          "long": "Perth, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/bally2026"
+    },
+    "avatar": {
+      "id": 452360110,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/77/ae/default-avatar-2020-2.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g580527-d13377218-Reviews-Quest_Midland-Midland_Swan_Valley_Greater_Perth_Western_Australia.html",
+  "id": 1048347954,
+  "createdDate": "2026-02-02",
+  "publishedDate": "2026-02-02",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": {
+    "id": 1048449741,
+    "translationType": null,
+    "publishedDate": "2026-02-03",
+    "language": "en",
+    "text": "Thank you so much for your lovely review and for sharing your experience with us!\n\nIt’s really pleasing to hear that our team made such a positive impression. We’re so proud of how polite, friendly and welcoming they are, and your kind words mean a lot to all of us. Knowing you couldn’t fault the facilities and enjoyed our convenient location close to great local spots for food, drinks and essentials makes it even better.\n\nWe really appreciate you choosing to stay with us and are so glad you’d return. We look forward to welcoming you back again soon for another comfortable stay.\n\nWarm regards,\nLisa, Quest Midland",
+    "username": "Quest Midland",
+    "connectionToSubject": "Owner",
+    "userProfile": {
+      "avatar": null
+    }
+  },
+  "tripInfo": {
+    "stayDate": "2026-01-31",
+    "tripType": "NONE"
+  },
+  "locationId": 13377218,
+  "mcid": 24104,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g580527-d13377218-r1048347954-Quest_Midland-Midland_Swan_Valley_Greater_Perth_Western_Australia.html",
+  "title": "Hidden Gem",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "I'm reluctant to write review purely to keep this Hidden Gem a secret.\nAll staff were so polite, courteous, friendly and greeted anyone with a smile. I would not fault the facilities here in any way. Very short walking distance to fabulous authentic pizza shop, Dan Murphy's and IGA.\nWould definitely stay again.",
+  "username": "tkpeaches82",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g580527-d13377218-r1048347954-Quest_Midland-Midland_Swan_Valley_Greater_Perth_Western_Australia.html",
+  "attribution": "",
+  "location": {
+    "locationId": 13377218,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Quest Midland"
+  },
+  "additionalRatings": [
+    {
+      "rating": 5,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Rooms"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Location"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Cleanliness"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Service"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Sleep Quality"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 1,
+      "helpfulVote": null
+    },
+    "id": "FF03BF39CE27CF6284900C0F91EF9B6E",
+    "userId": "FF03BF39CE27CF6284900C0F91EF9B6E",
+    "displayName": "tkpeaches82",
+    "username": "tkpeaches82",
+    "hometown": {
+      "locationId": 255103,
+      "fallbackString": "255103",
+      "location": {
+        "locationId": 255103,
+        "name": "Perth",
+        "additionalNames": {
+          "long": "Perth, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/tkpeaches82"
+    },
+    "avatar": {
+      "id": 452389009,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e8/91/default-avatar-2020-62.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g580527-d13377218-Reviews-Quest_Midland-Midland_Swan_Valley_Greater_Perth_Western_Australia.html",
+  "id": 1047857396,
+  "createdDate": "2026-01-29",
+  "publishedDate": "2026-01-29",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": {
+    "id": 1048227187,
+    "translationType": null,
+    "publishedDate": "2026-02-01",
+    "language": "en",
+    "text": "Hi Tessa,\n\nThank you for staying with us and for taking the time to share your feedback.\n\nWe’re so pleased to hear you found the accommodation comfortable and enjoyed our convenient location close to shops, restaurants, and everything you needed during your visit. It’s also lovely to know our team made a positive impression with their friendly service - I’ll be sure to pass your kind words on to them.\n\nWe really appreciate your support and hope to welcome you back to Quest Midland again soon.\n\nWarm regards,\nLisa, Quest Midland",
+    "username": "Quest Midland",
+    "connectionToSubject": "Owner",
+    "userProfile": {
+      "avatar": null
+    }
+  },
+  "tripInfo": {
+    "stayDate": "2026-01-31",
+    "tripType": "BUSINESS"
+  },
+  "locationId": 13377218,
+  "mcid": 24104,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g580527-d13377218-r1047857396-Quest_Midland-Midland_Swan_Valley_Greater_Perth_Western_Australia.html",
+  "title": "Comfortable accommodation for a business trip",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "I stayed for 2 nights. The accommodation was comfortable and close to where we needed to be. Staff were friendly and shops and restaurants were close.",
+  "username": "309tessa",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g580527-d13377218-r1047857396-Quest_Midland-Midland_Swan_Valley_Greater_Perth_Western_Australia.html",
+  "attribution": "",
+  "location": {
+    "locationId": 13377218,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Quest Midland"
+  },
+  "additionalRatings": [
+    {
+      "rating": 4,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Rooms"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Location"
+    },
+    {
+      "rating": 4,
+      "ratingLabel": "Cleanliness"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Service"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Sleep Quality"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 1,
+      "helpfulVote": null
+    },
+    "id": "94928BE9BD30295CE96095B99ECE6211",
+    "userId": "94928BE9BD30295CE96095B99ECE6211",
+    "displayName": "309tessa",
+    "username": "309tessa",
+    "hometown": {
+      "locationId": 255066,
+      "fallbackString": "255066",
+      "location": {
+        "locationId": 255066,
+        "name": "Darwin",
+        "additionalNames": {
+          "long": "Darwin, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/309tessa"
+    },
+    "avatar": {
+      "id": 452389009,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e8/91/default-avatar-2020-62.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+}]

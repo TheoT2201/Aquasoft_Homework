@@ -1,0 +1,286 @@
+[{
+  "id": "2280662",
+  "type": "HOTEL",
+  "category": "hotel",
+  "subcategories": [
+    "Specialty Lodging"
+  ],
+  "name": "Charlestown Executive Apartments",
+  "locationString": "Charlestown, Lake Macquarie, Greater Newcastle, New South Wales",
+  "description": "Located in the heart of Charlestown, Newcastle Australia, - Charlestown Executive Apartments offers contemporary quality accommodation that seamlessly links the barrier between apartment living and hotel comfort. Perfectly located in its own cul-de-sac, just 15 minutes drive from Newcastle CBD, city beaches and Lake Macquarie, Charlestown ensures a quiet escape that is only minutes away from the essential business, shopping and tourist venues in the area.",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/2c/21/b9/f8/2-bedroom.jpg",
+  "photoCount": 120,
+  "rankingPosition": 1,
+  "rating": 4.5,
+  "rawRanking": 3.7481279373168945,
+  "phone": "+61 2 4941 6688",
+  "address": "45-47 Dickinson St, Charlestown, Lake Macquarie, New South Wales 2290 Australia",
+  "addressObj": {
+    "street1": "45-47 Dickinson St",
+    "street2": null,
+    "city": "Charlestown",
+    "state": "New South Wales",
+    "country": "Australia",
+    "postalcode": "2290"
+  },
+  "localName": "Charlestown Executive Apartments",
+  "localAddress": "45-47 Dickinson St, 2290",
+  "localLangCode": "en-AU",
+  "email": "graham@charlestownapartments.com.au",
+  "latitude": -32.964985,
+  "longitude": 151.69818,
+  "webUrl": "https://www.tripadvisor.com/Hotel_Review-g1210244-d2280662-Reviews-Charlestown_Executive_Apartments-Charlestown_Lake_Macquarie_Greater_Newcastle_New_Sou.html",
+  "website": "http://www.charlestownapartments.com.au/",
+  "rankingString": "#1 of 3 Specialty lodging in Charlestown",
+  "rankingDenominator": "3",
+  "rankingSource": "API",
+  "neighborhoodLocations": [],
+  "nearestMetroStations": [],
+  "ancestorLocations": [
+    {
+      "id": "1210244",
+      "name": "Charlestown",
+      "abbreviation": null,
+      "subcategory": "City"
+    },
+    {
+      "id": "2307970",
+      "name": "Lake Macquarie",
+      "abbreviation": null,
+      "subcategory": "Municipality"
+    },
+    {
+      "id": "2717917",
+      "name": "Greater Newcastle",
+      "abbreviation": null,
+      "subcategory": "District"
+    },
+    {
+      "id": "255058",
+      "name": "New South Wales",
+      "abbreviation": null,
+      "subcategory": "State"
+    },
+    {
+      "id": "255055",
+      "name": "Australia",
+      "abbreviation": null,
+      "subcategory": "Country"
+    }
+  ],
+  "ratingHistogram": {
+    "count1": 6,
+    "count2": 2,
+    "count3": 16,
+    "count4": 63,
+    "count5": 169
+  },
+  "numberOfReviews": 256,
+  "hotelClass": "3.5",
+  "hotelClassAttribution": "This property is classified according to Giata.",
+  "amenities": [
+    "Internet",
+    "Free parking",
+    "Free Wifi",
+    "Suites",
+    "Kitchenette",
+    "Non-smoking rooms",
+    "Air conditioning",
+    "Self-Serve Laundry",
+    "Microwave",
+    "Refrigerator in room",
+    "Non-smoking hotel",
+    "Flatscreen TV",
+    "Parking",
+    "Dishwasher",
+    "Parking Garage",
+    "Free Internet",
+    "Wheelchair access",
+    "Wifi",
+    "Laundry Service",
+    "Family Rooms",
+    "Accessible rooms",
+    "Baggage Storage",
+    "Bath / Shower",
+    "BBQ Facilities",
+    "Express Check-in / Check-out",
+    "Coffee / Tea Maker",
+    "Complimentary Tea",
+    "English",
+    "Complimentary Instant Coffee",
+    "Complimentary Toiletries",
+    "Hair Dryer",
+    "Iron",
+    "Kitchenware",
+    "Seating Area",
+    "Sofa",
+    "Wake Up Service / Alarm Clock"
+  ],
+  "priceLevel": "$$",
+  "priceRange": "$115 - $280",
+  "roomTips": [
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Pack light if you don’t like lugging up stairs.",
+      "rating": "5",
+      "reviewId": "865371383",
+      "id": "865371383",
+      "createdTime": "2022-10-21T02:17:31-04:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Check parking garage dimensions if looking for secure parking. Lots of stairs",
+      "rating": "5",
+      "reviewId": "864726887",
+      "id": "864726887",
+      "createdTime": "2022-10-16T04:32:15-04:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "be able to walk up stairs as the rooms are up stairs",
+      "rating": "4",
+      "reviewId": "860846045",
+      "id": "860846045",
+      "createdTime": "2022-09-19T00:47:18-04:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "All good, and easy to find",
+      "rating": "5",
+      "reviewId": "819370384",
+      "id": "819370384",
+      "createdTime": "2021-11-19T22:29:25-05:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Ask for a room with a balcony - lovely sitting out there in the evening",
+      "rating": "5",
+      "reviewId": "672379152",
+      "id": "672379152",
+      "createdTime": "2019-05-07T20:52:44-04:00"
+    }
+  ],
+  "checkInDate": "2026-03-26",
+  "checkOutDate": "2026-03-27",
+  "numberOfRooms": 21,
+  "categoryReviewScores": [
+    {
+      "categoryName": "Location",
+      "score": 4.503311,
+      "roundedScore": 4.5
+    },
+    {
+      "categoryName": "Rooms",
+      "score": 4.6602564,
+      "roundedScore": 4.7
+    },
+    {
+      "categoryName": "Value",
+      "score": 4.4551725,
+      "roundedScore": 4.5
+    },
+    {
+      "categoryName": "Cleanliness",
+      "score": 4.6883116,
+      "roundedScore": 4.7
+    },
+    {
+      "categoryName": "Service",
+      "score": 4.522388000000001,
+      "roundedScore": 4.5
+    },
+    {
+      "categoryName": "Sleep Quality",
+      "score": 4.5689654,
+      "roundedScore": 4.6
+    }
+  ],
+  "aiReviewsSummary": null,
+  "whatsAppRedirectUrl": null,
+  "travelerChoiceAward": null,
+  "offers": [],
+  "reviewTags": [
+    {
+      "text": "charlestown square",
+      "reviews": 38
+    },
+    {
+      "text": "three levels",
+      "reviews": 4
+    },
+    {
+      "text": "one bedroom apartment",
+      "reviews": 6
+    },
+    {
+      "text": "great apartment",
+      "reviews": 5
+    },
+    {
+      "text": "street parking",
+      "reviews": 4
+    },
+    {
+      "text": "pin code",
+      "reviews": 3
+    },
+    {
+      "text": "secure car parking",
+      "reviews": 3
+    },
+    {
+      "text": "apartment was clean",
+      "reviews": 4
+    },
+    {
+      "text": "extra cost",
+      "reviews": 3
+    },
+    {
+      "text": "a great place to stay",
+      "reviews": 7
+    },
+    {
+      "text": "would stay again",
+      "reviews": 7
+    },
+    {
+      "text": "the ground floor",
+      "reviews": 4
+    },
+    {
+      "text": "lounge room",
+      "reviews": 3
+    },
+    {
+      "text": "hunter valley",
+      "reviews": 3
+    },
+    {
+      "text": "newcastle",
+      "reviews": 58
+    },
+    {
+      "text": "accommodation",
+      "reviews": 35
+    },
+    {
+      "text": "upstairs",
+      "reviews": 16
+    },
+    {
+      "text": "dishwasher",
+      "reviews": 7
+    },
+    {
+      "text": "cutlery",
+      "reviews": 5
+    }
+  ],
+  "isNearbyResult": false
+}]

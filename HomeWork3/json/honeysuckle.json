@@ -1,0 +1,930 @@
+[{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g255325-d19609416-Reviews-Honeysuckle_Executive_Apartments-Newcastle_Greater_Newcastle_New_South_Wales.html",
+  "id": 1048668249,
+  "createdDate": "2026-02-05",
+  "publishedDate": "2026-02-05",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2026-02-28",
+    "tripType": "COUPLES"
+  },
+  "locationId": 19609416,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g255325-d19609416-r1048668249-Honeysuckle_Executive_Apartments-Newcastle_Greater_Newcastle_New_South_Wales.html",
+  "title": "Great apartments in a great location!",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "The one bedroom apartment was well priced, comfortable & spacious. Well located to the CBD, light rail, interchange & waterfront dining precinct, plenty of paid parking on site & surrounding streets. We didn't like the coded keypads to enter the building & our room, many times we couldn't get out of the car park or into our room which was frustrating. We'd prefer the tried & proven swipe card or fob option!",
+  "username": "Iain_and_Louise",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g255325-d19609416-r1048668249-Honeysuckle_Executive_Apartments-Newcastle_Greater_Newcastle_New_South_Wales.html",
+  "attribution": null,
+  "location": {
+    "locationId": 19609416,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Honeysuckle Executive Apartments"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 173,
+      "helpfulVote": null
+    },
+    "id": "4EDAC209C37E7B395EB103D4030C97EC",
+    "userId": "4EDAC209C37E7B395EB103D4030C97EC",
+    "displayName": "Iain_and_Louise",
+    "username": "Iain_and_Louise",
+    "hometown": {
+      "locationId": 2223138,
+      "fallbackString": "2223138",
+      "location": {
+        "locationId": 2223138,
+        "name": "Lisarow",
+        "additionalNames": {
+          "long": "Lisarow, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/Iain_and_Louise"
+    },
+    "avatar": {
+      "id": 250470281,
+      "photoSizes": [
+        {
+          "width": 554,
+          "height": 727,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/ed/df/89/iain-and-louise.jpg?w=554&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g255325-d19609416-Reviews-Honeysuckle_Executive_Apartments-Newcastle_Greater_Newcastle_New_South_Wales.html",
+  "id": 1003918773,
+  "createdDate": "2025-04-23",
+  "publishedDate": "2025-04-23",
+  "provider": null,
+  "rating": 3,
+  "publishPlatform": "MOBILE",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2025-04-30",
+    "tripType": "FAMILY"
+  },
+  "locationId": 19609416,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g255325-d19609416-r1003918773-Honeysuckle_Executive_Apartments-Newcastle_Greater_Newcastle_New_South_Wales.html",
+  "title": "Great apartment but a terrible night sleep.",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "The apartments are in excellent location. Our apartment was well equipped and great size. The night, however, was so noisy. Party upstairs all night. People running up and down hallway. It was impossible to sleep and ran from 11pm till 4pm. No one to notify as there is a call out fee for after hours assistance. Rooms not at all insulated. Doors banging throughout night and street noise.",
+  "username": "lbjmlbm",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g255325-d19609416-r1003918773-Honeysuckle_Executive_Apartments-Newcastle_Greater_Newcastle_New_South_Wales.html",
+  "attribution": null,
+  "location": {
+    "locationId": 19609416,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Honeysuckle Executive Apartments"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 6,
+      "helpfulVote": null
+    },
+    "id": "4925AD05FC302FE57804BEB2D84788A5",
+    "userId": "4925AD05FC302FE57804BEB2D84788A5",
+    "displayName": "Laurel",
+    "username": "lbjmlbm",
+    "hometown": {
+      "locationId": 529020,
+      "fallbackString": "529020",
+      "location": {
+        "locationId": 529020,
+        "name": "Sawtell",
+        "additionalNames": {
+          "long": "Sawtell, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/lbjmlbm"
+    },
+    "avatar": {
+      "id": 452386394,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/5a/default-avatar-2020-36.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g255325-d19609416-Reviews-Honeysuckle_Executive_Apartments-Newcastle_Greater_Newcastle_New_South_Wales.html",
+  "id": 990456757,
+  "createdDate": "2025-01-25",
+  "publishedDate": "2025-01-24",
+  "provider": null,
+  "rating": 1,
+  "publishPlatform": "MOBILE",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2024-12-31",
+    "tripType": "FAMILY"
+  },
+  "locationId": 19609416,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g255325-d19609416-r990456757-Honeysuckle_Executive_Apartments-Newcastle_Greater_Newcastle_New_South_Wales.html",
+  "title": "Lies",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Lost my Iwatch here, still after 1 month no one has contacted me. I actually think no one took my request when I said it was left in the room. \n\nNow 1 month later when I know it there, the response to this is unacceptable and really unnecessary. \n\nAll I would like is for the staff member that took the watch is for it to be returned. \n\nWill never stay here again, and will never tell friends and family to stay either.",
+  "username": "Jeff C",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g255325-d19609416-r990456757-Honeysuckle_Executive_Apartments-Newcastle_Greater_Newcastle_New_South_Wales.html",
+  "attribution": null,
+  "location": {
+    "locationId": 19609416,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Honeysuckle Executive Apartments"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 1,
+      "helpfulVote": null
+    },
+    "id": "95C9E7480F36BD7D2DF217BE3A175D3B",
+    "userId": "95C9E7480F36BD7D2DF217BE3A175D3B",
+    "displayName": "Jeff C",
+    "username": "N1511HVjeffc",
+    "hometown": {
+      "locationId": null,
+      "fallbackString": null,
+      "location": null
+    },
+    "route": {
+      "url": "/Profile/N1511HVjeffc"
+    },
+    "avatar": {
+      "id": 452392144,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/d0/default-avatar-2020-33.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g255325-d19609416-Reviews-Honeysuckle_Executive_Apartments-Newcastle_Greater_Newcastle_New_South_Wales.html",
+  "id": 986564085,
+  "createdDate": "2024-12-27",
+  "publishedDate": "2024-12-27",
+  "provider": null,
+  "rating": 1,
+  "publishPlatform": "MOBILE",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2024-12-31",
+    "tripType": "COUPLES"
+  },
+  "locationId": 19609416,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [
+    {
+      "id": 778940428,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 2048,
+          "height": 1536,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/6d/b0/0c/caption.jpg?w=2048&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 778940427,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 1536,
+          "height": 2048,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/6d/b0/0b/caption.jpg?w=1536&h=-1&s=1"
+        }
+      ]
+    }
+  ],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g255325-d19609416-r986564085-Honeysuckle_Executive_Apartments-Newcastle_Greater_Newcastle_New_South_Wales.html",
+  "title": "Unacceptable Hygiene Standards",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Our recent stay at Honeysuckle Executive Apartments was deeply disappointing due to significant cleanliness issues.\n\nWhile searching for a misplaced AirPod, we removed the sheets and blanket from the bed and were shocked to discover blood stains on the sheets near the end of the mattress, possibly from a previous guest. After checking ourselves, it was clear the blood did not come from us, which made the discovery even more unsettling. Further inspection revealed yellow stains on the mattress protector, sesame seeds on the bed, and a drop of dried blood in the bathroom.\n\nThe cleanliness issues didn’t stop there. The blanket felt unclean, the bedside tables were dusty, and the floor was filthy, leaving black grease smudges on bare feet after walking barefoot. Additionally, itchy skin developed during the stay, further highlighting the lack of hygiene and adding to the discomfort.\n\nThese concerns were reported to reception, and a specific request was made for the bed sheets and linen to be replaced. The staff member said they would try to arrange for someone to address it. However, upon returning from a day trip, it was evident that nothing had been done. The same bloodstained sheets, dirty mattress protector, and other cleanliness issues remained.\n\nMaintaining cleanliness should be a basic standard for any accommodation, regardless of its price range. The unhygienic conditions made it impossible to feel at ease or enjoy a relaxing stay, resulting in a deeply disappointing experience. \n\nGiven this experience, I cannot recommend Honeysuckle Executive Apartments.",
+  "username": "kevichii",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g255325-d19609416-r986564085-Honeysuckle_Executive_Apartments-Newcastle_Greater_Newcastle_New_South_Wales.html",
+  "attribution": null,
+  "location": {
+    "locationId": 19609416,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Honeysuckle Executive Apartments"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 34,
+      "helpfulVote": null
+    },
+    "id": "614E74498C5F82064B4035DCEA4A884F",
+    "userId": "614E74498C5F82064B4035DCEA4A884F",
+    "displayName": "kevichii",
+    "username": "kevichii",
+    "hometown": {
+      "locationId": 255100,
+      "fallbackString": "255100",
+      "location": {
+        "locationId": 255100,
+        "name": "Melbourne",
+        "additionalNames": {
+          "long": "Melbourne, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/kevichii"
+    },
+    "avatar": {
+      "id": 779132032,
+      "photoSizes": [
+        {
+          "width": 414,
+          "height": 416,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/70/9c/80/caption.jpg?w=414&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g255325-d19609416-Reviews-Honeysuckle_Executive_Apartments-Newcastle_Greater_Newcastle_New_South_Wales.html",
+  "id": 945783849,
+  "createdDate": "2024-04-08",
+  "publishedDate": "2024-04-07",
+  "provider": null,
+  "rating": 1,
+  "publishPlatform": "MOBILE",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2024-04-30",
+    "tripType": "FAMILY"
+  },
+  "locationId": 19609416,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g255325-d19609416-r945783849-Honeysuckle_Executive_Apartments-Newcastle_Greater_Newcastle_New_South_Wales.html",
+  "title": "Greedy manager and lack of communication!",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Absolutely disgusted and disappointed with my dealings with this place. I never even got a chance to stay. I tried to change my booking 48 hours prior to my stay only to be ghosted by the venue. Then they tried saying I stayed in the apartment. I live 4 hours away. No empathy given. I will never stay at this apartment. Just greed!",
+  "username": "Shandell C",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g255325-d19609416-r945783849-Honeysuckle_Executive_Apartments-Newcastle_Greater_Newcastle_New_South_Wales.html",
+  "attribution": null,
+  "location": {
+    "locationId": 19609416,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Honeysuckle Executive Apartments"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 10,
+      "helpfulVote": null
+    },
+    "id": "5F042AFFEEDB97675912ECAF5A661B7A",
+    "userId": "5F042AFFEEDB97675912ECAF5A661B7A",
+    "displayName": "Country Traveller",
+    "username": "shandellleec",
+    "hometown": {
+      "locationId": null,
+      "fallbackString": null,
+      "location": null
+    },
+    "route": {
+      "url": "/Profile/shandellleec"
+    },
+    "avatar": {
+      "id": 452389554,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ea/b2/default-avatar-2020-69.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g255325-d19609416-Reviews-Honeysuckle_Executive_Apartments-Newcastle_Greater_Newcastle_New_South_Wales.html",
+  "id": 929616939,
+  "createdDate": "2023-12-15",
+  "publishedDate": "2023-12-15",
+  "provider": null,
+  "rating": 2,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2023-12-31",
+    "tripType": "FAMILY"
+  },
+  "locationId": 19609416,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [
+    {
+      "id": 721915175,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 3024,
+          "height": 4032,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/07/8d/27/caption.jpg?w=3024&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 721915173,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 3024,
+          "height": 4032,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/07/8d/25/caption.jpg?w=3024&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 721915174,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 3024,
+          "height": 4032,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/07/8d/26/caption.jpg?w=3024&h=-1&s=1"
+        }
+      ]
+    }
+  ],
+  "helpfulVotes": 1,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g255325-d19609416-r929616939-Honeysuckle_Executive_Apartments-Newcastle_Greater_Newcastle_New_South_Wales.html",
+  "title": "Central location but shocking customer service, and wrong codes provided to enter!",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "I booked into Honeysuckle Executive Apartments for myself and elderly parents during a recent trip. Due to my work commitments i initially emailed and  due to no response rang to try and arrange an early check in., which I was happy to pay for , but unsure on exact time. I spoke to a Harry, who was extremely rude and not at all helpful.\n\nI rang again the following morning to pay the early check in fee, as I wouldn’t be checking in at the same time as my parents. Harry left me on hold for roughly 8 minutes while he checked with housekeeping, despite arrangements being made the day earlier. I hung up and spoke to a lovely lady (Hannah I think) who assisted very quickly.\n\nUpon my sister arriving at property with my parents, they could be seen waiting at the front door, yet no one let them in. They were then greeted with  the comment ‘these early check in better slow down, housekeeping can’t keep up’\n\nMy sister was then belittled by male checking in, as we had not been provided the codes or check in details via text. I received these 25 minutes after the arranged arrival time. I called to speak to the manager, who once again needs to learn basic customer service and listen to guests when they are trying to speak! \n\nThe codes provided did not work for the doors, and they actually changed to code to pool without informing guests, or actual front desk staff! \n\nThe room was generally clean, but had rust marks throughout the bathroom and was not the cleanest apartment I had stayed in.",
+  "username": "167katherinew",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g255325-d19609416-r929616939-Honeysuckle_Executive_Apartments-Newcastle_Greater_Newcastle_New_South_Wales.html",
+  "attribution": null,
+  "location": {
+    "locationId": 19609416,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Honeysuckle Executive Apartments"
+  },
+  "additionalRatings": [
+    {
+      "rating": 2,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 4,
+      "ratingLabel": "Location"
+    },
+    {
+      "rating": 1,
+      "ratingLabel": "Service"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 4,
+      "helpfulVote": null
+    },
+    "id": "45E7AEDC1367C52BB41F28FF4A848A4B",
+    "userId": "45E7AEDC1367C52BB41F28FF4A848A4B",
+    "displayName": "Katherine W",
+    "username": "167katherinew",
+    "hometown": {
+      "locationId": null,
+      "fallbackString": null,
+      "location": null
+    },
+    "route": {
+      "url": "/Profile/167katherinew"
+    },
+    "avatar": {
+      "id": 452389741,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/eb/6d/default-avatar-2020-19.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g255325-d19609416-Reviews-Honeysuckle_Executive_Apartments-Newcastle_Greater_Newcastle_New_South_Wales.html",
+  "id": 923898723,
+  "createdDate": "2023-10-31",
+  "publishedDate": "2023-10-31",
+  "provider": null,
+  "rating": 2,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2023-10-31",
+    "tripType": "FAMILY"
+  },
+  "locationId": 19609416,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 1,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g255325-d19609416-r923898723-Honeysuckle_Executive_Apartments-Newcastle_Greater_Newcastle_New_South_Wales.html",
+  "title": "Wouldn't bother....",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": " 2 days before 3 of us were due to stay at another property in Newcastle, (a 2 bedroom apartment), I was called to say the apartment I had booked (Nouveau on Young) had become unavailable due to the people in it extending their stay.\nSuffice to say that a heated discussion entailed and even more so when the only alternative they offered was a 1 bedroom apartment with a trundle bed in the lounge room for my 70 year old sister to sleep in, in this so called \"Executive Apartment\" in a completely different suburb!!\n\nThe only recompense the SMUG manager offered was free parking! OR of course the other option of cancelling our booking and getting a refund....\nWe had booked the other apartment 6 months before our stay as it is very near the Stadium where we were seeing a concert and obviously the whole of Newcastle was booked out by the time it came to 2 days beforehand.\n\nThis apartment was ok, though not properly cleaned.\nThe bedroom is small, the furniture is old and worn. The verandah not maintained. It certainly isn't big enough for 3 people to stay in comfortably!\n\nThis company operates a string of properties in Newcastle and I would be wary of receiving any reliability, help, sympathy or recompense regarding your booking.",
+  "username": "frankettey",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g255325-d19609416-r923898723-Honeysuckle_Executive_Apartments-Newcastle_Greater_Newcastle_New_South_Wales.html",
+  "attribution": null,
+  "location": {
+    "locationId": 19609416,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Honeysuckle Executive Apartments"
+  },
+  "additionalRatings": [
+    {
+      "rating": 2,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 4,
+      "ratingLabel": "Location"
+    },
+    {
+      "rating": 3,
+      "ratingLabel": "Service"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 118,
+      "helpfulVote": null
+    },
+    "id": "E2B4390C86221C5E025F601FD32A0634",
+    "userId": "E2B4390C86221C5E025F601FD32A0634",
+    "displayName": "frankettey",
+    "username": "frankettey",
+    "hometown": {
+      "locationId": null,
+      "fallbackString": "port macqurie,australia",
+      "location": null
+    },
+    "route": {
+      "url": "/Profile/frankettey"
+    },
+    "avatar": {
+      "id": 254535162,
+      "photoSizes": [
+        {
+          "width": 769,
+          "height": 769,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/2b/e5/fa/frankettey.jpg?w=769&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g255325-d19609416-Reviews-Honeysuckle_Executive_Apartments-Newcastle_Greater_Newcastle_New_South_Wales.html",
+  "id": 901065069,
+  "createdDate": "2023-07-07",
+  "publishedDate": "2023-07-06",
+  "provider": null,
+  "rating": 1,
+  "publishPlatform": "MOBILE",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2023-07-31",
+    "tripType": "FAMILY"
+  },
+  "locationId": 19609416,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [
+    {
+      "id": 699241271,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 1536,
+          "height": 2048,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/ad/93/37/caption.jpg?w=1536&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 699241270,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 1536,
+          "height": 2048,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/ad/93/36/caption.jpg?w=1536&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 699241269,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 1536,
+          "height": 2048,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/ad/93/35/caption.jpg?w=1536&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 699241268,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 1536,
+          "height": 2048,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/ad/93/34/caption.jpg?w=1536&h=-1&s=1"
+        }
+      ]
+    }
+  ],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g255325-d19609416-r901065069-Honeysuckle_Executive_Apartments-Newcastle_Greater_Newcastle_New_South_Wales.html",
+  "title": "Do not stay here",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "If I could give minus I would. So dirty the couch has stains the bed linen as dirty and had stains on the underside. Almost like theyed just flipped the Doona. Carpets stained and dirty. Can’t connect to Netflix. You need 4 different codes to get in. Nightmare. The staff are friendly.",
+  "username": "tmp65",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g255325-d19609416-r901065069-Honeysuckle_Executive_Apartments-Newcastle_Greater_Newcastle_New_South_Wales.html",
+  "attribution": null,
+  "location": {
+    "locationId": 19609416,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Honeysuckle Executive Apartments"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 6,
+      "helpfulVote": null
+    },
+    "id": "FF844EC40B38EBF6004B6EBABE5B2340",
+    "userId": "FF844EC40B38EBF6004B6EBABE5B2340",
+    "displayName": "tmp65",
+    "username": "tmp65",
+    "hometown": {
+      "locationId": null,
+      "fallbackString": null,
+      "location": null
+    },
+    "route": {
+      "url": "/Profile/tmp65"
+    },
+    "avatar": {
+      "id": 452391715,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f3/23/default-avatar-2020-28.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g255325-d19609416-Reviews-Honeysuckle_Executive_Apartments-Newcastle_Greater_Newcastle_New_South_Wales.html",
+  "id": 859357688,
+  "createdDate": "2022-09-10",
+  "publishedDate": "2022-09-10",
+  "provider": null,
+  "rating": 4,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2022-09-30",
+    "tripType": "NONE"
+  },
+  "locationId": 19609416,
+  "mcid": 10568,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g255325-d19609416-r859357688-Honeysuckle_Executive_Apartments-Newcastle_Greater_Newcastle_New_South_Wales.html",
+  "title": "Enjoyable",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "The hotel is well situated near the harbor boardwalk and restaurants. Not too far to walk to the ferry to go across to Stockton. Bus and tram services are great. Took the train to Sydney for the day. Hotels and restaurants have excellent meals. A quiet place for a cuppa and cake is The Press Coffee and Book House. Excellent customer service from hotel staff and cleaners. A few maintenance issues to be addressed but overall would recommend the hotel.",
+  "username": "christinerH2957ME",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g255325-d19609416-r859357688-Honeysuckle_Executive_Apartments-Newcastle_Greater_Newcastle_New_South_Wales.html",
+  "attribution": null,
+  "location": {
+    "locationId": 19609416,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Honeysuckle Executive Apartments"
+  },
+  "additionalRatings": [
+    {
+      "rating": 4,
+      "ratingLabel": "Rooms"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Cleanliness"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Service"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 4,
+      "helpfulVote": null
+    },
+    "id": "598A801858C6A22D9F595641C170D2D6",
+    "userId": "598A801858C6A22D9F595641C170D2D6",
+    "displayName": "Christine R",
+    "username": "christinerH2957ME",
+    "hometown": {
+      "locationId": null,
+      "fallbackString": null,
+      "location": null
+    },
+    "route": {
+      "url": "/Profile/christinerH2957ME"
+    },
+    "avatar": {
+      "id": 452388139,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e5/2b/default-avatar-2020-52.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g255325-d19609416-Reviews-Honeysuckle_Executive_Apartments-Newcastle_Greater_Newcastle_New_South_Wales.html",
+  "id": 833461846,
+  "createdDate": "2022-04-05",
+  "publishedDate": "2022-04-04",
+  "provider": null,
+  "rating": 1,
+  "publishPlatform": "MOBILE",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2022-04-30",
+    "tripType": "SOLO"
+  },
+  "locationId": 19609416,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [
+    {
+      "id": 584609818,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 1536,
+          "height": 2048,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/d8/70/1a/caption.jpg?w=1536&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 584609819,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 1536,
+          "height": 2048,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/d8/70/1b/caption.jpg?w=1536&h=-1&s=1"
+        }
+      ]
+    }
+  ],
+  "helpfulVotes": 1,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g255325-d19609416-r833461846-Honeysuckle_Executive_Apartments-Newcastle_Greater_Newcastle_New_South_Wales.html",
+  "title": "Disgusting",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "I checked in at 10pm to discover the room was absolutely filthy.\nIt hadn’t been cleaned from the party the night before.\nI even confirmed that afternoon I was coming at 10pm.\nNo one at the front desk, no one answered my multiple emergency calls, so I had no choice but to leave at midnight and find another hotel.\nNo one return 3 emails I sent the next day, on speaking with the very rude and aggressive Tony Hughes the Manager he not only didn’t even apologise, but he won’t refund my full monies paid and in fact wants to charge me a cancellation fee!\nThis is the worst, most unprofessional place I’ve ever booked.\nAvoid at all costs!",
+  "username": "msjojoro",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g255325-d19609416-r833461846-Honeysuckle_Executive_Apartments-Newcastle_Greater_Newcastle_New_South_Wales.html",
+  "attribution": null,
+  "location": {
+    "locationId": 19609416,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Honeysuckle Executive Apartments"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 4,
+      "helpfulVote": null
+    },
+    "id": "62DE6198CD2D6B168EBF4E8B182F4556",
+    "userId": "62DE6198CD2D6B168EBF4E8B182F4556",
+    "displayName": "msjojoro",
+    "username": "msjojoro",
+    "hometown": {
+      "locationId": 255060,
+      "fallbackString": "255060",
+      "location": {
+        "locationId": 255060,
+        "name": "Sydney",
+        "additionalNames": {
+          "long": "Sydney, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/msjojoro"
+    },
+    "avatar": {
+      "id": 452387929,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e4/59/default-avatar-2020-49.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+}]

@@ -1,0 +1,927 @@
+[{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g1210244-d2280662-Reviews-Charlestown_Executive_Apartments-Charlestown_Lake_Macquarie_Greater_Newcastle_New_Sou.html",
+  "id": 1052693786,
+  "createdDate": "2026-03-11",
+  "publishedDate": "2026-03-11",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "MOBILE",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2026-03-31",
+    "tripType": "COUPLES"
+  },
+  "locationId": 2280662,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [
+    {
+      "id": 849879121,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 850,
+          "height": 1134,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/a8/20/51/caption.jpg?w=850&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 849879122,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 896,
+          "height": 1194,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/a8/20/52/caption.jpg?w=896&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 849879123,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 850,
+          "height": 1134,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/a8/20/53/caption.jpg?w=850&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 849879124,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 850,
+          "height": 1134,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/a8/20/54/caption.jpg?w=850&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 849879125,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 850,
+          "height": 1134,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/a8/20/55/caption.jpg?w=850&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 849879126,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 919,
+          "height": 1227,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/a8/20/56/caption.jpg?w=919&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 849879127,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 952,
+          "height": 1269,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/a8/20/57/caption.jpg?w=952&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "id": 849879128,
+      "statuses": [
+        "PUBLISHED"
+      ],
+      "photoSizes": [
+        {
+          "width": 850,
+          "height": 1134,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/a8/20/58/caption.jpg?w=850&h=-1&s=1"
+        }
+      ]
+    }
+  ],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g1210244-d2280662-r1052693786-Charlestown_Executive_Apartments-Charlestown_Lake_Macquarie_Greater_Newcastle_.html",
+  "title": "Restful stay.",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "We stayed here for one night in March and enjoyed it very much. The suite was spacious and comfortable and check-in was a breeze. The bed was simply amazing! We had been travelling quite a bit throughout the week, so it was nice to have such a cozy place to stay, reset and move on to our next destination. We highly recommend this place.",
+  "username": "Gazpacho16",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g1210244-d2280662-r1052693786-Charlestown_Executive_Apartments-Charlestown_Lake_Macquarie_Greater_Newcastle_.html",
+  "attribution": null,
+  "location": {
+    "locationId": 2280662,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Charlestown Executive Apartments"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 857,
+      "helpfulVote": null
+    },
+    "id": "CDC60292B4E497256A0E18F9761C6B53",
+    "userId": "CDC60292B4E497256A0E18F9761C6B53",
+    "displayName": "Gazpacho16",
+    "username": "Gazpacho16",
+    "hometown": {
+      "locationId": 154911,
+      "fallbackString": "154911",
+      "location": {
+        "locationId": 154911,
+        "name": "Banff",
+        "additionalNames": {
+          "long": "Banff, Canada"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/Gazpacho16"
+    },
+    "avatar": {
+      "id": 49807800,
+      "photoSizes": [
+        {
+          "width": 461,
+          "height": 450,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/02/f8/01/b8/gazpacho16.jpg?w=461&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g1210244-d2280662-Reviews-Charlestown_Executive_Apartments-Charlestown_Lake_Macquarie_Greater_Newcastle_New_Sou.html",
+  "id": 1029951405,
+  "createdDate": "2025-09-11",
+  "publishedDate": "2025-09-11",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "MOBILE",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2025-09-30",
+    "tripType": "BUSINESS"
+  },
+  "locationId": 2280662,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g1210244-d2280662-r1029951405-Charlestown_Executive_Apartments-Charlestown_Lake_Macquarie_Greater_Newcastle_.html",
+  "title": "Comfortable, efficient and good value.",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Comfortable, efficient and good value. Booking and arrival process efficient. Spacious, well appointed, comfortable apartment with parking. Well located for Charlestown/Warners Bay. Perhaps a bit functional, could do with some more colour and some less harsh lighting. Good value overall",
+  "username": "DHM2006",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g1210244-d2280662-r1029951405-Charlestown_Executive_Apartments-Charlestown_Lake_Macquarie_Greater_Newcastle_.html",
+  "attribution": null,
+  "location": {
+    "locationId": 2280662,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Charlestown Executive Apartments"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 46,
+      "helpfulVote": null
+    },
+    "id": "D4C9BA289B7019759B84048E9C20D676",
+    "userId": "D4C9BA289B7019759B84048E9C20D676",
+    "displayName": "DHM2006",
+    "username": "DHM2006",
+    "hometown": {
+      "locationId": null,
+      "fallbackString": "London",
+      "location": null
+    },
+    "route": {
+      "url": "/Profile/DHM2006"
+    },
+    "avatar": {
+      "id": 23278653,
+      "photoSizes": [
+        {
+          "width": 337,
+          "height": 450,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/01/63/34/3d/dhm2006.jpg?w=337&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g1210244-d2280662-Reviews-Charlestown_Executive_Apartments-Charlestown_Lake_Macquarie_Greater_Newcastle_New_Sou.html",
+  "id": 1010556726,
+  "createdDate": "2025-06-01",
+  "publishedDate": "2025-05-31",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2025-05-31",
+    "tripType": "FRIENDS"
+  },
+  "locationId": 2280662,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g1210244-d2280662-r1010556726-Charlestown_Executive_Apartments-Charlestown_Lake_Macquarie_Greater_Newcastle_.html",
+  "title": "Great Stay! Highly recommend.",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Spacious apartments that were spotlessly clean.\nGreat hot water, heating and cooling.\nMattresses were not the most comfortable, but were ok. \nPlenty of extra blankets.\nFully equipped kitchen.\nWe had a couple of minor issues (which were no fault of the apartment's owners/managers) and the staff were very responsive and so helpful.\nApartments are easy to get to. Walking distance to Charlestown Square and has a park across the road.\nSecure parking.\nWe will definitely stay again, and will recommend to friends/family.",
+  "username": "M4244FElisac",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g1210244-d2280662-r1010556726-Charlestown_Executive_Apartments-Charlestown_Lake_Macquarie_Greater_Newcastle_.html",
+  "attribution": null,
+  "location": {
+    "locationId": 2280662,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Charlestown Executive Apartments"
+  },
+  "additionalRatings": [
+    {
+      "rating": 5,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Rooms"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Location"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Cleanliness"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Service"
+    },
+    {
+      "rating": 4,
+      "ratingLabel": "Sleep Quality"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 2,
+      "helpfulVote": null
+    },
+    "id": "8D80EF680124B2DF8B5CC5AC606317A2",
+    "userId": "8D80EF680124B2DF8B5CC5AC606317A2",
+    "displayName": "Lisa C",
+    "username": "M4244FElisac",
+    "hometown": {
+      "locationId": null,
+      "fallbackString": null,
+      "location": null
+    },
+    "route": {
+      "url": "/Profile/M4244FElisac"
+    },
+    "avatar": {
+      "id": 452360110,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/77/ae/default-avatar-2020-2.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g1210244-d2280662-Reviews-Charlestown_Executive_Apartments-Charlestown_Lake_Macquarie_Greater_Newcastle_New_Sou.html",
+  "id": 891685412,
+  "createdDate": "2023-05-24",
+  "publishedDate": "2023-05-23",
+  "provider": null,
+  "rating": 1,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2023-05-31",
+    "tripType": "FRIENDS"
+  },
+  "locationId": 2280662,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g1210244-d2280662-r891685412-Charlestown_Executive_Apartments-Charlestown_Lake_Macquarie_Greater_Newcastle_N.html",
+  "title": "Not a care in the world",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "When we arrived the apartment had not been cleaned properly, dishes still dirty in the dishwasher, no sugar for a cuppa after a long drive, crumbs still on table and chairs, floor dirty, fridge not clean, floor wet in downstairs bathroom from leaking tap, fan in upstairs toilet caked with dirt, dirt still on staircase, and a power point in the lounge room that was an accident waiting to happen and finally a cockroach in the fridge. We rang through to reception who were very apologetic and was sending someone in the morning to re-do.  No one arrived at all so we rang again, again apologetic but apparently nothing had been written down from our discussion on the previous night, and could not send anyone till the following day which was pointless as we were checking out.  We asked for a discount or refund which had to be reviewed by the manager.  During this time we were asked to take photo's (which we had on arrival) and send to them.  \nNo response from them for 3 days in which we had to ring them after being charged full price,  and the Manager named Tony was not concerned at all and informed us that they do not give refunds, he offered us a $50 discount next time we stay.  I don't think so.\nThoroughly disgusted in the last of customer service and care from the Manager.\nIf they had cared about us at all it would have been a great place to stay.",
+  "username": "louisesH269XH",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g1210244-d2280662-r891685412-Charlestown_Executive_Apartments-Charlestown_Lake_Macquarie_Greater_Newcastle_N.html",
+  "attribution": null,
+  "location": {
+    "locationId": 2280662,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Charlestown Executive Apartments"
+  },
+  "additionalRatings": [
+    {
+      "rating": 3,
+      "ratingLabel": "Value"
+    },
+    {
+      "rating": 4,
+      "ratingLabel": "Location"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 1,
+      "helpfulVote": null
+    },
+    "id": "62D412464185B55270F1F59BC7E30614",
+    "userId": "62D412464185B55270F1F59BC7E30614",
+    "displayName": "Louise S",
+    "username": "louisesH269XH",
+    "hometown": {
+      "locationId": null,
+      "fallbackString": null,
+      "location": null
+    },
+    "route": {
+      "url": "/Profile/louisesH269XH"
+    },
+    "avatar": {
+      "id": 452388139,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e5/2b/default-avatar-2020-52.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g1210244-d2280662-Reviews-Charlestown_Executive_Apartments-Charlestown_Lake_Macquarie_Greater_Newcastle_New_Sou.html",
+  "id": 886942642,
+  "createdDate": "2023-04-20",
+  "publishedDate": "2023-04-19",
+  "provider": null,
+  "rating": 1,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2023-04-30",
+    "tripType": "COUPLES"
+  },
+  "locationId": 2280662,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g1210244-d2280662-r886942642-Charlestown_Executive_Apartments-Charlestown_Lake_Macquarie_Greater_Newcastle_N.html",
+  "title": "A very poor show!",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "We will never book there again. After booking a Charlestown executive apartment 2 months in advance so our family from all over Queensland would be in the same location close to our son's party venue at Whitebridge, we were notified by a text with address and a code number for an apartment in Cardiff,  as we got off our plane at 3:30pm on Thursday 13th April.  The company didn't even call to say there was a problem. We called to say this wasn't where we'd booked and not a suitable arrangement but were told it was unavoidable. As it was 6 km further out than Charlestown, extra cost for taxi travel was incurred and our chance to get free transport with our family to and from Whitebridge wasn't an option as we were not in the same place.\nAfter terrible accommodation at Cardiff, with constant traffic noise, no lights on the high stairs, water running all over the bathroom from the shower and no coffee or sugar supplied, we cancelled the rest of our stay there. As there was no accommodation available at Charlestown on Friday night, we went elsewhere. We were then offered an available room for Saturday night, 15th, so we accepted that as we were close to the party venue and family as we'd planned.\nI enquired about a refund for the room that we cancelled on Friday night but was told that it wouldn't be refunded as we were offered a room at Cardiff, which wasn't where we'd booked in the first place. \nSo, all said and done, don't expect to get a room where you book with this company and be prepared for sub-standard apartments and no service.\nOur family got their apartments but one of our daughters' apartments was filthy when she and her family arrived as it hadn't been cleaned and there were putrid baby's nappies still there. At 4:30pm they had to wait for a cleaner to come before they could move in.\nThis fiasco cost us a heap more than it should have and we are very dissatisfied. \nCharlestown Executive Apartments showed very poor form and we didn't get what we booked or paid for.  ",
+  "username": "903debral",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g1210244-d2280662-r886942642-Charlestown_Executive_Apartments-Charlestown_Lake_Macquarie_Greater_Newcastle_N.html",
+  "attribution": null,
+  "location": {
+    "locationId": 2280662,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Charlestown Executive Apartments"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 6,
+      "helpfulVote": null
+    },
+    "id": "939B7227F2263F0EEE1F3177D6B5AA1E",
+    "userId": "939B7227F2263F0EEE1F3177D6B5AA1E",
+    "displayName": "Debra L",
+    "username": "903debral",
+    "hometown": {
+      "locationId": 255338,
+      "fallbackString": "255338",
+      "location": {
+        "locationId": 255338,
+        "name": "Mackay",
+        "additionalNames": {
+          "long": "Mackay, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/903debral"
+    },
+    "avatar": {
+      "id": 452391289,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f1/79/default-avatar-2020-21.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g1210244-d2280662-Reviews-Charlestown_Executive_Apartments-Charlestown_Lake_Macquarie_Greater_Newcastle_New_Sou.html",
+  "id": 865371383,
+  "createdDate": "2022-10-21",
+  "publishedDate": "2022-10-21",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "MOBILE",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2022-10-31",
+    "tripType": "FAMILY"
+  },
+  "locationId": 2280662,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g1210244-d2280662-r865371383-Charlestown_Executive_Apartments-Charlestown_Lake_Macquarie_Greater_Newcastle_N.html",
+  "title": "Great Apartment!",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "I stayed in apartment #6 - 2bdrm plus - with my partner , young baby, sister & brother in law. The apartment was beautiful! Very spacious and well configured. Everything was clean & tidy , was provided a cot and highchair for my little one. Such an easy process with a PIN code texted to you to get in plus own garage. A very good spot close to so many things. Only “downside” I guess was there is a lot of stairs but you do expect that from apartments & the plus side is you don’t need to work out on your stay - haha!! I will certainly be staying here again , cannot fault ! Thank you so much :)",
+  "username": "Sarahx491",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g1210244-d2280662-r865371383-Charlestown_Executive_Apartments-Charlestown_Lake_Macquarie_Greater_Newcastle_N.html",
+  "attribution": null,
+  "location": {
+    "locationId": 2280662,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Charlestown Executive Apartments"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 88,
+      "helpfulVote": null
+    },
+    "id": "2B2C1A49DF8F6C469DF9113963EEF08F",
+    "userId": "2B2C1A49DF8F6C469DF9113963EEF08F",
+    "displayName": "Sarahx491",
+    "username": "Sarahx491",
+    "hometown": {
+      "locationId": 262066,
+      "fallbackString": "262066",
+      "location": {
+        "locationId": 262066,
+        "name": "Mudgee",
+        "additionalNames": {
+          "long": "Mudgee, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/Sarahx491"
+    },
+    "avatar": {
+      "id": 456720415,
+      "photoSizes": [
+        {
+          "width": 450,
+          "height": 450,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/39/00/1f/caption.jpg?w=450&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g1210244-d2280662-Reviews-Charlestown_Executive_Apartments-Charlestown_Lake_Macquarie_Greater_Newcastle_New_Sou.html",
+  "id": 864726887,
+  "createdDate": "2022-10-16",
+  "publishedDate": "2022-10-16",
+  "provider": null,
+  "rating": 5,
+  "publishPlatform": "MOBILE",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2022-10-31",
+    "tripType": "FAMILY"
+  },
+  "locationId": 2280662,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g1210244-d2280662-r864726887-Charlestown_Executive_Apartments-Charlestown_Lake_Macquarie_Greater_Newcastle_N.html",
+  "title": "Great! Very nice accommodation and would stay again. ",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "Great apartment, nice quiet spot and very clean. Was so pleased to find it had baby gates on the stairs - made navigating the place with our toddler stress free. Amenities were good, street parking available (our car didn't fit in the garage but I had expected this when booking). The unit we were in had three levels and lots of stairs - perhaps not for everyone but was well priced. Would stay again. ",
+  "username": "Kriddie89",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g1210244-d2280662-r864726887-Charlestown_Executive_Apartments-Charlestown_Lake_Macquarie_Greater_Newcastle_N.html",
+  "attribution": null,
+  "location": {
+    "locationId": 2280662,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Charlestown Executive Apartments"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 201,
+      "helpfulVote": null
+    },
+    "id": "27D0D63982E8E5F4062BF5B49AB9B831",
+    "userId": "27D0D63982E8E5F4062BF5B49AB9B831",
+    "displayName": "Kriddie89",
+    "username": "Kriddie89",
+    "hometown": {
+      "locationId": 255100,
+      "fallbackString": "255100",
+      "location": {
+        "locationId": 255100,
+        "name": "Melbourne",
+        "additionalNames": {
+          "long": "Melbourne, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/Kriddie89"
+    },
+    "avatar": {
+      "id": 323230508,
+      "photoSizes": [
+        {
+          "width": 683,
+          "height": 683,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/44/1b/2c/kriddie89.jpg?w=683&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g1210244-d2280662-Reviews-Charlestown_Executive_Apartments-Charlestown_Lake_Macquarie_Greater_Newcastle_New_Sou.html",
+  "id": 860846045,
+  "createdDate": "2022-09-19",
+  "publishedDate": "2022-09-19",
+  "provider": null,
+  "rating": 4,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2022-09-30",
+    "tripType": "NONE"
+  },
+  "locationId": 2280662,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 1,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g1210244-d2280662-r860846045-Charlestown_Executive_Apartments-Charlestown_Lake_Macquarie_Greater_Newcastle_N.html",
+  "title": "Quite, clean and upto date",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "We booked this place as it was one of the last places left, in future we will look here first it was a good location, so quite with no road noise, a short walk to shops and take aways. Clean and tidy. The only downs was the 3 story room with a lot of stairs and the garage was too small to fit my dual cab ute in, but their is on street parking and it was safe.",
+  "username": "Ron H",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g1210244-d2280662-r860846045-Charlestown_Executive_Apartments-Charlestown_Lake_Macquarie_Greater_Newcastle_N.html",
+  "attribution": null,
+  "location": {
+    "locationId": 2280662,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Charlestown Executive Apartments"
+  },
+  "additionalRatings": [
+    {
+      "rating": 4,
+      "ratingLabel": "Rooms"
+    },
+    {
+      "rating": 4,
+      "ratingLabel": "Service"
+    },
+    {
+      "rating": 5,
+      "ratingLabel": "Sleep Quality"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 642,
+      "helpfulVote": null
+    },
+    "id": "672004F36D4F5A5CB6233E8B1D66DD41",
+    "userId": "672004F36D4F5A5CB6233E8B1D66DD41",
+    "displayName": "Ron H",
+    "username": "Buzz80017",
+    "hometown": {
+      "locationId": 8153699,
+      "fallbackString": "8153699",
+      "location": {
+        "locationId": 8153699,
+        "name": "Colo Vale",
+        "additionalNames": {
+          "long": "Colo Vale, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/Buzz80017"
+    },
+    "avatar": {
+      "id": 277243696,
+      "photoSizes": [
+        {
+          "width": 600,
+          "height": 800,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/86/67/30/buzz80017.jpg?w=600&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g1210244-d2280662-Reviews-Charlestown_Executive_Apartments-Charlestown_Lake_Macquarie_Greater_Newcastle_New_Sou.html",
+  "id": 844277949,
+  "createdDate": "2022-06-24",
+  "publishedDate": "2022-06-23",
+  "provider": null,
+  "rating": 4,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2022-06-30",
+    "tripType": "NONE"
+  },
+  "locationId": 2280662,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g1210244-d2280662-r844277949-Charlestown_Executive_Apartments-Charlestown_Lake_Macquarie_Greater_Newcastle_N.html",
+  "title": "Quiet, well equipped and secure",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "We stayed in a one bedroom apartment for one night in Unit 15.  Entry was via a pin code and secure car parking provided under the building. The apartment was  generous in size and well equipped with all you'd need to self cater.  The apartment was clean in all aspects, the bed very comfortable and the property extremely quiet as it is located in a residential street.  It was handy to walk to the nearby Charlestown Square for supplies. Access to our apartment was via a lift from the carpark and then a short flight of stairs. This property was reasonably priced for the amenities provided and we would stay again if in the Newcastle/Hunter Valley region.",
+  "username": "Sheryl K",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g1210244-d2280662-r844277949-Charlestown_Executive_Apartments-Charlestown_Lake_Macquarie_Greater_Newcastle_N.html",
+  "attribution": null,
+  "location": {
+    "locationId": 2280662,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Charlestown Executive Apartments"
+  },
+  "additionalRatings": [
+    {
+      "rating": 4,
+      "ratingLabel": "Location"
+    },
+    {
+      "rating": 4,
+      "ratingLabel": "Cleanliness"
+    },
+    {
+      "rating": 4,
+      "ratingLabel": "Service"
+    }
+  ],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 39,
+      "helpfulVote": null
+    },
+    "id": "6027C45836A87C183C019F1E36BD8FEA",
+    "userId": "6027C45836A87C183C019F1E36BD8FEA",
+    "displayName": "Sheryl K",
+    "username": "SherylK11",
+    "hometown": {
+      "locationId": 261635,
+      "fallbackString": "261635",
+      "location": {
+        "locationId": 261635,
+        "name": "Caloundra",
+        "additionalNames": {
+          "long": "Caloundra, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/SherylK11"
+    },
+    "avatar": {
+      "id": 452391513,
+      "photoSizes": [
+        {
+          "width": 1200,
+          "height": 1200,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f2/59/default-avatar-2020-24.jpg?w=1200&h=-1&s=1"
+        }
+      ]
+    }
+  }
+},
+{
+  "inputSource": "https://www.tripadvisor.com/Hotel_Review-g1210244-d2280662-Reviews-Charlestown_Executive_Apartments-Charlestown_Lake_Macquarie_Greater_Newcastle_New_Sou.html",
+  "id": 835405865,
+  "createdDate": "2022-04-21",
+  "publishedDate": "2022-04-20",
+  "provider": null,
+  "rating": 3,
+  "publishPlatform": "OTHER",
+  "translationType": null,
+  "ownerResponse": null,
+  "tripInfo": {
+    "stayDate": "2022-04-30",
+    "tripType": "FAMILY"
+  },
+  "locationId": 2280662,
+  "mcid": 0,
+  "mtProviderId": 0,
+  "photos": [],
+  "helpfulVotes": 0,
+  "labels": [],
+  "alertStatus": false,
+  "original": null,
+  "url": "/ShowUserReviews-g1210244-d2280662-r835405865-Charlestown_Executive_Apartments-Charlestown_Lake_Macquarie_Greater_Newcastle_N.html",
+  "title": "Great, with some improvements would be excellent",
+  "language": "en",
+  "originalLanguage": "en",
+  "roomTip": null,
+  "text": "We stayed in a 2 bedroom plus (or 3 bedroom) apartment, husband and I, our daughter and husband’s parents. Unit #7, which was at the back and away from the traffic. \n\nWhen we arrived it was easy to get in, was provided a PIN code by text so didn’t have to line up to check in. Instructions were to park in the single garage, but unfortunately our Ford Ranger Ute didn’t fit. We wouldn’t have been able to close the garage door. Grandparents parked their Mazda 3 and had plenty of room and we found street parking right out the front. \n\nBedrooms were as described on the website. Grandparents and daughter took upstairs  2 bedrooms as we didn’t want our little one so far away from us during the night. Husband and I had the extra bedroom downstairs, which wasn’t a problem. Everyone had to walk through it on our way in and out but it was really no fuss. We all went to bed at the same time and it was quiet, despite there being no dedicated door to the ground floor. The stairs were a bit hard to get used to for people who aren’t used to them, but they were as described. Would not recommend for folks who may struggle. Ceilings appeared to be quite high, which meant lots of stairs! Would not recommend if you’d struggle with that. Baby gates were supplied, which would have been handy with little ones. \n\nThe not so good:\n- when we arrived and opened the garage door, we saw a number of cockroaches scatter. There were a few around the apartment which I believe is fairly normal for the area\n- the place was very dusty, you could see quite a thick layer on the floors coming up the stairs. Lots of dust bunnies where it could gather, under the furniture and around the stair railings.\n- carpet didn’t appear to be vacuumed on the top floor when we arrived. \n- some dirty dishes, glasses, mugs and cutlery\n\nWould have expected cleaning staff pay a bit more attention to detail or be given more time to be thorough. All in all, good value as it was quite cheap.",
+  "username": "PH182",
+  "connectionToSubject": null,
+  "absoluteUrl": "https://www.tripadvisor.com/ShowUserReviews-g1210244-d2280662-r835405865-Charlestown_Executive_Apartments-Charlestown_Lake_Macquarie_Greater_Newcastle_N.html",
+  "attribution": null,
+  "location": {
+    "locationId": 2280662,
+    "placeType": "ACCOMMODATION",
+    "currentUserOwnerStatus": null,
+    "parentGeoId": null,
+    "name": "Charlestown Executive Apartments"
+  },
+  "additionalRatings": [],
+  "userProfile": {
+    "isFollowing": false,
+    "isMe": false,
+    "isVerified": false,
+    "contributionCounts": {
+      "sumAllUgc": 24,
+      "helpfulVote": null
+    },
+    "id": "F5399BC4F3B1DAF9DDFDC32D87C89676",
+    "userId": "F5399BC4F3B1DAF9DDFDC32D87C89676",
+    "displayName": "Penny",
+    "username": "PH182",
+    "hometown": {
+      "locationId": 255060,
+      "fallbackString": "255060",
+      "location": {
+        "locationId": 255060,
+        "name": "Sydney",
+        "additionalNames": {
+          "long": "Sydney, Australia"
+        }
+      }
+    },
+    "route": {
+      "url": "/Profile/PH182"
+    },
+    "avatar": {
+      "id": 615432260,
+      "photoSizes": [
+        {
+          "width": 1024,
+          "height": 1024,
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/ae/c0/44/ph182.jpg?w=1024&h=-1&s=1"
+        }
+      ]
+    }
+  }
+}]

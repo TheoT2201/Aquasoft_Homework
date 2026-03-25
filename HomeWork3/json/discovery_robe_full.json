@@ -1,0 +1,277 @@
+[{
+  "id": "1483551",
+  "type": "HOTEL",
+  "category": "hotel",
+  "subcategories": [
+    "Specialty Lodging"
+  ],
+  "name": "Discovery Parks - Robe",
+  "locationString": "Robe, South Australia",
+  "description": "Robe is a South Australian family holiday favourite and we know you’ll love it, too. Multi-award winning Discovery Parks - Robe is just an hour from Millicent and four hours from Adelaide. Our holiday park is a great base for exploring the Limestone Coast and the nearby towns of Robe, Beachport, Kingston SE and the glorious Coonawarra wine region. World-heritage listed Naracoorte Caves National Park will amaze and the 24 cellar doors of the Coonawarra are so close together, comparing reds is easy. Awe-inspiring coastal scenery awaits you at Beachport Conservation Park and be sure to take a drive to Mount Gambier’s famous Blue Lake.",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/2c/9c/c0/ec/general.jpg",
+  "photoCount": 158,
+  "rankingPosition": 3,
+  "rating": 4,
+  "rawRanking": 3.579684019088745,
+  "phone": "+61 457 605 609",
+  "address": "70-80 Esplanade, Robe, South Australia 5276 Australia",
+  "addressObj": {
+    "street1": "70-80 Esplanade",
+    "street2": "",
+    "city": "Robe",
+    "state": "South Australia",
+    "country": "Australia",
+    "postalcode": "5276"
+  },
+  "localName": "Discovery Parks - Robe",
+  "localAddress": "70-80 Esplanade, 5276",
+  "localLangCode": "en-AU",
+  "email": "robe@discoveryparks.com.au",
+  "latitude": -37.164085,
+  "longitude": 139.78337,
+  "webUrl": "https://www.tripadvisor.com/Hotel_Review-g495037-d1483551-Reviews-Discovery_Parks_Robe-Robe_South_Australia.html",
+  "website": "http://www.discoveryholidayparks.com.au/sa/limestone_coast/robe",
+  "rankingString": "#3 of 17 Specialty lodging in Robe",
+  "rankingDenominator": "17",
+  "rankingSource": "API",
+  "neighborhoodLocations": [],
+  "nearestMetroStations": [],
+  "ancestorLocations": [
+    {
+      "id": "495037",
+      "name": "Robe",
+      "abbreviation": null,
+      "subcategory": "Municipality"
+    },
+    {
+      "id": "255092",
+      "name": "South Australia",
+      "abbreviation": null,
+      "subcategory": "State"
+    },
+    {
+      "id": "255055",
+      "name": "Australia",
+      "abbreviation": null,
+      "subcategory": "Country"
+    }
+  ],
+  "ratingHistogram": {
+    "count1": 11,
+    "count2": 15,
+    "count3": 30,
+    "count4": 92,
+    "count5": 97
+  },
+  "numberOfReviews": 245,
+  "hotelClass": "4.0",
+  "hotelClassAttribution": "This property is classified according to Giata.",
+  "amenities": [
+    "Pool",
+    "Internet",
+    "Kids Activities",
+    "Beachfront",
+    "Free parking",
+    "Kitchenette",
+    "Non-smoking rooms",
+    "Air conditioning",
+    "Family Rooms",
+    "Self-Serve Laundry",
+    "Microwave",
+    "Refrigerator in room",
+    "Heated pool",
+    "Flatscreen TV",
+    "Indoor pool",
+    "Beach Access",
+    "Wheelchair access",
+    "Pets Allowed",
+    "Wifi",
+    "Free Wifi",
+    "Non-smoking hotel",
+    "Kids pool",
+    "Parking",
+    "Baggage Storage",
+    "BBQ Facilities",
+    "Coffee / Tea Maker",
+    "English",
+    "Fence Around Pool",
+    "Fishing",
+    "Game Room",
+    "Kids' Outdoor Play Equipment",
+    "Kitchenware",
+    "Outdoor Furniture",
+    "Picnic Area",
+    "Shared Kitchen",
+    "Shared Lounge / TV Area",
+    "Shops",
+    "Snack Bar",
+    "Table Tennis"
+  ],
+  "priceLevel": "$",
+  "priceRange": "$62 - $185",
+  "roomTips": [
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Don't get a cabin near the playground if you don't have kids. It was a bit noisy.",
+      "rating": "4",
+      "reviewId": "946483427",
+      "id": "946483427",
+      "createdTime": "2024-04-12T18:09:09-04:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "The grounds were all  tidy for you to walk around. The beach was across the road and over a rise- within very easy walking distance. ",
+      "rating": "5",
+      "reviewId": "911605038",
+      "id": "911605038",
+      "createdTime": "2023-08-19T22:48:22-04:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Definitely worth booking the water front units",
+      "rating": "5",
+      "reviewId": "837779334",
+      "id": "837779334",
+      "createdTime": "2022-05-08T20:36:45-04:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Upgrade if you can to get the beach view",
+      "rating": "4",
+      "reviewId": "815513285",
+      "id": "815513285",
+      "createdTime": "2021-10-21T22:52:14-04:00"
+    },
+    {
+      "user": null,
+      "type": "room_tip",
+      "text": "Definitely take bikes/scooters.",
+      "rating": "5",
+      "reviewId": "815215649",
+      "id": "815215649",
+      "createdTime": "2021-10-19T13:22:33-04:00"
+    }
+  ],
+  "checkInDate": "2026-03-26",
+  "checkOutDate": "2026-03-27",
+  "numberOfRooms": 35,
+  "categoryReviewScores": [
+    {
+      "categoryName": "Location",
+      "score": 4.2786884,
+      "roundedScore": 4.3
+    },
+    {
+      "categoryName": "Rooms",
+      "score": 3.5581395999999996,
+      "roundedScore": 3.6
+    },
+    {
+      "categoryName": "Value",
+      "score": 3.640625,
+      "roundedScore": 3.6
+    },
+    {
+      "categoryName": "Cleanliness",
+      "score": 3.984127,
+      "roundedScore": 4
+    },
+    {
+      "categoryName": "Service",
+      "score": 3.920792,
+      "roundedScore": 3.9
+    },
+    {
+      "categoryName": "Sleep Quality",
+      "score": 3.8965516,
+      "roundedScore": 3.9
+    }
+  ],
+  "aiReviewsSummary": null,
+  "whatsAppRedirectUrl": null,
+  "travelerChoiceAward": null,
+  "offers": [],
+  "reviewTags": [
+    {
+      "text": "games room",
+      "reviews": 25
+    },
+    {
+      "text": "across the road",
+      "reviews": 26
+    },
+    {
+      "text": "camp kitchen",
+      "reviews": 21
+    },
+    {
+      "text": "caravan park",
+      "reviews": 20
+    },
+    {
+      "text": "driving around",
+      "reviews": 3
+    },
+    {
+      "text": "swimming pool",
+      "reviews": 7
+    },
+    {
+      "text": "maintained park",
+      "reviews": 3
+    },
+    {
+      "text": "main bedroom",
+      "reviews": 3
+    },
+    {
+      "text": "good size",
+      "reviews": 8
+    },
+    {
+      "text": "hot water",
+      "reviews": 4
+    },
+    {
+      "text": "lovely town",
+      "reviews": 3
+    },
+    {
+      "text": "stayed nights",
+      "reviews": 3
+    },
+    {
+      "text": "playground",
+      "reviews": 37
+    },
+    {
+      "text": "cabin",
+      "reviews": 76
+    },
+    {
+      "text": "sites",
+      "reviews": 46
+    },
+    {
+      "text": "amenities",
+      "reviews": 33
+    },
+    {
+      "text": "esplanade",
+      "reviews": 3
+    },
+    {
+      "text": "deluxe",
+      "reviews": 5
+    },
+    {
+      "text": "oven",
+      "reviews": 6
+    }
+  ],
+  "isNearbyResult": false
+}]
