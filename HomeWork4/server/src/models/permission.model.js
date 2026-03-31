@@ -47,6 +47,7 @@ Permission.seedDefaults = async () => {
     { role: 'HotelManager',  resource: 'hotels',  canRead: true,  canWrite: true  },
     { role: 'HotelManager',  resource: 'offers',  canRead: true,  canWrite: true  },
     { role: 'HotelManager',  resource: 'ratings', canRead: true,  canWrite: false },
+    { role: 'HotelManager',  resource: 'users',   canRead: true,  canWrite: false },
 
     { role: 'DataOperator',  resource: 'ratings', canRead: true,  canWrite: true  },
     { role: 'DataOperator',  resource: 'hotels',  canRead: true,  canWrite: false },
