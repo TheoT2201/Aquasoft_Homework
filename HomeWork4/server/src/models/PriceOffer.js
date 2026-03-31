@@ -1,5 +1,5 @@
-import { DataTypes, Model } from 'sequelize';
-const sequelize = require('../config/database');
+const { DataTypes, Model } = require('sequelize');
+const { sequelize } = require('../config/database');
 
 class PriceOffer extends Model {}
 
@@ -14,7 +14,6 @@ PriceOffer.init(
         GlobalPropertyID: {
             type: DataTypes.BIGINT,
             allowNull: false,
-            unique: true,
             field: 'globalpropertyid'
         },
         Category: {
@@ -46,4 +45,4 @@ PriceOffer.init(
     }
 );
 
-export default PriceOffer;
+module.exports = { PriceOffer };

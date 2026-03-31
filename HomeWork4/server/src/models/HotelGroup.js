@@ -1,5 +1,5 @@
-import { DataTypes, Model } from 'sequelize';
-const sequelize = require("../config/database");
+const { DataTypes, Model } = require('sequelize');
+const { sequelize } = require("../config/database");
 
 class HotelGroup extends Model {}
 
@@ -30,4 +30,4 @@ HotelGroup.init(
     }    
 );
 
-export default HotelGroup;
+module.exports = { HotelGroup };

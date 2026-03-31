@@ -1,5 +1,5 @@
-import { DataTypes, Model } from 'sequelize';
-const sequelize = require("../config/database");
+const { DataTypes, Model } = require('sequelize');
+const { sequelize } = require("../config/database");
 
 class Region extends Model {}
 
@@ -24,4 +24,4 @@ Region.init(
     }
 );
 
-export default Region;
+module.exports = { Region };

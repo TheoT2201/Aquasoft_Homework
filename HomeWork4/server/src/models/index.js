@@ -1,12 +1,12 @@
-import City from "./City";
-import Region from "./Region";
-import Hotel from "./Hotel";
-import PriceOffer from './PriceOffer';
-import Airport from './Airport';
-import HotelGroup from "./HotelGroup";
-import Review from "./Review";
-import User from "./User";
-import Amenities from "./Amenities";
+const City = require("./City");
+const Region = require("./Region");
+const Hotel = require("./Hotel");
+const PriceOffer = require('./PriceOffer');
+const Airport = require('./Airport');
+const HotelGroup = require("./HotelGroup");
+const Review = require("./Review");
+const User = require("./User");
+const Amenity = require("./Amenity");
 
 City.hasMany(Hotel, { foreignKey: 'cityid' });
 Hotel.belongsTo(City, { foreignKey: 'cityid' });
@@ -23,17 +23,11 @@ Hotel.belongsTo(HotelGroup, { foreignKey: 'hotelgroupid' });
 Hotel.hasMany(PriceOffer, { foreignKey: 'globalpropertyid' });
 PriceOffer.belongsTo(Hotel, { foreignKey: 'globalpropertyid' });
 
-Airport.hasMany(HotelGroup, { foreignKey: 'airportid' });   
-HotelGroup.belongsTo(Airport, { foreignKey: 'airportid' });
-
 Hotel.hasMany(Review, { foreignKey: 'globalpropertyid' });
 Review.belongsTo(Hotel, { foreignKey: 'globalpropertyid' });
 
-Hotel.hasMany(Amenities, {foreignKey: 'globalpropertyid'});
-Amenities.hasMany(Hotel, {foreignKey: 'globalpropertyid'});
-
-User.hasMany(Review, { foreignKey: 'id' });
-Review.belongsTo(User, { foreignKey: 'id' });
+Hotel.hasMany(Amenity, {foreignKey: 'globalpropertyid'});
+Amenity.hasMany(Hotel, {foreignKey: 'globalpropertyid'});
 
 
-export{City, Region, Hotel, PriceOffer, Airport, HotelGroup, Review, User, Amenities}; 
+module.exports = { City, Region, Hotel, PriceOffer, Airport, HotelGroup, Review, User, Amenity };

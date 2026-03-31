@@ -1,5 +1,5 @@
-import { DataTypes, Model } from 'sequelize';
-const sequelize = require("../config/database");
+const { DataTypes, Model } = require('sequelize');
+const { sequelize } = require("../config/database");
 
 class Amenity extends Model {}
 
@@ -27,4 +27,4 @@ Amenity.init(
     }
 );
 
-export default Amenity;
+module.exports = { Amenity };

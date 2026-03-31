@@ -1,5 +1,5 @@
-import { DataTypes, Model } from 'sequelize';
-const sequelize = require("../config/database");
+const { DataTypes, Model } = require('sequelize');
+const { sequelize } = require("../config/database");
 
 class Review extends Model {}
 
@@ -72,7 +72,7 @@ Review.init(
             field: 'sleepquality'
             },
         TripType: {
-            type: DataTypes.ENUM('Business', 'Couple', 'Family', 'Friends', 'Solo'),
+            type: DataTypes.ENUM('Business', 'Couples', 'Family', 'Friends', 'Solo'),
             allowNull: true,
             field: 'triptype'
             },
@@ -89,4 +89,4 @@ Review.init(
     }
 );
 
-export default Review;
+module.exports = { Review };
