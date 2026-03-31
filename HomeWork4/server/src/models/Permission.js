@@ -14,7 +14,6 @@ const Permission = sequelize.define('Permission', {
     allowNull: false,
   },
   resource: {
-    // e.g. 'hotels', 'users', 'offers', 'ratings'
     type: DataTypes.STRING,
     allowNull: false,
   },

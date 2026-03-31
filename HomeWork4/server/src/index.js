@@ -1,11 +1,19 @@
 require('dotenv').config();
 const app = require('./app');
 const { sequelize } = require('./config/database');
-const { Permission } = require('./models/permission.model');
+const { Permission } = require('./models/Permission');
 
 // Register models before sync
-require('./models/user.model');
-require('./models/permission.model');
+require('./models/User');
+require('./models/Permission');
+require('./models/Hotel');
+require('./models/PriceOffer');
+require('./models/Review');
+require('./models/City');
+require('./models/Region');
+require('./models/Airport');
+require('./models/HotelGroup');
+require('./models/Amenity');
 
 const PORT = process.env.PORT || 5000;
 

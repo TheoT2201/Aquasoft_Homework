@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const { authenticate, authorize } = require('../middleware/auth.middleware');
-const { User } = require('../models/user.model');
+const { User } = require('../models/User');
 
 // GET /api/users — admin and group managers only
 router.get('/', authenticate, authorize('Administrator', 'GroupManager'), async (req, res) => {
