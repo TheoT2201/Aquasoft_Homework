@@ -8,15 +8,18 @@ Amenity.init(
         AmenityID: {
             type: DataTypes.INTEGER,
             primaryKey: true,
-            autoIncrement: true,
+            allowNull: false,
+            field: 'amenityid',
         },
         GlobalPropertyID: {
             type: DataTypes.BIGINT,
             allowNull: false,
+            field: 'globalpropertyid'
         },
         AmenityName: {
             type: DataTypes.STRING(100),
             allowNull: false,
+            field: 'amenityname'
         },
 
     },
@@ -27,4 +30,4 @@ Amenity.init(
     }
 );
 
-module.exports = { Amenity };
+module.exports = Amenity;

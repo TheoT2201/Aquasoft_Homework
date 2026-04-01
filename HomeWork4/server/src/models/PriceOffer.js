@@ -45,4 +45,4 @@ PriceOffer.init(
     }
 );
 
-module.exports = { PriceOffer };
+module.exports = PriceOffer;

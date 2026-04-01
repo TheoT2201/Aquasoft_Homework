@@ -109,4 +109,4 @@ Hotel.init(
     }
 );
 
-module.exports = { Hotel };
+module.exports = Hotel;

@@ -29,4 +29,4 @@ City.init(
     }
 );
 
-module.exports = { City };
+module.exports = City;

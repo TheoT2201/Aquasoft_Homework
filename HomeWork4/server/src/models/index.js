@@ -7,6 +7,8 @@ const HotelGroup = require("./HotelGroup");
 const Review = require("./Review");
 const User = require("./User");
 const Amenity = require("./Amenity");
+const Permission = require("./Permission");
+const Request = require("./Request");
 
 City.hasMany(Hotel, { foreignKey: 'cityid' });
 Hotel.belongsTo(City, { foreignKey: 'cityid' });
@@ -27,7 +29,9 @@ Hotel.hasMany(Review, { foreignKey: 'globalpropertyid' });
 Review.belongsTo(Hotel, { foreignKey: 'globalpropertyid' });
 
 Hotel.hasMany(Amenity, {foreignKey: 'globalpropertyid'});
-Amenity.hasMany(Hotel, {foreignKey: 'globalpropertyid'});
+Amenity.belongsTo(Hotel, {foreignKey: 'globalpropertyid'});
 
+User.hasMany(Request, { foreignKey: 'userid' });
+Request.belongsTo(User, { foreignKey: 'userid' });
 
-module.exports = { City, Region, Hotel, PriceOffer, Airport, HotelGroup, Review, User, Amenity };
+module.exports = { City, Region, Hotel, PriceOffer, Airport, HotelGroup, Review, User, Amenity, Permission, Request };

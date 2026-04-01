@@ -1,9 +1,8 @@
-import { Request, Response } from 'express';
-import { Op } from 'sequelize';
-import Hotel from '../models/Hotel';
+const { Op } = require('sequelize');
+const Hotel = require('../models/Hotel');
 
 // GET /hotels - Retrieve all hotels
-export const getAllHotels = async (req: Request, res: Response): Promise<void> => {
+const getAllHotels = async (req, res) => {
     try {
         const hotels = await Hotel.findAll();
         res.status(200).json(hotels);
@@ -13,12 +12,12 @@ export const getAllHotels = async (req: Request, res: Response): Promise<void> =
 };
 
 // GET /hotels/:name - Retrieve a single hotel by GlobalPropertyName
-export const getHotelByName = async (req: Request, res: Response): Promise<void> => {
+const getHotelByName = async (req, res) => {
     try {
         const hotel = await Hotel.findOne({
             where: {
                 GlobalPropertyName: {
-                    [Op.iLike]: `%${req.params.name}%`   // case-insensitive partial match
+                    [Op.iLike]: `%${req.params.name}%`  // case-insensitive partial match
                 }
             }
         });
@@ -35,7 +34,7 @@ export const getHotelByName = async (req: Request, res: Response): Promise<void>
 };
 
 // POST /hotels - Create a new hotel
-export const createHotel = async (req: Request, res: Response): Promise<void> => {
+const createHotel = async (req, res) => {
     try {
         const hotel = await Hotel.create(req.body);
         res.status(201).json(hotel);
@@ -45,9 +44,9 @@ export const createHotel = async (req: Request, res: Response): Promise<void> =>
 };
 
 // PUT /hotels/:id - Update a hotel by GlobalPropertyID
-export const updateHotel = async (req: Request, res: Response): Promise<void> => {
+const updateHotel = async (req, res) => {
     try {
-        const id = parseInt(req.params.id as string, 10);
+        const id = parseInt(req.params.id, 10);
         const hotel = await Hotel.findByPk(id);
 
         if (!hotel) {
@@ -63,9 +62,9 @@ export const updateHotel = async (req: Request, res: Response): Promise<void> =>
 };
 
 // DELETE /hotels/:id - Delete a hotel by GlobalPropertyID
-export const deleteHotel = async (req: Request, res: Response): Promise<void> => {
+const deleteHotel = async (req, res) => {
     try {
-        const id = parseInt(req.params.id as string, 10);
+        const id = parseInt(req.params.id, 10);
         const hotel = await Hotel.findByPk(id);
 
         if (!hotel) {
@@ -79,3 +78,5 @@ export const deleteHotel = async (req: Request, res: Response): Promise<void> =>
         res.status(500).json({ message: 'Error deleting hotel', error });
     }
 };
+
+module.exports = { getAllHotels, getHotelByName, createHotel, updateHotel, deleteHotel };

@@ -3,7 +3,7 @@ const cors = require('cors');
 
 const app = express();
 
-// ─── CORS ────────────────────────────────────────────────────────────────────
+// CORS 
 app.use(cors({
   origin: process.env.CLIENT_URL || 'http://localhost:3000',
   credentials: true,
@@ -11,25 +11,30 @@ app.use(cors({
   allowedHeaders: ['Content-Type', 'Authorization'],
 }));
 
-// ─── Body Parsing ─────────────────────────────────────────────────────────────
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// ─── Routes ───────────────────────────────────────────────────────────────────
+// Routes
 app.use('/api/auth', require('./routes/auth.routes'));
 app.use('/api/users', require('./routes/user.routes'));
+app.use('/api/hotels', require('./routes/hotel.routes'));
+app.use('/api/airports', require('./routes/airport.routes'));
+app.use('/api/reviews', require('./routes/review.routes'));
+app.use('/api/amenities', require('./routes/amenity.routes'));
+app.use('/api/requests', require('./routes/request.routes'));
 
-// ─── Health Check ─────────────────────────────────────────────────────────────
+
 app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', timestamp: new Date().toISOString() });
 });
 
-// ─── 404 Handler ──────────────────────────────────────────────────────────────
+
 app.use((req, res) => {
   res.status(404).json({ message: 'Route not found' });
 });
 
-// ─── Global Error Handler ─────────────────────────────────────────────────────
+
 app.use((err, req, res, next) => {
   console.error(err.stack);
   res.status(err.status || 500).json({

@@ -24,4 +24,4 @@ Region.init(
     }
 );
 
-module.exports = { Region };
+module.exports = Region;

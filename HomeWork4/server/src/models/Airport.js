@@ -45,4 +45,4 @@ Airport.init(
     }
 );
 
-module.exports = { Airport };
+module.exports = Airport;

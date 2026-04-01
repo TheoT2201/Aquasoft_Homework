@@ -30,4 +30,4 @@ HotelGroup.init(
     }    
 );
 
-module.exports = { HotelGroup };
+module.exports = HotelGroup;
