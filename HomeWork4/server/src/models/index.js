@@ -9,6 +9,7 @@ const User = require("./User");
 const Amenity = require("./Amenity");
 const Permission = require("./Permission");
 const Request = require("./Request");
+const Rating = require("./Rating");
 
 City.hasMany(Hotel, { foreignKey: 'cityid' });
 Hotel.belongsTo(City, { foreignKey: 'cityid' });
@@ -30,6 +31,9 @@ Review.belongsTo(Hotel, { foreignKey: 'globalpropertyid' });
 
 Hotel.hasMany(Amenity, {foreignKey: 'globalpropertyid'});
 Amenity.belongsTo(Hotel, {foreignKey: 'globalpropertyid'});
+
+Hotel.hasOne(Rating, {foreignKey: 'globalpropertyid'});
+Rating.belongsTo(Hotel, {foreignKey: 'globalpropertyid'});
 
 User.hasMany(Request, { foreignKey: 'userid' });
 Request.belongsTo(User, { foreignKey: 'userid' });

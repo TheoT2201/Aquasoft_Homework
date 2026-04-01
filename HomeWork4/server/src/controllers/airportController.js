@@ -2,12 +2,11 @@ const Airport = require('../models/Airport');
 const Hotel = require('../models/Hotel');
 const PriceOffer = require('../models/PriceOffer');
 
-// Haversine formula
-// Calculates the distance in km between two lat/lng coordinate pairs
+// Haversine formula - in MILES
 const toRad = (value) => (value * Math.PI) / 180;
 
-const haversineDistance = (lat1, lon1, lat2, lon2) => {
-    const R    = 6371;
+const haversineDistanceMiles = (lat1, lon1, lat2, lon2) => {
+    const R    = 3958.8; // Earth's radius in miles
     const dLat = toRad(lat2 - lat1);
     const dLon = toRad(lon2 - lon1);
     const a    =
@@ -18,89 +17,77 @@ const haversineDistance = (lat1, lon1, lat2, lon2) => {
     return R * c;
 };
 
-// ---------------------------------------------------------------------------
-// GET /airports/:iata_code/best-offers
-// Returns hotels sorted by distance from the airport,
-// each with their best (lowest) available price offer
-// ---------------------------------------------------------------------------
-const getBestOffersNearAirport = async (req, res) => {
+// GET /api/airports/hotel-distances - For every hotel find its primary airport and calculate the distance in miles
+const getHotelDistancesToPrimaryAirport = async (req, res) => {
     try {
-        const iata_code = req.params['iata_code'];
-
-        const airport = await Airport.findOne({
-            where: { iata_code: iata_code.toUpperCase() }
-        });
-
-        if (!airport) {
-            res.status(404).json({
-                message: `Airport with IATA code '${iata_code}' not found`
-            });
-            return;
+        // Load all airports into a map keyed by iata_code for fast lookup
+        const airports = await Airport.findAll();
+        const airportMap = new Map();
+        for (const ap of airports) {
+            airportMap.set(ap.get('iata_code'), ap);
         }
-
-        const airportLat = parseFloat(airport.get('Latitude'));
-        const airportLon = parseFloat(airport.get('Longitude'));
-
+ 
         const hotels = await Hotel.findAll();
-
-        const offers = await PriceOffer.findAll({
-            where: { IsAvailable: true }
-        });
-
-        // Group offers by GlobalPropertyID and keep only the lowest price
-        const bestOfferMap = new Map();
-        for (const offer of offers) {
-            const hotelId  = offer.get('GlobalPropertyID');
-            const price    = parseFloat(offer.get('PricePerNight'));
-            const existing = bestOfferMap.get(hotelId);
-
-            if (!existing || price < parseFloat(existing.get('PricePerNight'))) {
-                bestOfferMap.set(hotelId, offer);
+ 
+        const results = [];
+        const skipped = [];
+ 
+        for (const hotel of hotels) {
+            const iata = hotel.get('primaryairportcode');
+            const airport = airportMap.get(iata);
+ 
+            if (!airport) {
+                skipped.push({
+                    globalpropertyid: hotel.get('globalpropertyid'),
+                    name: hotel.get('globalpropertyname'),
+                    reason: `Airport '${iata}' not found in airports table`,
+                });
+                continue;
             }
+ 
+            const hotelLat   = parseFloat(hotel.get('propertylatitude'));
+            const hotelLon   = parseFloat(hotel.get('propertylongitude'));
+            const airportLat = parseFloat(airport.get('latitude'));
+            const airportLon = parseFloat(airport.get('longitude'));
+ 
+            if (isNaN(hotelLat) || isNaN(hotelLon) || isNaN(airportLat) || isNaN(airportLon)) {
+                skipped.push({
+                    globalpropertyid: hotel.get('globalpropertyid'),
+                    name: hotel.get('globalpropertyname'),
+                    reason: 'Missing coordinates',
+                });
+                continue;
+            }
+ 
+            const distanceMiles = parseFloat(
+                haversineDistanceMiles(hotelLat, hotelLon, airportLat, airportLon).toFixed(2)
+            );
+ 
+            results.push({
+                GlobalPropertyID:    hotel.get('globalpropertyid'),
+                GlobalPropertyName:  hotel.get('globalpropertyname'),
+                PrimaryAirportCode:  iata,
+                AirportName:         airport.get('airport_name'),
+                DistanceMiles:       distanceMiles,
+            });
         }
-
-        const results = hotels
-            .filter(hotel => bestOfferMap.has(hotel.get('GlobalPropertyID')))
-            .map(hotel => {
-                const hotelLat  = parseFloat(hotel.get('PropertyLatitude'));
-                const hotelLon  = parseFloat(hotel.get('PropertyLongitude'));
-                const distance  = haversineDistance(airportLat, airportLon, hotelLat, hotelLon);
-                const bestOffer = bestOfferMap.get(hotel.get('GlobalPropertyID'));
-
-                return {
-                    GlobalPropertyID:       hotel.get('GlobalPropertyID'),
-                    GlobalPropertyName:     hotel.get('GlobalPropertyName'),
-                    PropertyAddress1:       hotel.get('PropertyAddress1'),
-                    PropertyLatitude:       hotelLat,
-                    PropertyLongitude:      hotelLon,
-                    DistanceFromAirport_km: parseFloat(distance.toFixed(2)),
-                    BestOffer: {
-                        OfferID:       bestOffer.get('OfferID'),
-                        Category:      bestOffer.get('Category'),
-                        PricePerNight: parseFloat(bestOffer.get('PricePerNight')),
-                        Currency:      bestOffer.get('Currency'),
-                    }
-                };
-            })
-            .sort((a, b) => a.DistanceFromAirport_km - b.DistanceFromAirport_km);
-
-        res.status(200).json({
-            airport: {
-                iata_code:    airport.get('iata_code'),
-                airport_name: airport.get('airport_name'),
-                Latitude:     airportLat,
-                Longitude:    airportLon,
-            },
-            total_hotels_with_offers: results.length,
-            hotels: results,
+ 
+        // Sort by distance ascending
+        results.sort((a, b) => a.DistanceMiles - b.DistanceMiles);
+ 
+        return res.status(200).json({
+            total:   results.length,
+            skipped: skipped.length,
+            hotels:  results,
+            ...(skipped.length > 0 && { skipped_details: skipped }),
         });
-
+ 
     } catch (error) {
-        res.status(500).json({
-            message: 'Error retrieving best offers near airport',
-            error
+        return res.status(500).json({
+            message: 'Error calculating hotel distances to airports',
+            error,
         });
     }
 };
 
-module.exports = { getBestOffersNearAirport };
+module.exports = { getHotelDistancesToPrimaryAirport };

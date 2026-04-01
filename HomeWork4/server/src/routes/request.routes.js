@@ -3,11 +3,13 @@ const router = express.Router();
 const requestController = require('../controllers/requestController');
 const { authenticate, authorize } = require('../middleware/auth.middleware');
 
-//Ruta pentru creat request uri
+// POST /api/requests - Create a new request (Hotel Manager or Group Manager)
 router.post('/', authenticate, requestController.createRequest);
-//Ruta pentru obtinerea requesturilor in asteptare
+
+// GET /api/requests/pending - Get pending requests (Administrator)
 router.get('/pending', authenticate, authorize('Administrator'), requestController.getPendingRequests);
-//Ruta pentru procesarea unui request (acceptare sau respingere)
+
+// PUT /api/requests/:id/process - Process a request (Administrator)
 router.put('/:id/process', authenticate, authorize('Administrator'), requestController.processRequest);
 
 module.exports = router;

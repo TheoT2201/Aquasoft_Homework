@@ -10,13 +10,11 @@ const getAmenitiesByHotel = async (req, res) => {
             return res.status(400).json({ message: 'Invalid hotel ID' });
         }
 
-        // Check the hotel exists
         const hotel = await Hotel.findByPk(globalpropertyid);
         if (!hotel) {
             return res.status(404).json({ message: `Hotel with ID ${globalpropertyid} not found` });
         }
 
-        // Query amenities table directly by globalpropertyid
         const amenities = await Amenity.findAll({
             where: { GlobalPropertyID: globalpropertyid },
             attributes: ['AmenityID', 'AmenityName'],

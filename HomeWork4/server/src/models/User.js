@@ -56,12 +56,12 @@ const User = sequelize.define('User', {
   },
 });
 
-// Call this to check a plain password against the stored hash
+
 User.prototype.validatePassword = async function (plain) {
   return bcrypt.compare(plain, this.password);
 };
 
-// Strip password from any JSON response automatically
+
 User.prototype.toJSON = function () {
   const values = { ...this.get() };
   delete values.password;

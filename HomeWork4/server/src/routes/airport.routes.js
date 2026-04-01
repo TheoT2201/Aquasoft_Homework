@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const { getBestOffersNearAirport } = require('../controllers/airportController');
+const { getHotelDistancesToPrimaryAirport } = require('../controllers/airportController');
 
-// GET /api/airports/:iata_code/best-offers - Public
-router.get('/:iata_code/best-offers', getBestOffersNearAirport);
+// GET /api/airports/hotel-distances - All hotels with their distance to their primary airport
+router.get('/hotel-distances', getHotelDistancesToPrimaryAirport);
 
 module.exports = router;

@@ -1,6 +1,6 @@
 const User= require('../models/User');
 
-//Get user by ID
+// Get user by ID
 exports.getUserById= async (req, res) => {
     try {
         const user= await User.findById(req.params.id);
@@ -13,7 +13,7 @@ exports.getUserById= async (req, res) => {
     }
 };
 
-//Change permissions by ID
+// Change permissions by ID
 exports.changePermissionsById= async (req, res) => {
     try {
         const user= await User.findById(req.params.id);

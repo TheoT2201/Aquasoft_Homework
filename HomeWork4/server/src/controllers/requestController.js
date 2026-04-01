@@ -3,45 +3,42 @@ const User = require('../models/User');
 const Request = require('../models/Request');
 
 
-// 1. Create a new request
+// Create a new request
 const createRequest = async (req, res) => {
   try {
-    // Extragem datele reale de care avem nevoie din frontend
     const { requestedRole, description, documentUrl } = req.body;
-    const userId = req.user.id; // Asumând că middleware-ul de auth pune ID-ul aici
+    const userId = req.user.id;
 
-    // Sequelize folosește .create() direct
     const newRequest = await Request.create({
         UserID: userId,
         RequestedRole: requestedRole,
-        Status: 'Pending', // Pus între ghilimele ca string, exact ca în ENUM
+        Status: 'Pending',
         Description: description,
         DocumentURL: documentUrl
     });
 
-    return res.status(201).json({ message: "Cerere trimisă cu succes!", request: newRequest });
+    return res.status(201).json({ message: "Request created successfully!", request: newRequest });
   } catch (error) {
-    console.error("Eroare la creare request:", error);
-    return res.status(500).json({ message: 'Eroare internă a serverului.' });
+    console.error("Error creating request:", error);
+    return res.status(500).json({ message: 'Internal server error.' });
   } 
 };
 
-// 2. Get Pending Requests
+// Get Pending Requests
 const getPendingRequests = async (req, res) => {
   try {
-    // În Sequelize, echivalentul lui .populate() este "include"
     const pendingRequests = await Request.findAll({ 
         where: { Status: 'Pending' },
         include: [{
             model: User,
-            attributes: ['firstName', 'lastName', 'email'] // Aducem doar ce ne interesează, nu și parola!
+            attributes: ['firstName', 'lastName', 'email']
         }]
     });
 
     return res.status(200).json(pendingRequests);
   } catch (error) {
-    console.error("Eroare la aducerea cererilor:", error);
-    return res.status(500).json({ message: 'Eroare internă a serverului.' });
+    console.error("Error fetching requests:", error);
+    return res.status(500).json({ message: 'Internal server error.' });
   }
 };
 
@@ -62,12 +59,12 @@ const processRequest = async (req, res) => {
 
         if (!requestToProcess) {
             await t.rollback(); 
-            return res.status(404).json({ message: "Cererea nu a fost găsită." });
+            return res.status(404).json({ message: "Request not found." });
         }
 
         if (requestToProcess.Status !== 'Pending') {
             await t.rollback();
-            return res.status(400).json({ message: "Această cerere a fost deja procesată." });
+            return res.status(400).json({ message: "This request has already been processed." });
         }
 
         
@@ -79,7 +76,7 @@ const processRequest = async (req, res) => {
             
             if (!userToUpgrade) {
                 await t.rollback();
-                return res.status(404).json({ message: "Utilizatorul care a făcut cererea nu mai există." });
+                return res.status(404).json({ message: "The user who made the request no longer exists." });
             }
 
             userToUpgrade.role = requestToProcess.RequestedRole;
@@ -89,13 +86,13 @@ const processRequest = async (req, res) => {
         await t.commit();
 
         return res.status(200).json({ 
-            message: `Cererea a fost procesată cu statusul: ${action}` 
+            message: `Request has been processed with status: ${action}` 
         });
 
     } catch (error) {
         await t.rollback();
-        console.error("Eroare la procesarea cererii:", error);
-        return res.status(500).json({ message: "Eroare la procesarea cererii. Modificările au fost anulate." });
+        console.error("Error processing request:", error);
+        return res.status(500).json({ message: "Error processing request. Changes have been rolled back." });
     }
 };
 

@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const { User } = require('../models/User');
+const User = require('../models/User');
 
 const authenticate = async (req, res, next) => {
   const authHeader = req.headers.authorization;
@@ -21,7 +21,7 @@ const authenticate = async (req, res, next) => {
   }
 };
 
-// Usage: authorize('Administrator', 'GroupManager')
+
 const authorize = (...roles) => (req, res, next) => {
   if (!req.user) return res.status(401).json({ message: 'Not authenticated.' });
   if (!roles.includes(req.user.role)) {

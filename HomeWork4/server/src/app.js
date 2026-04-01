@@ -23,6 +23,7 @@ app.use('/api/airports', require('./routes/airport.routes'));
 app.use('/api/reviews', require('./routes/review.routes'));
 app.use('/api/amenities', require('./routes/amenity.routes'));
 app.use('/api/requests', require('./routes/request.routes'));
+app.use('/api/ratings', require('./routes/rating.routes'));
 
 
 app.get('/api/health', (req, res) => {
