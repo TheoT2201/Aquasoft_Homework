@@ -101,6 +101,11 @@ Hotel.init(
             allowNull: true,
             field: 'distancetotheairport'
         },
+        ManagerID: {
+            type: DataTypes.UUID,
+            allowNull: true,
+            field: 'managerid'
+        },
     },
     {
         sequelize,

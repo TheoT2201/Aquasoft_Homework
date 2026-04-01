@@ -21,7 +21,12 @@ HotelGroup.init(
           allowNull: false,
           unique: true,
           field: 'globalchaincode'
-        }, 
+        },
+        ManagerID: {
+          type: DataTypes.UUID,
+          allowNull: true,
+          field: 'managerid'
+        },
     }, 
     {
       sequelize,

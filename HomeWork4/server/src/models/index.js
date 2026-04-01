@@ -34,4 +34,10 @@ Amenity.belongsTo(Hotel, {foreignKey: 'globalpropertyid'});
 User.hasMany(Request, { foreignKey: 'userid' });
 Request.belongsTo(User, { foreignKey: 'userid' });
 
+User.hasMany(Hotel, { foreignKey: 'managerid' });
+Hotel.belongsTo(User, { as: 'HotelManager', foreignKey: 'managerid' });
+
+User.hasMany(HotelGroup, { foreignKey: 'managerid' });
+HotelGroup.belongsTo(User, { as: 'GroupManager', foreignKey: 'managerid' });
+
 module.exports = { City, Region, Hotel, PriceOffer, Airport, HotelGroup, Review, User, Amenity, Permission, Request };
