@@ -7,7 +7,7 @@
   justify-content: center;
   padding: 1rem;
 }
- 
+
 .mainTitle {
   font-size: 2.25rem;
   font-weight: 700;
@@ -16,19 +16,20 @@
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  font-family: 'Georgia', serif;
+  /* ✒️ Aplicăm fontul retro pentru titlul principal */
+  font-family: var(--font-courier), 'Courier New', Courier, monospace;
 }
- 
+
 .underlineText {
   text-decoration: underline;
   text-decoration-thickness: 2px;
 }
- 
+
 .starIcon {
   font-size: 1.875rem;
   color: var(--foreground);
 }
- 
+
 .formCard {
   background: var(--card-bg);
   padding: 2.5rem;
@@ -38,22 +39,23 @@
   width: 100%;
   max-width: 28rem;
 }
- 
+
 .formHeading {
   font-size: 1.875rem;
   font-weight: 700;
   margin-bottom: 2rem;
   text-align: left;
   color: var(--foreground);
-  font-family: 'Georgia', serif;
+  /* ✒️ Aplicăm fontul retro și pentru titlul formularului */
+  font-family: var(--font-courier), 'Courier New', Courier, monospace;
 }
- 
+
 .formLayout {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
- 
+
 .inputField {
   border: 2px solid var(--foreground);
   border-radius: 0.5rem;
@@ -65,13 +67,15 @@
   color: var(--input-text);
   outline: none;
   transition: box-shadow 0.2s;
+  /* ✒️ Forțăm Roboto pe input */
+  font-family: var(--font-roboto), sans-serif;
 }
- 
+
 .inputField:focus {
   box-shadow: 3px 3px 0px 0px var(--accent);
   border-color: var(--accent);
 }
- 
+
 .error {
   background: var(--error-bg);
   border: 1px solid var(--error-border);
@@ -81,8 +85,10 @@
   font-size: 0.875rem;
   font-weight: 500;
   margin-bottom: 1rem;
+  /* ✒️ Forțăm Roboto pentru mesaje clare de eroare */
+  font-family: var(--font-roboto), sans-serif;
 }
- 
+
 .submitButton {
   border: 3px solid var(--foreground);
   border-radius: 9999px;
@@ -95,26 +101,30 @@
   box-shadow: 5px 5px 0px 0px var(--foreground);
   cursor: pointer;
   transition: all 0.15s ease-in-out;
+  /* ✒️ Forțăm Roboto pe buton */
+  font-family: var(--font-roboto), sans-serif;
 }
- 
+
 .submitButton:hover {
   background: var(--input-bg);
   box-shadow: 3px 3px 0px 0px var(--foreground);
 }
- 
+
 .submitButton:active {
   box-shadow: none;
   transform: translate(4px, 4px);
 }
- 
+
 .switchText {
   text-align: center;
   color: var(--text-secondary);
   font-size: 13px;
   margin-top: 1.5rem;
   margin-bottom: 0;
+  /* ✒️ Roboto pentru text mic */
+  font-family: var(--font-roboto), sans-serif;
 }
- 
+
 .link {
   background: none;
   border: none;
@@ -123,4 +133,6 @@
   cursor: pointer;
   padding: 0;
   text-decoration: underline;
+  /* ✒️ Roboto pentru link-uri */
+  font-family: var(--font-roboto), sans-serif;
 }

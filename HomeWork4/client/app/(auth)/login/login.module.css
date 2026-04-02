@@ -16,7 +16,8 @@
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  font-family: 'Georgia', serif;
+  /* ✒️ Aplicăm fontul retro pentru titlul principal */
+  font-family: var(--font-courier), 'Courier New', Courier, monospace;
 }
 
 .underlineText {
@@ -45,13 +46,16 @@
   margin-bottom: 2rem;
   text-align: left;
   color: var(--foreground);
-  font-family: 'Georgia', serif;
+  /* ✒️ Aplicăm fontul retro și pentru titlul formularului */
+  font-family: var(--font-courier), 'Courier New', Courier, monospace;
 }
 
 .subtitle {
   font-size: 14px;
   color: var(--text-secondary);
   margin: -1.5rem 0 2rem 0;
+  /* (Opțional) Forțăm Roboto aici, deși ar trebui să-l ia din body */
+  font-family: var(--font-roboto), sans-serif;
 }
 
 .error {
@@ -81,6 +85,8 @@
   color: var(--input-text);
   outline: none;
   transition: box-shadow 0.2s;
+  /* ✒️ Forțăm Roboto pe inputuri, browserele sunt încăpățânate cu form-urile */
+  font-family: var(--font-roboto), sans-serif;
 }
 
 .input:focus {
@@ -101,6 +107,8 @@
   cursor: pointer;
   transition: all 0.15s ease-in-out;
   margin-top: 0.5rem;
+  /* ✒️ Forțăm Roboto pe buton */
+  font-family: var(--font-roboto), sans-serif;
 }
 
 .btn:hover {
@@ -135,6 +143,7 @@
 .dividerText {
   color: var(--text-muted);
   font-size: 12px;
+    font-family: var(--font-roboto), sans-serif;
 }
 
 .switchText {
@@ -142,6 +151,8 @@
   color: var(--text-secondary);
   font-size: 13px;
   margin: 0;
+  font-family: var(--font-roboto), sans-serif;
+
 }
 
 .link {
@@ -152,4 +163,6 @@
   cursor: pointer;
   padding: 0;
   text-decoration: underline;
+  font-family: var(--font-roboto), sans-serif;
 }
+

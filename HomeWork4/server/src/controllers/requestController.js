@@ -3,6 +3,19 @@ const User = require('../models/User');
 const Request = require('../models/Request');
 
 
+// Get all requests
+const getAllRequests = async (req, res) => {
+  try {
+    const requests = await Request.findAll({
+      include: [{ model: User, attributes: ['firstName', 'lastName', 'email'] }],
+      order: [['createdAt', 'DESC']],
+    });
+    return res.status(200).json(requests);
+  } catch (error) {
+    return res.status(500).json({ message: 'Server error', error });
+  }
+};
+
 // Create a new request
 const createRequest = async (req, res) => {
   try {
@@ -79,8 +92,7 @@ const processRequest = async (req, res) => {
                 return res.status(404).json({ message: "The user who made the request no longer exists." });
             }
 
-            userToUpgrade.role = requestToProcess.RequestedRole;
-            await userToUpgrade.save({ transaction: t });
+            await userToUpgrade.update({ role: requestToProcess.RequestedRole }, { transaction: t });
         }
 
         await t.commit();
@@ -96,4 +108,4 @@ const processRequest = async (req, res) => {
     }
 };
 
-module.exports = { createRequest, getPendingRequests, processRequest };
+module.exports = { createRequest, getPendingRequests, processRequest, getAllRequests };

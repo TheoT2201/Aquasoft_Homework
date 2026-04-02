@@ -1,0 +1,368 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--background);
+  font-family: system-ui, sans-serif;
+}
+
+/* ── Navbar ── */
+.nav {
+  height: 60px;
+  background: var(--card-bg);
+  border-bottom: 2px solid var(--foreground);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  flex-shrink: 0;
+}
+
+.navBrand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navStar {
+  color: var(--accent);
+  font-size: 20px;
+}
+
+.navTitle {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--foreground);
+  font-family: 'Georgia', serif;
+}
+
+.navRole {
+  font-size: 12px;
+  font-weight: 600;
+  background: var(--foreground);
+  color: var(--card-bg);
+  padding: 2px 10px;
+  border-radius: 9999px;
+}
+
+.navRight {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.navUser {
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.logoutBtn {
+  border: 2px solid var(--foreground);
+  border-radius: 9999px;
+  padding: 6px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  background: var(--card-bg);
+  color: var(--foreground);
+  cursor: pointer;
+  box-shadow: 3px 3px 0px 0px var(--foreground);
+  transition: all 0.15s ease-in-out;
+}
+
+.logoutBtn:hover {
+  background: var(--input-bg);
+  box-shadow: 1px 1px 0px 0px var(--foreground);
+}
+
+.logoutBtn:active {
+  box-shadow: none;
+  transform: translate(2px, 2px);
+}
+
+/* ── Body ── */
+.body {
+  flex: 1;
+  max-width: 860px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 36px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.pageTitle {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--foreground);
+  font-family: 'Georgia', serif;
+  margin: 0 0 4px 0;
+}
+
+.pageSubtitle {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin: 0;
+  max-width: 460px;
+}
+
+/* ── Filter tabs ── */
+.tabs {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tab {
+  border: 2px solid var(--foreground);
+  border-radius: 9999px;
+  padding: 6px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  background: var(--card-bg);
+  color: var(--foreground);
+  cursor: pointer;
+  box-shadow: 3px 3px 0px 0px var(--foreground);
+  transition: all 0.15s ease-in-out;
+}
+
+.tab:hover {
+  background: var(--input-bg);
+  box-shadow: 1px 1px 0px 0px var(--foreground);
+}
+
+.tab:active {
+  box-shadow: none;
+  transform: translate(2px, 2px);
+}
+
+.tabActive {
+  background: var(--foreground);
+  color: var(--card-bg);
+  box-shadow: 3px 3px 0px 0px var(--accent);
+}
+
+.tabActive:hover {
+  background: var(--foreground);
+  box-shadow: 1px 1px 0px 0px var(--accent);
+}
+
+/* ── States ── */
+.error {
+  background: var(--error-bg);
+  border: 1px solid var(--error-border);
+  border-radius: 8px;
+  padding: 12px 16px;
+  color: var(--error-text);
+  font-size: 14px;
+}
+
+.loadingState,
+.emptyState {
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 15px;
+  padding: 48px 0;
+}
+
+/* ── Request cards ── */
+.requestList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.requestCard {
+  background: var(--card-bg);
+  border: 2px solid var(--foreground);
+  border-radius: 12px;
+  padding: 20px 24px;
+  box-shadow: 4px 4px 0px 0px var(--foreground);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.cardTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+  background: var(--foreground);
+  color: var(--card-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.userName {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0 0 2px 0;
+}
+
+.userEmail {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.cardMeta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.roleBadge {
+  border: 2px solid var(--foreground);
+  border-radius: 9999px;
+  padding: 4px 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--foreground);
+  background: var(--card-bg);
+}
+
+.statusBadge {
+  border-radius: 9999px;
+  padding: 4px 12px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.badgePending {
+  background: #fef9c3;
+  color: #854d0e;
+  border: 2px solid #ca8a04;
+}
+
+.badgeApproved {
+  background: var(--note-bg);
+  color: var(--accent);
+  border: 2px solid var(--accent);
+}
+
+.badgeRejected {
+  background: var(--error-bg);
+  color: var(--error-text);
+  border: 2px solid var(--error-border);
+}
+
+.description {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.5;
+  background: var(--input-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+
+.docLink {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cardBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.requestDate {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.approveBtn {
+  border: 2px solid var(--accent);
+  border-radius: 9999px;
+  padding: 8px 20px;
+  font-size: 13px;
+  font-weight: 700;
+  background: var(--accent);
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 3px 3px 0px 0px var(--accent-hover);
+  transition: all 0.15s ease-in-out;
+}
+
+.approveBtn:hover {
+  background: var(--accent-hover);
+  box-shadow: 1px 1px 0px 0px var(--accent-hover);
+}
+
+.approveBtn:active {
+  box-shadow: none;
+  transform: translate(2px, 2px);
+}
+
+.approveBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.rejectBtn {
+  border: 2px solid var(--error-text);
+  border-radius: 9999px;
+  padding: 8px 20px;
+  font-size: 13px;
+  font-weight: 700;
+  background: var(--card-bg);
+  color: var(--error-text);
+  cursor: pointer;
+  box-shadow: 3px 3px 0px 0px var(--error-text);
+  transition: all 0.15s ease-in-out;
+}
+
+.rejectBtn:hover {
+  background: var(--error-bg);
+  box-shadow: 1px 1px 0px 0px var(--error-text);
+}
+
+.rejectBtn:active {
+  box-shadow: none;
+  transform: translate(2px, 2px);
+}
+
+.rejectBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

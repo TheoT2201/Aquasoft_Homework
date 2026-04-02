@@ -3,18 +3,38 @@ const Hotel = require('../models/Hotel');
 const HotelGroup = require('../models/HotelGroup');
 const User = require('../models/User');
 
-// GET /hotels - Retrieve all hotels
+// GET /api/hotels?search=&limit=20&offset=0 - Retrieve hotels with pagination + search
 const getAllHotels = async (req, res) => {
     try {
-        const hotels = await Hotel.findAll();
-        res.status(200).json(hotels);
+        const limit  = parseInt(req.query.limit)  || 20;
+        const offset = parseInt(req.query.offset) || 0;
+        const search = req.query.search || '';
+
+        const where = search
+            ? { GlobalPropertyName: { [Op.iLike]: `%${search}%` } }
+            : {};
+
+        const { count, rows } = await Hotel.findAndCountAll({
+            where,
+            limit,
+            offset,
+            order: [['GlobalPropertyName', 'ASC']],
+        });
+
+        res.status(200).json({
+            total: count,
+            limit,
+            offset,
+            hotels: rows,
+        });
     } catch (error) {
         res.status(500).json({ message: 'Error retrieving hotels', error });
     }
 };
 
-// GET /hotels/:name - Retrieve a single hotel by GlobalPropertyName
+// GET /api/hotels/name/:name - Search hotel by name (public)
 const getHotelByName = async (req, res) => {
+    console.log('Searching for hotel with manager:', req.params.name);
     try {
         const hotel = await Hotel.findOne({
             where: {
@@ -40,11 +60,11 @@ const getMyHotel = async (req, res) => {
         const hotel = await Hotel.findOne({
             where: { ManagerID: req.user.id }
         });
- 
+
         if (!hotel) {
             return res.status(404).json({ message: 'No hotel assigned to you yet.' });
         }
- 
+
         return res.status(200).json(hotel);
     } catch (error) {
         return res.status(500).json({ message: 'Error retrieving your hotel', error });
@@ -57,19 +77,19 @@ const getMyGroupHotels = async (req, res) => {
         const group = await HotelGroup.findOne({
             where: { ManagerID: req.user.id }
         });
- 
+
         if (!group) {
             return res.status(404).json({ message: 'No hotel group assigned to you yet.' });
         }
- 
+
         const hotels = await Hotel.findAll({
-            where: { HotelGroupID: group.get('hotelgroupid') }
+            where: { HotelGroupID: group.get('HotelGroupID') }
         });
- 
+
         return res.status(200).json({
             group: {
-                id:        group.get('hotelgroupid'),
-                groupName: group.get('groupname'),
+                id:        group.get('HotelGroupID'),
+                groupName: group.get('GroupName'),
             },
             total: hotels.length,
             hotels,
@@ -85,31 +105,31 @@ const getMyGroupManagers = async (req, res) => {
         const group = await HotelGroup.findOne({
             where: { ManagerID: req.user.id }
         });
- 
+
         if (!group) {
             return res.status(404).json({ message: 'No hotel group assigned to you yet.' });
         }
- 
+
         const hotels = await Hotel.findAll({
             where: {
-                HotelGroupID: group.get('hotelgroupid'),
+                HotelGroupID: group.get('HotelGroupID'),
                 ManagerID: { [Op.ne]: null }
             },
             include: [{
                 model: User,
-                as: 'HotelManager',
+                as: 'Manager',
                 attributes: ['id', 'firstName', 'lastName', 'email'],
             }],
         });
- 
+
         const managers = hotels.map(h => ({
-            hotelId:   h.get('globalpropertyid'),
-            hotelName: h.get('globalpropertyname'),
-            manager:   h.get('HotelManager'),
+            hotelId:   h.get('GlobalPropertyID'),
+            hotelName: h.get('GlobalPropertyName'),
+            manager:   h.get('Manager'),
         }));
- 
+
         return res.status(200).json({
-            group:    group.get('groupname'),
+            group:    group.get('GroupName'),
             managers,
         });
     } catch (error) {
@@ -117,7 +137,7 @@ const getMyGroupManagers = async (req, res) => {
     }
 };
 
-// POST /hotels - Create a new hotel
+// POST /api/hotels - Create a new hotel (Admin only)
 const createHotel = async (req, res) => {
     try {
         const hotel = await Hotel.create(req.body);
@@ -127,15 +147,14 @@ const createHotel = async (req, res) => {
     }
 };
 
-// PUT /hotels/:id - Update a hotel by GlobalPropertyID
+// PUT /api/hotels/:id - Update a hotel (Admin only)
 const updateHotel = async (req, res) => {
     try {
         const id = parseInt(req.params.id, 10);
         const hotel = await Hotel.findByPk(id);
 
         if (!hotel) {
-            res.status(404).json({ message: 'Hotel not found' });
-            return;
+            return res.status(404).json({ message: 'Hotel not found' });
         }
 
         await hotel.update(req.body);
@@ -145,15 +164,14 @@ const updateHotel = async (req, res) => {
     }
 };
 
-// DELETE /hotels/:id - Delete a hotel by GlobalPropertyID
+// DELETE /api/hotels/:id - Delete a hotel (Admin only)
 const deleteHotel = async (req, res) => {
     try {
         const id = parseInt(req.params.id, 10);
         const hotel = await Hotel.findByPk(id);
 
         if (!hotel) {
-            res.status(404).json({ message: 'Hotel not found' });
-            return;
+            return res.status(404).json({ message: 'Hotel not found' });
         }
 
         await hotel.destroy();
@@ -163,4 +181,7 @@ const deleteHotel = async (req, res) => {
     }
 };
 
-module.exports = { getAllHotels, getHotelByName, getMyHotel, getMyGroupHotels, getMyGroupManagers, createHotel, updateHotel, deleteHotel };
+//Get a hotel by ManagerID - for Manager dashboard
+
+
+module.exports = { getAllHotels, getHotelByName, getMyHotel, getMyGroupHotels, getMyGroupManagers, createHotel, updateHotel, deleteHotel, };

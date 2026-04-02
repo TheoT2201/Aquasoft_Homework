@@ -24,6 +24,7 @@ app.use('/api/reviews', require('./routes/review.routes'));
 app.use('/api/amenities', require('./routes/amenity.routes'));
 app.use('/api/requests', require('./routes/request.routes'));
 app.use('/api/ratings', require('./routes/rating.routes'));
+app.use('/api/priceoffers', require('./routes/priceoffer.routes'));
 
 
 app.get('/api/health', (req, res) => {

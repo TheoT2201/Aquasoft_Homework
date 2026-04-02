@@ -4,8 +4,8 @@
   /* =========================================
      🎨 TEMA GLOBALĂ HOTEL STARWARDS
      ========================================= */
-  --background: #95faee;
-  --foreground: #0d2e2b;
+  --background: #a7faf1;
+  --foreground: #143633;
 
   /* Card & surfaces */
   --card-bg: #ffffff;
@@ -65,9 +65,18 @@ body {
   color: var(--foreground);
   background: var(--background);
   /* Folosim variabila de font setată în layout, cu fallback pe Courier */
-  font-family: var(--font-courier), 'Courier New', Courier, monospace;
+  font-family: var(--font-roboto), system-ui, -apple-system, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-courier), 'Courier New', Courier, monospace;
+  font-weight: 700;
+}
+
+.font-retro {
+  font-family: var(--font-courier), 'Courier New', Courier, monospace;
 }
 
 a {
