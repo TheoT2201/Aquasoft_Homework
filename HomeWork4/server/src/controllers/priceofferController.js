@@ -29,4 +29,36 @@ const getOffersByHotel = async (req, res) => {
     }
 };
 
-module.exports = { getOffersByHotel };
+const updatePriceOffer = async (req, res) => {
+    try {
+        const { offerId } = req.params; // Luăm ID-ul ofertei din link
+        const { Category, PricePerNight, Currency } = req.body; // Datele noi de la utilizator
+
+        // Căutăm oferta
+        const offer = await PriceOffer.findOne({
+            where: { OfferID: offerId } // Adaptează numele coloanei ID-ului ofertei
+        });
+
+        if (!offer) {
+            return res.status(404).json({ message: 'Oferta nu a fost găsită.' });
+        }
+
+        // Actualizăm valorile (folosim fallback la valorile vechi dacă nu se trimite ceva)
+        offer.Category = Category || offer.Category;
+        offer.PricePerNight = PricePerNight || offer.PricePerNight;
+        offer.Currency = Currency || offer.Currency;
+
+        await offer.save();
+
+        return res.status(200).json({
+            message: 'Ofertă actualizată cu succes!',
+            offer
+        });
+
+    } catch (error) {
+        console.error('Eroare la modificarea ofertei:', error);
+        return res.status(500).json({ message: 'Eroare internă a serverului.' });
+    }
+};
+
+module.exports = { getOffersByHotel, updatePriceOffer };

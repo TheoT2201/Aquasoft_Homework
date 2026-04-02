@@ -1,12 +1,18 @@
 const express = require('express');
-const router = express.Router();
-const reviewController = require('../controllers/reviewController');
-const { authenticate } = require('../middleware/auth.middleware');
+const router  = express.Router();
+const { getReviewsByHotelId, getAllReviews, createReview, deleteReview } = require('../controllers/reviewController');
+const { authenticate, authorize } = require('../middleware/auth.middleware');
 
-// GET /api/reviews/:hotelId - Get all reviews for a hotel by globalpropertyid
-router.get('/:hotelId', reviewController.getReviewsByHotelId);
+// GET /api/reviews - All reviews (DataOperator, Administrator)
+router.get('/', authenticate, authorize('DataOperator', 'Administrator'), getAllReviews);
 
-// POST /api/reviews - Create a new review
-router.post('/', authenticate, reviewController.createReview);
+// GET /api/reviews/:hotelId - Reviews for a hotel (public)
+router.get('/:hotelId', getReviewsByHotelId);
+
+// POST /api/reviews - Create review (authenticated)
+router.post('/', authenticate, createReview);
+
+// DELETE /api/reviews/:reviewId - Delete review (DataOperator, Administrator)
+router.delete('/:reviewId', authenticate, authorize('DataOperator', 'Administrator'), deleteReview);
 
 module.exports = router;

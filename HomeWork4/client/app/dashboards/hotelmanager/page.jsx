@@ -16,6 +16,13 @@ export default function ManagerDashboard() {
   const [isLoading, setIsLoading]     = useState(true);
   const [error, setError]             = useState('');
 
+  // ➕ AM ADĂUGAT: State-uri noi pentru funcționalitățile de editare și adăugare
+  const [currentHotelId, setCurrentHotelId] = useState(null);
+  const [isAmenityModalOpen, setIsAmenityModalOpen] = useState(false);
+  const [newAmenityName, setNewAmenityName] = useState('');
+  const [isOfferModalOpen, setIsOfferModalOpen] = useState(false);
+  const [editingOffer, setEditingOffer] = useState(null);
+
   useEffect(() => {
     const fetchDashboardData = async () => {
       try {
@@ -26,6 +33,9 @@ export default function ManagerDashboard() {
         // Bug 2: wrong field name — hotel model uses GlobalPropertyName not HotelName
         const hotelId = String(myHotel.GlobalPropertyID || myHotel.globalpropertyid);
         setHotelName(myHotel.GlobalPropertyName || myHotel.globalpropertyname || 'My Hotel');
+
+        // ➕ AM ADĂUGAT: Salvăm ID-ul hotelului în state pentru a-l putea folosi la POST /api/amenities
+        setCurrentHotelId(hotelId);
 
         const [offersRes, amenitiesRes, reviewsRes] = await Promise.all([
           axios.get(`/api/priceoffers/${hotelId}`).catch(() => ({ data: { offers: [] } })),
@@ -52,6 +62,46 @@ export default function ManagerDashboard() {
     fetchDashboardData();
   }, []);
 
+  // ➕ AM ADĂUGAT: Funcția care trimite noua facilitate la backend
+  const handleAddAmenity = async (e) => {
+    e.preventDefault();
+    if (!newAmenityName.trim() || !currentHotelId) return;
+
+    try {
+      await axios.post('/api/amenities', {
+        hotelId: currentHotelId,
+        amenityName: newAmenityName
+      });
+      // Actualizăm lista vizuală direct, fără refresh la pagină
+      setAmenities([...amenities, { amenityid: Date.now(), amenityname: newAmenityName }]);
+      setIsAmenityModalOpen(false);
+      setNewAmenityName('');
+    } catch (err) {
+      alert(err.response?.data?.message || 'Error adding amenity');
+    }
+  };
+
+  // ➕ AM ADĂUGAT: Funcția care trimite modificările de preț la backend
+  const handleUpdateOffer = async (e) => {
+    e.preventDefault();
+    if (!editingOffer) return;
+
+    const offerId = editingOffer.OfferID || editingOffer.offerid;
+    try {
+      await axios.put(`/api/priceoffers/${offerId}`, {
+        Category: editingOffer.Category || editingOffer.category,
+        PricePerNight: editingOffer.PricePerNight || editingOffer.pricepernight,
+        Currency: editingOffer.Currency || editingOffer.currency
+      });
+      // Actualizăm lista vizuală
+      setPriceOffers(priceOffers.map(o => (o.OfferID || o.offerid) === offerId ? editingOffer : o));
+      setIsOfferModalOpen(false);
+      setEditingOffer(null);
+    } catch (err) {
+      alert(err.response?.data?.message || 'Error updating offer');
+    }
+  };
+
   if (isLoading) return <div className={styles.loaderPage}>Loading...</div>;
   if (error)     return <div className={styles.errorPage}>{error}</div>;
 
@@ -72,7 +122,7 @@ export default function ManagerDashboard() {
         <h1 className={styles.hotelName}>{hotelName}</h1>
         <div className={styles.managerInfo}>
           <span className={styles.managerName}>
-            {user?.firstName || 'Manager'} {user?.lastName || ''}
+            Manager: {user?.firstName } {user?.lastName || ''}
           </span>
           <button onClick={() => { logout(); router.push('/login'); }} className={styles.logoutButton}>
              Logout
@@ -101,7 +151,16 @@ export default function ManagerDashboard() {
                     <span className={styles.priceText}>
                       {offer.PricePerNight || offer.pricepernight} {offer.Currency || offer.currency || 'USD'}
                     </span>
-                    <button className={styles.editButton}>✏️ Edit</button>
+                    {/* ➕ AM ADĂUGAT: Evenimentul onClick pentru deschiderea modalului */}
+                    <button 
+                      className={styles.editButton}
+                      onClick={() => {
+                        setEditingOffer(offer);
+                        setIsOfferModalOpen(true);
+                      }}
+                    >
+                      ✏️ Edit
+                    </button>
                   </div>
                 </li>
               )) : (
@@ -113,7 +172,13 @@ export default function ManagerDashboard() {
           <div className={styles.card}>
             <div className={styles.cardHeader}>
               <h2 className={styles.cardTitle}>Amenities</h2>
-              <button className={styles.addButton}>➕</button>
+              {/* ➕ AM ADĂUGAT: Evenimentul onClick pentru adăugare */}
+              <button 
+                className={styles.addButton}
+                onClick={() => setIsAmenityModalOpen(true)}
+              >
+                ➕
+              </button>
             </div>
             <ul className={styles.amenitiesGrid}>
               {amenities.length > 0 ? amenities.map((amenity) => (
@@ -166,6 +231,64 @@ export default function ManagerDashboard() {
 
         </div>
       </div>
+
+      {/* ➕ AM ADĂUGAT: Ferestrele Modale (Pop-up-urile) la finalul paginii */}
+      {isAmenityModalOpen && (
+        <div className={styles.modalOverlay}>
+          <div className={styles.modalContent}>
+            <h2 className={styles.modalTitle}>Add Amenity</h2>
+            <form onSubmit={handleAddAmenity} className={styles.modalForm}>
+              <input 
+                type="text" 
+                placeholder="e.g. Free Wi-Fi, Pool" 
+                className={styles.modalInput}
+                value={newAmenityName}
+                onChange={(e) => setNewAmenityName(e.target.value)}
+                autoFocus
+                required
+              />
+              <div className={styles.modalActions}>
+                <button type="button" className={styles.cancelBtn} onClick={() => setIsAmenityModalOpen(false)}>Cancel</button>
+                <button type="submit" className={styles.saveBtn}>Save</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
+
+      {isOfferModalOpen && editingOffer && (
+        <div className={styles.modalOverlay}>
+          <div className={styles.modalContent}>
+            <h2 className={styles.modalTitle}>Edit {editingOffer.Category || editingOffer.category}</h2>
+            <form onSubmit={handleUpdateOffer} className={styles.modalForm}>
+              <label className={styles.modalLabel}>Price per night</label>
+              <input 
+                type="number" 
+                step="0.01"
+                className={styles.modalInput}
+                value={editingOffer.PricePerNight || editingOffer.pricepernight || ''}
+                onChange={(e) => setEditingOffer({...editingOffer, PricePerNight: e.target.value})}
+                required
+              />
+              
+              <label className={styles.modalLabel}>Currency</label>
+              <input 
+                type="text" 
+                className={styles.modalInput}
+                value={editingOffer.Currency || editingOffer.currency || ''}
+                onChange={(e) => setEditingOffer({...editingOffer, Currency: e.target.value.toUpperCase()})}
+                required
+              />
+
+              <div className={styles.modalActions}>
+                <button type="button" className={styles.cancelBtn} onClick={() => setIsOfferModalOpen(false)}>Cancel</button>
+                <button type="submit" className={styles.saveBtn}>Update</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
+
     </div>
   );
 }

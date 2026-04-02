@@ -35,4 +35,30 @@ const getAmenitiesByHotel = async (req, res) => {
     }
 };
 
-module.exports = { getAmenitiesByHotel };
+const addAmenity = async (req, res) => {
+    try {
+        // 1. Extragem exact denumirile pe care le trimite frontend-ul
+        const { hotelId, amenityName } = req.body;
+
+        // 2. Validare folosind variabilele definite mai sus
+        if (!hotelId || !amenityName) {
+            return res.status(400).json({ message: 'Missing Hotel or Amenity' });
+        }
+
+        // 3. Creăm înregistrarea în DB folosind denumirile corecte ale coloanelor
+        const newAmenity = await Amenity.create({
+            GlobalPropertyID: hotelId, // Am aliniat cu denumirea din funcția GET
+            AmenityName: amenityName   // Am aliniat cu denumirea din funcția GET
+        });
+
+        return res.status(201).json({
+            message: 'Amenity Added!',
+            amenity: newAmenity
+        });
+
+    } catch (error) {
+        console.error('Error Adding Amenity:', error);
+        return res.status(500).json({ message: 'Server Internal Error' });
+    }
+};
+module.exports = { getAmenitiesByHotel, addAmenity };
