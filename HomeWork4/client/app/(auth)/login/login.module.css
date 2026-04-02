@@ -1,0 +1,193 @@
+:root {
+  --background: #95faee;
+  --foreground: #0d2e2b;
+
+  /* Card & surfaces */
+  --card-bg: #ffffff;
+  --card-border: rgba(0, 0, 0, 0.08);
+  --card-shadow: 0 8px 40px rgba(0, 0, 0, 0.12);
+ 
+  /* Brand / accent */
+  --accent: #0a7a6e;
+  --accent-hover: #085f56;
+  --accent-subtle: rgba(10, 122, 110, 0.12);
+ 
+  /* Text */
+  --text-primary: #111827;
+  --text-secondary: #6b7280;
+  --text-muted: #9ca3af;
+ 
+  /* Inputs */
+  --input-bg: #f9fafb;
+  --input-border: #d1d5db;
+  --input-text: #111827;
+ 
+  /* Dividers */
+  --border-color: #e5e7eb;
+ 
+  /* Status */
+  --error-bg: #fef2f2;
+  --error-border: #fca5a5;
+  --error-text: #dc2626;
+ 
+  /* Note/info box */
+  --note-bg: #f0fdf4;
+  --note-border: #bbf7d0;
+  --note-text: #6b7280;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--background);
+  padding: 1rem;
+}
+
+.mainTitle {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+  color: var(--foreground);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-family: 'Georgia', serif;
+}
+
+.underlineText {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+.starIcon {
+  font-size: 1.875rem;
+  color: var(--foreground);
+}
+
+.card {
+  background: var(--card-bg);
+  border: 2px solid var(--foreground);
+  border-radius: 1rem;
+  padding: 2.5rem;
+  width: 100%;
+  max-width: 28rem;
+  box-shadow: 8px 8px 0px 0px var(--foreground);
+}
+
+.formHeading {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: left;
+  color: var(--foreground);
+  font-family: 'Georgia', serif;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin: -1.5rem 0 2rem 0;
+}
+
+.error {
+  background: var(--error-bg);
+  border: 1px solid var(--error-border);
+  border-radius: 8px;
+  padding: 10px 14px;
+  color: var(--error-text);
+  font-size: 13px;
+  margin-bottom: 1.5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.input {
+  border: 2px solid var(--foreground);
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  font-size: 1.125rem;
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--input-bg);
+  color: var(--input-text);
+  outline: none;
+  transition: box-shadow 0.2s;
+}
+
+.input:focus {
+  box-shadow: 3px 3px 0px 0px var(--accent);
+  border-color: var(--accent);
+}
+
+.btn {
+  border: 3px solid var(--foreground);
+  border-radius: 9999px;
+  padding: 1rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--foreground);
+  background: var(--card-bg);
+  width: 100%;
+  box-shadow: 5px 5px 0px 0px var(--foreground);
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+  margin-top: 0.5rem;
+}
+
+.btn:hover {
+  background: var(--input-bg);
+  box-shadow: 3px 3px 0px 0px var(--foreground);
+}
+
+.btn:active {
+  box-shadow: none;
+  transform: translate(4px, 4px);
+}
+
+.btnLoading {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 8px 0;
+}
+
+.dividerLine {
+  flex: 1;
+  height: 1px;
+  background: var(--border-color);
+  display: block;
+}
+
+.dividerText {
+  color: var(--text-muted);
+  font-size: 12px;
+}
+
+.switchText {
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 13px;
+  margin: 0;
+}
+
+.link {
+  background: none;
+  border: none;
+  color: var(--accent);
+  font-size: 13px;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: underline;
+}
