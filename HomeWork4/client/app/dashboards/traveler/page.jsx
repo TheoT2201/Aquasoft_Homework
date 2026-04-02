@@ -60,10 +60,42 @@ export default function TravelerDashboard() {
 
   // Role request modal
   const [showModal, setShowModal]         = useState(false);
-  const [reqForm, setReqForm]             = useState({ requestedRole: 'HotelManager', description: '', documentUrl: '' });
+  const [reqForm, setReqForm]             = useState({ requestedRole: 'HotelManager', description: '', documentUrl: '', targetId: '', targetName: '' });
   const [reqError, setReqError]           = useState('');
   const [reqSuccess, setReqSuccess]       = useState('');
   const [reqSubmitting, setReqSubmitting] = useState(false);
+  const [groups, setGroups]               = useState([]);
+  const [loadingGroups, setLoadingGroups] = useState(false);
+
+  // Hotel search within the modal
+  const [hotelSearch, setHotelSearch]       = useState('');
+  const [hotelResults, setHotelResults]     = useState([]);
+  const [searchingHotels, setSearchingHotels] = useState(false);
+
+  // Debounced hotel search for the modal
+  useEffect(() => {
+    if (reqForm.requestedRole !== 'HotelManager') return;
+    if (!hotelSearch.trim()) { setHotelResults([]); return; }
+    const t = setTimeout(async () => {
+      setSearchingHotels(true);
+      try {
+        const res = await axios.get('/api/hotels', { params: { search: hotelSearch, limit: 10, offset: 0 } });
+        setHotelResults(res.data?.hotels || []);
+      } catch { setHotelResults([]); }
+      finally  { setSearchingHotels(false); }
+    }, 350);
+    return () => clearTimeout(t);
+  }, [hotelSearch, reqForm.requestedRole]);
+
+  // Load hotel groups when role switches to GroupManager
+  useEffect(() => {
+    if (reqForm.requestedRole !== 'GroupManager' || groups.length > 0) return;
+    setLoadingGroups(true);
+    axios.get('/api/hotelgroups')
+      .then(res => setGroups(Array.isArray(res.data) ? res.data : res.data.groups || []))
+      .catch(() => setGroups([]))
+      .finally(() => setLoadingGroups(false));
+  }, [reqForm.requestedRole]);
 
   const handleRequestSubmit = async (e) => {
     e.preventDefault();
@@ -73,11 +105,23 @@ export default function TravelerDashboard() {
       setReqError('Please provide a description.');
       return;
     }
+    if (!reqForm.targetId) {
+      setReqError(reqForm.requestedRole === 'HotelManager'
+        ? 'Please select which hotel you want to manage.'
+        : 'Please select which group you want to manage.');
+      return;
+    }
     setReqSubmitting(true);
     try {
-      await axios.post('/api/requests', reqForm);
+      await axios.post('/api/requests', {
+        requestedRole: reqForm.requestedRole,
+        description:   `[Target: ${reqForm.targetName} (ID: ${reqForm.targetId})] ${reqForm.description}`,
+        documentUrl:   reqForm.documentUrl,
+      });
       setReqSuccess('Request submitted! The administrator will review it shortly.');
-      setReqForm({ requestedRole: 'HotelManager', description: '', documentUrl: '' });
+      setReqForm({ requestedRole: 'HotelManager', description: '', documentUrl: '', targetId: '', targetName: '' });
+      setHotelSearch('');
+      setHotelResults([]);
     } catch (err) {
       setReqError(err.response?.data?.message || 'Failed to submit request.');
     } finally {
@@ -185,12 +229,90 @@ export default function TravelerDashboard() {
                   <select
                     className={styles.modalSelect}
                     value={reqForm.requestedRole}
-                    onChange={e => setReqForm({ ...reqForm, requestedRole: e.target.value })}
+                    onChange={e => setReqForm({ ...reqForm, requestedRole: e.target.value, targetId: '', targetName: '' })}
                   >
                     <option value="HotelManager">Hotel Manager</option>
                     <option value="GroupManager">Group Manager</option>
                   </select>
                 </div>
+
+                {/* Hotel search for Hotel Manager */}
+                {reqForm.requestedRole === 'HotelManager' && (
+                  <div className={styles.modalField}>
+                    <label className={styles.modalLabel}>Which hotel do you want to manage? *</label>
+                    {reqForm.targetId ? (
+                      <div className={styles.selectedTarget}>
+                        <span>{reqForm.targetName}</span>
+                        <button
+                          type="button"
+                          className={styles.clearTarget}
+                          onClick={() => { setReqForm({ ...reqForm, targetId: '', targetName: '' }); setHotelSearch(''); setHotelResults([]); }}
+                        >✕</button>
+                      </div>
+                    ) : (
+                      <>
+                        <input
+                          type="text"
+                          className={styles.modalInput}
+                          placeholder="Type to search hotels..."
+                          value={hotelSearch}
+                          onChange={e => setHotelSearch(e.target.value)}
+                        />
+                        {searchingHotels && <p className={styles.searchHint}>Searching...</p>}
+                        {hotelResults.length > 0 && (
+                          <div className={styles.hotelDropdown}>
+                            {hotelResults.map(h => {
+                              const id = h.GlobalPropertyID || h.globalpropertyid;
+                              const n  = h.GlobalPropertyName || h.globalpropertyname;
+                              return (
+                                <div
+                                  key={id}
+                                  className={styles.hotelDropdownItem}
+                                  onClick={() => {
+                                    setReqForm({ ...reqForm, targetId: String(id), targetName: n });
+                                    setHotelSearch('');
+                                    setHotelResults([]);
+                                  }}
+                                >
+                                  {n}
+                                </div>
+                              );
+                            })}
+                          </div>
+                        )}
+                        {hotelSearch.trim() && !searchingHotels && hotelResults.length === 0 && (
+                          <p className={styles.searchHint}>No hotels found.</p>
+                        )}
+                      </>
+                    )}
+                  </div>
+                )}
+
+                {/* Group selector for Group Manager */}
+                {reqForm.requestedRole === 'GroupManager' && (
+                  <div className={styles.modalField}>
+                    <label className={styles.modalLabel}>Which hotel group do you want to manage? *</label>
+                    <select
+                      className={styles.modalSelect}
+                      value={reqForm.targetId}
+                      onChange={e => {
+                        const opt = e.target.options[e.target.selectedIndex];
+                        setReqForm({ ...reqForm, targetId: e.target.value, targetName: opt.text });
+                      }}
+                      required
+                      disabled={loadingGroups}
+                    >
+                      <option value="">
+                        {loadingGroups ? 'Loading groups...' : '— Select a group —'}
+                      </option>
+                      {groups.map(g => {
+                        const id = g.HotelGroupID || g.hotelgroupid;
+                        const n  = g.GroupName    || g.groupname;
+                        return <option key={id} value={id}>{n}</option>;
+                      })}
+                    </select>
+                  </div>
+                )}
 
                 <div className={styles.modalField}>
                   <label className={styles.modalLabel}>Why are you requesting this role? *</label>

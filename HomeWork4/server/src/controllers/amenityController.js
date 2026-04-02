@@ -1,7 +1,7 @@
 const Amenity = require('../models/Amenity');
 const Hotel = require('../models/Hotel');
 
-// GET /api/amenities/:id - Get all amenities for a hotel by globalpropertyid
+// GET /api/amenities/:id - Get all amenities for a hotel
 const getAmenitiesByHotel = async (req, res) => {
     try {
         const globalpropertyid = parseInt(req.params.id, 10);
@@ -24,41 +24,49 @@ const getAmenitiesByHotel = async (req, res) => {
             globalpropertyid,
             hotel_name:      hotel.get('GlobalPropertyName'),
             total_amenities: amenities.length,
-            amenities:       amenities.map(a => ({
+            amenities: amenities.map(a => ({
                 amenityid:   a.get('AmenityID'),
                 amenityname: a.get('AmenityName'),
             })),
         });
-
     } catch (error) {
         return res.status(500).json({ message: 'Error retrieving amenities', error });
     }
 };
 
+// POST /api/amenities - Add a new amenity (Hotel Manager)
 const addAmenity = async (req, res) => {
     try {
-        // 1. Extragem exact denumirile pe care le trimite frontend-ul
         const { hotelId, amenityName } = req.body;
 
-        // 2. Validare folosind variabilele definite mai sus
-        if (!hotelId || !amenityName) {
-            return res.status(400).json({ message: 'Missing Hotel or Amenity' });
+        if (!hotelId || !amenityName?.trim()) {
+            return res.status(400).json({ message: 'hotelId and amenityName are required.' });
         }
 
-        // 3. Creăm înregistrarea în DB folosind denumirile corecte ale coloanelor
+        // Verify the manager owns this hotel
+        const hotel = await Hotel.findOne({
+            where: { GlobalPropertyID: hotelId, ManagerID: req.user.id }
+        });
+        if (!hotel) {
+            return res.status(403).json({ message: 'Forbidden: this hotel is not assigned to you.' });
+        }
+
         const newAmenity = await Amenity.create({
-            GlobalPropertyID: hotelId, // Am aliniat cu denumirea din funcția GET
-            AmenityName: amenityName   // Am aliniat cu denumirea din funcția GET
+            GlobalPropertyID: hotelId,
+            AmenityName: amenityName.trim(),
         });
 
         return res.status(201).json({
-            message: 'Amenity Added!',
-            amenity: newAmenity
+            message: 'Amenity added successfully.',
+            amenity: {
+                amenityid:   newAmenity.get('AmenityID'),
+                amenityname: newAmenity.get('AmenityName'),
+            },
         });
-
     } catch (error) {
-        console.error('Error Adding Amenity:', error);
-        return res.status(500).json({ message: 'Server Internal Error' });
+        console.error('Error adding amenity:', error);
+        return res.status(500).json({ message: 'Internal server error.' });
     }
 };
+
 module.exports = { getAmenitiesByHotel, addAmenity };

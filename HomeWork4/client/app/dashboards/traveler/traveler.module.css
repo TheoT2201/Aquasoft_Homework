@@ -669,3 +669,56 @@
   font-size: 13px;
   font-weight: 500;
 }
+
+.selectedTarget {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid var(--accent);
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: var(--note-bg);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.clearTarget {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0 4px;
+  line-height: 1;
+}
+
+.clearTarget:hover { color: var(--error-text); }
+
+.hotelDropdown {
+  border: 2px solid var(--foreground);
+  border-radius: 8px;
+  background: var(--card-bg);
+  box-shadow: 4px 4px 0px 0px var(--foreground);
+  max-height: 180px;
+  overflow-y: auto;
+  margin-top: 4px;
+}
+
+.hotelDropdownItem {
+  padding: 10px 14px;
+  font-size: 13px;
+  cursor: pointer;
+  color: var(--text-primary);
+  border-bottom: 1px solid var(--border-color);
+  transition: background 0.1s;
+}
+
+.hotelDropdownItem:last-child { border-bottom: none; }
+.hotelDropdownItem:hover { background: var(--input-bg); }
+
+.searchHint {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin: 4px 0 0 2px;
+}

@@ -1,13 +1,12 @@
 const express = require('express');
 const router = express.Router();
-const { getOffersByHotel } = require('../controllers/priceofferController');
+const { getOffersByHotel, updatePriceOffer } = require('../controllers/priceofferController');
+const { authenticate, authorize } = require('../middleware/auth.middleware');
 
 // GET /api/priceoffers/:hotelId - Public
 router.get('/:hotelId', getOffersByHotel);
 
-const { updatePriceOffer } = require('../controllers/priceofferController');
-const { authenticate, authorize } = require('../middleware/auth.middleware');
-
-// PUT /api/priceoffers/:offerId
+// PUT /api/priceoffers/:offerId - Hotel Manager or Administrator
 router.put('/:offerId', authenticate, authorize('HotelManager', 'Administrator'), updatePriceOffer);
+
 module.exports = router;

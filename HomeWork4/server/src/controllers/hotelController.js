@@ -34,7 +34,6 @@ const getAllHotels = async (req, res) => {
 
 // GET /api/hotels/name/:name - Search hotel by name (public)
 const getHotelByName = async (req, res) => {
-    console.log('Searching for hotel with manager:', req.params.name);
     try {
         const hotel = await Hotel.findOne({
             where: {
@@ -117,7 +116,7 @@ const getMyGroupManagers = async (req, res) => {
             },
             include: [{
                 model: User,
-                as: 'Manager',
+                as: 'HotelManager',
                 attributes: ['id', 'firstName', 'lastName', 'email'],
             }],
         });
@@ -125,7 +124,7 @@ const getMyGroupManagers = async (req, res) => {
         const managers = hotels.map(h => ({
             hotelId:   h.get('GlobalPropertyID'),
             hotelName: h.get('GlobalPropertyName'),
-            manager:   h.get('Manager'),
+            manager:   h.get('HotelManager'),
         }));
 
         return res.status(200).json({
@@ -180,8 +179,5 @@ const deleteHotel = async (req, res) => {
         res.status(500).json({ message: 'Error deleting hotel', error });
     }
 };
-
-//Get a hotel by ManagerID - for Manager dashboard
-
 
 module.exports = { getAllHotels, getHotelByName, getMyHotel, getMyGroupHotels, getMyGroupManagers, createHotel, updateHotel, deleteHotel, };

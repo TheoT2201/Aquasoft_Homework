@@ -1,12 +1,12 @@
 const express = require('express');
 const router = express.Router();
-const { getAmenitiesByHotel } = require('../controllers/amenityController');
+const { getAmenitiesByHotel, addAmenity } = require('../controllers/amenityController');
+const { authenticate, authorize } = require('../middleware/auth.middleware');
 
-// GET /api/amenities/:id - Get all amenities for a hotel by globalpropertyid
+// GET /api/amenities/:id - Public
 router.get('/:id', getAmenitiesByHotel);
 
-// POST /api/amenities - Add a new amenity (requires authentication and authorization)
-const { addAmenity } = require('../controllers/amenityController');
-const { authenticate, authorize } = require('../middleware/auth.middleware');
+// POST /api/amenities - Hotel Manager or Administrator
 router.post('/', authenticate, authorize('HotelManager', 'Administrator'), addAmenity);
+
 module.exports = router;

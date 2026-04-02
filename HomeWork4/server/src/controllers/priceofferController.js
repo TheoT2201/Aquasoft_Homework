@@ -1,7 +1,7 @@
 const PriceOffer = require('../models/PriceOffer');
 const Hotel = require('../models/Hotel');
 
-// GET /api/priceoffers/:hotelId - Get all price offers for a hotel
+// GET /api/priceoffers/:hotelId - Get all available price offers for a hotel
 const getOffersByHotel = async (req, res) => {
     try {
         const hotelId = req.params.hotelId;
@@ -12,10 +12,7 @@ const getOffersByHotel = async (req, res) => {
         }
 
         const offers = await PriceOffer.findAll({
-            where: {
-                GlobalPropertyID: hotelId,
-                IsAvailable: true,
-            },
+            where: { GlobalPropertyID: hotelId, IsAvailable: true },
             order: [['PricePerNight', 'ASC']],
         });
 
@@ -29,35 +26,34 @@ const getOffersByHotel = async (req, res) => {
     }
 };
 
+// PUT /api/priceoffers/:offerId - Update a price offer (Hotel Manager)
 const updatePriceOffer = async (req, res) => {
     try {
-        const { offerId } = req.params; // Luăm ID-ul ofertei din link
-        const { Category, PricePerNight, Currency } = req.body; // Datele noi de la utilizator
+        const { offerId } = req.params;
+        const { Category, PricePerNight, Currency } = req.body;
 
-        // Căutăm oferta
-        const offer = await PriceOffer.findOne({
-            where: { OfferID: offerId } // Adaptează numele coloanei ID-ului ofertei
-        });
-
+        const offer = await PriceOffer.findOne({ where: { OfferID: offerId } });
         if (!offer) {
-            return res.status(404).json({ message: 'Oferta nu a fost găsită.' });
+            return res.status(404).json({ message: 'Offer not found.' });
         }
 
-        // Actualizăm valorile (folosim fallback la valorile vechi dacă nu se trimite ceva)
-        offer.Category = Category || offer.Category;
-        offer.PricePerNight = PricePerNight || offer.PricePerNight;
-        offer.Currency = Currency || offer.Currency;
+        // Verify the manager owns the hotel this offer belongs to
+        const hotel = await Hotel.findOne({
+            where: { GlobalPropertyID: offer.get('GlobalPropertyID'), ManagerID: req.user.id }
+        });
+        if (!hotel) {
+            return res.status(403).json({ message: 'Forbidden: this offer does not belong to your hotel.' });
+        }
 
+        offer.Category     = Category     || offer.Category;
+        offer.PricePerNight = PricePerNight || offer.PricePerNight;
+        offer.Currency     = Currency     || offer.Currency;
         await offer.save();
 
-        return res.status(200).json({
-            message: 'Ofertă actualizată cu succes!',
-            offer
-        });
-
+        return res.status(200).json({ message: 'Offer updated successfully.', offer });
     } catch (error) {
-        console.error('Eroare la modificarea ofertei:', error);
-        return res.status(500).json({ message: 'Eroare internă a serverului.' });
+        console.error('Error updating offer:', error);
+        return res.status(500).json({ message: 'Internal server error.' });
     }
 };
 

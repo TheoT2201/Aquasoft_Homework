@@ -1,0 +1,487 @@
+/* ── Layout ── */
+.dashboardContainer {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.loaderPage,
+.loadingDetail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+}
+
+.errorPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  font-size: 1.1rem;
+  color: var(--error-text);
+  text-align: center;
+  padding: 2rem;
+}
+
+/* ── Header ── */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid var(--foreground);
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* ── Hotel tabs ── */
+.hotelTabs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+  min-width: 0;
+}
+
+.arrowBtn {
+  background: var(--card-bg);
+  border: 2px solid var(--foreground);
+  border-radius: 6px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  flex-shrink: 0;
+  box-shadow: 2px 2px 0px 0px var(--foreground);
+  transition: all 0.1s ease;
+  color: var(--foreground);
+}
+
+.arrowBtn:hover  { background: var(--input-bg); }
+.arrowBtn:active { box-shadow: none; transform: translate(2px, 2px); }
+.arrowBtn:disabled { opacity: 0.3; cursor: not-allowed; transform: none; box-shadow: 2px 2px 0 0 var(--foreground); }
+
+.tabsScroll {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  flex: 1;
+}
+.tabsScroll::-webkit-scrollbar { display: none; }
+
+.hotelTab {
+  border: 2px solid var(--foreground);
+  border-radius: 8px;
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  background: var(--card-bg);
+  color: var(--foreground);
+  cursor: pointer;
+  white-space: nowrap;
+  box-shadow: 2px 2px 0px 0px var(--foreground);
+  transition: all 0.1s ease;
+}
+
+.hotelTab:hover { background: var(--input-bg); }
+
+.hotelTabActive {
+  background: var(--foreground);
+  color: var(--card-bg);
+  box-shadow: 2px 2px 0px 0px var(--accent);
+}
+
+/* ── Manager info ── */
+.managerInfo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-shrink: 0;
+}
+
+.groupLabel {
+  font-size: 12px;
+  font-weight: 700;
+  background: var(--accent);
+  color: #ffffff;
+  padding: 3px 10px;
+  border-radius: 9999px;
+}
+
+.managerName {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--foreground);
+}
+
+.logoutButton {
+  background: var(--card-bg);
+  border: 2px solid var(--foreground);
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 3px 3px 0px 0px var(--foreground);
+  transition: all 0.1s ease;
+  color: var(--foreground);
+}
+
+.logoutButton:active { box-shadow: none; transform: translate(3px, 3px); }
+
+/* ── Main grid ── */
+.mainGrid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+/* ── Cards ── */
+.card {
+  background: var(--card-bg);
+  border: 2px solid var(--foreground);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 6px 6px 0px 0px var(--foreground);
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px dashed var(--foreground);
+}
+
+.cardTitle {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--foreground);
+  font-family: 'Georgia', serif;
+  margin: 0;
+}
+
+.columnLabel {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+}
+
+/* ── Price offers ── */
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.125rem;
+}
+
+.itemLeft {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.bullet { font-size: 1.5rem; line-height: 0; }
+.itemText { color: var(--text-primary); }
+
+.itemRight {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.priceText {
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.editButton {
+  background: transparent;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  color: var(--text-secondary);
+  transition: color 0.2s;
+}
+
+.editButton:hover { color: var(--accent); }
+
+/* ── Amenities ── */
+.amenitiesGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.125rem;
+}
+
+.amenityItem { color: var(--text-primary); }
+
+/* ── Rating & Reviews ── */
+.ratingSection { margin-bottom: 2rem; }
+
+.stars {
+  font-size: 2rem;
+  color: var(--foreground);
+  margin-top: 0.5rem;
+  letter-spacing: 0.2rem;
+}
+
+.reviewsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.reviewsTitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0;
+  font-family: 'Georgia', serif;
+  color: var(--foreground);
+}
+
+.scrollArrow,
+.scrollArrowBottom {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+}
+
+.scrollArrowBottom {
+  text-align: right;
+  margin-top: 0.5rem;
+}
+
+.reviewsContainer {
+  max-height: 400px;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.reviewsContainer::-webkit-scrollbar { width: 8px; }
+.reviewsContainer::-webkit-scrollbar-track { background: var(--input-bg); border-radius: 4px; }
+.reviewsContainer::-webkit-scrollbar-thumb { background: var(--foreground); border-radius: 4px; }
+
+.reviewBox {
+  border: 2px solid var(--foreground);
+  border-radius: 8px;
+  padding: 1rem;
+  background: var(--input-bg);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.reviewBoxHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.reviewText {
+  font-size: 1rem;
+  color: var(--text-primary);
+  line-height: 1.4;
+}
+
+.reviewScore {
+  font-weight: 700;
+  font-size: 1.25rem;
+  flex-shrink: 0;
+  color: var(--foreground);
+}
+
+.reviewAuthor {
+  font-size: 0.875rem;
+  text-align: right;
+  color: var(--text-secondary);
+}
+
+.noReviews {
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+/* ── Hotel Manager card ── */
+.managerCardTitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--foreground);
+  font-family: 'Georgia', serif;
+  margin: 0 0 1rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px dashed var(--foreground);
+}
+
+.managerCard {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.managerAvatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 9999px;
+  background: var(--foreground);
+  color: var(--card-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.managerCardName {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0 0 4px 0;
+}
+
+.managerCardEmail {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.noManager {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+/* ── Edit offer modal ── */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(13, 46, 43, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  backdrop-filter: blur(4px);
+}
+
+.modalContent {
+  background: var(--card-bg);
+  border: 2px solid var(--foreground);
+  box-shadow: 8px 8px 0px 0px var(--foreground);
+  border-radius: 12px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+.modalTitle {
+  font-family: 'Georgia', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--foreground);
+  margin: 0 0 1.5rem 0;
+  border-bottom: 2px dashed var(--foreground);
+  padding-bottom: 0.5rem;
+}
+
+.modalForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.modalLabel {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: -0.5rem;
+}
+
+.modalInput {
+  background: var(--input-bg);
+  border: 2px solid var(--foreground);
+  border-radius: 8px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  color: var(--input-text);
+  outline: none;
+  transition: box-shadow 0.2s;
+}
+
+.modalInput:focus {
+  box-shadow: 3px 3px 0px 0px var(--accent);
+  border-color: var(--accent);
+}
+
+.modalActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.cancelBtn {
+  background: transparent;
+  border: none;
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.cancelBtn:hover { color: var(--error-text); }
+
+.saveBtn {
+  background: var(--accent);
+  color: #ffffff;
+  border: 2px solid var(--foreground);
+  border-radius: 8px;
+  padding: 0.5rem 1.5rem;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 3px 3px 0px 0px var(--foreground);
+  transition: all 0.1s ease;
+}
+
+.saveBtn:active { box-shadow: none; transform: translate(3px, 3px); }
+
+/* ── Responsive ── */
+@media (max-width: 900px) {
+  .mainGrid { grid-template-columns: 1fr; }
+  .amenitiesGrid { grid-template-columns: 1fr; }
+  .header { flex-direction: column; align-items: flex-start; }
+}
