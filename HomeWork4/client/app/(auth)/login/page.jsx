@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { useAuth } from '../../../context/AuthContext';
 import { useRouter } from 'next/navigation';
 import styles from './login.module.css';
+import '../../globals.css';
 
 const ROLE_ROUTES = {
   Administrator: '/dashboards/admin',
@@ -81,7 +82,7 @@ export default function LoginPage() {
         </div>
 
         <p className={styles.switchText}>
-          Don&apos;t have an account?{' '}
+          Don't have an account?{' '}
           <button onClick={() => router.push('/register')} className={styles.link}>
             Sign up
           </button>

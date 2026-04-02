@@ -1,4 +1,9 @@
+/* app/globals.css */
+
 :root {
+  /* =========================================
+     🎨 TEMA GLOBALĂ HOTEL STARWARDS
+     ========================================= */
   --background: #95faee;
   --foreground: #0d2e2b;
 
@@ -6,67 +11,34 @@
   --card-bg: #ffffff;
   --card-border: rgba(0, 0, 0, 0.08);
   --card-shadow: 0 8px 40px rgba(0, 0, 0, 0.12);
- 
+  
   /* Brand / accent */
   --accent: #0a7a6e;
   --accent-hover: #085f56;
   --accent-subtle: rgba(10, 122, 110, 0.12);
- 
+  
   /* Text */
   --text-primary: #111827;
   --text-secondary: #6b7280;
   --text-muted: #9ca3af;
- 
+  
   /* Inputs */
   --input-bg: #f9fafb;
   --input-border: #d1d5db;
   --input-text: #111827;
- 
+  
   /* Dividers */
   --border-color: #e5e7eb;
- 
+  
   /* Status */
   --error-bg: #fef2f2;
   --error-border: #fca5a5;
   --error-text: #dc2626;
- 
+  
   /* Note/info box */
   --note-bg: #f0fdf4;
   --note-border: #bbf7d0;
   --note-text: #6b7280;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
- 
-    --card-bg: #1a1d27;
-    --card-border: #2e3148;
-    --card-shadow: 0 24px 64px rgba(0, 0, 0, 0.5);
- 
-    --accent: #4fd1c5;
-    --accent-hover: #38b2ac;
-    --accent-subtle: rgba(79, 209, 197, 0.12);
- 
-    --text-primary: #f0ede6;
-    --text-secondary: #8b8fa8;
-    --text-muted: #6b6f88;
- 
-    --input-bg: #12141e;
-    --input-border: #2e3148;
-    --input-text: #f0ede6;
- 
-    --border-color: #2e3148;
- 
-    --error-bg: #2d1515;
-    --error-border: #7f2020;
-    --error-text: #f87171;
- 
-    --note-bg: #12141e;
-    --note-border: #2e3148;
-    --note-text: #8b8fa8;
-  }
 }
 
 *, *::before, *::after {
@@ -89,9 +61,11 @@ body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
+  /* Aici am aplicat variabilele tale! */
   color: var(--foreground);
   background: var(--background);
-  font-family: 'Courier New', Courier, monospace;
+  /* Folosim variabila de font setată în layout, cu fallback pe Courier */
+  font-family: var(--font-courier), 'Courier New', Courier, monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
