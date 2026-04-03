@@ -37,7 +37,6 @@ const updatePriceOffer = async (req, res) => {
             return res.status(404).json({ message: 'Offer not found.' });
         }
 
-        // Verify the manager owns the hotel this offer belongs to
         const hotel = await Hotel.findOne({
             where: { GlobalPropertyID: offer.get('GlobalPropertyID'), ManagerID: req.user.id }
         });

@@ -1,4 +1,3 @@
-/* ── Layout ── */
 .page {
   min-height: 100vh;
   display: flex;
@@ -14,7 +13,6 @@
   height: calc(100vh - 60px);
 }
 
-/* ── Navbar ── */
 .nav {
   height: 60px;
   background: var(--card-bg);
@@ -101,7 +99,6 @@
   transform: translate(2px, 2px);
 }
 
-/* ── Modal ── */
 .modalOverlay {
   position: fixed;
   inset: 0;
@@ -243,7 +240,6 @@
   cursor: not-allowed;
 }
 
-/* ── Sidebar ── */
 .sidebar {
   width: 320px;
   flex-shrink: 0;
@@ -363,7 +359,6 @@
   transform: translate(2px, 2px);
 }
 
-/* ── Detail panel ── */
 .detail {
   flex: 1;
   overflow-y: auto;
@@ -416,7 +411,6 @@
   flex-shrink: 0;
 }
 
-/* ── Sections ── */
 .section {
   display: flex;
   flex-direction: column;
@@ -439,7 +433,6 @@
   margin: 0;
 }
 
-/* ── Offers ── */
 .offersGrid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
@@ -482,7 +475,6 @@
   margin: 0;
 }
 
-/* ── Amenities ── */
 .amenitiesWrap {
   display: flex;
   flex-wrap: wrap;
@@ -499,7 +491,6 @@
   font-weight: 500;
 }
 
-/* ── Reviews ── */
 .reviewList {
   display: flex;
   flex-direction: column;

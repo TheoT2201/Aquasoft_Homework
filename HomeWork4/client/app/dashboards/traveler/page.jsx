@@ -40,7 +40,6 @@ export default function TravelerDashboard() {
       setHotels(prev => replace ? data.hotels : [...prev, ...data.hotels]);
       setOffset(off + LIMIT);
     } catch {
-      // silently fail
     } finally {
       setLoadingHotels(false);
     }
@@ -48,7 +47,6 @@ export default function TravelerDashboard() {
 
   const loadMore = () => fetchHotels(search, offset, false);
 
-  // Review form
   const [reviewForm, setReviewForm] = useState({
     OverallRating: '', ReviewTitle: '', ReviewContent: '',
     Cleanliness: '', Service: '', SleepQuality: '',
@@ -58,7 +56,6 @@ export default function TravelerDashboard() {
   const [reviewSuccess, setReviewSuccess] = useState('');
   const [submitting, setSubmitting]       = useState(false);
 
-  // Role request modal
   const [showModal, setShowModal]         = useState(false);
   const [reqForm, setReqForm]             = useState({ requestedRole: 'HotelManager', description: '', documentUrl: '', targetId: '', targetName: '' });
   const [reqError, setReqError]           = useState('');
@@ -67,7 +64,6 @@ export default function TravelerDashboard() {
   const [groups, setGroups]               = useState([]);
   const [loadingGroups, setLoadingGroups] = useState(false);
 
-  // Hotel search within the modal
   const [hotelSearch, setHotelSearch]       = useState('');
   const [hotelResults, setHotelResults]     = useState([]);
   const [searchingHotels, setSearchingHotels] = useState(false);
@@ -174,7 +170,6 @@ export default function TravelerDashboard() {
         Cleanliness: '', Service: '', SleepQuality: '',
         Location: '', Rooms: '', TripType: '',
       });
-      // Refresh reviews
       const res = await axios.get(`/api/reviews/${id}`).catch(() => ({ data: [] }));
       setReviews(Array.isArray(res.data) ? res.data : []);
     } catch (err) {
@@ -191,7 +186,7 @@ export default function TravelerDashboard() {
   return (
     <div className={styles.page}>
 
-      {/* ── Navbar ── */}
+      {/* Navbar */}
       <nav className={styles.nav}>
         <div className={styles.navBrand}>
           <span className={styles.navStar}>★</span>
@@ -210,7 +205,7 @@ export default function TravelerDashboard() {
         </div>
       </nav>
 
-      {/* ── Role Request Modal ── */}
+      {/* Role Request Modal */}
       {showModal && (
         <div className={styles.modalOverlay} onClick={() => setShowModal(false)}>
           <div className={styles.modal} onClick={e => e.stopPropagation()}>
@@ -352,7 +347,7 @@ export default function TravelerDashboard() {
 
       <div className={styles.body}>
 
-        {/* ── Left: Hotels list ── */}
+        {/* Left: Hotels list */}
         <aside className={styles.sidebar}>
           <h2 className={styles.sidebarTitle}>Hotels</h2>
           <input
@@ -392,7 +387,7 @@ export default function TravelerDashboard() {
           </div>
         </aside>
 
-        {/* ── Right: Hotel detail ── */}
+        {/* Right: Hotel detail */}
         <main className={styles.detail}>
           {!selectedHotel ? (
             <div className={styles.emptyState}>

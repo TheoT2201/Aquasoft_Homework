@@ -1,41 +1,29 @@
-/* app/globals.css */
-
 :root {
-  /* =========================================
-     🎨 TEMA GLOBALĂ HOTEL STARWARDS
-     ========================================= */
   --background: #a7faf1;
   --foreground: #143633;
 
-  /* Card & surfaces */
   --card-bg: #ffffff;
   --card-border: rgba(0, 0, 0, 0.08);
   --card-shadow: 0 8px 40px rgba(0, 0, 0, 0.12);
   
-  /* Brand / accent */
   --accent: #0a7a6e;
   --accent-hover: #085f56;
   --accent-subtle: rgba(10, 122, 110, 0.12);
   
-  /* Text */
   --text-primary: #111827;
   --text-secondary: #6b7280;
   --text-muted: #9ca3af;
   
-  /* Inputs */
   --input-bg: #f9fafb;
   --input-border: #d1d5db;
   --input-text: #111827;
   
-  /* Dividers */
   --border-color: #e5e7eb;
   
-  /* Status */
   --error-bg: #fef2f2;
   --error-border: #fca5a5;
   --error-text: #dc2626;
   
-  /* Note/info box */
   --note-bg: #f0fdf4;
   --note-border: #bbf7d0;
   --note-text: #6b7280;
@@ -61,10 +49,8 @@ body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
-  /* Aici am aplicat variabilele tale! */
   color: var(--foreground);
   background: var(--background);
-  /* Folosim variabila de font setată în layout, cu fallback pe Courier */
   font-family: var(--font-roboto), system-ui, -apple-system, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

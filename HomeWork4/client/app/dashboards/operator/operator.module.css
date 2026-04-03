@@ -6,7 +6,6 @@
   font-family: system-ui, sans-serif;
 }
 
-/* ── Navbar ── */
 .nav {
   height: 60px;
   background: var(--card-bg);
@@ -72,7 +71,6 @@
 .logoutBtn:hover  { background: var(--input-bg); box-shadow: 1px 1px 0 0 var(--foreground); }
 .logoutBtn:active { box-shadow: none; transform: translate(2px, 2px); }
 
-/* ── Tab bar ── */
 .tabBar {
   display: flex;
   gap: 0;
@@ -103,7 +101,6 @@
   border-bottom-color: var(--accent);
 }
 
-/* ── Body ── */
 .body {
   flex: 1;
   padding: 32px 24px;
@@ -140,7 +137,6 @@
   margin: 0;
 }
 
-/* ── Buttons ── */
 .refreshBtn {
   border: 2px solid var(--foreground);
   border-radius: 9999px;
@@ -193,7 +189,6 @@
 .deleteBtn:active { box-shadow: none; transform: translate(2px, 2px); }
 .deleteBtn:disabled { opacity: 0.4; cursor: not-allowed; }
 
-/* ── Refresh area ── */
 .refreshArea {
   display: flex;
   align-items: center;
@@ -212,7 +207,6 @@
   color: var(--error-text);
 }
 
-/* ── Search ── */
 .searchInput {
   border: 2px solid var(--foreground);
   border-radius: 8px;
@@ -231,7 +225,6 @@
   border-color: var(--accent);
 }
 
-/* ── Table ── */
 .tableWrap {
   border: 2px solid var(--foreground);
   border-radius: 12px;
@@ -331,7 +324,6 @@
   font-weight: 700;
 }
 
-/* ── Data quality ── */
 .issueWrap {
   display: flex;
   flex-wrap: wrap;

@@ -10,7 +10,7 @@ export default function ProtectedRoute({ children, roles = [] }) {
   useEffect(() => {
     if (!loading && !user) router.push('/login');
     if (!loading && user && roles.length && !roles.includes(user.role)) {
-      router.push('/dashboard'); // redirect if wrong role
+      router.push('/dashboard');
     }
   }, [user, loading]);
 

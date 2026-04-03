@@ -30,13 +30,11 @@ export default function GroupManagerDashboard() {
   useEffect(() => {
     const fetchGroup = async () => {
       try {
-        // Load group hotels first
         const groupRes  = await axios.get('/api/hotels/my-group');
         const groupData = groupRes.data;
         setGroupName(groupData.group?.groupName || groupData.group?.groupname || '');
         setHotels(groupData.hotels || []);
 
-        // Load managers separately so an association error doesn't kill the whole page
         const mgrMap = {};
         try {
           const managersRes = await axios.get('/api/hotels/my-group/managers');
@@ -58,7 +56,7 @@ export default function GroupManagerDashboard() {
     fetchGroup();
   }, []);
 
-  // Scroll selected tab into view
+  // Scroll tab in view
   useEffect(() => {
     const tab = tabRefs.current[selectedIdx];
     if (tab) {

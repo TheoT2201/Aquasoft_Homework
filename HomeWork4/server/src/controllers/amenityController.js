@@ -43,7 +43,6 @@ const addAmenity = async (req, res) => {
             return res.status(400).json({ message: 'hotelId and amenityName are required.' });
         }
 
-        // Verify the manager owns this hotel
         const hotel = await Hotel.findOne({
             where: { GlobalPropertyID: hotelId, ManagerID: req.user.id }
         });

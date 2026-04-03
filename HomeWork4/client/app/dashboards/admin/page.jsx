@@ -11,8 +11,8 @@ export default function AdminDashboard() {
 
   const [requests, setRequests]   = useState([]);
   const [loading, setLoading]     = useState(true);
-  const [filter, setFilter]       = useState('Pending'); // Pending | Approved | Rejected | All
-  const [processing, setProcessing] = useState(null); // id of request being processed
+  const [filter, setFilter]       = useState('Pending');
+  const [processing, setProcessing] = useState(null);
   const [error, setError]         = useState('');
 
   const fetchRequests = async () => {
@@ -43,7 +43,6 @@ export default function AdminDashboard() {
     setError('');
     try {
       await axios.patch(`/api/requests/${id}/process`, { action });
-      // Refresh list
       await fetchRequests();
     } catch (err) {
       setError(err.response?.data?.message || `Failed to ${action.toLowerCase()} request.`);
@@ -80,7 +79,7 @@ export default function AdminDashboard() {
   return (
     <div className={styles.page}>
 
-      {/* ── Navbar ── */}
+      {/* Navbar */}
       <nav className={styles.nav}>
         <div className={styles.navBrand}>
           <span className={styles.navStar}>★</span>

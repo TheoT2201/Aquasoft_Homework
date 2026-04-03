@@ -1,4 +1,3 @@
-   /* LAYOUT GENERAL & HEADER */
 .dashboardContainer {
   padding: 2rem;
   max-width: 1200px;
@@ -53,15 +52,13 @@
   transform: translate(3px, 3px);
 }
 
-   /* GRID PRINCIPAL (2 Coloane) */
 .mainGrid {
   display: grid;
-  grid-template-columns: 1.5fr 1fr; /* Stânga e mai lată (oferte/facilități) */
+  grid-template-columns: 1.5fr 1fr;
   gap: 2.5rem;
   align-items: start;
 }
 
-   /* STILURI COMUNE PENTRU CARDURI (Cutii) */
 .card {
   background: var(--card-bg);
   border: 2px solid var(--foreground);
@@ -95,7 +92,6 @@
   color: var(--text-secondary);
 }
 
-   /* COLOANA STÂNGĂ: PRICE OFFERS */
 .list {
   list-style: none;
   padding: 0;
@@ -148,7 +144,6 @@
   color: var(--accent);
 }
 
-   /* COLOANA STÂNGĂ: AMENITIES (Matricea) */
     
 .addButton {
   background: var(--card-bg);
@@ -180,7 +175,6 @@
   font-size: 1.125rem;
 }
 
-   /* COLOANA DREAPTĂ: RATING & REVIEWS */
 .ratingSection {
   margin-bottom: 2rem;
 }
@@ -217,7 +211,6 @@
   margin-top: 0.5rem;
 }
 
-/* Setăm înălțime fixă și activăm scroll-ul interior */
 .reviewsContainer {
   max-height: 400px;
   overflow-y: auto;
@@ -227,7 +220,6 @@
   gap: 1rem;
 }
 
-/* Stilizarea barei de scroll  */
 .reviewsContainer::-webkit-scrollbar {
   width: 8px;
 }
@@ -277,7 +269,6 @@
   color: var(--text-secondary);
 }
 
-/* RESPONSIVE DESIGN (Pentru telefoane/tablete mici) */
 @media (max-width: 900px) {
   .mainGrid {
     grid-template-columns: 1fr; 
@@ -294,7 +285,7 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(13, 46, 43, 0.8); /* foreground color cu opacitate pentru efect de blur */
+  background: rgba(13, 46, 43, 0.8);
   display: flex;
   align-items: center;
   justify-content: center;

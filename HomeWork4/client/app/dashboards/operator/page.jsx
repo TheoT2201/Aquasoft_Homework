@@ -53,7 +53,6 @@ export default function OperatorDashboard() {
     finally  { setRefreshing(false); }
   };
 
-  // Fetch reviews
   const fetchReviews = useCallback(async (q, off, replace = true) => {
     setRevLoading(true);
     try {

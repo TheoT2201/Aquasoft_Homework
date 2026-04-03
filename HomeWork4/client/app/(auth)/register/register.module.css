@@ -16,7 +16,6 @@
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  /* ✒️ Aplicăm fontul retro pentru titlul principal */
   font-family: var(--font-courier), 'Courier New', Courier, monospace;
 }
 
@@ -46,7 +45,6 @@
   margin-bottom: 2rem;
   text-align: left;
   color: var(--foreground);
-  /* ✒️ Aplicăm fontul retro și pentru titlul formularului */
   font-family: var(--font-courier), 'Courier New', Courier, monospace;
 }
 
@@ -67,7 +65,6 @@
   color: var(--input-text);
   outline: none;
   transition: box-shadow 0.2s;
-  /* ✒️ Forțăm Roboto pe input */
   font-family: var(--font-roboto), sans-serif;
 }
 
@@ -85,7 +82,6 @@
   font-size: 0.875rem;
   font-weight: 500;
   margin-bottom: 1rem;
-  /* ✒️ Forțăm Roboto pentru mesaje clare de eroare */
   font-family: var(--font-roboto), sans-serif;
 }
 
@@ -101,7 +97,6 @@
   box-shadow: 5px 5px 0px 0px var(--foreground);
   cursor: pointer;
   transition: all 0.15s ease-in-out;
-  /* ✒️ Forțăm Roboto pe buton */
   font-family: var(--font-roboto), sans-serif;
 }
 
@@ -121,7 +116,6 @@
   font-size: 13px;
   margin-top: 1.5rem;
   margin-bottom: 0;
-  /* ✒️ Roboto pentru text mic */
   font-family: var(--font-roboto), sans-serif;
 }
 
@@ -133,6 +127,5 @@
   cursor: pointer;
   padding: 0;
   text-decoration: underline;
-  /* ✒️ Roboto pentru link-uri */
   font-family: var(--font-roboto), sans-serif;
 }

@@ -6,7 +6,6 @@
   font-family: system-ui, sans-serif;
 }
 
-/* ── Navbar ── */
 .nav {
   height: 60px;
   background: var(--card-bg);
@@ -79,7 +78,6 @@
   transform: translate(2px, 2px);
 }
 
-/* ── Body ── */
 .body {
   flex: 1;
   max-width: 860px;
@@ -114,7 +112,6 @@
   max-width: 460px;
 }
 
-/* ── Filter tabs ── */
 .tabs {
   display: flex;
   gap: 8px;
@@ -155,7 +152,6 @@
   box-shadow: 1px 1px 0px 0px var(--accent);
 }
 
-/* ── States ── */
 .error {
   background: var(--error-bg);
   border: 1px solid var(--error-border);
@@ -173,7 +169,6 @@
   padding: 48px 0;
 }
 
-/* ── Request cards ── */
 .requestList {
   display: flex;
   flex-direction: column;

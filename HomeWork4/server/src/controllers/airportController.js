@@ -20,7 +20,6 @@ const haversineDistanceMiles = (lat1, lon1, lat2, lon2) => {
 // GET /api/airports/hotel-distances - For every hotel find its primary airport and calculate the distance in miles
 const getHotelDistancesToPrimaryAirport = async (req, res) => {
     try {
-        // Load all airports into a map keyed by iata_code for fast lookup
         const airports = await Airport.findAll();
         const airportMap = new Map();
         for (const ap of airports) {
@@ -72,7 +71,6 @@ const getHotelDistancesToPrimaryAirport = async (req, res) => {
             });
         }
  
-        // Sort by distance ascending
         results.sort((a, b) => a.DistanceMiles - b.DistanceMiles);
  
         return res.status(200).json({

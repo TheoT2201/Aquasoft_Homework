@@ -16,7 +16,6 @@ export default function ManagerDashboard() {
   const [isLoading, setIsLoading]     = useState(true);
   const [error, setError]             = useState('');
 
-  // ➕ AM ADĂUGAT: State-uri noi pentru funcționalitățile de editare și adăugare
   const [currentHotelId, setCurrentHotelId] = useState(null);
   const [isAmenityModalOpen, setIsAmenityModalOpen] = useState(false);
   const [newAmenityName, setNewAmenityName] = useState('');
@@ -26,15 +25,12 @@ export default function ManagerDashboard() {
   useEffect(() => {
     const fetchDashboardData = async () => {
       try {
-        // Bug 1: was using raw axios instead of the configured instance with JWT
         const hotelRes = await axios.get('/api/hotels/my');
         const myHotel  = hotelRes.data;
 
-        // Bug 2: wrong field name — hotel model uses GlobalPropertyName not HotelName
         const hotelId = String(myHotel.GlobalPropertyID || myHotel.globalpropertyid);
         setHotelName(myHotel.GlobalPropertyName || myHotel.globalpropertyname || 'My Hotel');
 
-        // ➕ AM ADĂUGAT: Salvăm ID-ul hotelului în state pentru a-l putea folosi la POST /api/amenities
         setCurrentHotelId(hotelId);
 
         const [offersRes, amenitiesRes, reviewsRes] = await Promise.all([
@@ -43,10 +39,8 @@ export default function ManagerDashboard() {
           axios.get(`/api/reviews/${hotelId}`).catch(() => ({ data: [] })),
         ]);
 
-        // Bug 3: priceoffers endpoint returns { offers: [...] } not a flat array
         setPriceOffers(offersRes.data?.offers || []);
 
-        // Bug 4: amenities endpoint returns { amenities: [...] } not a flat array
         setAmenities(amenitiesRes.data?.amenities || []);
 
         setReviews(Array.isArray(reviewsRes.data) ? reviewsRes.data : []);
@@ -62,7 +56,7 @@ export default function ManagerDashboard() {
     fetchDashboardData();
   }, []);
 
-  // ➕ AM ADĂUGAT: Funcția care trimite noua facilitate la backend
+  // Add amenity
   const handleAddAmenity = async (e) => {
     e.preventDefault();
     if (!newAmenityName.trim() || !currentHotelId) return;
@@ -72,7 +66,6 @@ export default function ManagerDashboard() {
         hotelId: currentHotelId,
         amenityName: newAmenityName
       });
-      // Actualizăm lista vizuală direct, fără refresh la pagină
       setAmenities([...amenities, { amenityid: Date.now(), amenityname: newAmenityName }]);
       setIsAmenityModalOpen(false);
       setNewAmenityName('');
@@ -81,7 +74,7 @@ export default function ManagerDashboard() {
     }
   };
 
-  // ➕ AM ADĂUGAT: Funcția care trimite modificările de preț la backend
+  // Update offer function
   const handleUpdateOffer = async (e) => {
     e.preventDefault();
     if (!editingOffer) return;
@@ -93,7 +86,6 @@ export default function ManagerDashboard() {
         PricePerNight: editingOffer.PricePerNight || editingOffer.pricepernight,
         Currency: editingOffer.Currency || editingOffer.currency
       });
-      // Actualizăm lista vizuală
       setPriceOffers(priceOffers.map(o => (o.OfferID || o.offerid) === offerId ? editingOffer : o));
       setIsOfferModalOpen(false);
       setEditingOffer(null);
@@ -144,14 +136,13 @@ export default function ManagerDashboard() {
                 <li key={offer.OfferID || offer.offerid} className={styles.listItem}>
                   <div className={styles.itemLeft}>
                     <span className={styles.bullet}>•</span>
-                    {/* Bug 5: field is Category not RoomType */}
                     <span className={styles.itemText}>{offer.Category || offer.category}</span>
                   </div>
                   <div className={styles.itemRight}>
                     <span className={styles.priceText}>
                       {offer.PricePerNight || offer.pricepernight} {offer.Currency || offer.currency || 'USD'}
                     </span>
-                    {/* ➕ AM ADĂUGAT: Evenimentul onClick pentru deschiderea modalului */}
+                    {/* Open Modal for Offer editing */}
                     <button 
                       className={styles.editButton}
                       onClick={() => {
@@ -172,7 +163,6 @@ export default function ManagerDashboard() {
           <div className={styles.card}>
             <div className={styles.cardHeader}>
               <h2 className={styles.cardTitle}>Amenities</h2>
-              {/* ➕ AM ADĂUGAT: Evenimentul onClick pentru adăugare */}
               <button 
                 className={styles.addButton}
                 onClick={() => setIsAmenityModalOpen(true)}
@@ -182,7 +172,6 @@ export default function ManagerDashboard() {
             </div>
             <ul className={styles.amenitiesGrid}>
               {amenities.length > 0 ? amenities.map((amenity) => (
-                // Bug 6: field is amenityname (lowercase) from the controller
                 <li key={amenity.amenityid} className={styles.amenityItem}>
                   {amenity.amenityname}
                 </li>
@@ -232,7 +221,7 @@ export default function ManagerDashboard() {
         </div>
       </div>
 
-      {/* ➕ AM ADĂUGAT: Ferestrele Modale (Pop-up-urile) la finalul paginii */}
+      {/* Modals */}
       {isAmenityModalOpen && (
         <div className={styles.modalOverlay}>
           <div className={styles.modalContent}>

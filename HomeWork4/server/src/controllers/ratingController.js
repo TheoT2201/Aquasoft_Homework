@@ -22,7 +22,6 @@ const WEIGHTS = {
     roomcount:     0.05,
 };
 
-// Helpers
 const clamp = (val, min = 1, max = 5) => {
     if (val === null || val === undefined || isNaN(val)) return 3;
     return Math.min(max, Math.max(min, Number(val)));
@@ -43,16 +42,13 @@ const safeStats = (arr) => {
     return { min: Math.min(...nums), max: Math.max(...nums), avg: safeAvg(nums) };
 };
 
-// Core computation
 const computeScores = async () => {
 
-    // Hotels 
     const hotels = await Hotel.findAll();
     console.log(`[Ratings] Found ${hotels.length} hotels`);
 
     if (hotels.length === 0) return [];
 
-    // Reviews
     const reviewAggs = await Review.findAll({
         attributes: [
             [col('globalpropertyid'),              'hotelId'],
@@ -84,7 +80,6 @@ const computeScores = async () => {
         });
     }
 
-    // Amenity counts
     const amenityCounts = await Amenity.findAll({
         attributes: [
             [col('globalpropertyid'),          'hotelId'],
@@ -101,7 +96,6 @@ const computeScores = async () => {
         amenityMap.set(String(a.hotelId), parseInt(a.amenityCount) || 0);
     }
 
-    // Global stats for normalization
     const allDistances    = hotels.map(h => h.get('DistanceToTheAirport')).filter(v => v != null && !isNaN(Number(v)));
     const allRoomCounts   = hotels.map(h => h.get('NumberOfRooms')).filter(v => v != null && !isNaN(Number(v)));
     const allAmenities    = [...amenityMap.values()];
@@ -116,7 +110,6 @@ const computeScores = async () => {
 
     console.log(`[Ratings] Stats — distance: ${JSON.stringify(stats.distance)}, rooms: ${JSON.stringify(stats.rooms)}`);
 
-    // Score each hotel
     const scored = hotels.map(hotel => {
         const rawId = hotel.get('GlobalPropertyID');
         if (rawId == null) {
@@ -128,7 +121,6 @@ const computeScores = async () => {
         const revs = reviewMap.get(globalPropertyId);
         const hasEnoughReviews = revs && revs.count >= MIN_REVIEWS;
 
-        // Review scores
         const reviewFields = [
             { key: 'overall',      weight: WEIGHTS.overallrating, value: revs?.overall      },
             { key: 'cleanliness',  weight: WEIGHTS.cleanliness,   value: revs?.cleanliness  },
@@ -153,7 +145,6 @@ const computeScores = async () => {
             }
         }
 
-        // Metadata scores
         const rawDistance  = hotel.get('DistanceToTheAirport');
         const rawRooms     = hotel.get('NumberOfRooms');
         const rawAmenities = amenityMap.get(globalPropertyId) ?? 0;
